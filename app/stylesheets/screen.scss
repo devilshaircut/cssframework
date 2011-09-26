@@ -10,6 +10,7 @@
 /* Color Themes */
 $font-color-body: #696969;
 $font-color-headers: #464646;
+$accent-color: #ff0000;
 
 /* Font Themes */
 $font-family-body: 'Myriad Pro', Helvetica, Arial, sans-serif;
@@ -33,7 +34,7 @@ body {
 div, p, table,
 h1, h2, h3, h4, h5, h6,
 ol, ul, li, dl, dt, dd,
-fieldset, legend, form, label,
+fieldset, legend, form, label, select,
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -55,6 +56,7 @@ p {}
 
 a {
 	text-decoration: underline;
+	color: $accent-color;
 }
 a:hover {
 	text-decoration: none;
@@ -78,6 +80,7 @@ h4 { font-size: $font-size-body; }
 h5 { font-size: $font-size-body; }
 h6 { font-size: $font-size-body; }
 
+a.cancel-button,
 a.button,
 button,
 input[type="submit"] {
@@ -97,6 +100,12 @@ input[type="submit"] {
 	text-decoration: none;
 	@include border-radius(2px);
 }
+a.cancel-button {
+	border: none;
+	padding: 10px 8px 7px;
+	color: $accent-color;
+	text-decoration: underline;
+}
 button {
 	height: 0;
 	padding: 8px 5px 21px;
@@ -105,11 +114,13 @@ input[type="submit"] {
 	height: 0;
 	padding: 8px 8px 21px;
 }
-
+a.cancel-button:hover,
 a.button:hover,
 button:hover,
 input[type="submit"]:hover {
+	text-decoration: none;
 }
+a.cancel-button:active,
 a.button:active,
 button:active,
 input[type="submit"]:active {
@@ -145,10 +156,13 @@ table {
 }
 
 form {}
+
 label {
 	width: auto;
 	cursor: pointer;
 }
+
+select,
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -163,15 +177,34 @@ textarea {
 	font-family: $font-family-body;
 	color: $font-color-body;
 }
+
+select:hover,
 input[type="text"]:hover,
 input[type="email"]:hover,
 input[type="password"]:hover,
 textarea:hover {}
+
+select:active,
 input[type="text"]:active,
 input[type="email"]:active,
 input[type="password"]:active,
 textarea:active {}
 
+select {
+	padding: 7px 7px 7px 4px;
+	height: 31px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: block;
+	float: left;
+	margin: 2px 5px 0 0;
+	position: relative;
+}
+input[type="radio"] {
+	margin: 3px 5px 0 0;
+}
 
 .form {
 	.form-row {
