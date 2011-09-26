@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 17, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,8 +63,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 8, ../../app/stylesheets/screen.scss */
+/* line 5, ../../app/stylesheets/screen.scss */
 body {
-  color: #464646;
-  font-family: 'Myriad Pro';
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.667em;
+  font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+/* Set these to use display-block-float-left scaffolding. */
+/* line 17, ../../app/stylesheets/screen.scss */
+div, p,
+h1, h2, h3, h4, h5, h6,
+ol, ul, li, dl, dt, dd,
+fieldset, legend, form, label {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+/* line 23, ../../app/stylesheets/screen.scss */
+#page-container {
+  float: none;
+  width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  *zoom: 1;
+}
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#page-container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
 }

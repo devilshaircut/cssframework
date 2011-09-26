@@ -1,11 +1,57 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
 
 body {
-	color: #464646;
-	font-family: 'Myriad Pro';
+	width: 100%;
+	font-size: 12px;
+	line-height: 1.667em;
+	font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+	text-align: center;
 }
+
+/* Set these to use display-block-float-left scaffolding. */
+div, p,
+h1, h2, h3, h4, h5, h6,
+ol, ul, li, dl, dt, dd,
+fieldset, legend, form, label {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+#page-container {
+	float: none;
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	@include legacy-pie-clearfix;
+}
+
+p {}
+
+a {}
+a:hover {}
+
+strong {}
+em {}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+a.button,
+button,
+input[type="submit"] {}
+
+
+
+
+
+
+
+
+
