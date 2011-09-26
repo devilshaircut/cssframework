@@ -86,9 +86,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* Fix position of text in Input buttons for Webkit */
+/* Webkit */
+/* line 9, ../../app/stylesheets/screen.scss */
+.webkit input[type="checkbox"] {
+  margin: 11px 5px 0 0;
+}
+
+/* Fix position of checkbox for Webkit */
 /* Color Themes */
 /* Font Themes */
-/* line 21, ../../app/stylesheets/screen.scss */
+/* Font-Size + Line Height Mixin */
+/* line 29, ../../app/stylesheets/screen.scss */
 body {
   width: 100%;
   font-size: 12px;
@@ -97,10 +105,11 @@ body {
   text-align: center;
   color: #696969;
   padding: 0 0 100px 0;
+  background: transparent url("../images/line-height.png") repeat 0 0;
 }
 
 /* Set these to use display-block-float-left scaffolding. */
-/* line 41, ../../app/stylesheets/screen.scss */
+/* line 50, ../../app/stylesheets/screen.scss */
 div, p, table,
 h1, h2, h3, h4, h5, h6,
 ol, ul, li, dl, dt, dd,
@@ -114,7 +123,7 @@ textarea {
   width: 100%;
 }
 
-/* line 47, ../../app/stylesheets/screen.scss */
+/* line 56, ../../app/stylesheets/screen.scss */
 #page-container {
   float: none;
   width: 900px;
@@ -132,64 +141,88 @@ textarea {
   visibility: hidden;
 }
 
-/* line 57, ../../app/stylesheets/screen.scss */
+/* line 64, ../../app/stylesheets/screen.scss */
+p {
+  font-size: 12px;
+  line-height: 1.667em;
+  padding: 7px 0 13px 0;
+}
+
+/* line 66, ../../app/stylesheets/screen.scss */
 a {
   text-decoration: underline;
   color: red;
 }
 
-/* line 61, ../../app/stylesheets/screen.scss */
+/* line 70, ../../app/stylesheets/screen.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 65, ../../app/stylesheets/screen.scss */
+/* line 74, ../../app/stylesheets/screen.scss */
+ul {
+  font-size: 12px;
+  line-height: 1.667em;
+  padding: 7px 0 13px 0;
+}
+
+/* line 79, ../../app/stylesheets/screen.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 68, ../../app/stylesheets/screen.scss */
+/* line 82, ../../app/stylesheets/screen.scss */
 em {
   font-style: italic;
 }
 
-/* line 72, ../../app/stylesheets/screen.scss */
+/* line 86, ../../app/stylesheets/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #464646;
   font-weight: bold;
 }
 
-/* line 76, ../../app/stylesheets/screen.scss */
+/* line 90, ../../app/stylesheets/screen.scss */
 h1 {
-  font-size: 24px;
+  font-size: 48px;
+  line-height: 60px;
+  padding: 18px 0 2px 0;
 }
 
-/* line 77, ../../app/stylesheets/screen.scss */
+/* line 95, ../../app/stylesheets/screen.scss */
 h2 {
   font-size: 18px;
+  padding: 5px 0 15px 0;
 }
 
-/* line 78, ../../app/stylesheets/screen.scss */
+/* line 99, ../../app/stylesheets/screen.scss */
 h3 {
   font-size: 14px;
+  padding: 6px 0 14px 0;
 }
 
-/* line 79, ../../app/stylesheets/screen.scss */
+/* line 103, ../../app/stylesheets/screen.scss */
 h4 {
   font-size: 12px;
+  line-height: 1.667em;
+  padding: 7px 0 13px 0;
 }
 
-/* line 80, ../../app/stylesheets/screen.scss */
+/* line 104, ../../app/stylesheets/screen.scss */
 h5 {
   font-size: 12px;
+  line-height: 1.667em;
+  padding: 7px 0 13px 0;
 }
 
-/* line 81, ../../app/stylesheets/screen.scss */
+/* line 105, ../../app/stylesheets/screen.scss */
 h6 {
   font-size: 12px;
+  line-height: 1.667em;
+  padding: 7px 0 13px 0;
 }
 
-/* line 86, ../../app/stylesheets/screen.scss */
+/* line 110, ../../app/stylesheets/screen.scss */
 a.cancel-button,
 a.button,
 button,
@@ -197,14 +230,14 @@ input[type="submit"] {
   display: block;
   float: left;
   height: 14px;
-  padding: 9px 8px 6px;
-  margin: 0 10px 0 0;
+  padding: 10px 8px 7px;
+  margin: 0 10px 7px 0;
   border: 1px solid #000000;
   line-height: 1em;
   font-size: 12px;
   font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
   text-transform: capitalize;
-  background: #ffffff;
+  background: transparent;
   color: #696969;
   cursor: pointer;
   text-decoration: none;
@@ -216,27 +249,27 @@ input[type="submit"] {
   border-radius: 2px;
 }
 
-/* line 103, ../../app/stylesheets/screen.scss */
+/* line 127, ../../app/stylesheets/screen.scss */
 a.cancel-button {
   border: none;
-  padding: 10px 8px 7px;
+  padding: 11px 8px 8px;
   color: red;
   text-decoration: underline;
 }
 
-/* line 109, ../../app/stylesheets/screen.scss */
+/* line 133, ../../app/stylesheets/screen.scss */
 button {
   height: 0;
-  padding: 8px 5px 21px;
+  padding: 9px 5px 22px;
 }
 
-/* line 113, ../../app/stylesheets/screen.scss */
+/* line 137, ../../app/stylesheets/screen.scss */
 input[type="submit"] {
   height: 0;
-  padding: 8px 8px 21px;
+  padding: 9px 8px 22px;
 }
 
-/* line 120, ../../app/stylesheets/screen.scss */
+/* line 144, ../../app/stylesheets/screen.scss */
 a.cancel-button:hover,
 a.button:hover,
 button:hover,
@@ -244,26 +277,29 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 
-/* line 131, ../../app/stylesheets/screen.scss */
+/* line 155, ../../app/stylesheets/screen.scss */
 table colgroup col {
   background: transparent url("../images/dotted-line-vertical.png") no-repeat 0 0;
 }
-/* line 134, ../../app/stylesheets/screen.scss */
+/* line 158, ../../app/stylesheets/screen.scss */
 table colgroup col:nth-child(1) {
   background: none;
 }
-/* line 145, ../../app/stylesheets/screen.scss */
+/* line 169, ../../app/stylesheets/screen.scss */
 table tbody tr {
   background: transparent url("../images/dotted-line-horizontal.png") no-repeat top left;
 }
 
-/* line 160, ../../app/stylesheets/screen.scss */
+/* line 184, ../../app/stylesheets/screen.scss */
 label {
   width: auto;
   cursor: pointer;
+  font-size: 12px;
+  line-height: 1.667em;
+  padding: 7px 0 3px 0;
 }
 
-/* line 169, ../../app/stylesheets/screen.scss */
+/* line 196, ../../app/stylesheets/screen.scss */
 select,
 input[type="text"],
 input[type="email"],
@@ -271,31 +307,32 @@ input[type="password"],
 textarea {
   width: auto;
   height: 14px;
-  padding: 8px 7px 7px 7px;
-  margin: 0 10px 0 0;
+  padding: 9px 7px 8px 7px;
+  margin: 0 10px 7px 0;
   border: 1px solid #000000;
   line-height: 1.667em;
   font-size: 12px;
   font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
   color: #696969;
+  background: transparent;
 }
 
-/* line 193, ../../app/stylesheets/screen.scss */
+/* line 221, ../../app/stylesheets/screen.scss */
 select {
-  padding: 7px 7px 7px 4px;
+  padding: 8px 7px 8px 4px;
   height: 31px;
 }
 
-/* line 199, ../../app/stylesheets/screen.scss */
+/* line 227, ../../app/stylesheets/screen.scss */
 input[type="radio"],
 input[type="checkbox"] {
   display: block;
   float: left;
-  margin: 2px 5px 0 0;
+  margin: 9px 5px 0 0;
   position: relative;
 }
 
-/* line 205, ../../app/stylesheets/screen.scss */
+/* line 233, ../../app/stylesheets/screen.scss */
 input[type="radio"] {
-  margin: 3px 5px 0 0;
+  margin: 10px 5px 0 0;
 }

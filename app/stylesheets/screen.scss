@@ -6,6 +6,7 @@
 /* Gecko */		.mozilla input::-moz-focus-inner { border: 0; padding: 0; } /* Remove button padding in FF. */
 /* Webkit */	.webkit button { padding: 9px 5px 20px; } /* Fix position of text in Button buttons for Webkit */
 /* Webkit */	.webkit input[type="submit"] { padding: 9px 8px 20px; } /* Fix position of text in Input buttons for Webkit */
+/* Webkit */	.webkit input[type="checkbox"] {	margin: 11px 5px 0 0; } /* Fix position of checkbox for Webkit */
 
 /* Color Themes */
 $font-color-body: #696969;
@@ -18,6 +19,13 @@ $font-family-headers: 'Myriad Pro', Helvetica, Arial, sans-serif;
 $font-size-body: 12px;
 $line-height-body: 1.667em;
 
+/* Font-Size + Line Height Mixin */
+@mixin font-12-line-20 {
+	font-size: 12px;
+	line-height: 1.667em;
+	padding: 7px 0 13px 0;
+}
+
 body {
 	width: 100%;
 	font-size: $font-size-body;
@@ -27,6 +35,7 @@ body {
 	color: $font-color-body;
 	
 	padding: 0 0 100px 0;
+	background: transparent url("../images/line-height.png") repeat 0 0;
 	
 }
 
@@ -52,7 +61,7 @@ textarea {
 	@include legacy-pie-clearfix;
 }
 
-p {}
+p { @include font-12-line-20; }
 
 a {
 	text-decoration: underline;
@@ -60,6 +69,11 @@ a {
 }
 a:hover {
 	text-decoration: none;
+}
+
+ul {
+	@include font-12-line-20;
+	li {}
 }
 
 strong {
@@ -73,12 +87,22 @@ h1, h2, h3, h4, h5, h6 {
 	color: $font-color-headers;
 	font-weight: bold;
 }
-h1 { font-size: 24px; }
-h2 { font-size: 18px; }
-h3 { font-size: 14px; }
-h4 { font-size: $font-size-body; }
-h5 { font-size: $font-size-body; }
-h6 { font-size: $font-size-body; }
+h1 {
+	font-size: 48px;
+	line-height: 60px;
+	padding: 18px 0 2px 0;
+}
+h2 {
+	font-size: 18px;
+	padding: 5px 0 15px 0;
+}
+h3 {
+	font-size: 14px;
+	padding: 6px 0 14px 0;
+}
+h4 { @include font-12-line-20; }
+h5 { @include font-12-line-20; }
+h6 { @include font-12-line-20; }
 
 a.cancel-button,
 a.button,
@@ -87,14 +111,14 @@ input[type="submit"] {
 	display: block;
 	float: left;
 	height: 14px;
-	padding: 9px 8px 6px;
-	margin: 0 10px 0 0;
+	padding: 10px 8px 7px;
+	margin: 0 10px 7px 0;
 	border: 1px solid #000000;
 	line-height: 1em;
 	font-size: $font-size-body;
 	font-family: $font-family-body;
 	text-transform: capitalize;
-	background: #ffffff;
+	background: transparent;
 	color: $font-color-body;
 	cursor: pointer;
 	text-decoration: none;
@@ -102,17 +126,17 @@ input[type="submit"] {
 }
 a.cancel-button {
 	border: none;
-	padding: 10px 8px 7px;
+	padding: 11px 8px 8px;
 	color: $accent-color;
 	text-decoration: underline;
 }
 button {
 	height: 0;
-	padding: 8px 5px 21px;
+	padding: 9px 5px 22px;
 }
 input[type="submit"] {
 	height: 0;
-	padding: 8px 8px 21px;
+	padding: 9px 8px 22px;
 }
 a.cancel-button:hover,
 a.button:hover,
@@ -160,6 +184,9 @@ form {}
 label {
 	width: auto;
 	cursor: pointer;
+	font-size: 12px;
+	line-height: 1.667em;
+	padding: 7px 0 3px 0;
 }
 
 select,
@@ -169,13 +196,14 @@ input[type="password"],
 textarea {
 	width: auto;
 	height: 14px;
-	padding: 8px 7px 7px 7px;
-	margin: 0 10px 0 0;
+	padding: 9px 7px 8px 7px;
+	margin: 0 10px 7px 0;
 	border: 1px solid #000000;
 	line-height: $line-height-body;
 	font-size: $font-size-body;
 	font-family: $font-family-body;
 	color: $font-color-body;
+	background: transparent;
 }
 
 select:hover,
@@ -191,7 +219,7 @@ input[type="password"]:active,
 textarea:active {}
 
 select {
-	padding: 7px 7px 7px 4px;
+	padding: 8px 7px 8px 4px;
 	height: 31px;
 }
 
@@ -199,11 +227,11 @@ input[type="radio"],
 input[type="checkbox"] {
 	display: block;
 	float: left;
-	margin: 2px 5px 0 0;
+	margin: 9px 5px 0 0;
 	position: relative;
 }
 input[type="radio"] {
-	margin: 3px 5px 0 0;
+	margin: 10px 5px 0 0;
 }
 
 .form {
