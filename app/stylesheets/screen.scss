@@ -414,10 +414,16 @@ select {
 	padding: 8px 7px 8px 4px;
 	height: 33px;
 	width: 225px;
+	cursor: pointer;
+}
+
+textarea {
+	height: 54px;
+	padding: 6px 7px 11px;
+	resize: vertical;
 }
 
 .form {
-	padding: 0 0 20px 0;
 	.form-row {
 		.form-label {
 			label {
@@ -440,6 +446,7 @@ ul.form-list {
 			float: left;
 			margin: 2px 5px 0 0;
 			position: relative;
+			cursor: pointer;
 		}
 		input[type="radio"] {
 			margin: 4px 5px 0 0;

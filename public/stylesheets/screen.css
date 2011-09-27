@@ -553,31 +553,36 @@ select {
   padding: 8px 7px 8px 4px;
   height: 33px;
   width: 225px;
+  cursor: pointer;
 }
 
-/* line 419, ../../app/stylesheets/screen.scss */
-.form {
-  padding: 0 0 20px 0;
+/* line 420, ../../app/stylesheets/screen.scss */
+textarea {
+  height: 54px;
+  padding: 6px 7px 11px;
+  resize: vertical;
 }
-/* line 423, ../../app/stylesheets/screen.scss */
+
+/* line 429, ../../app/stylesheets/screen.scss */
 .form .form-row .form-label label {
   font-weight: bold;
   color: #464646;
 }
 
-/* line 434, ../../app/stylesheets/screen.scss */
+/* line 440, ../../app/stylesheets/screen.scss */
 ul.form-list li label {
   padding: 0;
 }
-/* line 438, ../../app/stylesheets/screen.scss */
+/* line 444, ../../app/stylesheets/screen.scss */
 ul.form-list li input[type="radio"],
 ul.form-list li input[type="checkbox"] {
   display: block;
   float: left;
   margin: 2px 5px 0 0;
   position: relative;
+  cursor: pointer;
 }
-/* line 444, ../../app/stylesheets/screen.scss */
+/* line 451, ../../app/stylesheets/screen.scss */
 ul.form-list li input[type="radio"] {
   margin: 4px 5px 0 0;
 }
@@ -585,7 +590,7 @@ ul.form-list li input[type="radio"] {
 /****************************************************************************************************/
 /* UTILITY CLASSES */
 /****************************************************************************************************/
-/* line 459, ../../app/stylesheets/screen.scss */
+/* line 466, ../../app/stylesheets/screen.scss */
 .column-2,
 .column-2-last,
 .column-2-box,
@@ -594,7 +599,7 @@ ul.form-list li input[type="radio"] {
   margin: 0 30px 20px 0;
 }
 
-/* line 467, ../../app/stylesheets/screen.scss */
+/* line 474, ../../app/stylesheets/screen.scss */
 .column-3,
 .column-3-last,
 .column-3-box,
@@ -603,7 +608,7 @@ ul.form-list li input[type="radio"] {
   margin: 0 30px 20px 0;
 }
 
-/* line 473, ../../app/stylesheets/screen.scss */
+/* line 480, ../../app/stylesheets/screen.scss */
 .column-3-box,
 .column-3-box-last {
   width: 185px;
@@ -611,7 +616,7 @@ ul.form-list li input[type="radio"] {
   border: 1px solid gray;
 }
 
-/* line 482, ../../app/stylesheets/screen.scss */
+/* line 489, ../../app/stylesheets/screen.scss */
 .column-4,
 .column-4-last,
 .column-4-box,
@@ -620,7 +625,7 @@ ul.form-list li input[type="radio"] {
   margin: 0 30px 20px 0;
 }
 
-/* line 488, ../../app/stylesheets/screen.scss */
+/* line 495, ../../app/stylesheets/screen.scss */
 .column-4-box,
 .column-4-box-last {
   width: 270px;
@@ -628,7 +633,7 @@ ul.form-list li input[type="radio"] {
   border: 1px solid gray;
 }
 
-/* line 497, ../../app/stylesheets/screen.scss */
+/* line 504, ../../app/stylesheets/screen.scss */
 .column-6,
 .column-6-last,
 .column-6-box,
@@ -637,7 +642,7 @@ ul.form-list li input[type="radio"] {
   margin: 0 30px 20px 0;
 }
 
-/* line 503, ../../app/stylesheets/screen.scss */
+/* line 510, ../../app/stylesheets/screen.scss */
 .column-6-box,
 .column-6-box-last {
   width: 440px;
@@ -645,14 +650,14 @@ ul.form-list li input[type="radio"] {
   border: 1px solid gray;
 }
 
-/* line 510, ../../app/stylesheets/screen.scss */
+/* line 517, ../../app/stylesheets/screen.scss */
 .column-8,
 .column-8-last {
   width: 650px;
   margin: 0 30px 20px 0;
 }
 
-/* line 522, ../../app/stylesheets/screen.scss */
+/* line 529, ../../app/stylesheets/screen.scss */
 .column-2-last,
 .column-3-last,
 .column-3-box-last,
@@ -664,13 +669,13 @@ ul.form-list li input[type="radio"] {
   margin-right: 0;
 }
 
-/* line 527, ../../app/stylesheets/screen.scss */
+/* line 534, ../../app/stylesheets/screen.scss */
 .section,
 .lined-section {
   padding: 0 0 20px 0;
 }
 
-/* line 531, ../../app/stylesheets/screen.scss */
+/* line 538, ../../app/stylesheets/screen.scss */
 .lined-section {
   margin: 0 0 20px 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
@@ -680,7 +685,7 @@ ul.form-list li input[type="radio"] {
 /* BROWSER HACKS */
 /****************************************************************************************************/
 /* Gecko */
-/* line 542, ../../app/stylesheets/screen.scss */
+/* line 549, ../../app/stylesheets/screen.scss */
 .mozilla input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -688,56 +693,56 @@ ul.form-list li input[type="radio"] {
 
 /* Remove button padding in FF. */
 /* Webkit */
-/* line 543, ../../app/stylesheets/screen.scss */
+/* line 550, ../../app/stylesheets/screen.scss */
 .webkit button {
   padding: 10px 5px 21px;
 }
 
 /* Fix position of text in Button buttons for Webkit */
 /* Webkit */
-/* line 544, ../../app/stylesheets/screen.scss */
+/* line 551, ../../app/stylesheets/screen.scss */
 .webkit input[type="submit"] {
   padding: 10px 8px 21px;
 }
 
 /* Fix position of text in Input buttons for Webkit */
 /* Webkit */
-/* line 545, ../../app/stylesheets/screen.scss */
+/* line 552, ../../app/stylesheets/screen.scss */
 .webkit ul.form-list input[type="checkbox"] {
   margin: 4px 5px 0 0;
 }
 
 /* Fix position of checkbox for Webkit */
 /* Webkit */
-/* line 546, ../../app/stylesheets/screen.scss */
+/* line 553, ../../app/stylesheets/screen.scss */
 .webkit h2 {
   padding: 6px 0 14px 0;
 }
 
 /* Fix padding on h2 for Webkit. */
 /* Webkit */
-/* line 547, ../../app/stylesheets/screen.scss */
+/* line 554, ../../app/stylesheets/screen.scss */
 .webkit h3 {
   padding: 7px 0 3px 0;
 }
 
 /* Fix padding on h3 for Webkit. */
 /* Webkit */
-/* line 548, ../../app/stylesheets/screen.scss */
+/* line 555, ../../app/stylesheets/screen.scss */
 .webkit h3.subheader {
   padding: 6px 0 8px 0;
 }
 
 /* Fix padding on h3 with subheader for Webkit. */
 /* Webkit */
-/* line 549, ../../app/stylesheets/screen.scss */
+/* line 556, ../../app/stylesheets/screen.scss */
 .webkit h3.lined-subheader {
   padding: 6px 0 9px 0;
 }
 
 /* Fix padding on h3 with lined subheader for Webkit. */
 /* Webkit */
-/* line 550, ../../app/stylesheets/screen.scss */
+/* line 557, ../../app/stylesheets/screen.scss */
 .webkit ul.navigation {
   padding: 6px 0 4px 0;
 }
