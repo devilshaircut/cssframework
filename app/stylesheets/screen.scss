@@ -29,8 +29,42 @@ $line-height-body: 1.667em;
 /* Font-Size + Line Height Mixin */
 @mixin font-12-line-20 {
 	font-size: 12px;
-	line-height: 1.667em;
+	line-height: 20px;
 	padding: 7px 0 3px 0;
+}
+
+@mixin font-14-line-20 {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 6px 0 4px 0;
+}
+
+@mixin font-20-line-30 {
+	font-size: 20px;
+	line-height: 30px;
+	padding: 10px 0;
+}
+
+@mixin font-26-line-40 {
+	font-size: 26px;
+	line-height: 40px;
+	padding: 13px 0 17px 0;
+}
+
+.font-12-line-20 {
+	@include font-12-line-20;
+}
+
+.font-14-line-20 {
+	@include font-14-line-20;
+}
+
+.font-20-line-30 {
+	@include font-20-line-30;
+}
+
+.font-26-line-40 {
+	@include font-26-line-40;
 }
 
 
@@ -68,7 +102,7 @@ body {
 	color: $font-color-body;
 	
 	padding: 0 0 100px 0;
-	/*background: transparent url("../images/line-height.png") repeat 0 0;*/
+	background: transparent url("../images/line-height.png") repeat 0 0;
 	
 }
 
