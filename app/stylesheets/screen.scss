@@ -189,7 +189,6 @@ input[type="submit"] {
 	padding: 9px 8px 22px;
 }
 
-a.cancel-button:hover,
 a.button:hover,
 button:hover,
 input[type="submit"]:hover {
@@ -202,7 +201,8 @@ input[type="submit"]:hover {
 	@include text-shadow(0 1px 0 #ab2217);
 }
 
-a.cancel-button:active,
+a.cancel-button:hover { text-decoration: none; }
+
 a.button:active,
 button:active,
 input[type="submit"]:active {

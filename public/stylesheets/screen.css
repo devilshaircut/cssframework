@@ -309,8 +309,7 @@ input[type="submit"] {
   padding: 9px 8px 22px;
 }
 
-/* line 195, ../../app/stylesheets/screen.scss */
-a.cancel-button:hover,
+/* line 194, ../../app/stylesheets/screen.scss */
 a.button:hover,
 button:hover,
 input[type="submit"]:hover {
@@ -328,8 +327,12 @@ input[type="submit"]:hover {
   text-shadow: 0 1px 0 #ab2217;
 }
 
+/* line 204, ../../app/stylesheets/screen.scss */
+a.cancel-button:hover {
+  text-decoration: none;
+}
+
 /* line 208, ../../app/stylesheets/screen.scss */
-a.cancel-button:active,
 a.button:active,
 button:active,
 input[type="submit"]:active {
