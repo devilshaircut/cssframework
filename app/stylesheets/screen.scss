@@ -7,8 +7,9 @@
 /****************************************************************************************************/
 
 /* Color Themes */
+$font-color-header: #464646;
+$font-color-subheader: #808080;
 $font-color-body: #696969;
-$font-color-headers: #464646;
 $accent-color: #ff0000;
 
 /* Font Themes */
@@ -77,6 +78,16 @@ body {
 	@include legacy-pie-clearfix;
 }
 
+.section,
+.lined-section {
+	padding: 0 0 10px 0;
+}
+
+.lined-section {
+	margin: 0 0 10px 0;
+	background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
+}
+
 a { text-decoration: underline; color: $accent-color; }
 a:hover { text-decoration: none; }
 p { @include font-12-line-20; }
@@ -84,7 +95,7 @@ strong { font-weight: bold; }
 em { font-style: italic; }
 
 h1, h2, h3, h4, h5, h6 {
-	color: $font-color-headers;
+	color: $font-color-header;
 	font-weight: bold;
 }
 h1 { font-size: 48px; padding: 18px 0 2px 0; line-height: 60px; }
@@ -93,6 +104,30 @@ h3 { font-size: 14px; padding: 6px 0 4px 0; }
 h4 { @include font-12-line-20; }
 h5 { @include font-12-line-20; }
 h6 { @include font-12-line-20; }
+
+h3.subheader,
+h3.lined-subheader {
+	padding: 6px 0 8px 0;
+	line-height: 14px;
+	div {
+		margin: 0 0 2px 0;
+	}
+	span {
+	line-height: 10px;
+		display: block;
+		float: left;
+		width: 100%;
+		font-size: 10px;
+		font-weight: normal;
+		color: $font-color-subheader;
+	}
+}
+
+h3.lined-subheader {
+	padding: 6px 0 9px 0;
+	margin: 0 0 9px 0;
+	background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
+}
 		
 ul {
 	padding: 7px 0 3px;
@@ -259,21 +294,28 @@ select {
 	height: 33px;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
-	display: block;
-	float: left;
-	margin: 9px 5px 0 0;
-	position: relative;
-}
-input[type="radio"] {
-	margin: 10px 5px 0 0;
-}
-
 .form {
 	.form-row {
 		.form-label {}
 		.form-input {}
+	}
+}
+
+ul.form-list {
+	li {
+		label {
+			padding: 0;
+		}
+		input[type="radio"],
+		input[type="checkbox"] {
+			display: block;
+			float: left;
+			margin: 2px 5px 0 0;
+			position: relative;
+		}
+		input[type="radio"] {
+			margin: 3px 5px 0 0;
+		}
 	}
 }
 
@@ -289,7 +331,8 @@ input[type="radio"] {
 /* Webkit */	.webkit input[type="checkbox"] { margin: 11px 5px 0 0; } /* Fix position of checkbox for Webkit */
 /* Webkit */	.webkit h2 { padding: 6px 0 14px 0; } /* Fix padding on h2 for Webkit. */
 /* Webkit */	.webkit h3 { padding: 7px 0 3px 0; } /* Fix padding on h3 for Webkit. */
-
+/* Webkit */	.webkit h3.subheader { padding: 6px 0 8px 0; } /* Fix padding on h3 with subheader for Webkit. */
+/* Webkit */	.webkit h3.lined-subheader { padding: 6px 0 9px 0; } /* Fix padding on h3 with lined subheader for Webkit. */
 
 
 
