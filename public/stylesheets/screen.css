@@ -72,35 +72,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* MIXINS */
 /****************************************************************************************************/
 /* Font-Size + Line Height Mixin */
-/* line 60, ../../app/stylesheets/screen.scss */
+/* line 66, ../../app/stylesheets/screen.scss */
 .font-12-line-20 {
   font-size: 12px;
   line-height: 20px;
   padding: 7px 0 3px 0;
 }
 
-/* line 64, ../../app/stylesheets/screen.scss */
+/* line 70, ../../app/stylesheets/screen.scss */
 .font-14-line-20 {
   font-size: 14px;
   line-height: 20px;
   padding: 6px 0 4px 0;
 }
 
-/* line 68, ../../app/stylesheets/screen.scss */
+/* line 74, ../../app/stylesheets/screen.scss */
+.webkit .font-14-line-20 {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 7px 0 3px 0;
+}
+
+/* line 78, ../../app/stylesheets/screen.scss */
 .font-20-line-30 {
   font-size: 20px;
   line-height: 30px;
   padding: 10px 0;
 }
 
-/* line 72, ../../app/stylesheets/screen.scss */
+/* line 82, ../../app/stylesheets/screen.scss */
 .font-26-line-40 {
   font-size: 26px;
   line-height: 40px;
   padding: 13px 0 17px 0;
 }
 
-/* line 76, ../../app/stylesheets/screen.scss */
+/* line 86, ../../app/stylesheets/screen.scss */
 .webkit .font-26-line-40 {
   font-size: 26px;
   line-height: 40px;
@@ -111,7 +118,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* RESET */
 /****************************************************************************************************/
 /* Set these to use display-block-float-left scaffolding. */
-/* line 94, ../../app/stylesheets/screen.scss */
+/* line 104, ../../app/stylesheets/screen.scss */
 div, p, table,
 h1, h2, h3, h4, h5, h6,
 ol, ul, li, dl, dt, dd,
@@ -128,7 +135,7 @@ textarea {
 /****************************************************************************************************/
 /* BASE STYLES */
 /****************************************************************************************************/
-/* line 106, ../../app/stylesheets/screen.scss */
+/* line 116, ../../app/stylesheets/screen.scss */
 body {
   width: 100%;
   font-size: 12px;
@@ -140,7 +147,7 @@ body {
   background: transparent url("../images/line-height.png") repeat 0 0;
 }
 
-/* line 119, ../../app/stylesheets/screen.scss */
+/* line 129, ../../app/stylesheets/screen.scss */
 #page-container {
   float: none;
   width: 990px;
@@ -158,92 +165,92 @@ body {
   visibility: hidden;
 }
 
-/* line 127, ../../app/stylesheets/screen.scss */
+/* line 137, ../../app/stylesheets/screen.scss */
 a {
   text-decoration: underline;
   color: #bc2215;
 }
 
-/* line 128, ../../app/stylesheets/screen.scss */
+/* line 138, ../../app/stylesheets/screen.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 129, ../../app/stylesheets/screen.scss */
+/* line 139, ../../app/stylesheets/screen.scss */
 p {
   font-size: 12px;
   line-height: 20px;
   padding: 7px 0 3px 0;
 }
 
-/* line 130, ../../app/stylesheets/screen.scss */
+/* line 140, ../../app/stylesheets/screen.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 131, ../../app/stylesheets/screen.scss */
+/* line 141, ../../app/stylesheets/screen.scss */
 em {
   font-style: italic;
 }
 
-/* line 133, ../../app/stylesheets/screen.scss */
+/* line 143, ../../app/stylesheets/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #464646;
   font-weight: bold;
 }
 
-/* line 137, ../../app/stylesheets/screen.scss */
+/* line 147, ../../app/stylesheets/screen.scss */
 h1 {
   font-size: 48px;
   padding: 18px 0 22px 0;
   line-height: 60px;
 }
 
-/* line 138, ../../app/stylesheets/screen.scss */
+/* line 148, ../../app/stylesheets/screen.scss */
 h2 {
   font-size: 24px;
   padding: 4px 0 16px 0;
 }
 
-/* line 139, ../../app/stylesheets/screen.scss */
+/* line 149, ../../app/stylesheets/screen.scss */
 h3 {
   font-size: 14px;
   padding: 6px 0 4px 0;
 }
 
-/* line 140, ../../app/stylesheets/screen.scss */
+/* line 150, ../../app/stylesheets/screen.scss */
 h4 {
   font-size: 12px;
   line-height: 20px;
   padding: 7px 0 3px 0;
 }
 
-/* line 141, ../../app/stylesheets/screen.scss */
+/* line 151, ../../app/stylesheets/screen.scss */
 h5 {
   font-size: 12px;
   line-height: 20px;
   padding: 7px 0 3px 0;
 }
 
-/* line 142, ../../app/stylesheets/screen.scss */
+/* line 152, ../../app/stylesheets/screen.scss */
 h6 {
   font-size: 12px;
   line-height: 20px;
   padding: 7px 0 3px 0;
 }
 
-/* line 145, ../../app/stylesheets/screen.scss */
+/* line 155, ../../app/stylesheets/screen.scss */
 h3.subheader,
 h3.lined-subheader {
   padding: 6px 0 8px 0;
   line-height: 14px;
 }
-/* line 148, ../../app/stylesheets/screen.scss */
+/* line 158, ../../app/stylesheets/screen.scss */
 h3.subheader div,
 h3.lined-subheader div {
   margin: 0 0 2px 0;
 }
-/* line 151, ../../app/stylesheets/screen.scss */
+/* line 161, ../../app/stylesheets/screen.scss */
 h3.subheader span,
 h3.lined-subheader span {
   line-height: 10px;
@@ -255,30 +262,30 @@ h3.lined-subheader span {
   color: gray;
 }
 
-/* line 162, ../../app/stylesheets/screen.scss */
+/* line 172, ../../app/stylesheets/screen.scss */
 h3.lined-subheader {
   padding: 6px 0 9px 0;
   margin: 0 0 9px 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
 }
 
-/* line 168, ../../app/stylesheets/screen.scss */
+/* line 178, ../../app/stylesheets/screen.scss */
 ul {
   padding: 7px 0 3px;
   margin: 0 0 10px 0;
 }
 
-/* line 174, ../../app/stylesheets/screen.scss */
+/* line 184, ../../app/stylesheets/screen.scss */
 ul.lined {
   padding: 1px 0 9px 0;
   margin: 0;
 }
-/* line 177, ../../app/stylesheets/screen.scss */
+/* line 187, ../../app/stylesheets/screen.scss */
 ul.lined li {
   padding: 6px 0 4px 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 181, ../../app/stylesheets/screen.scss */
+/* line 191, ../../app/stylesheets/screen.scss */
 ul.lined li:nth-child(1) {
   background: none;
 }
@@ -286,7 +293,7 @@ ul.lined li:nth-child(1) {
 /****************************************************************************************************/
 /* BUTTONS */
 /****************************************************************************************************/
-/* line 195, ../../app/stylesheets/screen.scss */
+/* line 205, ../../app/stylesheets/screen.scss */
 a.cancel-button,
 a.button,
 button,
@@ -322,7 +329,7 @@ input[type="submit"] {
   text-shadow: 0 1px 0 #821a11;
 }
 
-/* line 217, ../../app/stylesheets/screen.scss */
+/* line 227, ../../app/stylesheets/screen.scss */
 a.cancel-button {
   border: none;
   padding: 11px 8px 8px;
@@ -332,19 +339,19 @@ a.cancel-button {
   text-shadow: none;
 }
 
-/* line 226, ../../app/stylesheets/screen.scss */
+/* line 236, ../../app/stylesheets/screen.scss */
 button {
   height: 0;
   padding: 9px 5px 22px;
 }
 
-/* line 231, ../../app/stylesheets/screen.scss */
+/* line 241, ../../app/stylesheets/screen.scss */
 input[type="submit"] {
   height: 0;
   padding: 9px 8px 22px;
 }
 
-/* line 238, ../../app/stylesheets/screen.scss */
+/* line 248, ../../app/stylesheets/screen.scss */
 a.button:hover,
 button:hover,
 input[type="submit"]:hover {
@@ -362,12 +369,12 @@ input[type="submit"]:hover {
   text-shadow: 0 1px 0 #ab2217;
 }
 
-/* line 248, ../../app/stylesheets/screen.scss */
+/* line 258, ../../app/stylesheets/screen.scss */
 a.cancel-button:hover {
   text-decoration: none;
 }
 
-/* line 252, ../../app/stylesheets/screen.scss */
+/* line 262, ../../app/stylesheets/screen.scss */
 a.button:active,
 button:active,
 input[type="submit"]:active {
@@ -389,29 +396,29 @@ input[type="submit"]:active {
 /****************************************************************************************************/
 /* TABLES */
 /****************************************************************************************************/
-/* line 269, ../../app/stylesheets/screen.scss */
+/* line 279, ../../app/stylesheets/screen.scss */
 table {
   padding: 2px 0 15px 0;
 }
-/* line 272, ../../app/stylesheets/screen.scss */
+/* line 282, ../../app/stylesheets/screen.scss */
 table colgroup col {
   width: 165px;
   background: transparent url("../images/dotted-line-vertical.png") no-repeat 0 0;
 }
-/* line 276, ../../app/stylesheets/screen.scss */
+/* line 286, ../../app/stylesheets/screen.scss */
 table colgroup col:nth-child(1) {
   background: none;
 }
-/* line 282, ../../app/stylesheets/screen.scss */
+/* line 292, ../../app/stylesheets/screen.scss */
 table thead tr th {
   padding: 0 10px 3px;
   font-weight: bold;
 }
-/* line 289, ../../app/stylesheets/screen.scss */
+/* line 299, ../../app/stylesheets/screen.scss */
 table tbody tr {
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 291, ../../app/stylesheets/screen.scss */
+/* line 301, ../../app/stylesheets/screen.scss */
 table tbody tr td {
   padding: 12px 10px 8px 10px;
 }
@@ -419,7 +426,7 @@ table tbody tr td {
 /****************************************************************************************************/
 /* FORMS */
 /****************************************************************************************************/
-/* line 311, ../../app/stylesheets/screen.scss */
+/* line 321, ../../app/stylesheets/screen.scss */
 label {
   width: auto;
   cursor: pointer;
@@ -428,7 +435,7 @@ label {
   padding: 7px 0 3px 0;
 }
 
-/* line 323, ../../app/stylesheets/screen.scss */
+/* line 333, ../../app/stylesheets/screen.scss */
 select,
 input[type="text"],
 input[type="email"],
@@ -446,17 +453,17 @@ textarea {
   background: transparent;
 }
 
-/* line 348, ../../app/stylesheets/screen.scss */
+/* line 358, ../../app/stylesheets/screen.scss */
 select {
   padding: 8px 7px 8px 4px;
   height: 33px;
 }
 
-/* line 362, ../../app/stylesheets/screen.scss */
+/* line 372, ../../app/stylesheets/screen.scss */
 ul.form-list li label {
   padding: 0;
 }
-/* line 366, ../../app/stylesheets/screen.scss */
+/* line 376, ../../app/stylesheets/screen.scss */
 ul.form-list li input[type="radio"],
 ul.form-list li input[type="checkbox"] {
   display: block;
@@ -464,7 +471,7 @@ ul.form-list li input[type="checkbox"] {
   margin: 2px 5px 0 0;
   position: relative;
 }
-/* line 372, ../../app/stylesheets/screen.scss */
+/* line 382, ../../app/stylesheets/screen.scss */
 ul.form-list li input[type="radio"] {
   margin: 4px 5px 0 0;
 }
@@ -473,7 +480,7 @@ ul.form-list li input[type="radio"] {
 /* BROWSER HACKS */
 /****************************************************************************************************/
 /* Gecko */
-/* line 384, ../../app/stylesheets/screen.scss */
+/* line 394, ../../app/stylesheets/screen.scss */
 .mozilla input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -481,49 +488,49 @@ ul.form-list li input[type="radio"] {
 
 /* Remove button padding in FF. */
 /* Webkit */
-/* line 385, ../../app/stylesheets/screen.scss */
+/* line 395, ../../app/stylesheets/screen.scss */
 .webkit button {
   padding: 10px 5px 21px;
 }
 
 /* Fix position of text in Button buttons for Webkit */
 /* Webkit */
-/* line 386, ../../app/stylesheets/screen.scss */
+/* line 396, ../../app/stylesheets/screen.scss */
 .webkit input[type="submit"] {
   padding: 10px 8px 21px;
 }
 
 /* Fix position of text in Input buttons for Webkit */
 /* Webkit */
-/* line 387, ../../app/stylesheets/screen.scss */
+/* line 397, ../../app/stylesheets/screen.scss */
 .webkit input[type="checkbox"] {
   margin: 11px 5px 0 0;
 }
 
 /* Fix position of checkbox for Webkit */
 /* Webkit */
-/* line 388, ../../app/stylesheets/screen.scss */
+/* line 398, ../../app/stylesheets/screen.scss */
 .webkit h2 {
   padding: 6px 0 14px 0;
 }
 
 /* Fix padding on h2 for Webkit. */
 /* Webkit */
-/* line 389, ../../app/stylesheets/screen.scss */
+/* line 399, ../../app/stylesheets/screen.scss */
 .webkit h3 {
   padding: 7px 0 3px 0;
 }
 
 /* Fix padding on h3 for Webkit. */
 /* Webkit */
-/* line 390, ../../app/stylesheets/screen.scss */
+/* line 400, ../../app/stylesheets/screen.scss */
 .webkit h3.subheader {
   padding: 6px 0 8px 0;
 }
 
 /* Fix padding on h3 with subheader for Webkit. */
 /* Webkit */
-/* line 391, ../../app/stylesheets/screen.scss */
+/* line 401, ../../app/stylesheets/screen.scss */
 .webkit h3.lined-subheader {
   padding: 6px 0 9px 0;
 }
@@ -532,7 +539,7 @@ ul.form-list li input[type="radio"] {
 /****************************************************************************************************/
 /* UTILITY CLASSES */
 /****************************************************************************************************/
-/* line 402, ../../app/stylesheets/screen.scss */
+/* line 412, ../../app/stylesheets/screen.scss */
 .column-3,
 .column-3-last,
 .column-3-box,
@@ -541,7 +548,7 @@ ul.form-list li input[type="radio"] {
   margin: 0 30px 20px 0;
 }
 
-/* line 410, ../../app/stylesheets/screen.scss */
+/* line 420, ../../app/stylesheets/screen.scss */
 .column-4,
 .column-4-last,
 .column-4-box,
@@ -550,7 +557,7 @@ ul.form-list li input[type="radio"] {
   margin: 0 30px 20px 0;
 }
 
-/* line 416, ../../app/stylesheets/screen.scss */
+/* line 426, ../../app/stylesheets/screen.scss */
 .column-3-box,
 .column-3-box-last {
   width: 270px;
@@ -558,7 +565,7 @@ ul.form-list li input[type="radio"] {
   border: 1px solid gray;
 }
 
-/* line 423, ../../app/stylesheets/screen.scss */
+/* line 433, ../../app/stylesheets/screen.scss */
 .column-4-box,
 .column-4-box-last {
   width: 185px;
@@ -566,7 +573,7 @@ ul.form-list li input[type="radio"] {
   border: 1px solid gray;
 }
 
-/* line 432, ../../app/stylesheets/screen.scss */
+/* line 442, ../../app/stylesheets/screen.scss */
 .column-3-last,
 .column-3-box-last,
 .column-4-last,
@@ -574,13 +581,13 @@ ul.form-list li input[type="radio"] {
   margin-right: 0;
 }
 
-/* line 437, ../../app/stylesheets/screen.scss */
+/* line 447, ../../app/stylesheets/screen.scss */
 .section,
 .lined-section {
   padding: 0 0 20px 0;
 }
 
-/* line 441, ../../app/stylesheets/screen.scss */
+/* line 451, ../../app/stylesheets/screen.scss */
 .lined-section {
   margin: 0 0 20px 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;

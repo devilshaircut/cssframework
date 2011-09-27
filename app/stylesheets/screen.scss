@@ -39,6 +39,12 @@ $line-height-body: 1.667em;
 	padding: 6px 0 4px 0;
 }
 
+@mixin font-14-line-20-webkit {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 7px 0 3px 0;
+}
+
 @mixin font-20-line-30 {
 	font-size: 20px;
 	line-height: 30px;
@@ -63,6 +69,10 @@ $line-height-body: 1.667em;
 
 .font-14-line-20 {
 	@include font-14-line-20;
+}
+
+.webkit .font-14-line-20 {
+	@include font-14-line-20-webkit;
 }
 
 .font-20-line-30 {
