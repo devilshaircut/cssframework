@@ -500,11 +500,16 @@ select {
   width: 225px;
 }
 
-/* line 392, ../../app/stylesheets/screen.scss */
+/* line 383, ../../app/stylesheets/screen.scss */
+.form {
+  padding: 0 0 20px 0;
+}
+
+/* line 393, ../../app/stylesheets/screen.scss */
 ul.form-list li label {
   padding: 0;
 }
-/* line 396, ../../app/stylesheets/screen.scss */
+/* line 397, ../../app/stylesheets/screen.scss */
 ul.form-list li input[type="radio"],
 ul.form-list li input[type="checkbox"] {
   display: block;
@@ -512,7 +517,7 @@ ul.form-list li input[type="checkbox"] {
   margin: 2px 5px 0 0;
   position: relative;
 }
-/* line 402, ../../app/stylesheets/screen.scss */
+/* line 403, ../../app/stylesheets/screen.scss */
 ul.form-list li input[type="radio"] {
   margin: 4px 5px 0 0;
 }
@@ -521,7 +526,7 @@ ul.form-list li input[type="radio"] {
 /* BROWSER HACKS */
 /****************************************************************************************************/
 /* Gecko */
-/* line 414, ../../app/stylesheets/screen.scss */
+/* line 415, ../../app/stylesheets/screen.scss */
 .mozilla input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -529,49 +534,49 @@ ul.form-list li input[type="radio"] {
 
 /* Remove button padding in FF. */
 /* Webkit */
-/* line 415, ../../app/stylesheets/screen.scss */
+/* line 416, ../../app/stylesheets/screen.scss */
 .webkit button {
   padding: 10px 5px 21px;
 }
 
 /* Fix position of text in Button buttons for Webkit */
 /* Webkit */
-/* line 416, ../../app/stylesheets/screen.scss */
+/* line 417, ../../app/stylesheets/screen.scss */
 .webkit input[type="submit"] {
   padding: 10px 8px 21px;
 }
 
 /* Fix position of text in Input buttons for Webkit */
 /* Webkit */
-/* line 417, ../../app/stylesheets/screen.scss */
+/* line 418, ../../app/stylesheets/screen.scss */
 .webkit ul.form-list input[type="checkbox"] {
   margin: 4px 5px 0 0;
 }
 
 /* Fix position of checkbox for Webkit */
 /* Webkit */
-/* line 418, ../../app/stylesheets/screen.scss */
+/* line 419, ../../app/stylesheets/screen.scss */
 .webkit h2 {
   padding: 6px 0 14px 0;
 }
 
 /* Fix padding on h2 for Webkit. */
 /* Webkit */
-/* line 419, ../../app/stylesheets/screen.scss */
+/* line 420, ../../app/stylesheets/screen.scss */
 .webkit h3 {
   padding: 7px 0 3px 0;
 }
 
 /* Fix padding on h3 for Webkit. */
 /* Webkit */
-/* line 420, ../../app/stylesheets/screen.scss */
+/* line 421, ../../app/stylesheets/screen.scss */
 .webkit h3.subheader {
   padding: 6px 0 8px 0;
 }
 
 /* Fix padding on h3 with subheader for Webkit. */
 /* Webkit */
-/* line 421, ../../app/stylesheets/screen.scss */
+/* line 422, ../../app/stylesheets/screen.scss */
 .webkit h3.lined-subheader {
   padding: 6px 0 9px 0;
 }
@@ -580,7 +585,7 @@ ul.form-list li input[type="radio"] {
 /****************************************************************************************************/
 /* UTILITY CLASSES */
 /****************************************************************************************************/
-/* line 432, ../../app/stylesheets/screen.scss */
+/* line 433, ../../app/stylesheets/screen.scss */
 .column-4,
 .column-4-last,
 .column-4-box,
@@ -589,7 +594,7 @@ ul.form-list li input[type="radio"] {
   margin: 0 30px 20px 0;
 }
 
-/* line 440, ../../app/stylesheets/screen.scss */
+/* line 441, ../../app/stylesheets/screen.scss */
 .column-3,
 .column-3-last,
 .column-3-box,
@@ -598,14 +603,14 @@ ul.form-list li input[type="radio"] {
   margin: 0 30px 20px 0;
 }
 
-/* line 446, ../../app/stylesheets/screen.scss */
+/* line 447, ../../app/stylesheets/screen.scss */
 .column-8,
 .column-8-last {
   width: 650px;
   margin: 0 30px 20px 0;
 }
 
-/* line 452, ../../app/stylesheets/screen.scss */
+/* line 453, ../../app/stylesheets/screen.scss */
 .column-4-box,
 .column-4-box-last {
   width: 270px;
@@ -613,7 +618,7 @@ ul.form-list li input[type="radio"] {
   border: 1px solid gray;
 }
 
-/* line 459, ../../app/stylesheets/screen.scss */
+/* line 460, ../../app/stylesheets/screen.scss */
 .column-3-box,
 .column-3-box-last {
   width: 185px;
@@ -621,7 +626,7 @@ ul.form-list li input[type="radio"] {
   border: 1px solid gray;
 }
 
-/* line 469, ../../app/stylesheets/screen.scss */
+/* line 470, ../../app/stylesheets/screen.scss */
 .column-4-last,
 .column-4-box-last,
 .column-3-last,
@@ -630,13 +635,13 @@ ul.form-list li input[type="radio"] {
   margin-right: 0;
 }
 
-/* line 474, ../../app/stylesheets/screen.scss */
+/* line 475, ../../app/stylesheets/screen.scss */
 .section,
 .lined-section {
   padding: 0 0 20px 0;
 }
 
-/* line 478, ../../app/stylesheets/screen.scss */
+/* line 479, ../../app/stylesheets/screen.scss */
 .lined-section {
   margin: 0 0 20px 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
