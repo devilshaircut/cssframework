@@ -122,7 +122,7 @@ body {
 	color: $font-color-body;
 	
 	padding: 0 0 100px 0;
-	background: transparent url("../images/line-height.png") repeat 0 0;
+	/*background: transparent url("../images/line-height.png") repeat 0 0;*/
 	
 }
 
@@ -231,10 +231,12 @@ input[type="submit"] {
 	line-height: 1em;
 	font-size: $font-size-body;
 	font-family: $font-family-body;
+	font-weight: bold;
 	text-transform: capitalize;
 	cursor: pointer;
 	text-decoration: none;
-	@include border-radius(2px);
+	@include border-radius(3px);
+	@include box-shadow(0 1px 1px #dd6f62 inset, 0 2px 4px #979797);
 	@include background-image(linear-gradient(#b74634, #8e0d07));
 	@include text-shadow(0 1px 0 #821a11);
 }
@@ -245,6 +247,7 @@ a.cancel-button {
 	color: $accent-color;
 	text-decoration: underline;
 	background: transparent;
+	@include box-shadow(none);
 	@include text-shadow(none);
 }
 
@@ -262,28 +265,31 @@ a.button:hover,
 button:hover,
 input[type="submit"]:hover {
 	text-decoration: none;
-	border-top: 1px solid #c9606a;
-	border-right: 1px solid #9a121b;
-	border-bottom: 1px solid #77141c;
-	border-left: 1px solid #9a121b;
-	@include background-image(linear-gradient(#de4d3a, #b61111));
-	@include text-shadow(0 1px 0 #ab2217);
+	border-top: 1px solid #d56d76;
+	border-right: 1px solid #ae252f;
+	border-bottom: 1px solid #8c2930;
+	border-left: 1px solid #ae252f;
+	@include background-image(linear-gradient(#e95746, #c92323));
+	@include box-shadow(0 1px 1px #f08475 inset, 0 2px 4px #979797);
+	@include text-shadow(0 1px 0 #bc3329);
 }
-
-a.cancel-button:hover { text-decoration: none; }
 
 a.button:active,
 button:active,
 input[type="submit"]:active {
 	position: relative;
 	top: 2px;
-	border-top: 1px solid #c9606a;
-	border-right: 1px solid #9a121b;
-	border-bottom: 1px solid #77141c;
-	border-left: 1px solid #9a121b;
-	@include background-image(linear-gradient(#b61111, #de4d3a));
-	@include text-shadow(0 1px 0 #ab2217);
+	border-top: 1px solid #d56d76;
+	border-right: 1px solid #ae252f;
+	border-bottom: 1px solid #8c2930;
+	border-left: 1px solid #ae252f;
+	@include background-image(linear-gradient(#c92323, #e95746));
+	@include box-shadow(0 1px 1px #f08475 inset, 0 0 4px #979797);
+	@include text-shadow(0 1px 0 #bc3329);
 }
+
+a.cancel-button:hover { text-decoration: none; }
+a.cancel-button:active { position: relative; top: 2px; }
 
 
 
