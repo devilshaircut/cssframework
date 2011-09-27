@@ -122,7 +122,7 @@ body {
 	color: $font-color-body;
 	
 	padding: 0 0 100px 0;
-	background: transparent url("../images/line-height.png") repeat 0 0;
+	/*background: transparent url("../images/line-height.png") repeat 0 0;*/
 	
 }
 
@@ -205,7 +205,7 @@ ul.navigation {
 			float: left;
 			padding: 0 20px 0 0;
 			text-decoration: none;
-			color: $font-color-body;
+			color: $font-color-header;
 		}
 		a:hover {
 			color: $accent-color;
@@ -233,6 +233,7 @@ ol.breadcrumbs {
 /* BUTTONS */
 /****************************************************************************************************/
 
+a.icon-button,
 a.cancel-button,
 a.button,
 button,
@@ -260,6 +261,14 @@ input[type="submit"] {
 	@include text-shadow(0 1px 0 #821a11);
 }
 
+a.icon-button {
+	padding-left: 28px;
+	img {
+		position: absolute;
+		margin: -2px 0 0 -21px;
+	}
+}
+
 a.cancel-button {
 	border: none;
 	padding: 11px 8px 8px;
@@ -280,6 +289,7 @@ input[type="submit"] {
 	padding: 9px 8px 22px;
 }
 
+a.icon-button:hover,
 a.button:hover,
 button:hover,
 input[type="submit"]:hover {
@@ -293,6 +303,7 @@ input[type="submit"]:hover {
 	@include text-shadow(0 1px 0 #bc3329);
 }
 
+a.icon-button:active,
 a.button:active,
 button:active,
 input[type="submit"]:active {
@@ -411,6 +422,7 @@ select {
 		.form-label {
 			label {
 				font-weight: bold;
+				color: $font-color-header;
 			}
 		}
 		.form-input {}
