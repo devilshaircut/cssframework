@@ -12,7 +12,7 @@
 $font-color-header: #464646;
 $font-color-subheader: #808080;
 $font-color-body: #696969;
-$accent-color: #ff0000;
+$accent-color: #bc2215;
 
 /* Font Themes */
 $font-family-body: 'Myriad Pro', Helvetica, Arial, sans-serif;
@@ -154,16 +154,20 @@ input[type="submit"] {
 	height: 14px;
 	padding: 10px 8px 7px;
 	margin: 0 10px 7px 0;
-	border: 1px solid #000000;
+	border-top: 1px solid #a95760;
+	border-right: 1px solid #750511;
+	border-bottom: 1px solid #55030c;
+	border-left: 1px solid #750511;
+	color: #ffffff;
 	line-height: 1em;
 	font-size: $font-size-body;
 	font-family: $font-family-body;
 	text-transform: capitalize;
-	background: transparent;
-	color: $font-color-body;
 	cursor: pointer;
 	text-decoration: none;
 	@include border-radius(2px);
+	@include background-image(linear-gradient(#b74634, #8e0d07));
+	@include text-shadow(0 1px 0 #821a11);
 }
 
 a.cancel-button {
@@ -171,6 +175,8 @@ a.cancel-button {
 	padding: 11px 8px 8px;
 	color: $accent-color;
 	text-decoration: underline;
+	background: transparent;
+	@include text-shadow(none);
 }
 
 button {
@@ -188,12 +194,26 @@ a.button:hover,
 button:hover,
 input[type="submit"]:hover {
 	text-decoration: none;
+	border-top: 1px solid #c9606a;
+	border-right: 1px solid #9a121b;
+	border-bottom: 1px solid #77141c;
+	border-left: 1px solid #9a121b;
+	@include background-image(linear-gradient(#de4d3a, #b61111));
+	@include text-shadow(0 1px 0 #ab2217);
 }
 
 a.cancel-button:active,
 a.button:active,
 button:active,
 input[type="submit"]:active {
+	position: relative;
+	top: 2px;
+	border-top: 1px solid #c9606a;
+	border-right: 1px solid #9a121b;
+	border-bottom: 1px solid #77141c;
+	border-left: 1px solid #9a121b;
+	@include background-image(linear-gradient(#b61111, #de4d3a));
+	@include text-shadow(0 1px 0 #ab2217);
 }
 
 
@@ -206,7 +226,7 @@ table {
 	padding: 2px 0 15px 0;
 	colgroup {
 		col {
-			width: 180px;
+			width: 165px;
 			background: transparent url("../images/dotted-line-vertical.png") no-repeat 0 0;
 		}
 		col:nth-child(1) {
@@ -350,15 +370,15 @@ ul.form-list {
 
 .column-3-box,
 .column-3-box-last {
-	width: 280px;
-	padding: 9px 14px 19px 14px;
+	width: 270px;
+	padding: 19px;
 	border: 1px solid $font-color-subheader;
 }
 
 .column-4-box,
 .column-4-box-last {
-	width: 195px;
-	padding: 9px 14px 19px 14px;
+	width: 185px;
+	padding: 9px 19px;
 	border: 1px solid $font-color-subheader;
 }
 
