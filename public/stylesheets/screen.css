@@ -144,7 +144,7 @@ body {
   font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
   color: #696969;
   padding: 0 0 100px 0;
-  /*background: transparent url("../images/line-height.png") repeat 0 0;*/
+  background: transparent url("../images/line-height.png") repeat 0 0;
 }
 
 /* line 129, ../../app/stylesheets/screen.scss */
