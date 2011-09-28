@@ -116,8 +116,6 @@ $accent-color: #bc2215;
 		padding-top: 8px;
 		padding-bottom: 23px;
 	}
-	
-	form {}
 
 	label {
 		font-size: 12px;
@@ -150,7 +148,7 @@ $accent-color: #bc2215;
 	input[type="password"],
 	textarea {
 		padding-top: 7px;
-		padding-bottom: 10px;
+		padding-bottom: 9px;
 		margin-top: 0;
 		margin-bottom: 7px;
 		font-size: 12px;
@@ -163,12 +161,12 @@ $accent-color: #bc2215;
 	.webkit input[type="password"],
 	.webkit textarea {
 		padding-top: 8px;
-		padding-bottom: 9px;
+		padding-bottom: 8px;
 	}
 
 	select {
-		padding-top: 6px;
-		padding-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 
 	textarea {
@@ -548,7 +546,7 @@ input[type="email"],
 input[type="password"],
 textarea {
 	width: 209px;
-	height: 14px;
+	height: 15px;
 	padding-left: 7px;
 	padding-right: 7px;
 	margin-left: 0;
@@ -583,11 +581,10 @@ textarea:focus {
 
 select {
 	padding-left: 4px;
-	padding-right: 7px;
+	padding-right: 5px;
 	height: 33px;
 	width: 225px;
 	cursor: pointer;
-	overflow: visible;
 }
 
 textarea {
