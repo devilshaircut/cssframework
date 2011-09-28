@@ -13,15 +13,28 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-/* line 13, ../../app/stylesheets/empire.scss */
+/* line 21, ../../app/stylesheets/empire.scss */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+select,
+textarea,
+a.button,
+a.cancel-button,
+button {
+  font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+}
+
+/* line 23, ../../app/stylesheets/empire.scss */
 body {
   font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
 }
-/* line 15, ../../app/stylesheets/empire.scss */
+/* line 25, ../../app/stylesheets/empire.scss */
 body #top-bar-container {
   float: none;
 }
-/* line 17, ../../app/stylesheets/empire.scss */
+/* line 27, ../../app/stylesheets/empire.scss */
 body #top-bar-container #top-bar {
   float: none;
   width: 990px;
@@ -38,21 +51,21 @@ body #top-bar-container #top-bar:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 23, ../../app/stylesheets/empire.scss */
+/* line 33, ../../app/stylesheets/empire.scss */
 body #top-bar-container #top-bar #navigation {
   width: auto;
   float: right;
 }
-/* line 26, ../../app/stylesheets/empire.scss */
+/* line 36, ../../app/stylesheets/empire.scss */
 body #top-bar-container #top-bar #navigation li {
   width: auto;
   margin: 0 0 0 10px;
 }
-/* line 33, ../../app/stylesheets/empire.scss */
+/* line 43, ../../app/stylesheets/empire.scss */
 body #banner-container {
   float: none;
 }
-/* line 35, ../../app/stylesheets/empire.scss */
+/* line 45, ../../app/stylesheets/empire.scss */
 body #banner-container #banner {
   float: none;
   width: 990px;
@@ -69,11 +82,11 @@ body #banner-container #banner:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 43, ../../app/stylesheets/empire.scss */
+/* line 53, ../../app/stylesheets/empire.scss */
 body #content-container {
   float: none;
 }
-/* line 45, ../../app/stylesheets/empire.scss */
+/* line 55, ../../app/stylesheets/empire.scss */
 body #content-container #content {
   float: none;
   width: 990px;
@@ -90,11 +103,11 @@ body #content-container #content:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 53, ../../app/stylesheets/empire.scss */
+/* line 63, ../../app/stylesheets/empire.scss */
 body #footer-container {
   float: none;
 }
-/* line 55, ../../app/stylesheets/empire.scss */
+/* line 65, ../../app/stylesheets/empire.scss */
 body #footer-container #footer {
   float: none;
   width: 990px;
