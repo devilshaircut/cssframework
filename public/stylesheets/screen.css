@@ -108,7 +108,7 @@ html h1 {
   line-height: 60px;
   padding: 8px 0 2px 0;
   font-weight: normal;
-  font-family: 'Vollkorn', Helvetica, Arial, sans-serif;
+  font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif;
 }
 /* line 13, ../../app/stylesheets/_vollkorn.scss */
 html h2 {
@@ -116,7 +116,7 @@ html h2 {
   line-height: 50px;
   padding: 5px 0 5px 0;
   font-weight: normal;
-  font-family: 'Vollkorn', Helvetica, Arial, sans-serif;
+  font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif;
 }
 /* line 14, ../../app/stylesheets/_vollkorn.scss */
 html h3 {
@@ -124,7 +124,7 @@ html h3 {
   line-height: 40px;
   padding: 4px 0 6px 0;
   font-weight: normal;
-  font-family: 'Vollkorn', Helvetica, Arial, sans-serif;
+  font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif;
 }
 /* line 15, ../../app/stylesheets/_vollkorn.scss */
 html h4 {
@@ -132,7 +132,7 @@ html h4 {
   line-height: 30px;
   padding: 9px 0 1px 0;
   font-weight: normal;
-  font-family: 'Vollkorn', Helvetica, Arial, sans-serif;
+  font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif;
 }
 /* line 16, ../../app/stylesheets/_vollkorn.scss */
 html h5 {
@@ -140,7 +140,7 @@ html h5 {
   line-height: 20px;
   padding: 6px 0 4px 0;
   font-weight: normal;
-  font-family: 'Vollkorn', Helvetica, Arial, sans-serif;
+  font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif;
 }
 /* line 17, ../../app/stylesheets/_vollkorn.scss */
 html h6 {
@@ -148,7 +148,7 @@ html h6 {
   line-height: 20px;
   padding: 7px 0 3px 0;
   font-weight: normal;
-  font-family: 'Vollkorn', Helvetica, Arial, sans-serif;
+  font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif;
 }
 /* line 18, ../../app/stylesheets/_vollkorn.scss */
 html .webkit h1 {
