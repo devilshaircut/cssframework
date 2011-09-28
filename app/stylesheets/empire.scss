@@ -1,0 +1,63 @@
+@import "compass/utilities/general/clearfix";
+
+h1, h2, h3 {
+	font-family: 'Vollkorn', 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+}
+
+h3 { font-size: 20px; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+body {
+	font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+	#top-bar-container {
+		float: none;
+		#top-bar {
+			float: none;
+			width: 990px;
+			margin: 0 auto;
+			text-align: left;
+			@include legacy-pie-clearfix;
+			#navigation {
+				width: auto;
+				float: right;
+				li {
+					width: auto;
+					margin: 0 0 0 10px;
+				}
+			}
+		}
+	}
+	#banner-container {
+		float: none;
+		#banner {
+			float: none;
+			width: 990px;
+			margin: 0 auto;
+			text-align: left;
+			@include legacy-pie-clearfix;
+		}
+	}
+	#content-container {
+		float: none;
+		#content {
+			float: none;
+			width: 990px;
+			margin: 0 auto;
+			text-align: left;
+			@include legacy-pie-clearfix;
+		}
+	}
+	#footer-container {
+		float: none;
+		#footer {
+			float: none;
+			width: 990px;
+			margin: 0 auto;
+			text-align: left;
+			@include legacy-pie-clearfix;
+		}
+	}
+}

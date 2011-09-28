@@ -351,7 +351,7 @@ input[type="submit"] {
   display: block;
   float: left;
   height: 14px;
-  padding: 10px 8px 7px;
+  padding: 10px 11px 7px;
   margin: 0 10px 7px 0;
   border-top: 1px solid #a95760;
   border-right: 1px solid #750511;
@@ -386,7 +386,7 @@ input[type="submit"] {
 
 /* line 274, ../../app/stylesheets/screen.scss */
 a.icon-button {
-  padding-left: 28px;
+  padding-left: 31px;
 }
 /* line 276, ../../app/stylesheets/screen.scss */
 a.icon-button img {
@@ -411,13 +411,13 @@ a.cancel-button {
 /* line 292, ../../app/stylesheets/screen.scss */
 button {
   height: 0;
-  padding: 9px 5px 22px;
+  padding: 9px 8px 22px;
 }
 
 /* line 297, ../../app/stylesheets/screen.scss */
 input[type="submit"] {
   height: 0;
-  padding: 9px 8px 22px;
+  padding: 9px 11px 22px;
 }
 
 /* line 305, ../../app/stylesheets/screen.scss */

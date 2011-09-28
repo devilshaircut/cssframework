@@ -5,7 +5,7 @@
 <head>
 
   <title>A CSS Framework | By: Jason Bishop</title>
-  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag "ie", "print", "screen" %>
   <%= javascript_include_tag "jquery" %>
   <%= csrf_meta_tag %>
 
@@ -20,13 +20,8 @@
 <body>
 	
 <!--<img src="/images/line-height.png" style="position: absolute; z-index: 1000; margin-left: -1300px" />-->
-	
-<div id="page-container">
 
 <%= yield %>
-
-</div>
-<!-- #page-container -->
 
 </body>
 

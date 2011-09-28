@@ -251,7 +251,7 @@ input[type="submit"] {
 	display: block;
 	float: left;
 	height: 14px;
-	padding: 10px 8px 7px;
+	padding: 10px 11px 7px;
 	margin: 0 10px 7px 0;
 	border-top: 1px solid #a95760;
 	border-right: 1px solid #750511;
@@ -272,7 +272,7 @@ input[type="submit"] {
 }
 
 a.icon-button {
-	padding-left: 28px;
+	padding-left: 31px;
 	img {
 		position: absolute;
 		margin: -2px 0 0 -21px;
@@ -291,12 +291,12 @@ a.cancel-button {
 
 button {
 	height: 0;
-	padding: 9px 5px 22px;
+	padding: 9px 8px 22px;
 }
 
 input[type="submit"] {
 	height: 0;
-	padding: 9px 8px 22px;
+	padding: 9px 11px 22px;
 }
 
 a.icon-button:hover,
