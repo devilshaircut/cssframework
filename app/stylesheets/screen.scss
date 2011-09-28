@@ -5,86 +5,239 @@
 
 
 /****************************************************************************************************/
-/* THEMES */
+/* COLOR THEMES */
 /****************************************************************************************************/
 
-/* Color Themes */
+/* Grey Theme */
+
 $font-color-header: #464646;
 $font-color-subheader: #808080;
 $font-color-body: #696969;
 $accent-color: #bc2215;
 
-/* Font Themes */
-$font-family-body: 'Myriad Pro', Helvetica, Arial, sans-serif;
-$font-family-headers: 'Myriad Pro', Helvetica, Arial, sans-serif;
-$font-size-body: 12px;
-$line-height-body: 1.667em;
-
 
 
 /****************************************************************************************************/
-/* MIXINS */
+/* FONT THEMES: We must reset the padding on ALL font-dependent elements on a per-font basis.       */
 /****************************************************************************************************/
 
-/* Font-Size + Line Height Mixin */
-@mixin font-12-line-20 {
-	font-size: 12px;
-	line-height: 20px;
-	padding: 7px 0 3px 0;
+@mixin font-theme-header-open-sans {
+
+	body {
+		font-size: 12px;
+		line-height: 1.667em;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	}
+	
+	h1 { font-size: 48px; line-height: 60px; padding: 1px 0 9px 0; }
+	.webkit h2 { font-size: 36px; line-height: 50px; padding: 2px 0 8px 0; }
+	h2 { font-size: 36px; line-height: 50px; padding: 1px 0 9px 0; }
+	h3 { font-size: 25px; line-height: 40px; padding: 0px 0 0px 0; }
+	h4 { font-size: 20px; line-height: 30px; padding: 7px 0 3px 0; }
+	.webkit h4 { font-size: 20px; line-height: 30px; padding: 8px 0 2px 0; }
+	h5 { font-size: 14px; line-height: 20px; padding: 5px 0 5px 0; }
+	h6 { font-size: 12px; line-height: 20px; padding: 5px 0 5px 0; }
+	.webkit h6 { font-size: 12px; line-height: 20px; padding: 6px 0 4px 0; }
+	
 }
 
-@mixin font-14-line-20 {
-	font-size: 14px;
-	line-height: 20px;
-	padding: 6px 0 4px 0;
-}
+@mixin font-theme-body-open-sans {
 
-@mixin font-14-line-20-webkit {
-	font-size: 14px;
-	line-height: 20px;
-	padding: 7px 0 3px 0;
-}
+	body {
+		font-size: 12px;
+		line-height: 1.667em;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	}
 
-@mixin font-20-line-30 {
-	font-size: 20px;
-	line-height: 30px;
-	padding: 10px 0;
-}
+	p { padding: 5px 0 5px 0; }
+	.webkit p { padding: 6px 0 4px 0; }
 
-@mixin font-26-line-40 {
-	font-size: 26px;
-	line-height: 40px;
-	padding: 13px 0 17px 0;
-}
+	ul,
+	ol {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.webkit ul,
+	.webkit ol {
+		padding-top: 6px;
+		padding-bottom: 4px;
+	}
+	
+	ul.lined,
+	ol.lined {
+		li {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
+		}
+		li:nth-child(1) {
+			background: none;
+		}
+	}
+	
+	a.icon-button,
+	a.cancel-button,
+	a.button,
+	button,
+	input[type="submit"] {
+		padding-top: 8px;
+		padding-bottom: 9px;
+		margin-top: 0;
+		margin-bottom: 7px;
+		line-height: 1em;
+		font-size: 12px;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	}
 
-@mixin font-26-line-40-webkit {
-	font-size: 26px;
-	line-height: 40px;
-	padding: 14px 0 16px 0;
-}
+	a.cancel-button {
+		padding-top: 9px;
+		padding-bottom: 10px;
+	}
 
-.font-12-line-20 {
-	@include font-12-line-20;
-}
+	button {
+		padding-top: 7px;
+		padding-bottom: 24px;
+	}
+	.webkit button {
+		padding-top: 8px;
+		padding-bottom: 23px;
+	}
 
-.font-14-line-20 {
-	@include font-14-line-20;
-}
+	input[type="submit"] {
+		padding-top: 5px;
+		padding-bottom: 26px;
+	}
+	.webkit input[type="submit"] {
+		padding-top: 8px;
+		padding-bottom: 23px;
+	}
+	
+	form {}
 
-.webkit .font-14-line-20 {
-	@include font-14-line-20-webkit;
-}
+	label {
+		font-size: 12px;
+		line-height: 1.667em;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.webkit label {
+		padding-top: 6px;
+		padding-bottom: 4px;
+	}
+	
+	input[type="checkbox"] {
+		margin-top: 4px;
+		margin-bottom: 0;
+	}
+	.webkit input[type="checkbox"] {
+		margin-top: 5px;
+		margin-bottom: 0;
+	}
+	
+	input[type="radio"] {
+		margin-top: 5px;
+		margin-bottom: 0;
+	}
 
-.font-20-line-30 {
-	@include font-20-line-30;
-}
+	select,
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	textarea {
+		padding-top: 7px;
+		padding-bottom: 10px;
+		margin-top: 0;
+		margin-bottom: 7px;
+		font-size: 12px;
+		line-height: 1.667em;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	}
+	.webkit select,
+	.webkit input[type="text"],
+	.webkit input[type="email"],
+	.webkit input[type="password"],
+	.webkit textarea {
+		padding-top: 8px;
+		padding-bottom: 9px;
+	}
 
-.font-26-line-40 {
-	@include font-26-line-40;
-}
+	select {
+		padding-top: 6px;
+		padding-bottom: 10px;
+	}
 
-.webkit .font-26-line-40 {
-	@include font-26-line-40-webkit;
+	textarea {
+		padding-top: 4px;
+		padding-bottom: 13px;
+	}
+	.webkit textarea {
+		padding-top: 5px;
+		padding-bottom: 12px;
+	}
+
+	ul.form {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		li {
+			label {
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
+	}
+	.webkit ul.form {
+		padding-top: 16px;
+		padding-bottom: 14px;
+		li {
+			label {
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
+	}
+	
+	table {
+		padding-top: 0;
+		padding-bottom: 10px;
+		thead {
+			tr {
+				th {
+					padding-top: 5px;
+					padding-bottom: 5px;
+				}
+			}
+		}
+		tbody {
+			tr {
+				td {
+					padding-top: 5px;
+					padding-bottom: 5px;
+				}
+			}
+		}
+	}
+	
+	.webkit table {
+		padding-top: 0;
+		padding-bottom: 10px;
+		thead {
+			tr {
+				th {
+					padding-top: 6px;
+					padding-bottom: 4px;
+				}
+			}
+		}
+		tbody {
+			tr {
+				td {
+					padding-top: 6px;
+					padding-bottom: 4px;
+				}
+			}
+		}
+	}
+
 }
 
 
@@ -113,17 +266,19 @@ textarea {
 /* BASE STYLES */
 /****************************************************************************************************/
 
+html {
+	@include font-theme-header-open-sans;	
+	@include font-theme-body-open-sans;
+}
+
 body {
 	width: 100%;
-	font-size: $font-size-body;
 	text-align: center;
-	line-height: $line-height-body;
-	font-family: $font-family-body;
 	color: $font-color-body;
 	
 	padding: 0 0 100px 0;
 	/*background: transparent url("../images/line-height.png") repeat 0 0;*/
-	
+
 }
 
 #page-container {
@@ -139,8 +294,14 @@ a:hover { text-decoration: none; }
 strong { font-weight: bold; }
 em { font-style: italic; }
 
+ul,
+ol {
+	padding-left: 0;
+	padding-right: 0;
+	li {}
+}
+
 p {
-	@include font-12-line-20;
 	img.paragraph-icon {
 		display: block;
 		float: left;
@@ -153,88 +314,6 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	color: $font-color-header;
 	font-weight: bold;
-}
-h1 { font-size: 48px; padding: 18px 0 22px 0; line-height: 60px; }
-h2 { font-size: 24px; padding: 4px 0 16px 0; }
-h3 { font-size: 14px; padding: 6px 0 4px 0; }
-h4 { @include font-12-line-20; }
-h5 { @include font-12-line-20; }
-h6 { @include font-12-line-20; }
-
-h3.subheader,
-h3.lined-subheader {
-	padding: 6px 0 8px 0;
-	line-height: 14px;
-	div {
-		margin: 0 0 2px 0;
-	}
-	span {
-	line-height: 10px;
-		display: block;
-		float: left;
-		width: 100%;
-		font-size: 10px;
-		font-weight: normal;
-		color: $font-color-subheader;
-	}
-}
-
-h3.lined-subheader {
-	padding: 6px 0 9px 0;
-	margin: 0 0 9px 0;
-	background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
-}
-		
-ul,
-ol {
-	padding: 7px 0 3px;
-	margin: 0 0 10px 0;
-	li {}
-}
-
-ul.lined,
-ol.lined {
-	padding: 1px 0 9px 0;
-	margin: 0;
-	li {
-		padding: 6px 0 4px 0;
-		background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
-	}
-	li:nth-child(1) {
-		background: none;
-	}
-}
-
-ul.navigation {
-	font-size: 18px;
-	padding: 5px 0 5px 0;
-	li {
-		width: auto;
-		a {
-			display: block;
-			float: left;
-			padding: 0 20px 0 0;
-			text-decoration: none;
-			color: $font-color-header;
-		}
-		a:hover {
-			color: $accent-color;
-			text-decoration: underline;
-		}
-	}
-}
-
-ol.breadcrumbs {
-	li {
-		width: auto;
-		margin: 0 5px 0 0;
-		span,
-		a {
-			display: block;
-			float: left;
-			margin: 0 5px 0 0;
-		}
-	}
 }
 
 
@@ -251,16 +330,15 @@ input[type="submit"] {
 	display: block;
 	float: left;
 	height: 14px;
-	padding: 10px 11px 7px;
-	margin: 0 10px 7px 0;
+	padding-left: 11px;
+	padding-right: 11px;
+	margin-left: 0;
+	margin-right: 10px;
 	border-top: 1px solid #a95760;
 	border-right: 1px solid #750511;
 	border-bottom: 1px solid #55030c;
 	border-left: 1px solid #750511;
 	color: #ffffff;
-	line-height: 1em;
-	font-size: $font-size-body;
-	font-family: $font-family-body;
 	font-weight: bold;
 	text-transform: capitalize;
 	cursor: pointer;
@@ -281,7 +359,8 @@ a.icon-button {
 
 a.cancel-button {
 	border: none;
-	padding: 11px 8px 8px;
+	padding-left: 8px;
+	padding-right: 8px;
 	color: $accent-color;
 	text-decoration: underline;
 	background: transparent;
@@ -291,12 +370,14 @@ a.cancel-button {
 
 button {
 	height: 0;
-	padding: 9px 8px 22px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 input[type="submit"] {
 	height: 0;
-	padding: 9px 11px 22px;
+	padding-left: 11px;
+	padding-right: 11px;
 }
 
 a.icon-button:hover,
@@ -334,140 +415,7 @@ a.cancel-button:active { position: relative; top: 2px; }
 
 
 /****************************************************************************************************/
-/* TABLES */
-/****************************************************************************************************/
-
-table {
-	padding: 2px 0 15px 0;
-	colgroup {
-		col {
-			width: 165px;
-			background: transparent url("../images/dotted-line-vertical.png") no-repeat 0 0;
-		}
-		col:nth-child(1) {
-			background: none;
-		}
-	}
-	thead {
-		tr {
-			th {
-				padding: 0 10px 3px;
-				font-weight: bold;
-			}
-		}
-	}
-	tbody {
-		tr {
-			background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
-			td {
-				padding: 12px 10px 8px 10px;
-			}
-		}
-		tr:nth-child(odd) {
-			td {}
-		}
-		tr:hover {
-		}
-	}
-}
-
-
-
-/****************************************************************************************************/
-/* FORMS */
-/****************************************************************************************************/
-
-form {}
-
-label {
-	width: auto;
-	cursor: pointer;
-	font-size: 12px;
-	line-height: 1.667em;
-	padding: 7px 0 3px 0;
-}
-
-select,
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea {
-	width: 209px;
-	height: 14px;
-	padding: 9px 7px 8px 7px;
-	margin: 0 10px 7px 0;
-	border: 1px solid $font-color-subheader;
-	line-height: $line-height-body;
-	font-size: $font-size-body;
-	font-family: $font-family-body;
-	color: $font-color-body;
-	background: transparent;
-}
-
-select:hover,
-input[type="text"]:hover,
-input[type="email"]:hover,
-input[type="password"]:hover,
-textarea:hover {
-	border-color: $accent-color;
-}
-
-select:focus,
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-textarea:focus {
-	border-color: $accent-color;
-}
-
-select {
-	padding: 8px 7px 8px 4px;
-	height: 33px;
-	width: 225px;
-	cursor: pointer;
-}
-
-textarea {
-	height: 54px;
-	padding: 6px 7px 11px;
-	resize: vertical;
-}
-
-.form {
-	.form-row {
-		.form-label {
-			label {
-				font-weight: bold;
-				color: $font-color-header;
-			}
-		}
-		.form-input {}
-	}
-}
-
-ul.form-list {
-	li {
-		label {
-			padding: 0;
-		}
-		input[type="radio"],
-		input[type="checkbox"] {
-			display: block;
-			float: left;
-			margin: 2px 5px 0 0;
-			position: relative;
-			cursor: pointer;
-		}
-		input[type="radio"] {
-			margin: 4px 5px 0 0;
-		}
-	}
-}
-
-
-
-/****************************************************************************************************/
-/* UTILITY CLASSES */
+/* COLUMNS */
 /****************************************************************************************************/
 
 .column-2,
@@ -553,18 +501,161 @@ ul.form-list {
 
 
 /****************************************************************************************************/
-/* BROWSER HACKS */
+/* FORMS */
 /****************************************************************************************************/
 
-/* Gecko */		.mozilla input::-moz-focus-inner { border: 0; padding: 0; } /* Remove button padding in FF. */
-/* Webkit */	.webkit button { padding: 10px 5px 21px; } /* Fix position of text in Button buttons for Webkit */
-/* Webkit */	.webkit input[type="submit"] { padding: 10px 8px 21px; } /* Fix position of text in Input buttons for Webkit */
-/* Webkit */	.webkit ul.form-list input[type="checkbox"] { margin: 4px 5px 0 0; } /* Fix position of checkbox for Webkit */
-/* Webkit */	.webkit h2 { padding: 6px 0 14px 0; } /* Fix padding on h2 for Webkit. */
-/* Webkit */	.webkit h3 { padding: 7px 0 3px 0; } /* Fix padding on h3 for Webkit. */
-/* Webkit */	.webkit h3.subheader { padding: 6px 0 8px 0; } /* Fix padding on h3 with subheader for Webkit. */
-/* Webkit */	.webkit h3.lined-subheader { padding: 6px 0 9px 0; } /* Fix padding on h3 with lined subheader for Webkit. */
-/* Webkit */	.webkit ul.navigation { padding: 6px 0 4px 0; } /* Fix padding on Navigation for Webkit. */
+form {}
+
+label {
+	width: auto;
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: block;
+	float: left;
+	margin-left: 0;
+	margin-right: 7px;
+	position: relative;
+	cursor: pointer;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+	width: 209px;
+	height: 14px;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-left: 0;
+	margin-right: 10px;
+	border: 1px solid $font-color-subheader;
+	color: $font-color-body;
+	background: transparent;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: block;
+	float: left;
+	width: auto;
+}
+
+select:hover,
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+textarea:hover {
+	border-color: $accent-color;
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	border-color: $accent-color;
+}
+
+select {
+	padding-left: 4px;
+	padding-right: 7px;
+	height: 33px;
+	width: 225px;
+	cursor: pointer;
+	overflow: visible;
+}
+
+textarea {
+	height: 54px;
+	padding-left: 7px;
+	padding-right: 7px;
+	resize: vertical;
+}
+
+.form {
+	.form-row {
+		.form-label {
+			label {
+				font-weight: bold;
+				color: $font-color-header;
+			}
+		}
+		.form-input {}
+	}
+}
+
+ul.form {
+	li {
+		label {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+
+
+/****************************************************************************************************/
+/* TABLES */
+/****************************************************************************************************/
+
+table {
+	padding-left: 0;
+	padding-right: 0;
+	colgroup {
+		col {
+			width: 165px;
+			background: transparent url("../images/dotted-line-vertical.png") no-repeat 0 0;
+		}
+		col:nth-child(1) {
+			background: none;
+		}
+	}
+	thead {
+		tr {
+			th {
+				padding-left: 10px;
+				padding-right: 10px;
+				font-weight: bold;
+			}
+		}
+	}
+	tbody {
+		tr {
+			background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
+			td {
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+		}
+		tr:nth-child(odd) {
+			td {}
+		}
+		tr:hover {
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
