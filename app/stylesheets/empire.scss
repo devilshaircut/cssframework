@@ -1,73 +1,140 @@
+@import "compass/css3";
 @import "compass/utilities/general/clearfix";
 
-h1, h2, h3 {
-	font-family: 'Vollkorn', 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
-}
+html {
 
-h3 { font-size: 20px; }
+	h1, h2, h3 {
+		font-family: 'Vollkorn', 'Open Sans', Helvetica, Arial, sans serif;
+	}
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-}
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+	}
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="submit"],
-select,
-textarea,
-a.button,
-a.cancel-button,
-button { font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif; }
+	h3.article-title {
+		padding: 11px 0 4px 0;
+		font-size: 25px;
+		line-height: 1em;
+	}
+	h4.article-subtitle {
+		padding: 1px 0 7px 0;
+		margin: 0 0 10px 0;
+		font-size: 10px;
+		line-height: 1em;
+		height: 12px;
+		font-family: 'Open Sans', Helvetica, Arial, sans serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		span {
+			line-height: 1em;
+			font-family: 'Vollkorn', 'Open Sans', Helvetica, Arial, sans serif;
+			font-style: italic;
+			font-weight: normal;
+			text-transform: lowercase;
+		}
+	}
 
-body {
-	font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
-	#top-bar-container {
-		float: none;
-		#top-bar {
+	h5.article-title {
+		padding: 7px 0 3px 0;
+		line-height: 1em;
+		a { text-decoration: none; }
+	}
+	h6.article-subtitle {
+		padding: 0 0 7px 0;
+		margin: 0;
+		font-size: 8px;
+		line-height: 1em;
+		font-family: 'Open Sans', Helvetica, Arial, sans serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		span {
+			line-height: 1em;
+			font-family: 'Vollkorn', 'Open Sans', Helvetica, Arial, sans serif;
+			font-style: italic;
+			font-weight: normal;
+			text-transform: lowercase;
+		}
+	}
+	
+	ol.lined-large,
+	ul.lined-large {
+		padding: 2px 0 8px 0;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	input[type="submit"],
+	select,
+	textarea,
+	a.button,
+	a.cancel-button,
+	button { font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif; }
+
+	body {
+		font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+		background: #0f0f0e;
+		#top-bar-container {
 			float: none;
-			width: 990px;
-			margin: 0 auto;
-			text-align: left;
-			@include legacy-pie-clearfix;
-			#navigation {
-				width: auto;
-				float: right;
-				li {
+			@include background-image(linear-gradient(#43403c, #353331));
+			#top-bar {
+				float: none;
+				width: 990px;
+				margin: 0 auto;
+				text-align: left;
+				@include legacy-pie-clearfix;
+				#navigation {
 					width: auto;
-					margin: 0 0 0 10px;
+					float: right;
+					li {
+						width: auto;
+						margin: 0 0 0 10px;
+					}
 				}
 			}
 		}
-	}
-	#banner-container {
-		float: none;
-		#banner {
+		#banner-container {
 			float: none;
-			width: 990px;
-			margin: 0 auto;
-			text-align: left;
-			@include legacy-pie-clearfix;
+			background: #ffffff;
+			#banner {
+				float: none;
+				width: 990px;
+				margin: 0 auto;
+				text-align: left;
+				@include legacy-pie-clearfix;
+			}
+		}
+		#content-container {
+			float: none;
+			background: #ffffff;
+			#content {
+				float: none;
+				width: 990px;
+				margin: 0 auto;
+				text-align: left;
+				@include legacy-pie-clearfix;
+			}
+		}
+		#footer-container {
+			float: none;
+			color: #ffffff;
+			@include background-image(linear-gradient(#2e2a25, #0f0f0e));
+			@include text-shadow(0 1px 0 #060605);
+			a { color: #cccccc; text-decoration: none; }
+			a:hover { color: #ffffff; text-decoration: underline; }
+			h1, h2, h3, h4, h5 { color: #ffffff; }
+			h4 { margin: 0 0 10px 0; }
+			h6.article-subtitle { color: #a8a8a8; }
+			h5 a { color: #ffffff; }
+			#footer {
+				float: none;
+				width: 990px;
+				padding: 20px 0;
+				margin: 0 auto;
+				text-align: left;
+				@include legacy-pie-clearfix;
+			}
 		}
 	}
-	#content-container {
-		float: none;
-		#content {
-			float: none;
-			width: 990px;
-			margin: 0 auto;
-			text-align: left;
-			@include legacy-pie-clearfix;
-		}
-	}
-	#footer-container {
-		float: none;
-		#footer {
-			float: none;
-			width: 990px;
-			margin: 0 auto;
-			text-align: left;
-			@include legacy-pie-clearfix;
-		}
-	}
+	
 }

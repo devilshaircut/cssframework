@@ -1,41 +1,97 @@
-/* line 3, ../../app/stylesheets/empire.scss */
-h1, h2, h3 {
-  font-family: 'Vollkorn', 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+/* line 6, ../../app/stylesheets/empire.scss */
+html h1, html h2, html h3 {
+  font-family: 'Vollkorn', 'Open Sans', Helvetica, Arial, sans serif;
 }
-
-/* line 7, ../../app/stylesheets/empire.scss */
-h3 {
-  font-size: 20px;
-}
-
-/* line 9, ../../app/stylesheets/empire.scss */
-h1, h2, h3, h4, h5, h6 {
+/* line 10, ../../app/stylesheets/empire.scss */
+html h1, html h2, html h3, html h4, html h5, html h6 {
   font-weight: normal;
 }
-
-/* line 21, ../../app/stylesheets/empire.scss */
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="submit"],
-select,
-textarea,
-a.button,
-a.cancel-button,
-button {
+/* line 14, ../../app/stylesheets/empire.scss */
+html h3.article-title {
+  padding: 11px 0 4px 0;
+  font-size: 25px;
+  line-height: 1em;
+}
+/* line 19, ../../app/stylesheets/empire.scss */
+html h4.article-subtitle {
+  padding: 1px 0 7px 0;
+  margin: 0 0 10px 0;
+  font-size: 10px;
+  line-height: 1em;
+  height: 12px;
+  font-family: 'Open Sans', Helvetica, Arial, sans serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 28, ../../app/stylesheets/empire.scss */
+html h4.article-subtitle span {
+  line-height: 1em;
+  font-family: 'Vollkorn', 'Open Sans', Helvetica, Arial, sans serif;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+/* line 37, ../../app/stylesheets/empire.scss */
+html h5.article-title {
+  padding: 7px 0 3px 0;
+  line-height: 1em;
+}
+/* line 40, ../../app/stylesheets/empire.scss */
+html h5.article-title a {
+  text-decoration: none;
+}
+/* line 42, ../../app/stylesheets/empire.scss */
+html h6.article-subtitle {
+  padding: 0 0 7px 0;
+  margin: 0;
+  font-size: 8px;
+  line-height: 1em;
+  font-family: 'Open Sans', Helvetica, Arial, sans serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 50, ../../app/stylesheets/empire.scss */
+html h6.article-subtitle span {
+  line-height: 1em;
+  font-family: 'Vollkorn', 'Open Sans', Helvetica, Arial, sans serif;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+/* line 60, ../../app/stylesheets/empire.scss */
+html ol.lined-large,
+html ul.lined-large {
+  padding: 2px 0 8px 0;
+}
+/* line 72, ../../app/stylesheets/empire.scss */
+html input[type="text"],
+html input[type="email"],
+html input[type="password"],
+html input[type="submit"],
+html select,
+html textarea,
+html a.button,
+html a.cancel-button,
+html button {
   font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
 }
-
-/* line 23, ../../app/stylesheets/empire.scss */
-body {
+/* line 74, ../../app/stylesheets/empire.scss */
+html body {
   font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+  background: #0f0f0e;
 }
-/* line 25, ../../app/stylesheets/empire.scss */
-body #top-bar-container {
+/* line 77, ../../app/stylesheets/empire.scss */
+html body #top-bar-container {
   float: none;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #43403c), color-stop(100%, #353331));
+  background-image: -webkit-linear-gradient(#43403c, #353331);
+  background-image: -moz-linear-gradient(#43403c, #353331);
+  background-image: -o-linear-gradient(#43403c, #353331);
+  background-image: -ms-linear-gradient(#43403c, #353331);
+  background-image: linear-gradient(#43403c, #353331);
 }
-/* line 27, ../../app/stylesheets/empire.scss */
-body #top-bar-container #top-bar {
+/* line 80, ../../app/stylesheets/empire.scss */
+html body #top-bar-container #top-bar {
   float: none;
   width: 990px;
   margin: 0 auto;
@@ -43,7 +99,7 @@ body #top-bar-container #top-bar {
   *zoom: 1;
 }
 /* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-body #top-bar-container #top-bar:after {
+html body #top-bar-container #top-bar:after {
   content: "\0020";
   display: block;
   height: 0;
@@ -51,22 +107,23 @@ body #top-bar-container #top-bar:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 33, ../../app/stylesheets/empire.scss */
-body #top-bar-container #top-bar #navigation {
+/* line 86, ../../app/stylesheets/empire.scss */
+html body #top-bar-container #top-bar #navigation {
   width: auto;
   float: right;
 }
-/* line 36, ../../app/stylesheets/empire.scss */
-body #top-bar-container #top-bar #navigation li {
+/* line 89, ../../app/stylesheets/empire.scss */
+html body #top-bar-container #top-bar #navigation li {
   width: auto;
   margin: 0 0 0 10px;
 }
-/* line 43, ../../app/stylesheets/empire.scss */
-body #banner-container {
+/* line 96, ../../app/stylesheets/empire.scss */
+html body #banner-container {
   float: none;
+  background: #ffffff;
 }
-/* line 45, ../../app/stylesheets/empire.scss */
-body #banner-container #banner {
+/* line 99, ../../app/stylesheets/empire.scss */
+html body #banner-container #banner {
   float: none;
   width: 990px;
   margin: 0 auto;
@@ -74,7 +131,7 @@ body #banner-container #banner {
   *zoom: 1;
 }
 /* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-body #banner-container #banner:after {
+html body #banner-container #banner:after {
   content: "\0020";
   display: block;
   height: 0;
@@ -82,12 +139,13 @@ body #banner-container #banner:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 53, ../../app/stylesheets/empire.scss */
-body #content-container {
+/* line 107, ../../app/stylesheets/empire.scss */
+html body #content-container {
   float: none;
+  background: #ffffff;
 }
-/* line 55, ../../app/stylesheets/empire.scss */
-body #content-container #content {
+/* line 110, ../../app/stylesheets/empire.scss */
+html body #content-container #content {
   float: none;
   width: 990px;
   margin: 0 auto;
@@ -95,7 +153,7 @@ body #content-container #content {
   *zoom: 1;
 }
 /* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-body #content-container #content:after {
+html body #content-container #content:after {
   content: "\0020";
   display: block;
   height: 0;
@@ -103,20 +161,55 @@ body #content-container #content:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 63, ../../app/stylesheets/empire.scss */
-body #footer-container {
+/* line 118, ../../app/stylesheets/empire.scss */
+html body #footer-container {
   float: none;
+  color: #ffffff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2e2a25), color-stop(100%, #0f0f0e));
+  background-image: -webkit-linear-gradient(#2e2a25, #0f0f0e);
+  background-image: -moz-linear-gradient(#2e2a25, #0f0f0e);
+  background-image: -o-linear-gradient(#2e2a25, #0f0f0e);
+  background-image: -ms-linear-gradient(#2e2a25, #0f0f0e);
+  background-image: linear-gradient(#2e2a25, #0f0f0e);
+  text-shadow: 0 1px 0 #060605;
 }
-/* line 65, ../../app/stylesheets/empire.scss */
-body #footer-container #footer {
+/* line 123, ../../app/stylesheets/empire.scss */
+html body #footer-container a {
+  color: #cccccc;
+  text-decoration: none;
+}
+/* line 124, ../../app/stylesheets/empire.scss */
+html body #footer-container a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+/* line 125, ../../app/stylesheets/empire.scss */
+html body #footer-container h1, html body #footer-container h2, html body #footer-container h3, html body #footer-container h4, html body #footer-container h5 {
+  color: #ffffff;
+}
+/* line 126, ../../app/stylesheets/empire.scss */
+html body #footer-container h4 {
+  margin: 0 0 10px 0;
+}
+/* line 127, ../../app/stylesheets/empire.scss */
+html body #footer-container h6.article-subtitle {
+  color: #a8a8a8;
+}
+/* line 128, ../../app/stylesheets/empire.scss */
+html body #footer-container h5 a {
+  color: #ffffff;
+}
+/* line 129, ../../app/stylesheets/empire.scss */
+html body #footer-container #footer {
   float: none;
   width: 990px;
+  padding: 20px 0;
   margin: 0 auto;
   text-align: left;
   *zoom: 1;
 }
 /* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-body #footer-container #footer:after {
+html body #footer-container #footer:after {
   content: "\0020";
   display: block;
   height: 0;

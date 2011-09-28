@@ -9,12 +9,12 @@
 		line-height: 1.667em;
 	}
 	
-	h1 { font-size: 48px; line-height: 60px; padding: 8px 0 2px 0; font-weight: normal; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
-	h2 { font-size: 36px; line-height: 50px; padding: 5px 0 5px 0; font-weight: normal; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
-	h3 { font-size: 25px; line-height: 40px; padding: 4px 0 6px 0; font-weight: normal; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
-	h4 { font-size: 20px; line-height: 30px; padding: 9px 0 1px 0; font-weight: normal; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
-	h5 { font-size: 14px; line-height: 20px; padding: 6px 0 4px 0; font-weight: normal; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
-	h6 { font-size: 12px; line-height: 20px; padding: 7px 0 3px 0; font-weight: normal; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
+	h1 { font-size: 48px; line-height: 60px; padding: 8px 0 2px 0; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
+	h2 { font-size: 36px; line-height: 50px; padding: 5px 0 5px 0; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
+	h3 { font-size: 25px; line-height: 40px; padding: 4px 0 6px 0; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
+	h4 { font-size: 20px; line-height: 30px; padding: 9px 0 1px 0; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
+	h5 { font-size: 14px; line-height: 20px; padding: 6px 0 4px 0; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
+	h6 { font-size: 12px; line-height: 20px; padding: 7px 0 3px 0; font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif; }
 	.webkit h1 { padding: 7px 0 3px 0; }
 	.webkit h2 { padding: 6px 0 4px 0; }
 	.webkit h4 { padding: 10px 0 0px 0; }
@@ -40,12 +40,22 @@
 	}
 
 	ul.lined,
-	ol.lined {
+	ol.lined,
+	ul.lined-large,
+	ol.lined-large {
 		padding-top: 1px;
 		padding-bottom: 9px;
 		li {
 			padding-top: 6px;
 			padding-bottom: 4px;
+		}
+	}
+
+	ul.lined-large,
+	ol.lined-large {
+		li {
+			padding-top: 11px;
+			padding-bottom: 9px;
 		}
 	}
 	
@@ -61,7 +71,6 @@
 		line-height: 1em;
 		font-size: 12px;
 		font-family: 'Vollkorn', 'Georgia', 'Times New Roman', serif;
-	 font-weight: normal;
 	}
 
 	a.cancel-button {
@@ -157,17 +166,6 @@
 		}
 	}
 	
-	div.form {
-		.form-row {
-			.form-label {
-				label {
-					font-weight: normal;
-				}
-			}
-			.form-input {}
-		}
-	}
-	
 	table {
 		padding-top: 1px;
 		padding-bottom: 9px;
@@ -176,7 +174,6 @@
 				th {
 					padding-top: 6px;
 					padding-bottom: 4px;
-					font-weight: normal;
 				}
 			}
 		}

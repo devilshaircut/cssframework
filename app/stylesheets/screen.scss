@@ -58,10 +58,6 @@ body {
 	width: 100%;
 	text-align: center;
 	color: $font-color-body;
-	
-	padding: 0 0 100px 0;
-	background: transparent url("../images/line-height.png") repeat 0 0;
-
 }
 
 #page-container {
@@ -85,7 +81,9 @@ ol {
 }
 
 ul.lined,
-ol.lined {
+ol.lined,
+ul.lined-large,
+ol.lined-large {
 	padding-left: 0;
 	padding-right: 0;
 	li {
