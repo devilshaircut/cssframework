@@ -65,13 +65,18 @@ $accent-color: #bc2215;
 	
 	ul.lined,
 	ol.lined {
+		padding-top: 0;
+		padding-bottom: 10px;
 		li {
 			padding-top: 5px;
 			padding-bottom: 5px;
-			background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 		}
-		li:nth-child(1) {
-			background: none;
+	}
+	.webkit ul.lined,
+	.webkit ol.lined {
+		li {
+			padding-top: 6px;
+			padding-bottom: 4px;
 		}
 	}
 	
@@ -277,7 +282,7 @@ body {
 	color: $font-color-body;
 	
 	padding: 0 0 100px 0;
-	/*background: transparent url("../images/line-height.png") repeat 0 0;*/
+	background: transparent url("../images/line-height.png") repeat 0 0;
 
 }
 
@@ -299,6 +304,20 @@ ol {
 	padding-left: 0;
 	padding-right: 0;
 	li {}
+}
+
+ul.lined,
+ol.lined {
+	padding-left: 0;
+	padding-right: 0;
+	li {
+		padding-left: 0;
+		padding-right: 0;
+		background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
+	}
+	li:nth-child(1) {
+		background: none;
+	}
 }
 
 p {
