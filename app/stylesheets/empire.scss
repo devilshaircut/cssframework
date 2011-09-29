@@ -62,6 +62,18 @@ html {
 		}
 	}
 	
+	.article-options {
+		padding: 10px 0 0 0;
+		p {
+			a,
+			span {
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 10px;
+			}
+		}
+	}
+	
 	ol.lined-large,
 	ul.lined-large {
 		padding: 2px 0 8px 0;
@@ -78,6 +90,20 @@ html {
 				border: 1px solid #cccccc;
 			}
 		}
+	}
+	
+	ol#breadcrumbs {
+		padding: 0 0 15px 0;
+		margin: -5px 0 0 0;
+		position: relative;
+		li {
+			width: auto;
+			padding-right: 5px;
+			a { padding-right: 5px; }
+		}
+	}
+	.webkit ol#breadcrumbs {
+		padding: 1px 0 14px 0;
 	}
 
 	input[type="text"],
@@ -162,13 +188,14 @@ html {
 						width: auto;
 						padding: 0 10px;
 						a { color: #cccccc; text-decoration: none; }
+						a.current,
 						a:hover { color: #ffffff; text-decoration: underline; }
 					}
 				}
 			}
 		}
 		#banner-container {
-			padding: 32px 0 9px 0;
+			padding: 12px 0 9px 0;
 			border-top: 1px solid #ffffff;
 			border-bottom: 1px solid #d2d1d0;
 			float: none;
@@ -176,10 +203,18 @@ html {
 			h3 { color: #4c4843; }
 			@include background-image(linear-gradient(#f5f5f1, #c7c6c1));
 			@include text-shadow(0 1px 0 #f3f2f1);
+			#header {
+				float: none;
+				width: 990px;
+				margin: 0 auto;
+				text-align: left;
+				@include legacy-pie-clearfix;
+			}
 			#banner {
 				float: none;
 				width: 990px;
 				margin: 0 auto;
+				padding: 20px 0 0 0;
 				text-align: left;
 				@include legacy-pie-clearfix;
 				#hero-image {
