@@ -75,6 +75,10 @@ html {
 		}
 	}
 	
+	p.quote-source {
+		text-align: right;
+	}
+	
 	ol.lined-large,
 	ul.lined-large {
 		padding: 2px 0 8px 0;
@@ -125,7 +129,6 @@ html {
 		blockquote {
 			padding-top: 10px;
 			padding-bottom: 1px;
-			font-style: italic;
 			a {
 				text-decoration: none;
 				color: #262626;

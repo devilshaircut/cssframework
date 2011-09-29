@@ -180,19 +180,23 @@ html .webkit blockquote,
 html .webkit p {
   padding: 6px 0 4px 0;
 }
-/* line 38, ../../app/stylesheets/_open-sans.scss */
+/* line 37, ../../app/stylesheets/_open-sans.scss */
+html blockquote {
+  font-style: italic;
+}
+/* line 42, ../../app/stylesheets/_open-sans.scss */
 html ul,
 html ol {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 43, ../../app/stylesheets/_open-sans.scss */
+/* line 47, ../../app/stylesheets/_open-sans.scss */
 html .webkit ul,
 html .webkit ol {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 51, ../../app/stylesheets/_open-sans.scss */
+/* line 55, ../../app/stylesheets/_open-sans.scss */
 html ul.lined,
 html ol.lined,
 html ul.lined-large,
@@ -200,7 +204,7 @@ html ol.lined-large {
   padding-top: 0;
   padding-bottom: 10px;
 }
-/* line 54, ../../app/stylesheets/_open-sans.scss */
+/* line 58, ../../app/stylesheets/_open-sans.scss */
 html ul.lined li,
 html ol.lined li,
 html ul.lined-large li,
@@ -208,25 +212,25 @@ html ol.lined-large li {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 61, ../../app/stylesheets/_open-sans.scss */
+/* line 65, ../../app/stylesheets/_open-sans.scss */
 html .webkit ul.lined li,
 html .webkit ol.lined li {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 69, ../../app/stylesheets/_open-sans.scss */
+/* line 73, ../../app/stylesheets/_open-sans.scss */
 html ul.lined-large li,
 html ol.lined-large li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 76, ../../app/stylesheets/_open-sans.scss */
+/* line 80, ../../app/stylesheets/_open-sans.scss */
 html .webkit ul.lined-large li,
 html .webkit ol.lined-large li {
   padding-top: 11px;
   padding-bottom: 9px;
 }
-/* line 86, ../../app/stylesheets/_open-sans.scss */
+/* line 90, ../../app/stylesheets/_open-sans.scss */
 html a.icon-button,
 html a.cancel-button,
 html a.button,
@@ -240,64 +244,64 @@ html input[type="submit"] {
   font-size: 12px;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
-/* line 96, ../../app/stylesheets/_open-sans.scss */
+/* line 100, ../../app/stylesheets/_open-sans.scss */
 html a.cancel-button {
   padding-top: 9px;
   padding-bottom: 10px;
 }
-/* line 101, ../../app/stylesheets/_open-sans.scss */
+/* line 105, ../../app/stylesheets/_open-sans.scss */
 html button {
   padding-top: 7px;
   padding-bottom: 24px;
 }
-/* line 105, ../../app/stylesheets/_open-sans.scss */
+/* line 109, ../../app/stylesheets/_open-sans.scss */
 html .webkit button {
   padding-top: 8px;
   padding-bottom: 23px;
 }
-/* line 110, ../../app/stylesheets/_open-sans.scss */
+/* line 114, ../../app/stylesheets/_open-sans.scss */
 html input[type="submit"] {
   padding-top: 5px;
   padding-bottom: 26px;
 }
-/* line 114, ../../app/stylesheets/_open-sans.scss */
+/* line 118, ../../app/stylesheets/_open-sans.scss */
 html .webkit input[type="submit"] {
   padding-top: 8px;
   padding-bottom: 23px;
 }
-/* line 119, ../../app/stylesheets/_open-sans.scss */
+/* line 123, ../../app/stylesheets/_open-sans.scss */
 html label {
   font-size: 12px;
   line-height: 1.667em;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 124, ../../app/stylesheets/_open-sans.scss */
+/* line 128, ../../app/stylesheets/_open-sans.scss */
 html label span {
   font-size: 10px;
   font-weight: normal;
 }
-/* line 129, ../../app/stylesheets/_open-sans.scss */
+/* line 133, ../../app/stylesheets/_open-sans.scss */
 html .webkit label {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 134, ../../app/stylesheets/_open-sans.scss */
+/* line 138, ../../app/stylesheets/_open-sans.scss */
 html input[type="checkbox"] {
   margin-top: 4px;
   margin-bottom: 0;
 }
-/* line 138, ../../app/stylesheets/_open-sans.scss */
+/* line 142, ../../app/stylesheets/_open-sans.scss */
 html .webkit input[type="checkbox"] {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 143, ../../app/stylesheets/_open-sans.scss */
+/* line 147, ../../app/stylesheets/_open-sans.scss */
 html input[type="radio"] {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 152, ../../app/stylesheets/_open-sans.scss */
+/* line 156, ../../app/stylesheets/_open-sans.scss */
 html select,
 html input[type="text"],
 html input[type="email"],
@@ -311,7 +315,7 @@ html textarea {
   line-height: 1.667em;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
-/* line 165, ../../app/stylesheets/_open-sans.scss */
+/* line 169, ../../app/stylesheets/_open-sans.scss */
 html .webkit select,
 html .webkit input[type="text"],
 html .webkit input[type="email"],
@@ -320,67 +324,67 @@ html .webkit textarea {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-/* line 170, ../../app/stylesheets/_open-sans.scss */
+/* line 174, ../../app/stylesheets/_open-sans.scss */
 html select {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 175, ../../app/stylesheets/_open-sans.scss */
+/* line 179, ../../app/stylesheets/_open-sans.scss */
 html textarea {
   padding-top: 4px;
   padding-bottom: 13px;
 }
-/* line 179, ../../app/stylesheets/_open-sans.scss */
+/* line 183, ../../app/stylesheets/_open-sans.scss */
 html .webkit textarea {
   padding-top: 5px;
   padding-bottom: 12px;
 }
-/* line 184, ../../app/stylesheets/_open-sans.scss */
+/* line 188, ../../app/stylesheets/_open-sans.scss */
 html ul.form {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-/* line 188, ../../app/stylesheets/_open-sans.scss */
+/* line 192, ../../app/stylesheets/_open-sans.scss */
 html ul.form li label {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 194, ../../app/stylesheets/_open-sans.scss */
+/* line 198, ../../app/stylesheets/_open-sans.scss */
 html .webkit ul.form {
   padding-top: 16px;
   padding-bottom: 14px;
 }
-/* line 198, ../../app/stylesheets/_open-sans.scss */
+/* line 202, ../../app/stylesheets/_open-sans.scss */
 html .webkit ul.form li label {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 205, ../../app/stylesheets/_open-sans.scss */
+/* line 209, ../../app/stylesheets/_open-sans.scss */
 html table {
   padding-top: 0;
   padding-bottom: 10px;
 }
-/* line 210, ../../app/stylesheets/_open-sans.scss */
+/* line 214, ../../app/stylesheets/_open-sans.scss */
 html table thead tr th {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 218, ../../app/stylesheets/_open-sans.scss */
+/* line 222, ../../app/stylesheets/_open-sans.scss */
 html table tbody tr td {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 226, ../../app/stylesheets/_open-sans.scss */
+/* line 230, ../../app/stylesheets/_open-sans.scss */
 html .webkit table {
   padding-top: 0;
   padding-bottom: 10px;
 }
-/* line 231, ../../app/stylesheets/_open-sans.scss */
+/* line 235, ../../app/stylesheets/_open-sans.scss */
 html .webkit table thead tr th {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 239, ../../app/stylesheets/_open-sans.scss */
+/* line 243, ../../app/stylesheets/_open-sans.scss */
 html .webkit table tbody tr td {
   padding-top: 6px;
   padding-bottom: 4px;
@@ -671,9 +675,9 @@ a.cancel-button:active {
 .column-3-box-last {
   width: 185px;
   padding: 9px 19px;
-  border-top: 1px solid #adadad;
+  border-top: 1px solid #e5e5e5;
   border-right: 1px solid #cecece;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #adadad;
   border-left: 1px solid #cecece;
 }
 
@@ -691,9 +695,9 @@ a.cancel-button:active {
 .column-4-box-last {
   width: 270px;
   padding: 19px;
-  border-top: 1px solid #adadad;
+  border-top: 1px solid #e5e5e5;
   border-right: 1px solid #cecece;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #adadad;
   border-left: 1px solid #cecece;
 }
 

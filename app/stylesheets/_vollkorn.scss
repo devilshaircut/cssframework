@@ -33,6 +33,10 @@
 
 	blockquote,
 	p { padding: 7px 0 3px 0; }
+	
+	blockquote {
+		font-style: italic;
+	}
 
 	ul,
 	ol {
