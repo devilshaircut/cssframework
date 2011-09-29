@@ -41,6 +41,9 @@ html {
 		a { color: #333333; text-decoration: none; }
 		a:hover { text-decoration: underline; }
 	}
+	.webkit h5.article-title {
+		padding-top: 6px;
+	}
 	h6.article-subtitle {
 		padding: 0 0 7px 0;
 		margin: 0;
@@ -62,6 +65,19 @@ html {
 	ol.lined-large,
 	ul.lined-large {
 		padding: 2px 0 8px 0;
+		li.thumbnail {
+			h5.article-title { width: 75%; }
+			h6.article-subtitle { width: 75%; }
+			img {
+				display: block;
+				float: left;
+				height: 34px;
+				width: 34px;
+				padding: 2px;
+				margin: 0 10px 0 0;
+				border: 1px solid #cccccc;
+			}
+		}
 	}
 
 	input[type="text"],
@@ -152,7 +168,7 @@ html {
 			}
 		}
 		#banner-container {
-			padding: 32px 0 19px 0;
+			padding: 32px 0 9px 0;
 			border-top: 1px solid #ffffff;
 			border-bottom: 1px solid #d2d1d0;
 			float: none;
@@ -167,9 +183,14 @@ html {
 				text-align: left;
 				@include legacy-pie-clearfix;
 				#hero-image {
-					height: 400px;
+					width: 930px;
+					height: 340px;
+					padding: 30px;
 					background: transparent url("../images/hero-image-background.png") repeat-x 0 0;
 					@include border-radius(2px);
+					img {
+						@include box-shadow(0 2px 7px #a6a5a1);
+					}
 				}
 				blockquote {
 					padding: 40px 0 10px;
@@ -188,6 +209,7 @@ html {
 				.learn-more {
 					font-weight: bold;
 					text-transform: uppercase;
+					@include text-shadow(0 1px 0 #ececea);
 				}
 			}
 		}
