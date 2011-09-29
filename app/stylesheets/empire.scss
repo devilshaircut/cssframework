@@ -114,6 +114,13 @@ html {
 	.webkit ol#breadcrumbs {
 		padding: 1px 0 14px 0;
 	}
+	
+	label {
+		span {
+			color: #757471;
+			font-style: italic;
+		}
+	}
 
 	input[type="text"],
 	input[type="email"],
@@ -282,7 +289,6 @@ html {
 			a { color: #cccccc; text-decoration: none; }
 			a:hover { color: #ffffff; text-decoration: underline; }
 			h1, h2, h3, h4, h5 { color: #ffffff; }
-			h4 { margin: 0 0 10px 0; }
 			h6.article-subtitle { color: #a8a8a8; }
 			h5 a { color: #ffffff; }
 			input[type="email"],
@@ -329,6 +335,14 @@ html {
 				}
 			}
 		}
+	}
+	
+	/* CONTACT US PAGE */
+	
+	textarea#contact-us-message {
+		width: 464px;
+		height: 114px;
+		margin-right: 0;
 	}
 	
 }

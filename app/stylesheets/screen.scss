@@ -303,6 +303,7 @@ form {}
 
 label {
 	width: auto;
+	height: 20px;
 	cursor: pointer;
 	padding-left: 0;
 	padding-right: 0;
@@ -329,9 +330,13 @@ textarea {
 	padding-right: 7px;
 	margin-left: 0;
 	margin-right: 10px;
-	border: 1px solid $font-color-subheader;
+	border-top: 1px solid #adadad;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #f0f0f0;
+	border-left: 1px solid #cecece;
 	color: $font-color-body;
 	background: transparent;
+	@include border-radius(2px);
 }
 
 input[type="radio"],

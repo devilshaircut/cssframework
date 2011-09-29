@@ -6,5 +6,6 @@ Cssframework::Application.routes.draw do
   match 'pages/empire-right-sidebar' => "pages#empire-right-sidebar"
   match 'pages/empire-left-sidebar' => "pages#empire-left-sidebar"
   match 'pages/empire-full-width' => "pages#empire-full-width"
+  match 'pages/empire-contact-us' => "pages#empire-contact-us"
 
 end
