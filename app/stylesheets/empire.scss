@@ -91,6 +91,15 @@ html {
 			}
 		}
 	}
+	.column-4 ol.lined-large,
+	.column-4 ul.lined-large,
+	.column-4-last ol.lined-large,
+	.column-4-last ul.lined-large {
+		li.thumbnail {
+			h5.article-title { width: 260px; }
+			h6.article-subtitle { width: 260px; }
+		}
+	}
 	
 	ol#breadcrumbs {
 		padding: 0 0 15px 0;
@@ -295,6 +304,10 @@ html {
 				margin: 0 auto;
 				text-align: left;
 				@include legacy-pie-clearfix;
+				ul.lined-large {
+					position: relative;
+					margin-top: -10px;
+				}
 				#footer-bar {
 					padding: 10px 0 0;
 					background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
