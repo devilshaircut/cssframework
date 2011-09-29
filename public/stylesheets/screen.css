@@ -624,7 +624,31 @@ a.cancel-button:active {
 /****************************************************************************************************/
 /* COLUMNS */
 /****************************************************************************************************/
-/* line 219, ../../app/stylesheets/screen.scss */
+/* line 216, ../../app/stylesheets/screen.scss */
+.sidebar-left {
+  width: 280px;
+  padding: 0 30px 0 0;
+  margin: 0 30px 20px 0;
+  background: transparent url("../images/sidebar-left-background.png") repeat-y top right;
+  -moz-box-shadow: 85px 0 85px white inset, 85px 0 85px white inset;
+  -webkit-box-shadow: 85px 0 85px white inset, 85px 0 85px white inset;
+  -o-box-shadow: 85px 0 85px white inset, 85px 0 85px white inset;
+  box-shadow: 85px 0 85px white inset, 85px 0 85px white inset;
+}
+
+/* line 223, ../../app/stylesheets/screen.scss */
+.sidebar-right {
+  width: 280px;
+  padding: 0 0 0 30px;
+  margin: 0 0 20px 0;
+  background: transparent url("../images/sidebar-right-background.png") repeat-y 0 0;
+  -moz-box-shadow: -85px 0 85px white inset, -85px 0 85px white inset;
+  -webkit-box-shadow: -85px 0 85px white inset, -85px 0 85px white inset;
+  -o-box-shadow: -85px 0 85px white inset, -85px 0 85px white inset;
+  box-shadow: -85px 0 85px white inset, -85px 0 85px white inset;
+}
+
+/* line 234, ../../app/stylesheets/screen.scss */
 .column-2,
 .column-2-last,
 .column-2-box,
@@ -633,7 +657,7 @@ a.cancel-button:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 227, ../../app/stylesheets/screen.scss */
+/* line 242, ../../app/stylesheets/screen.scss */
 .column-3,
 .column-3-last,
 .column-3-box,
@@ -642,7 +666,7 @@ a.cancel-button:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 233, ../../app/stylesheets/screen.scss */
+/* line 248, ../../app/stylesheets/screen.scss */
 .column-3-box,
 .column-3-box-last {
   width: 185px;
@@ -650,7 +674,7 @@ a.cancel-button:active {
   border: 1px solid gray;
 }
 
-/* line 242, ../../app/stylesheets/screen.scss */
+/* line 257, ../../app/stylesheets/screen.scss */
 .column-4,
 .column-4-last,
 .column-4-box,
@@ -659,7 +683,7 @@ a.cancel-button:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 248, ../../app/stylesheets/screen.scss */
+/* line 263, ../../app/stylesheets/screen.scss */
 .column-4-box,
 .column-4-box-last {
   width: 270px;
@@ -667,7 +691,7 @@ a.cancel-button:active {
   border: 1px solid gray;
 }
 
-/* line 257, ../../app/stylesheets/screen.scss */
+/* line 272, ../../app/stylesheets/screen.scss */
 .column-6,
 .column-6-last,
 .column-6-box,
@@ -676,7 +700,7 @@ a.cancel-button:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 263, ../../app/stylesheets/screen.scss */
+/* line 278, ../../app/stylesheets/screen.scss */
 .column-6-box,
 .column-6-box-last {
   width: 440px;
@@ -684,14 +708,14 @@ a.cancel-button:active {
   border: 1px solid gray;
 }
 
-/* line 270, ../../app/stylesheets/screen.scss */
+/* line 285, ../../app/stylesheets/screen.scss */
 .column-8,
 .column-8-last {
   width: 650px;
   margin: 0 30px 20px 0;
 }
 
-/* line 282, ../../app/stylesheets/screen.scss */
+/* line 297, ../../app/stylesheets/screen.scss */
 .column-2-last,
 .column-3-last,
 .column-3-box-last,
@@ -703,13 +727,13 @@ a.cancel-button:active {
   margin-right: 0;
 }
 
-/* line 287, ../../app/stylesheets/screen.scss */
+/* line 302, ../../app/stylesheets/screen.scss */
 .section,
 .lined-section {
   padding: 0 0 20px 0;
 }
 
-/* line 291, ../../app/stylesheets/screen.scss */
+/* line 306, ../../app/stylesheets/screen.scss */
 .lined-section {
   margin: 0 0 20px 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
@@ -718,7 +742,7 @@ a.cancel-button:active {
 /****************************************************************************************************/
 /* FORMS */
 /****************************************************************************************************/
-/* line 304, ../../app/stylesheets/screen.scss */
+/* line 319, ../../app/stylesheets/screen.scss */
 label {
   width: auto;
   height: 20px;
@@ -727,7 +751,7 @@ label {
   padding-right: 0;
 }
 
-/* line 313, ../../app/stylesheets/screen.scss */
+/* line 328, ../../app/stylesheets/screen.scss */
 input[type="radio"],
 input[type="checkbox"] {
   display: block;
@@ -738,7 +762,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-/* line 326, ../../app/stylesheets/screen.scss */
+/* line 341, ../../app/stylesheets/screen.scss */
 select,
 input[type="text"],
 input[type="email"],
@@ -752,7 +776,7 @@ textarea {
   margin-right: 10px;
   border-top: 1px solid #adadad;
   border-right: 1px solid #cecece;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #e5e5e5;
   border-left: 1px solid #cecece;
   color: #696969;
   background: transparent;
@@ -764,7 +788,7 @@ textarea {
   border-radius: 2px;
 }
 
-/* line 343, ../../app/stylesheets/screen.scss */
+/* line 358, ../../app/stylesheets/screen.scss */
 input[type="radio"],
 input[type="checkbox"] {
   display: block;
@@ -772,7 +796,7 @@ input[type="checkbox"] {
   width: auto;
 }
 
-/* line 353, ../../app/stylesheets/screen.scss */
+/* line 368, ../../app/stylesheets/screen.scss */
 select:hover,
 input[type="text"]:hover,
 input[type="email"]:hover,
@@ -781,7 +805,7 @@ textarea:hover {
   border-color: #bc2215;
 }
 
-/* line 361, ../../app/stylesheets/screen.scss */
+/* line 376, ../../app/stylesheets/screen.scss */
 select:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -790,7 +814,7 @@ textarea:focus {
   border-color: #bc2215;
 }
 
-/* line 365, ../../app/stylesheets/screen.scss */
+/* line 380, ../../app/stylesheets/screen.scss */
 select {
   padding-left: 4px;
   padding-right: 5px;
@@ -799,7 +823,7 @@ select {
   cursor: pointer;
 }
 
-/* line 373, ../../app/stylesheets/screen.scss */
+/* line 388, ../../app/stylesheets/screen.scss */
 textarea {
   height: 54px;
   padding-left: 7px;
@@ -807,13 +831,13 @@ textarea {
   resize: vertical;
 }
 
-/* line 383, ../../app/stylesheets/screen.scss */
+/* line 398, ../../app/stylesheets/screen.scss */
 div.form .form-row .form-label label {
   font-weight: bold;
   color: #464646;
 }
 
-/* line 394, ../../app/stylesheets/screen.scss */
+/* line 409, ../../app/stylesheets/screen.scss */
 ul.form li label {
   padding-left: 0;
   padding-right: 0;
@@ -822,31 +846,31 @@ ul.form li label {
 /****************************************************************************************************/
 /* TABLES */
 /****************************************************************************************************/
-/* line 407, ../../app/stylesheets/screen.scss */
+/* line 422, ../../app/stylesheets/screen.scss */
 table {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 411, ../../app/stylesheets/screen.scss */
+/* line 426, ../../app/stylesheets/screen.scss */
 table colgroup col {
   width: 165px;
   background: transparent url("../images/dotted-line-vertical.png") no-repeat 0 0;
 }
-/* line 415, ../../app/stylesheets/screen.scss */
+/* line 430, ../../app/stylesheets/screen.scss */
 table colgroup col:nth-child(1) {
   background: none;
 }
-/* line 421, ../../app/stylesheets/screen.scss */
+/* line 436, ../../app/stylesheets/screen.scss */
 table thead tr th {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
 }
-/* line 429, ../../app/stylesheets/screen.scss */
+/* line 444, ../../app/stylesheets/screen.scss */
 table tbody tr {
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 431, ../../app/stylesheets/screen.scss */
+/* line 446, ../../app/stylesheets/screen.scss */
 table tbody tr td {
   padding-left: 10px;
   padding-right: 10px;

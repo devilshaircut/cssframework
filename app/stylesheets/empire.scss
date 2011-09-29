@@ -91,13 +91,11 @@ html {
 			}
 		}
 	}
-	.column-4 ol.lined-large,
-	.column-4 ul.lined-large,
-	.column-4-last ol.lined-large,
-	.column-4-last ul.lined-large {
+	.sidebar-left ol.lined-large,
+	.sidebar-right ul.lined-large {
 		li.thumbnail {
-			h5.article-title { width: 260px; }
-			h6.article-subtitle { width: 260px; }
+			h5.article-title { width: 230px; }
+			h6.article-subtitle { width: 230px; }
 		}
 	}
 	

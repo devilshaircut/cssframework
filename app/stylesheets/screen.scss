@@ -213,6 +213,21 @@ a.cancel-button:active { position: relative; top: 2px; }
 /* COLUMNS */
 /****************************************************************************************************/
 
+.sidebar-left {
+	width: 280px;
+	padding: 0 30px 0 0;
+	margin: 0 30px 20px 0;
+	background: transparent url("../images/sidebar-left-background.png") repeat-y top right;
+	@include box-shadow(85px 0 85px #ffffff inset, 85px 0 85px #ffffff inset);
+}
+.sidebar-right {
+	width: 280px;
+	padding: 0 0 0 30px;
+	margin: 0 0 20px 0;
+	background: transparent url("../images/sidebar-right-background.png") repeat-y 0 0;
+	@include box-shadow(-85px 0 85px #ffffff inset, -85px 0 85px #ffffff inset);
+}
+
 .column-2,
 .column-2-last,
 .column-2-box,
@@ -332,7 +347,7 @@ textarea {
 	margin-right: 10px;
 	border-top: 1px solid #adadad;
 	border-right: 1px solid #cecece;
-	border-bottom: 1px solid #f0f0f0;
+	border-bottom: 1px solid #e5e5e5;
 	border-left: 1px solid #cecece;
 	color: $font-color-body;
 	background: transparent;
