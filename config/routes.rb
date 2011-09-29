@@ -8,5 +8,6 @@ Cssframework::Application.routes.draw do
   match 'pages/empire-full-width' => "pages#empire-full-width"
   match 'pages/empire-contact-us' => "pages#empire-contact-us"
   match 'pages/empire-blog' => "pages#empire-blog"
+  match 'pages/empire-404' => "pages#empire-404"
 
 end

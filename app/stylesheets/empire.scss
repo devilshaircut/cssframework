@@ -100,11 +100,17 @@ html {
 		}
 	}
 	
-	ul.categories {
+	.sidebar-left ul.categories,
+	.sidebar-right ul.categories {
 		li {
 			a {
+				display: block;
+				float: left;
+				width: 260px;
+				padding: 0 0 0 20px;
 				text-decoration: none;
 				color: #262626;
+				background: transparent url("../images/arrow-bullet.png") no-repeat 0 4px;
 			}
 			a:hover {
 				text-decoration: underline;
@@ -301,7 +307,7 @@ html {
 					}
 				}
 				blockquote {
-					padding: 40px 0 10px;
+					padding: 10px 0 10px;
 					margin: 0 0 20px 0;
 					font-size: 36px;
 					line-height: 50px;
@@ -363,6 +369,10 @@ html {
 				color: #cccccc;
 				background: #31302e;
 				@include text-shadow(0 1px 0 #000000);
+			}
+			input[type="email"]:focus,
+			textarea:focus {
+				border-color: #BC2215;
 			}
 			input[type="submit"] {
 				@include box-shadow(0 1px 1px #dd6f62 inset, 0 2px 4px #0a0909);
