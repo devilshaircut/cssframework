@@ -65,6 +65,7 @@ html {
 	.article-options {
 		padding: 10px 0 0 0;
 		p {
+			height: 20px;
 			a,
 			span {
 				text-transform: uppercase;
@@ -99,6 +100,54 @@ html {
 		}
 	}
 	
+	ul.categories {
+		li {
+			a {
+				text-decoration: none;
+				color: #262626;
+			}
+			a:hover {
+				text-decoration: underline;
+				color: #BC2215;
+			}
+		}
+	}
+	
+	ul.comments {
+		position: relative;
+		margin-top: -10px;
+		blockquote {
+			padding-top: 10px;
+			padding-bottom: 1px;
+			font-style: italic;
+			a {
+				text-decoration: none;
+				color: #262626;
+			}
+			a:hover {
+				text-decoration: underline;
+				color: #BC2215;
+			}
+		}
+		.commenter {
+			padding-bottom: 9px;
+	    font-size: 10px;
+	    font-weight: bold;
+			font-style: normal;
+	    text-transform: uppercase;
+			text-align: right;
+		}
+	}
+	.webkit ul.comments {
+		blockquote {
+			padding-top: 10px;
+			padding-bottom: 0;
+		}
+		.commenter {
+			padding-bottom: 10px;
+		}
+	}
+	
 	ol#breadcrumbs {
 		padding: 0 0 15px 0;
 		margin: -5px 0 0 0;
@@ -129,6 +178,16 @@ html {
 	a.button,
 	a.cancel-button,
 	button { font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif; }
+	
+	#search-input {
+		width: 144px;
+	}
+	#search-button {
+		width: 100px;
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
 
 	body {
 		font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
@@ -275,6 +334,12 @@ html {
 				margin: 0 auto;
 				text-align: left;
 				@include legacy-pie-clearfix;
+				.sidebar-left {
+					background-color: #ffffff;
+				}
+				.sidebar-right {
+					background-color: #ffffff;
+				}
 			}
 		}
 		#footer-container {
