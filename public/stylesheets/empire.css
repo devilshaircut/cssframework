@@ -385,3 +385,32 @@ html body #footer-container #footer:after {
   overflow: hidden;
   visibility: hidden;
 }
+/* line 241, ../../app/stylesheets/empire.scss */
+html body #footer-container #footer #footer-bar {
+  padding: 10px 0 0;
+  background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
+}
+/* line 244, ../../app/stylesheets/empire.scss */
+html body #footer-container #footer #footer-bar p {
+  float: left;
+  width: auto;
+  font-weight: bold;
+}
+/* line 248, ../../app/stylesheets/empire.scss */
+html body #footer-container #footer #footer-bar p a {
+  color: #ffffff;
+}
+/* line 249, ../../app/stylesheets/empire.scss */
+html body #footer-container #footer #footer-bar p a:hover {
+  text-decoration: underline;
+}
+/* line 251, ../../app/stylesheets/empire.scss */
+html body #footer-container #footer #footer-bar ul#footer-nav {
+  float: right;
+  width: auto;
+}
+/* line 254, ../../app/stylesheets/empire.scss */
+html body #footer-container #footer #footer-bar ul#footer-nav li {
+  width: auto;
+  margin: 0 0 0 20px;
+}

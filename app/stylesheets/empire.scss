@@ -238,8 +238,36 @@ html {
 				margin: 0 auto;
 				text-align: left;
 				@include legacy-pie-clearfix;
+				#footer-bar {
+					padding: 10px 0 0;
+					background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
+					p {
+						float: left;
+						width: auto;
+						font-weight: bold;
+						a { color: #ffffff; }
+						a:hover { text-decoration: underline; }
+					}
+					ul#footer-nav {
+						float: right;
+						width: auto;
+						li {
+							width: auto;
+							margin: 0 0 0 20px;
+						}
+					}
+				}
 			}
 		}
 	}
 	
 }
+
+
+
+
+
+
+
+
+
