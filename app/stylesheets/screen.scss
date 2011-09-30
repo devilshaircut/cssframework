@@ -17,6 +17,161 @@ $accent-color: #bc2215;
 
 
 /****************************************************************************************************/
+/* BUTTON THEMES */
+/****************************************************************************************************/
+
+/* Default Red */
+@mixin default-red-button {
+	border-top: 1px solid #a95760;
+	border-right: 1px solid #750511;
+	border-bottom: 1px solid #55030c;
+	border-left: 1px solid #750511;
+	color: #ffffff;
+	@include box-shadow(0 1px 1px #dd6f62 inset, 0 2px 4px #979797);
+	@include background-image(linear-gradient(#b74634, #8e0d07));
+	@include text-shadow(0 1px 0 #821a11);
+}
+@mixin default-red-button-hover {
+	border-top: 1px solid #d56d76;
+	border-right: 1px solid #ae252f;
+	border-bottom: 1px solid #8c2930;
+	border-left: 1px solid #ae252f;
+	@include background-image(linear-gradient(#e95746, #c92323));
+	@include box-shadow(0 1px 1px #f08475 inset, 0 2px 4px #979797);
+	@include text-shadow(0 1px 0 #bc3329);
+}
+@mixin default-red-button-active {
+	border-top: 1px solid #d56d76;
+	border-right: 1px solid #ae252f;
+	border-bottom: 1px solid #8c2930;
+	border-left: 1px solid #ae252f;
+	@include background-image(linear-gradient(#c92323, #e95746));
+	@include box-shadow(0 1px 1px #f08475 inset, 0 0 4px #979797);
+	@include text-shadow(0 1px 0 #bc3329);
+}
+
+/* Radiant Orange */
+@mixin radiant-orange-button {
+	border-top: 1px solid #b16150;
+	border-right: 1px solid #832602;
+	border-bottom: 1px solid #611903;
+	border-left: 1px solid #832602;
+	color: #ffffff;
+	@include box-shadow(0 1px 1px #e0843f inset, 0 2px 4px #979797);
+	@include background-image(linear-gradient(#c36717, #8e3f00));
+	@include text-shadow(0 1px 0 #974400);
+}
+@mixin radiant-orange-button-hover {
+	border-top: 1px solid #e06b53;
+	border-right: 1px solid #c53d0b;
+	border-bottom: 1px solid #9f3816;
+	border-left: 1px solid #c53d0b;
+	@include background-image(linear-gradient(#ff7e13, #d36105));
+	@include box-shadow(0 1px 1px #ff9a4c inset, 0 2px 4px #979797);
+	@include text-shadow(0 1px 0 #d46004);
+}
+@mixin radiant-orange-button-active {
+border-top: 1px solid #e06b53;
+border-right: 1px solid #c53d0b;
+border-bottom: 1px solid #9f3816;
+border-left: 1px solid #c53d0b;
+@include background-image(linear-gradient(#d36105, #ff7e13));
+@include box-shadow(0 1px 1px #ff9a4c inset, 0 0 4px #979797);
+@include text-shadow(0 1px 0 #d46004);
+}
+
+/* Corporate Blue */
+@mixin corporate-blue-button {
+	border-top: 1px solid #658493;
+	border-right: 1px solid #1d3f5c;
+	border-bottom: 1px solid #152f42;
+	border-left: 1px solid #1d3f5c;
+	color: #ffffff;
+	@include box-shadow(0 1px 1px #6685b3 inset, 0 2px 4px #979797);
+	@include background-image(linear-gradient(#3f5d92, #16386d));
+	@include text-shadow(0 1px 0 #1e3a67);
+}
+@mixin corporate-blue-button-hover {
+	border-top: 1px solid #76a1b7;
+	border-right: 1px solid #356691;
+	border-bottom: 1px solid #355b76;
+	border-left: 1px solid #356691;
+	@include background-image(linear-gradient(#4c77c3, #295aa6));
+	@include box-shadow(0 1px 1px #6b98d9 inset, 0 2px 4px #979797);
+	@include text-shadow(0 1px 0 #335b9c);
+}
+@mixin corporate-blue-button-active {
+	border-top: 1px solid #76a1b7;
+	border-right: 1px solid #356691;
+	border-bottom: 1px solid #355b76;
+	border-left: 1px solid #356691;
+	@include background-image(linear-gradient(#295aa6, #4c77c3));
+	@include box-shadow(0 1px 1px #6b98d9 inset, 0 0 4px #979797);
+	@include text-shadow(0 1px 0 #335b9c);
+}
+
+/* Organic Green */
+@mixin organic-green-button {
+	border-top: 1px solid #a1b04a;
+	border-right: 1px solid #5a7b00;
+	border-bottom: 1px solid #435800;
+	border-left: 1px solid #5a7b00;
+	@include background-image(linear-gradient(#73c60d, #4b8500));
+	@include box-shadow(0 1px 1px #9ae236 inset, 0 2px 4px #979797);
+	@include text-shadow(0 1px 0 #4d8600);
+}
+@mixin organic-green-button-hover {
+	border-top: 1px solid #cde34b;
+	border-right: 1px solid #8bbc0b;
+	border-bottom: 1px solid #789517;
+	border-left: 1px solid #8bbc0b;
+	@include background-image(linear-gradient(#93ff0f, #73c609));
+	@include box-shadow(0 1px 1px #b1ff47 inset, 0 2px 4px #979797);
+	@include text-shadow(0 1px 0 #78c908);
+}
+@mixin organic-green-button-active {
+	border-top: 1px solid #cde34b;
+	border-right: 1px solid #8bbc0b;
+	border-bottom: 1px solid #789517;
+	border-left: 1px solid #8bbc0b;
+	@include background-image(linear-gradient(#73c609, #93ff0f));
+	@include box-shadow(0 1px 1px #b1ff47 inset, 0 0 4px #979797);
+	@include text-shadow(0 1px 0 #78c908);
+}
+
+/* Neutral Grey */
+@mixin neutral-grey-button {
+	border-top: 1px solid #807b79;
+	border-right: 1px solid #413b37;
+	border-bottom: 1px solid #2f2b28;
+	border-left: 1px solid #413b37;
+	color: #ffffff;
+	@include box-shadow(0 1px 1px #928d86 inset, 0 2px 4px #979797);
+	@include background-image(linear-gradient(#706b63, #48433b));
+	@include text-shadow(0 1px 0 #49443e);
+}
+@mixin neutral-grey-button-hover {
+	border-top: 1px solid #9b9492;
+	border-right: 1px solid #6a615c;
+	border-bottom: 1px solid #5b5450;
+	border-left: 1px solid #6a615c;
+	@include background-image(linear-gradient(#918a7d, #716a5d));
+	@include box-shadow(0 1px 1px #ada69b inset, 0 2px 4px #979797);
+	@include text-shadow(0 1px 0 #706962);
+}
+@mixin neutral-grey-button-active {
+	border-top: 1px solid #9b9492;
+	border-right: 1px solid #6a615c;
+	border-bottom: 1px solid #5b5450;
+	border-left: 1px solid #6a615c;
+	@include background-image(linear-gradient(#716a5d, #918a7d));
+	@include box-shadow(0 1px 1px #ada69b inset, 0 0 4px #979797);
+	@include text-shadow(0 1px 0 #706962);
+}
+
+
+
+/****************************************************************************************************/
 /* COLOR THEMES */
 /****************************************************************************************************/
 
@@ -134,19 +289,12 @@ input[type="submit"] {
 	padding-right: 11px;
 	margin-left: 0;
 	margin-right: 10px;
-	border-top: 1px solid #a95760;
-	border-right: 1px solid #750511;
-	border-bottom: 1px solid #55030c;
-	border-left: 1px solid #750511;
-	color: #ffffff;
 	font-weight: bold;
 	text-transform: capitalize;
 	cursor: pointer;
 	text-decoration: none;
 	@include border-radius(3px);
-	@include box-shadow(0 1px 1px #dd6f62 inset, 0 2px 4px #979797);
-	@include background-image(linear-gradient(#b74634, #8e0d07));
-	@include text-shadow(0 1px 0 #821a11);
+	@include default-red-button;
 }
 
 a.icon-button {
@@ -185,13 +333,7 @@ a.button:hover,
 button:hover,
 input[type="submit"]:hover {
 	text-decoration: none;
-	border-top: 1px solid #d56d76;
-	border-right: 1px solid #ae252f;
-	border-bottom: 1px solid #8c2930;
-	border-left: 1px solid #ae252f;
-	@include background-image(linear-gradient(#e95746, #c92323));
-	@include box-shadow(0 1px 1px #f08475 inset, 0 2px 4px #979797);
-	@include text-shadow(0 1px 0 #bc3329);
+	@include default-red-button-hover;
 }
 
 a.icon-button:active,
@@ -200,17 +342,72 @@ button:active,
 input[type="submit"]:active {
 	position: relative;
 	top: 2px;
-	border-top: 1px solid #d56d76;
-	border-right: 1px solid #ae252f;
-	border-bottom: 1px solid #8c2930;
-	border-left: 1px solid #ae252f;
-	@include background-image(linear-gradient(#c92323, #e95746));
-	@include box-shadow(0 1px 1px #f08475 inset, 0 0 4px #979797);
-	@include text-shadow(0 1px 0 #bc3329);
+	@include default-red-button-active;
 }
 
 a.cancel-button:hover { text-decoration: none; }
 a.cancel-button:active { position: relative; top: 2px; }
+
+a.icon-button.orange,
+a.button.orange,
+button.orange,
+input[type="submit"].orange {	@include radiant-orange-button; }
+
+a.icon-button.orange:hover,
+a.button.orange:hover,
+button.orange:hover,
+input[type="submit"].orange:hover {	@include radiant-orange-button-hover; }
+
+a.icon-button.orange:active,
+a.button.orange:active,
+button.orange:active,
+input[type="submit"].orange:active {	@include radiant-orange-button-active; }
+
+a.icon-button.blue,
+a.button.blue,
+button.blue,
+input[type="submit"].blue {	@include corporate-blue-button; }
+
+a.icon-button.blue:hover,
+a.button.blue:hover,
+button.blue:hover,
+input[type="submit"].blue:hover {	@include corporate-blue-button-hover; }
+
+a.icon-button.blue:active,
+a.button.blue:active,
+button.blue:active,
+input[type="submit"].blue:active {	@include corporate-blue-button-active; }
+
+a.icon-button.green,
+a.button.green,
+button.green,
+input[type="submit"].green {	@include organic-green-button; }
+
+a.icon-button.green:hover,
+a.button.green:hover,
+button.green:hover,
+input[type="submit"].green:hover {	@include organic-green-button-hover; }
+
+a.icon-button.green:active,
+a.button.green:active,
+button.green:active,
+input[type="submit"].green:active {	@include organic-green-button-active; }
+
+
+a.icon-button.grey,
+a.button.grey,
+button.grey,
+input[type="submit"].grey {	@include neutral-grey-button; }
+
+a.icon-button.grey:hover,
+a.button.grey:hover,
+button.grey:hover,
+input[type="submit"].grey:hover {	@include neutral-grey-button-hover; }
+
+a.icon-button.grey:active,
+a.button.grey:active,
+button.grey:active,
+input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 
 
 
