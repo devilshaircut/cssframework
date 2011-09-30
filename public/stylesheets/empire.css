@@ -1,7 +1,3 @@
-/* line 4, ../../app/stylesheets/empire.scss */
-html {
-  /* CONTACT US PAGE */
-}
 /* line 6, ../../app/stylesheets/empire.scss */
 html h1, html h2, html h3 {
   font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
@@ -237,7 +233,7 @@ html button {
 }
 /* line 200, ../../app/stylesheets/empire.scss */
 html #search-input {
-  width: 144px;
+  width: 154px;
 }
 /* line 203, ../../app/stylesheets/empire.scss */
 html #search-button {
@@ -245,14 +241,15 @@ html #search-button {
   text-align: center;
   padding-left: 0;
   padding-right: 0;
+  margin-right: 0;
 }
-/* line 210, ../../app/stylesheets/empire.scss */
+/* line 211, ../../app/stylesheets/empire.scss */
 html body {
   font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
   background: #0f0f0e;
   color: #262626;
 }
-/* line 214, ../../app/stylesheets/empire.scss */
+/* line 215, ../../app/stylesheets/empire.scss */
 html body #top-bar-container {
   float: none;
   padding: 6px 0 0;
@@ -270,7 +267,7 @@ html body #top-bar-container {
   -o-box-shadow: 0 0 15px #4f4f4c;
   box-shadow: 0 0 15px #4f4f4c;
 }
-/* line 222, ../../app/stylesheets/empire.scss */
+/* line 223, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar {
   float: none;
   width: 990px;
@@ -291,7 +288,7 @@ html body #top-bar-container #top-bar:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 232, ../../app/stylesheets/empire.scss */
+/* line 233, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar a#logo {
   display: block;
   float: left;
@@ -302,11 +299,11 @@ html body #top-bar-container #top-bar a#logo {
   position: absolute;
   margin: -8px 0 0 -12px;
 }
-/* line 242, ../../app/stylesheets/empire.scss */
+/* line 243, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar a#logo:hover {
   background-position: 0 -50px;
 }
-/* line 245, ../../app/stylesheets/empire.scss */
+/* line 246, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar a.button {
   float: right;
   font-size: 11px;
@@ -333,11 +330,11 @@ html body #top-bar-container #top-bar a.button {
   background-image: -ms-linear-gradient(#504b47, #2f2e2d);
   background-image: linear-gradient(#504b47, #2f2e2d);
 }
-/* line 262, ../../app/stylesheets/empire.scss */
+/* line 263, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar a.button span {
   color: #d3da67;
 }
-/* line 264, ../../app/stylesheets/empire.scss */
+/* line 265, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar a.button:hover {
   border-top: 1px solid #393633;
   border-right: 1px solid #423e3b;
@@ -352,33 +349,33 @@ html body #top-bar-container #top-bar a.button:hover {
   background-image: -ms-linear-gradient(#625d59, #444341);
   background-image: linear-gradient(#625d59, #444341);
 }
-/* line 272, ../../app/stylesheets/empire.scss */
+/* line 273, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar a.button:hover span {
   color: #dce371;
 }
-/* line 274, ../../app/stylesheets/empire.scss */
+/* line 275, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar #navigation {
   width: auto;
   float: right;
   padding: 6px 0 0 0;
 }
-/* line 278, ../../app/stylesheets/empire.scss */
+/* line 279, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar #navigation li {
   width: auto;
   padding: 0 10px;
 }
-/* line 281, ../../app/stylesheets/empire.scss */
+/* line 282, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar #navigation li a {
   color: #cccccc;
   text-decoration: none;
 }
-/* line 283, ../../app/stylesheets/empire.scss */
+/* line 284, ../../app/stylesheets/empire.scss */
 html body #top-bar-container #top-bar #navigation li a.current,
 html body #top-bar-container #top-bar #navigation li a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
-/* line 288, ../../app/stylesheets/empire.scss */
+/* line 289, ../../app/stylesheets/empire.scss */
 html body #banner-container {
   padding: 12px 0 9px 0;
   border-top: 1px solid #ffffff;
@@ -393,11 +390,11 @@ html body #banner-container {
   background-image: linear-gradient(#f5f5f1, #c7c6c1);
   text-shadow: 0 1px 0 #f3f2f1;
 }
-/* line 294, ../../app/stylesheets/empire.scss */
+/* line 295, ../../app/stylesheets/empire.scss */
 html body #banner-container h3 {
   color: #4c4843;
 }
-/* line 297, ../../app/stylesheets/empire.scss */
+/* line 298, ../../app/stylesheets/empire.scss */
 html body #banner-container #header {
   float: none;
   width: 990px;
@@ -414,7 +411,7 @@ html body #banner-container #header:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 304, ../../app/stylesheets/empire.scss */
+/* line 305, ../../app/stylesheets/empire.scss */
 html body #banner-container #banner {
   float: none;
   width: 990px;
@@ -432,7 +429,7 @@ html body #banner-container #banner:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 311, ../../app/stylesheets/empire.scss */
+/* line 312, ../../app/stylesheets/empire.scss */
 html body #banner-container #banner #hero-image {
   width: 930px;
   height: 340px;
@@ -445,14 +442,14 @@ html body #banner-container #banner #hero-image {
   -khtml-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 317, ../../app/stylesheets/empire.scss */
+/* line 318, ../../app/stylesheets/empire.scss */
 html body #banner-container #banner #hero-image img {
   -moz-box-shadow: 0 2px 7px #a6a5a1;
   -webkit-box-shadow: 0 2px 7px #a6a5a1;
   -o-box-shadow: 0 2px 7px #a6a5a1;
   box-shadow: 0 2px 7px #a6a5a1;
 }
-/* line 321, ../../app/stylesheets/empire.scss */
+/* line 322, ../../app/stylesheets/empire.scss */
 html body #banner-container #banner blockquote {
   padding: 10px 0 10px;
   margin: 0 0 20px 0;
@@ -462,19 +459,19 @@ html body #banner-container #banner blockquote {
   text-align: center;
   color: #64605d;
 }
-/* line 329, ../../app/stylesheets/empire.scss */
+/* line 330, ../../app/stylesheets/empire.scss */
 html body #banner-container #banner blockquote span {
   font-size: 18px;
   line-height: 30px;
   font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
 }
-/* line 335, ../../app/stylesheets/empire.scss */
+/* line 336, ../../app/stylesheets/empire.scss */
 html body #banner-container #banner .learn-more {
   font-weight: bold;
   text-transform: uppercase;
   text-shadow: 0 1px 0 #ececea;
 }
-/* line 342, ../../app/stylesheets/empire.scss */
+/* line 343, ../../app/stylesheets/empire.scss */
 html body #content-container {
   float: none;
   background: #ffffff;
@@ -486,7 +483,7 @@ html body #content-container {
   -o-box-shadow: 0 -1px 0 #a2a19d, 0 0 15px #a3a29e, 0 0 7px #bfbfbf inset;
   box-shadow: 0 -1px 0 #a2a19d, 0 0 15px #a3a29e, 0 0 7px #bfbfbf inset;
 }
-/* line 349, ../../app/stylesheets/empire.scss */
+/* line 350, ../../app/stylesheets/empire.scss */
 html body #content-container #content {
   float: none;
   width: 990px;
@@ -503,15 +500,15 @@ html body #content-container #content:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 355, ../../app/stylesheets/empire.scss */
+/* line 356, ../../app/stylesheets/empire.scss */
 html body #content-container #content .sidebar-left {
   background-color: #ffffff;
 }
-/* line 358, ../../app/stylesheets/empire.scss */
+/* line 359, ../../app/stylesheets/empire.scss */
 html body #content-container #content .sidebar-right {
   background-color: #ffffff;
 }
-/* line 363, ../../app/stylesheets/empire.scss */
+/* line 364, ../../app/stylesheets/empire.scss */
 html body #footer-container {
   float: none;
   color: #ffffff;
@@ -525,29 +522,29 @@ html body #footer-container {
   background-image: linear-gradient(#2e2a25, #0f0f0e);
   text-shadow: 0 1px 0 #060605;
 }
-/* line 370, ../../app/stylesheets/empire.scss */
+/* line 371, ../../app/stylesheets/empire.scss */
 html body #footer-container a {
   color: #cccccc;
   text-decoration: none;
 }
-/* line 371, ../../app/stylesheets/empire.scss */
+/* line 372, ../../app/stylesheets/empire.scss */
 html body #footer-container a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
-/* line 372, ../../app/stylesheets/empire.scss */
+/* line 373, ../../app/stylesheets/empire.scss */
 html body #footer-container h1, html body #footer-container h2, html body #footer-container h3, html body #footer-container h4, html body #footer-container h5 {
   color: #ffffff;
 }
-/* line 373, ../../app/stylesheets/empire.scss */
+/* line 374, ../../app/stylesheets/empire.scss */
 html body #footer-container h6.article-subtitle {
   color: #a8a8a8;
 }
-/* line 374, ../../app/stylesheets/empire.scss */
+/* line 375, ../../app/stylesheets/empire.scss */
 html body #footer-container h5 a {
   color: #ffffff;
 }
-/* line 376, ../../app/stylesheets/empire.scss */
+/* line 377, ../../app/stylesheets/empire.scss */
 html body #footer-container input[type="email"],
 html body #footer-container textarea {
   border-top: 1px solid #1e1c1b;
@@ -558,19 +555,19 @@ html body #footer-container textarea {
   background: #31302e;
   text-shadow: 0 1px 0 black;
 }
-/* line 386, ../../app/stylesheets/empire.scss */
+/* line 387, ../../app/stylesheets/empire.scss */
 html body #footer-container input[type="email"]:focus,
 html body #footer-container textarea:focus {
   border-color: #BC2215;
 }
-/* line 389, ../../app/stylesheets/empire.scss */
+/* line 390, ../../app/stylesheets/empire.scss */
 html body #footer-container input[type="submit"] {
   -moz-box-shadow: 0 1px 1px #dd6f62 inset, 0 2px 4px #0a0909;
   -webkit-box-shadow: 0 1px 1px #dd6f62 inset, 0 2px 4px #0a0909;
   -o-box-shadow: 0 1px 1px #dd6f62 inset, 0 2px 4px #0a0909;
   box-shadow: 0 1px 1px #dd6f62 inset, 0 2px 4px #0a0909;
 }
-/* line 392, ../../app/stylesheets/empire.scss */
+/* line 393, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer {
   float: none;
   width: 990px;
@@ -587,41 +584,42 @@ html body #footer-container #footer:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 398, ../../app/stylesheets/empire.scss */
+/* line 399, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer ul.lined-large {
   position: relative;
   margin-top: -10px;
 }
-/* line 402, ../../app/stylesheets/empire.scss */
+/* line 403, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar {
   padding: 10px 0 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 405, ../../app/stylesheets/empire.scss */
+/* line 406, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar p {
   float: left;
   width: auto;
   font-weight: bold;
 }
-/* line 409, ../../app/stylesheets/empire.scss */
+/* line 410, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar p a {
   color: #ffffff;
 }
-/* line 410, ../../app/stylesheets/empire.scss */
+/* line 411, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar p a:hover {
   text-decoration: underline;
 }
-/* line 412, ../../app/stylesheets/empire.scss */
+/* line 413, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar ul#footer-nav {
   float: right;
   width: auto;
 }
-/* line 415, ../../app/stylesheets/empire.scss */
+/* line 416, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar ul#footer-nav li {
   width: auto;
   margin: 0 0 0 20px;
 }
 /* line 427, ../../app/stylesheets/empire.scss */
+html textarea#response-response,
 html textarea#contact-us-message {
   width: 464px;
   height: 114px;

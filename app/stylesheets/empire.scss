@@ -198,13 +198,14 @@ html {
 	button { font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif; }
 	
 	#search-input {
-		width: 144px;
+		width: 154px;
 	}
 	#search-button {
 		width: 100px;
 		text-align: center;
 		padding-left: 0;
 		padding-right: 0;
+		margin-right: 0;
 	}
 
 	body {
@@ -422,8 +423,7 @@ html {
 		}
 	}
 	
-	/* CONTACT US PAGE */
-	
+	textarea#response-response,
 	textarea#contact-us-message {
 		width: 464px;
 		height: 114px;
