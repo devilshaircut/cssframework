@@ -387,6 +387,42 @@
 			<!-- .lined-section -->
 			
 			<div class="lined-section">
+				<div class="section">
+					<h3>Code</h3>
+					<p>Display code beautifully and legibly.</p>
+				</div>
+				<!-- .section -->
+				<div class="section">
+					<code>
+						<ol>
+							<li>class Person</li>
+							<li>&nbsp;&nbsp;attr_reader :name, :age</li>
+							<li>&nbsp;&nbsp;def initialize(name, age)</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;@name, @age = name, age</li>
+							<li>&nbsp;&nbsp;end</li>
+							<li>&nbsp;&nbsp;def <=>(person) # Comparison operator for sorting</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;@age <=> person.age</li>
+							<li>&nbsp;&nbsp;end</li>
+							<li>&nbsp;&nbsp;def to_s</li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;"#@name (#@age)"</li>
+							<li>&nbsp;&nbsp;end</li>
+							<li>end</li>
+							<li>&nbsp;</li>
+							<li>group = [</li>
+							<li>&nbsp;&nbsp;Person.new("Bob", 33),</li>
+							<li>&nbsp;&nbsp;Person.new("Chris", 16),</li>
+							<li>&nbsp;&nbsp;Person.new("Ash", 23)</li>
+							<li>]</li>
+							<li>&nbsp;</li>
+							<li>puts group.sort.reverse</li>
+						</ol>
+					</code>
+				</div>
+				<!-- .section -->
+			</div>
+			<!-- .lined-section -->
+			
+			<div class="lined-section">
 
 				<div class="section">
 					<h3>Typography</h3>

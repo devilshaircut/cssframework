@@ -89,7 +89,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /****************************************************************************************************/
 /* Set these to use display-block-float-left scaffolding. */
 /* line 195, ../../app/stylesheets/screen.scss */
-div, p, table, blockquote,
+div, p, table, blockquote, code,
 h1, h2, h3, h4, h5, h6,
 ol, ul, li, dl, dt, dd,
 fieldset, legend, form, label, select,
@@ -524,10 +524,36 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+/* line 291, ../../app/stylesheets/screen.scss */
+.webkit code,
+code {
+  font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
+  width: 648px;
+  margin: 5px 0 3px 0;
+  background: transparent url("../images/code-background.png") repeat-y 0 0;
+  border-top: 1px solid #e5e5e5;
+  border-right: 1px solid #cecece;
+  border-bottom: 1px solid #adadad;
+  border-left: 1px solid #cecece;
+}
+/* line 300, ../../app/stylesheets/screen.scss */
+.webkit code ol,
+code ol {
+  padding: 0;
+  list-style-type: decimal;
+}
+/* line 303, ../../app/stylesheets/screen.scss */
+.webkit code ol li,
+code ol li {
+  display: list-item;
+  margin: 0 0 0 40px;
+  padding: 0 0 0 10px;
+}
+
 /****************************************************************************************************/
 /* BUTTONS */
 /****************************************************************************************************/
-/* line 300, ../../app/stylesheets/screen.scss */
+/* line 322, ../../app/stylesheets/screen.scss */
 a.icon-button,
 a.cancel-button,
 a.button,
@@ -568,17 +594,17 @@ input[type="submit"] {
   text-shadow: 0 1px 0 #821a11;
 }
 
-/* line 316, ../../app/stylesheets/screen.scss */
+/* line 338, ../../app/stylesheets/screen.scss */
 a.icon-button {
   padding-left: 31px;
 }
-/* line 318, ../../app/stylesheets/screen.scss */
+/* line 340, ../../app/stylesheets/screen.scss */
 a.icon-button img {
   position: absolute;
   margin: -2px 0 0 -21px;
 }
 
-/* line 324, ../../app/stylesheets/screen.scss */
+/* line 346, ../../app/stylesheets/screen.scss */
 a.cancel-button {
   border: none;
   padding-left: 8px;
@@ -593,21 +619,21 @@ a.cancel-button {
   text-shadow: none;
 }
 
-/* line 335, ../../app/stylesheets/screen.scss */
+/* line 357, ../../app/stylesheets/screen.scss */
 button {
   height: 0;
   padding-left: 8px;
   padding-right: 8px;
 }
 
-/* line 341, ../../app/stylesheets/screen.scss */
+/* line 363, ../../app/stylesheets/screen.scss */
 input[type="submit"] {
   height: 0;
   padding-left: 11px;
   padding-right: 11px;
 }
 
-/* line 350, ../../app/stylesheets/screen.scss */
+/* line 372, ../../app/stylesheets/screen.scss */
 a.icon-button:hover,
 a.button:hover,
 button:hover,
@@ -630,7 +656,7 @@ input[type="submit"]:hover {
   text-shadow: 0 1px 0 #bc3329;
 }
 
-/* line 358, ../../app/stylesheets/screen.scss */
+/* line 380, ../../app/stylesheets/screen.scss */
 a.icon-button:active,
 a.button:active,
 button:active,
@@ -654,18 +680,18 @@ input[type="submit"]:active {
   text-shadow: 0 1px 0 #bc3329;
 }
 
-/* line 364, ../../app/stylesheets/screen.scss */
+/* line 386, ../../app/stylesheets/screen.scss */
 a.cancel-button:hover {
   text-decoration: none;
 }
 
-/* line 365, ../../app/stylesheets/screen.scss */
+/* line 387, ../../app/stylesheets/screen.scss */
 a.cancel-button:active {
   position: relative;
   top: 2px;
 }
 
-/* line 370, ../../app/stylesheets/screen.scss */
+/* line 392, ../../app/stylesheets/screen.scss */
 a.icon-button.orange,
 a.button.orange,
 button.orange,
@@ -688,7 +714,7 @@ input[type="submit"].orange {
   text-shadow: 0 1px 0 #974400;
 }
 
-/* line 375, ../../app/stylesheets/screen.scss */
+/* line 397, ../../app/stylesheets/screen.scss */
 a.icon-button.orange:hover,
 a.button.orange:hover,
 button.orange:hover,
@@ -710,7 +736,7 @@ input[type="submit"].orange:hover {
   text-shadow: 0 1px 0 #d46004;
 }
 
-/* line 380, ../../app/stylesheets/screen.scss */
+/* line 402, ../../app/stylesheets/screen.scss */
 a.icon-button.orange:active,
 a.button.orange:active,
 button.orange:active,
@@ -732,7 +758,7 @@ input[type="submit"].orange:active {
   text-shadow: 0 1px 0 #d46004;
 }
 
-/* line 385, ../../app/stylesheets/screen.scss */
+/* line 407, ../../app/stylesheets/screen.scss */
 a.icon-button.blue,
 a.button.blue,
 button.blue,
@@ -755,7 +781,7 @@ input[type="submit"].blue {
   text-shadow: 0 1px 0 #1e3a67;
 }
 
-/* line 390, ../../app/stylesheets/screen.scss */
+/* line 412, ../../app/stylesheets/screen.scss */
 a.icon-button.blue:hover,
 a.button.blue:hover,
 button.blue:hover,
@@ -777,7 +803,7 @@ input[type="submit"].blue:hover {
   text-shadow: 0 1px 0 #335b9c;
 }
 
-/* line 395, ../../app/stylesheets/screen.scss */
+/* line 417, ../../app/stylesheets/screen.scss */
 a.icon-button.blue:active,
 a.button.blue:active,
 button.blue:active,
@@ -799,7 +825,7 @@ input[type="submit"].blue:active {
   text-shadow: 0 1px 0 #335b9c;
 }
 
-/* line 400, ../../app/stylesheets/screen.scss */
+/* line 422, ../../app/stylesheets/screen.scss */
 a.icon-button.green,
 a.button.green,
 button.green,
@@ -821,7 +847,7 @@ input[type="submit"].green {
   text-shadow: 0 1px 0 #4d8600;
 }
 
-/* line 405, ../../app/stylesheets/screen.scss */
+/* line 427, ../../app/stylesheets/screen.scss */
 a.icon-button.green:hover,
 a.button.green:hover,
 button.green:hover,
@@ -843,7 +869,7 @@ input[type="submit"].green:hover {
   text-shadow: 0 1px 0 #78c908;
 }
 
-/* line 410, ../../app/stylesheets/screen.scss */
+/* line 432, ../../app/stylesheets/screen.scss */
 a.icon-button.green:active,
 a.button.green:active,
 button.green:active,
@@ -865,7 +891,7 @@ input[type="submit"].green:active {
   text-shadow: 0 1px 0 #78c908;
 }
 
-/* line 416, ../../app/stylesheets/screen.scss */
+/* line 438, ../../app/stylesheets/screen.scss */
 a.icon-button.grey,
 a.button.grey,
 button.grey,
@@ -888,7 +914,7 @@ input[type="submit"].grey {
   text-shadow: 0 1px 0 #49443e;
 }
 
-/* line 421, ../../app/stylesheets/screen.scss */
+/* line 443, ../../app/stylesheets/screen.scss */
 a.icon-button.grey:hover,
 a.button.grey:hover,
 button.grey:hover,
@@ -910,7 +936,7 @@ input[type="submit"].grey:hover {
   text-shadow: 0 1px 0 #706962;
 }
 
-/* line 426, ../../app/stylesheets/screen.scss */
+/* line 448, ../../app/stylesheets/screen.scss */
 a.icon-button.grey:active,
 a.button.grey:active,
 button.grey:active,
@@ -935,7 +961,7 @@ input[type="submit"].grey:active {
 /****************************************************************************************************/
 /* COLUMNS */
 /****************************************************************************************************/
-/* line 434, ../../app/stylesheets/screen.scss */
+/* line 456, ../../app/stylesheets/screen.scss */
 .sidebar-left {
   width: 280px;
   padding: 0 30px 0 0;
@@ -947,7 +973,7 @@ input[type="submit"].grey:active {
   box-shadow: 85px 0 85px white inset, 85px 0 85px white inset;
 }
 
-/* line 441, ../../app/stylesheets/screen.scss */
+/* line 463, ../../app/stylesheets/screen.scss */
 .sidebar-right {
   width: 280px;
   padding: 0 0 0 30px;
@@ -959,7 +985,7 @@ input[type="submit"].grey:active {
   box-shadow: -85px 0 85px white inset, -85px 0 85px white inset;
 }
 
-/* line 452, ../../app/stylesheets/screen.scss */
+/* line 474, ../../app/stylesheets/screen.scss */
 .column-2,
 .column-2-last,
 .column-2-box,
@@ -968,7 +994,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 460, ../../app/stylesheets/screen.scss */
+/* line 482, ../../app/stylesheets/screen.scss */
 .column-3,
 .column-3-last,
 .column-3-box,
@@ -977,7 +1003,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 466, ../../app/stylesheets/screen.scss */
+/* line 488, ../../app/stylesheets/screen.scss */
 .column-3-box,
 .column-3-box-last {
   width: 185px;
@@ -994,7 +1020,7 @@ input[type="submit"].grey:active {
   border-radius: 2px;
 }
 
-/* line 479, ../../app/stylesheets/screen.scss */
+/* line 501, ../../app/stylesheets/screen.scss */
 .column-4,
 .column-4-last,
 .column-4-box,
@@ -1003,7 +1029,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 485, ../../app/stylesheets/screen.scss */
+/* line 507, ../../app/stylesheets/screen.scss */
 .column-4-box,
 .column-4-box-last {
   width: 270px;
@@ -1020,7 +1046,7 @@ input[type="submit"].grey:active {
   border-radius: 2px;
 }
 
-/* line 498, ../../app/stylesheets/screen.scss */
+/* line 520, ../../app/stylesheets/screen.scss */
 .column-6,
 .column-6-last,
 .column-6-box,
@@ -1029,7 +1055,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 504, ../../app/stylesheets/screen.scss */
+/* line 526, ../../app/stylesheets/screen.scss */
 .column-6-box,
 .column-6-box-last {
   width: 440px;
@@ -1046,7 +1072,7 @@ input[type="submit"].grey:active {
   border-radius: 2px;
 }
 
-/* line 517, ../../app/stylesheets/screen.scss */
+/* line 539, ../../app/stylesheets/screen.scss */
 .column-8,
 .column-8-last,
 .column-8-box,
@@ -1055,7 +1081,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 523, ../../app/stylesheets/screen.scss */
+/* line 545, ../../app/stylesheets/screen.scss */
 .column-8-box,
 .column-8-box-last {
   width: 610px;
@@ -1072,7 +1098,7 @@ input[type="submit"].grey:active {
   border-radius: 2px;
 }
 
-/* line 541, ../../app/stylesheets/screen.scss */
+/* line 563, ../../app/stylesheets/screen.scss */
 .column-2-last,
 .column-3-last,
 .column-3-box-last,
@@ -1085,13 +1111,13 @@ input[type="submit"].grey:active {
   margin-right: 0;
 }
 
-/* line 546, ../../app/stylesheets/screen.scss */
+/* line 568, ../../app/stylesheets/screen.scss */
 .section,
 .lined-section {
   padding: 0 0 20px 0;
 }
 
-/* line 550, ../../app/stylesheets/screen.scss */
+/* line 572, ../../app/stylesheets/screen.scss */
 .lined-section {
   margin: 0 0 20px 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
@@ -1100,7 +1126,7 @@ input[type="submit"].grey:active {
 /****************************************************************************************************/
 /* FORMS */
 /****************************************************************************************************/
-/* line 563, ../../app/stylesheets/screen.scss */
+/* line 585, ../../app/stylesheets/screen.scss */
 label {
   width: auto;
   height: 20px;
@@ -1109,7 +1135,7 @@ label {
   padding-right: 0;
 }
 
-/* line 572, ../../app/stylesheets/screen.scss */
+/* line 594, ../../app/stylesheets/screen.scss */
 input[type="radio"],
 input[type="checkbox"] {
   display: block;
@@ -1120,7 +1146,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-/* line 585, ../../app/stylesheets/screen.scss */
+/* line 607, ../../app/stylesheets/screen.scss */
 select,
 input[type="text"],
 input[type="email"],
@@ -1146,7 +1172,7 @@ textarea {
   border-radius: 2px;
 }
 
-/* line 602, ../../app/stylesheets/screen.scss */
+/* line 624, ../../app/stylesheets/screen.scss */
 input[type="radio"],
 input[type="checkbox"] {
   display: block;
@@ -1154,7 +1180,7 @@ input[type="checkbox"] {
   width: auto;
 }
 
-/* line 612, ../../app/stylesheets/screen.scss */
+/* line 634, ../../app/stylesheets/screen.scss */
 select:hover,
 input[type="text"]:hover,
 input[type="email"]:hover,
@@ -1163,7 +1189,7 @@ textarea:hover {
   border-color: #bc2215;
 }
 
-/* line 620, ../../app/stylesheets/screen.scss */
+/* line 642, ../../app/stylesheets/screen.scss */
 select:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -1172,7 +1198,7 @@ textarea:focus {
   border-color: #bc2215;
 }
 
-/* line 624, ../../app/stylesheets/screen.scss */
+/* line 646, ../../app/stylesheets/screen.scss */
 select {
   padding-left: 4px;
   padding-right: 5px;
@@ -1181,7 +1207,7 @@ select {
   cursor: pointer;
 }
 
-/* line 632, ../../app/stylesheets/screen.scss */
+/* line 654, ../../app/stylesheets/screen.scss */
 textarea {
   height: 54px;
   padding-left: 7px;
@@ -1189,13 +1215,13 @@ textarea {
   resize: vertical;
 }
 
-/* line 642, ../../app/stylesheets/screen.scss */
+/* line 664, ../../app/stylesheets/screen.scss */
 div.form .form-row .form-label label {
   font-weight: bold;
   color: #464646;
 }
 
-/* line 653, ../../app/stylesheets/screen.scss */
+/* line 675, ../../app/stylesheets/screen.scss */
 ul.form li label {
   padding-left: 0;
   padding-right: 0;
@@ -1204,31 +1230,31 @@ ul.form li label {
 /****************************************************************************************************/
 /* TABLES */
 /****************************************************************************************************/
-/* line 666, ../../app/stylesheets/screen.scss */
+/* line 688, ../../app/stylesheets/screen.scss */
 table {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 670, ../../app/stylesheets/screen.scss */
+/* line 692, ../../app/stylesheets/screen.scss */
 table colgroup col {
   width: 165px;
   background: transparent url("../images/dotted-line-vertical.png") no-repeat 0 0;
 }
-/* line 674, ../../app/stylesheets/screen.scss */
+/* line 696, ../../app/stylesheets/screen.scss */
 table colgroup col:nth-child(1) {
   background: none;
 }
-/* line 680, ../../app/stylesheets/screen.scss */
+/* line 702, ../../app/stylesheets/screen.scss */
 table thead tr th {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
 }
-/* line 688, ../../app/stylesheets/screen.scss */
+/* line 710, ../../app/stylesheets/screen.scss */
 table tbody tr {
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 690, ../../app/stylesheets/screen.scss */
+/* line 712, ../../app/stylesheets/screen.scss */
 table tbody tr td {
   padding-left: 10px;
   padding-right: 10px;
