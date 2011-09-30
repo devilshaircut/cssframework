@@ -180,6 +180,31 @@ html {
 		padding: 1px 0 14px 0;
 	}
 	
+	ul#gallery {
+			width: 680px;
+			li {
+				float: left;
+				width: 140px;
+				margin: 0 30px 30px 0;
+				a {
+					display: block;
+					float: left;
+					width: 134px;
+					padding: 2px;
+					border-top: 1px solid #e5e5e5;
+					border-right: 1px solid #cecece;
+					border-bottom: 1px solid #adadad;
+					border-left: 1px solid #cecece;
+					img {
+						display: block;
+						float: left;
+						width: 134px;
+						height: 134px;
+					}
+				}
+		}
+	}
+	
 	label {
 		span {
 			color: #757471;
@@ -431,7 +456,7 @@ html {
 	}
 	
 	img.portrait-thumbnail {
-		margin: 6px 30px 14px 0;
+		margin: 6px 15px 9px 0;
 	}
 	
 }
