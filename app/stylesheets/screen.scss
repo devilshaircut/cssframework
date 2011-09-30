@@ -97,6 +97,11 @@ ol.lined-large {
 }
 
 p {
+	img {
+		display: block;
+		float: left;
+		margin: 6px 30px 24px 0;
+	}
 	img.paragraph-icon {
 		display: block;
 		float: left;
