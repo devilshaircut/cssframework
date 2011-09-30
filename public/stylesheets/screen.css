@@ -413,9 +413,12 @@ body {
   text-align: center;
   color: #696969;
   -webkit-font-smoothing: antialiased;
+  /* This turns off subpixel antialiasing in Webkit, making fonts look more consistent across browsers. */
+  -webkit-text-size-adjust: none;
+  /* This turns off font size adjusting in iPhone Safari, preventing line-height issues. */
 }
 
-/* line 219, ../../app/stylesheets/screen.scss */
+/* line 220, ../../app/stylesheets/screen.scss */
 #page-container {
   float: none;
   width: 990px;
@@ -433,36 +436,36 @@ body {
   visibility: hidden;
 }
 
-/* line 227, ../../app/stylesheets/screen.scss */
+/* line 228, ../../app/stylesheets/screen.scss */
 a {
   text-decoration: underline;
   color: #bc2215;
   cursor: pointer;
 }
 
-/* line 228, ../../app/stylesheets/screen.scss */
+/* line 229, ../../app/stylesheets/screen.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 229, ../../app/stylesheets/screen.scss */
+/* line 230, ../../app/stylesheets/screen.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 230, ../../app/stylesheets/screen.scss */
+/* line 231, ../../app/stylesheets/screen.scss */
 em {
   font-style: italic;
 }
 
-/* line 233, ../../app/stylesheets/screen.scss */
+/* line 234, ../../app/stylesheets/screen.scss */
 ul,
 ol {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 242, ../../app/stylesheets/screen.scss */
+/* line 243, ../../app/stylesheets/screen.scss */
 ul.lined,
 ol.lined,
 ul.lined-large,
@@ -470,7 +473,7 @@ ol.lined-large {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 245, ../../app/stylesheets/screen.scss */
+/* line 246, ../../app/stylesheets/screen.scss */
 ul.lined li,
 ol.lined li,
 ul.lined-large li,
@@ -479,7 +482,7 @@ ol.lined-large li {
   padding-right: 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 250, ../../app/stylesheets/screen.scss */
+/* line 251, ../../app/stylesheets/screen.scss */
 ul.lined li:nth-child(1),
 ol.lined li:nth-child(1),
 ul.lined-large li:nth-child(1),
@@ -487,13 +490,13 @@ ol.lined-large li:nth-child(1) {
   background: none;
 }
 
-/* line 256, ../../app/stylesheets/screen.scss */
+/* line 257, ../../app/stylesheets/screen.scss */
 p img {
   display: block;
   float: left;
   margin: 5px 30px 25px 0;
 }
-/* line 261, ../../app/stylesheets/screen.scss */
+/* line 262, ../../app/stylesheets/screen.scss */
 p img.paragraph-icon {
   display: block;
   float: left;
@@ -502,7 +505,7 @@ p img.paragraph-icon {
   margin: 3px 8px 5px 0;
 }
 
-/* line 271, ../../app/stylesheets/screen.scss */
+/* line 272, ../../app/stylesheets/screen.scss */
 .column-8 span.floated-blockquote {
   display: block;
   float: left;
@@ -515,7 +518,7 @@ p img.paragraph-icon {
   font-style: italic;
 }
 
-/* line 284, ../../app/stylesheets/screen.scss */
+/* line 285, ../../app/stylesheets/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #464646;
   font-weight: bold;
@@ -524,7 +527,7 @@ h1, h2, h3, h4, h5, h6 {
 /****************************************************************************************************/
 /* BUTTONS */
 /****************************************************************************************************/
-/* line 299, ../../app/stylesheets/screen.scss */
+/* line 300, ../../app/stylesheets/screen.scss */
 a.icon-button,
 a.cancel-button,
 a.button,
@@ -565,17 +568,17 @@ input[type="submit"] {
   text-shadow: 0 1px 0 #821a11;
 }
 
-/* line 315, ../../app/stylesheets/screen.scss */
+/* line 316, ../../app/stylesheets/screen.scss */
 a.icon-button {
   padding-left: 31px;
 }
-/* line 317, ../../app/stylesheets/screen.scss */
+/* line 318, ../../app/stylesheets/screen.scss */
 a.icon-button img {
   position: absolute;
   margin: -2px 0 0 -21px;
 }
 
-/* line 323, ../../app/stylesheets/screen.scss */
+/* line 324, ../../app/stylesheets/screen.scss */
 a.cancel-button {
   border: none;
   padding-left: 8px;
@@ -590,21 +593,21 @@ a.cancel-button {
   text-shadow: none;
 }
 
-/* line 334, ../../app/stylesheets/screen.scss */
+/* line 335, ../../app/stylesheets/screen.scss */
 button {
   height: 0;
   padding-left: 8px;
   padding-right: 8px;
 }
 
-/* line 340, ../../app/stylesheets/screen.scss */
+/* line 341, ../../app/stylesheets/screen.scss */
 input[type="submit"] {
   height: 0;
   padding-left: 11px;
   padding-right: 11px;
 }
 
-/* line 349, ../../app/stylesheets/screen.scss */
+/* line 350, ../../app/stylesheets/screen.scss */
 a.icon-button:hover,
 a.button:hover,
 button:hover,
@@ -627,7 +630,7 @@ input[type="submit"]:hover {
   text-shadow: 0 1px 0 #bc3329;
 }
 
-/* line 357, ../../app/stylesheets/screen.scss */
+/* line 358, ../../app/stylesheets/screen.scss */
 a.icon-button:active,
 a.button:active,
 button:active,
@@ -651,18 +654,18 @@ input[type="submit"]:active {
   text-shadow: 0 1px 0 #bc3329;
 }
 
-/* line 363, ../../app/stylesheets/screen.scss */
+/* line 364, ../../app/stylesheets/screen.scss */
 a.cancel-button:hover {
   text-decoration: none;
 }
 
-/* line 364, ../../app/stylesheets/screen.scss */
+/* line 365, ../../app/stylesheets/screen.scss */
 a.cancel-button:active {
   position: relative;
   top: 2px;
 }
 
-/* line 369, ../../app/stylesheets/screen.scss */
+/* line 370, ../../app/stylesheets/screen.scss */
 a.icon-button.orange,
 a.button.orange,
 button.orange,
@@ -685,7 +688,7 @@ input[type="submit"].orange {
   text-shadow: 0 1px 0 #974400;
 }
 
-/* line 374, ../../app/stylesheets/screen.scss */
+/* line 375, ../../app/stylesheets/screen.scss */
 a.icon-button.orange:hover,
 a.button.orange:hover,
 button.orange:hover,
@@ -707,7 +710,7 @@ input[type="submit"].orange:hover {
   text-shadow: 0 1px 0 #d46004;
 }
 
-/* line 379, ../../app/stylesheets/screen.scss */
+/* line 380, ../../app/stylesheets/screen.scss */
 a.icon-button.orange:active,
 a.button.orange:active,
 button.orange:active,
@@ -729,7 +732,7 @@ input[type="submit"].orange:active {
   text-shadow: 0 1px 0 #d46004;
 }
 
-/* line 384, ../../app/stylesheets/screen.scss */
+/* line 385, ../../app/stylesheets/screen.scss */
 a.icon-button.blue,
 a.button.blue,
 button.blue,
@@ -752,7 +755,7 @@ input[type="submit"].blue {
   text-shadow: 0 1px 0 #1e3a67;
 }
 
-/* line 389, ../../app/stylesheets/screen.scss */
+/* line 390, ../../app/stylesheets/screen.scss */
 a.icon-button.blue:hover,
 a.button.blue:hover,
 button.blue:hover,
@@ -774,7 +777,7 @@ input[type="submit"].blue:hover {
   text-shadow: 0 1px 0 #335b9c;
 }
 
-/* line 394, ../../app/stylesheets/screen.scss */
+/* line 395, ../../app/stylesheets/screen.scss */
 a.icon-button.blue:active,
 a.button.blue:active,
 button.blue:active,
@@ -796,7 +799,7 @@ input[type="submit"].blue:active {
   text-shadow: 0 1px 0 #335b9c;
 }
 
-/* line 399, ../../app/stylesheets/screen.scss */
+/* line 400, ../../app/stylesheets/screen.scss */
 a.icon-button.green,
 a.button.green,
 button.green,
@@ -818,7 +821,7 @@ input[type="submit"].green {
   text-shadow: 0 1px 0 #4d8600;
 }
 
-/* line 404, ../../app/stylesheets/screen.scss */
+/* line 405, ../../app/stylesheets/screen.scss */
 a.icon-button.green:hover,
 a.button.green:hover,
 button.green:hover,
@@ -840,7 +843,7 @@ input[type="submit"].green:hover {
   text-shadow: 0 1px 0 #78c908;
 }
 
-/* line 409, ../../app/stylesheets/screen.scss */
+/* line 410, ../../app/stylesheets/screen.scss */
 a.icon-button.green:active,
 a.button.green:active,
 button.green:active,
@@ -862,7 +865,7 @@ input[type="submit"].green:active {
   text-shadow: 0 1px 0 #78c908;
 }
 
-/* line 415, ../../app/stylesheets/screen.scss */
+/* line 416, ../../app/stylesheets/screen.scss */
 a.icon-button.grey,
 a.button.grey,
 button.grey,
@@ -885,7 +888,7 @@ input[type="submit"].grey {
   text-shadow: 0 1px 0 #49443e;
 }
 
-/* line 420, ../../app/stylesheets/screen.scss */
+/* line 421, ../../app/stylesheets/screen.scss */
 a.icon-button.grey:hover,
 a.button.grey:hover,
 button.grey:hover,
@@ -907,7 +910,7 @@ input[type="submit"].grey:hover {
   text-shadow: 0 1px 0 #706962;
 }
 
-/* line 425, ../../app/stylesheets/screen.scss */
+/* line 426, ../../app/stylesheets/screen.scss */
 a.icon-button.grey:active,
 a.button.grey:active,
 button.grey:active,
@@ -932,7 +935,7 @@ input[type="submit"].grey:active {
 /****************************************************************************************************/
 /* COLUMNS */
 /****************************************************************************************************/
-/* line 433, ../../app/stylesheets/screen.scss */
+/* line 434, ../../app/stylesheets/screen.scss */
 .sidebar-left {
   width: 280px;
   padding: 0 30px 0 0;
@@ -944,7 +947,7 @@ input[type="submit"].grey:active {
   box-shadow: 85px 0 85px white inset, 85px 0 85px white inset;
 }
 
-/* line 440, ../../app/stylesheets/screen.scss */
+/* line 441, ../../app/stylesheets/screen.scss */
 .sidebar-right {
   width: 280px;
   padding: 0 0 0 30px;
@@ -956,7 +959,7 @@ input[type="submit"].grey:active {
   box-shadow: -85px 0 85px white inset, -85px 0 85px white inset;
 }
 
-/* line 451, ../../app/stylesheets/screen.scss */
+/* line 452, ../../app/stylesheets/screen.scss */
 .column-2,
 .column-2-last,
 .column-2-box,
@@ -965,7 +968,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 459, ../../app/stylesheets/screen.scss */
+/* line 460, ../../app/stylesheets/screen.scss */
 .column-3,
 .column-3-last,
 .column-3-box,
@@ -974,7 +977,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 465, ../../app/stylesheets/screen.scss */
+/* line 466, ../../app/stylesheets/screen.scss */
 .column-3-box,
 .column-3-box-last {
   width: 185px;
@@ -985,7 +988,7 @@ input[type="submit"].grey:active {
   border-left: 1px solid #cecece;
 }
 
-/* line 477, ../../app/stylesheets/screen.scss */
+/* line 478, ../../app/stylesheets/screen.scss */
 .column-4,
 .column-4-last,
 .column-4-box,
@@ -994,7 +997,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 483, ../../app/stylesheets/screen.scss */
+/* line 484, ../../app/stylesheets/screen.scss */
 .column-4-box,
 .column-4-box-last {
   width: 270px;
@@ -1005,7 +1008,7 @@ input[type="submit"].grey:active {
   border-left: 1px solid #cecece;
 }
 
-/* line 495, ../../app/stylesheets/screen.scss */
+/* line 496, ../../app/stylesheets/screen.scss */
 .column-6,
 .column-6-last,
 .column-6-box,
@@ -1014,7 +1017,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 501, ../../app/stylesheets/screen.scss */
+/* line 502, ../../app/stylesheets/screen.scss */
 .column-6-box,
 .column-6-box-last {
   width: 440px;
@@ -1025,14 +1028,14 @@ input[type="submit"].grey:active {
   border-left: 1px solid #cecece;
 }
 
-/* line 511, ../../app/stylesheets/screen.scss */
+/* line 512, ../../app/stylesheets/screen.scss */
 .column-8,
 .column-8-last {
   width: 650px;
   margin: 0 30px 20px 0;
 }
 
-/* line 523, ../../app/stylesheets/screen.scss */
+/* line 524, ../../app/stylesheets/screen.scss */
 .column-2-last,
 .column-3-last,
 .column-3-box-last,
@@ -1044,13 +1047,13 @@ input[type="submit"].grey:active {
   margin-right: 0;
 }
 
-/* line 528, ../../app/stylesheets/screen.scss */
+/* line 529, ../../app/stylesheets/screen.scss */
 .section,
 .lined-section {
   padding: 0 0 20px 0;
 }
 
-/* line 532, ../../app/stylesheets/screen.scss */
+/* line 533, ../../app/stylesheets/screen.scss */
 .lined-section {
   margin: 0 0 20px 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
@@ -1059,7 +1062,7 @@ input[type="submit"].grey:active {
 /****************************************************************************************************/
 /* FORMS */
 /****************************************************************************************************/
-/* line 545, ../../app/stylesheets/screen.scss */
+/* line 546, ../../app/stylesheets/screen.scss */
 label {
   width: auto;
   height: 20px;
@@ -1068,7 +1071,7 @@ label {
   padding-right: 0;
 }
 
-/* line 554, ../../app/stylesheets/screen.scss */
+/* line 555, ../../app/stylesheets/screen.scss */
 input[type="radio"],
 input[type="checkbox"] {
   display: block;
@@ -1079,7 +1082,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-/* line 567, ../../app/stylesheets/screen.scss */
+/* line 568, ../../app/stylesheets/screen.scss */
 select,
 input[type="text"],
 input[type="email"],
@@ -1105,7 +1108,7 @@ textarea {
   border-radius: 2px;
 }
 
-/* line 584, ../../app/stylesheets/screen.scss */
+/* line 585, ../../app/stylesheets/screen.scss */
 input[type="radio"],
 input[type="checkbox"] {
   display: block;
@@ -1113,7 +1116,7 @@ input[type="checkbox"] {
   width: auto;
 }
 
-/* line 594, ../../app/stylesheets/screen.scss */
+/* line 595, ../../app/stylesheets/screen.scss */
 select:hover,
 input[type="text"]:hover,
 input[type="email"]:hover,
@@ -1122,7 +1125,7 @@ textarea:hover {
   border-color: #bc2215;
 }
 
-/* line 602, ../../app/stylesheets/screen.scss */
+/* line 603, ../../app/stylesheets/screen.scss */
 select:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -1131,7 +1134,7 @@ textarea:focus {
   border-color: #bc2215;
 }
 
-/* line 606, ../../app/stylesheets/screen.scss */
+/* line 607, ../../app/stylesheets/screen.scss */
 select {
   padding-left: 4px;
   padding-right: 5px;
@@ -1140,7 +1143,7 @@ select {
   cursor: pointer;
 }
 
-/* line 614, ../../app/stylesheets/screen.scss */
+/* line 615, ../../app/stylesheets/screen.scss */
 textarea {
   height: 54px;
   padding-left: 7px;
@@ -1148,13 +1151,13 @@ textarea {
   resize: vertical;
 }
 
-/* line 624, ../../app/stylesheets/screen.scss */
+/* line 625, ../../app/stylesheets/screen.scss */
 div.form .form-row .form-label label {
   font-weight: bold;
   color: #464646;
 }
 
-/* line 635, ../../app/stylesheets/screen.scss */
+/* line 636, ../../app/stylesheets/screen.scss */
 ul.form li label {
   padding-left: 0;
   padding-right: 0;
@@ -1163,31 +1166,31 @@ ul.form li label {
 /****************************************************************************************************/
 /* TABLES */
 /****************************************************************************************************/
-/* line 648, ../../app/stylesheets/screen.scss */
+/* line 649, ../../app/stylesheets/screen.scss */
 table {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 652, ../../app/stylesheets/screen.scss */
+/* line 653, ../../app/stylesheets/screen.scss */
 table colgroup col {
   width: 165px;
   background: transparent url("../images/dotted-line-vertical.png") no-repeat 0 0;
 }
-/* line 656, ../../app/stylesheets/screen.scss */
+/* line 657, ../../app/stylesheets/screen.scss */
 table colgroup col:nth-child(1) {
   background: none;
 }
-/* line 662, ../../app/stylesheets/screen.scss */
+/* line 663, ../../app/stylesheets/screen.scss */
 table thead tr th {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
 }
-/* line 670, ../../app/stylesheets/screen.scss */
+/* line 671, ../../app/stylesheets/screen.scss */
 table tbody tr {
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 672, ../../app/stylesheets/screen.scss */
+/* line 673, ../../app/stylesheets/screen.scss */
 table tbody tr td {
   padding-left: 10px;
   padding-right: 10px;
