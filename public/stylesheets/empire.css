@@ -625,3 +625,7 @@ html textarea#contact-us-message {
   height: 114px;
   margin-right: 0;
 }
+/* line 433, ../../app/stylesheets/empire.scss */
+html img.portrait-thumbnail {
+  margin: 6px 30px 14px 0;
+}
