@@ -625,58 +625,58 @@ html body #footer-container #footer ul.lined-large {
   position: relative;
   margin-top: -10px;
 }
-/* line 432, ../../app/stylesheets/empire.scss */
+/* line 433, ../../app/stylesheets/empire.scss */
+html body #footer-container #footer ul.lined a {
+  display: block;
+  width: 100%;
+}
+/* line 438, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar {
   padding: 10px 0 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 435, ../../app/stylesheets/empire.scss */
+/* line 441, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar p {
   float: left;
   width: auto;
   font-weight: bold;
 }
-/* line 439, ../../app/stylesheets/empire.scss */
+/* line 445, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar p a {
   color: #ffffff;
 }
-/* line 440, ../../app/stylesheets/empire.scss */
+/* line 446, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar p a:hover {
   text-decoration: underline;
 }
-/* line 442, ../../app/stylesheets/empire.scss */
+/* line 448, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar ul#footer-nav {
   float: right;
   width: auto;
 }
-/* line 445, ../../app/stylesheets/empire.scss */
+/* line 451, ../../app/stylesheets/empire.scss */
 html body #footer-container #footer #footer-bar ul#footer-nav li {
   width: auto;
   margin: 0 0 0 20px;
 }
-/* line 456, ../../app/stylesheets/empire.scss */
+/* line 462, ../../app/stylesheets/empire.scss */
 html textarea#response-response,
 html textarea#contact-us-message {
   width: 464px;
   height: 114px;
   margin-right: 0;
 }
-/* line 462, ../../app/stylesheets/empire.scss */
+/* line 468, ../../app/stylesheets/empire.scss */
 html img.portrait-thumbnail {
   margin: 6px 15px 9px 0;
 }
-/* line 467, ../../app/stylesheets/empire.scss */
-html .column-8 blockquote.floated-blockquote {
-  padding-top: 2px;
-  padding-bottom: 0;
+/* line 473, ../../app/stylesheets/empire.scss */
+html .column-8 span.floated-blockquote {
+  padding-top: 4px;
+  padding-bottom: 6px;
   margin-top: 0;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
-}
-/* line 475, ../../app/stylesheets/empire.scss */
-html .webkit blockquote.floated-blockquote {
-  padding-top: 1px;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 19px;
+  font-size: 20px;
+  line-height: 30px;
 }

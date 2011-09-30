@@ -255,7 +255,7 @@ p {
 	img {
 		display: block;
 		float: left;
-		margin: 6px 30px 24px 0;
+		margin: 5px 30px 25px 0;
 	}
 	img.paragraph-icon {
 		display: block;
@@ -267,7 +267,7 @@ p {
 }
 
 .column-8 {
-	blockquote.floated-blockquote {
+	span.floated-blockquote {
 		display: block;
 		float: left;
 		width: 225px;
@@ -276,6 +276,7 @@ p {
 		margin-left: 0;
 		margin-right: 30px;
 		color: #757471;
+		font-style: italic;
 	}
 }
 

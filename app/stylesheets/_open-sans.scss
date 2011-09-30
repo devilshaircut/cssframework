@@ -39,11 +39,13 @@
 	}
 	
 	.column-8 {
-		blockquote.floated-blockquote {
-			padding-top: 0;
-			padding-bottom: 0;
+		span.floated-blockquote {
+			padding-top: 2px;
+			padding-bottom: 8px;
 			margin-top: 0;
-			margin-bottom: 20px;
+			margin-bottom: 10px;
+			font-size: 20px;
+			line-height: 30px;
 		}
 	}
 

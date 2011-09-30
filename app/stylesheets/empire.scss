@@ -429,6 +429,12 @@ html {
 					position: relative;
 					margin-top: -10px;
 				}
+				ul.lined {
+					a {
+						display: block;
+						width: 100%;
+					}
+				}
 				#footer-bar {
 					padding: 10px 0 0;
 					background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
@@ -464,20 +470,17 @@ html {
 	}
 
 	.column-8 {
-		blockquote.floated-blockquote {
-			padding-top: 2px;
-			padding-bottom: 0;
+		span.floated-blockquote {
+			padding-top: 4px;
+			padding-bottom: 6px;
 			margin-top: 0;
-			margin-bottom: 18px;
+			margin-bottom: 10px;
 			font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
+			font-size: 20px;
+			line-height: 30px;
 		}
 	}
-	.webkit blockquote.floated-blockquote {
-		padding-top: 1px;
-		padding-bottom: 0;
-		margin-top: 0;
-		margin-bottom: 19px;
-	}
+
 	
 }
 
