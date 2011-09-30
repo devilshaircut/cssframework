@@ -266,6 +266,7 @@ html {
 				float: none;
 				width: 990px;
 				margin: 0 auto;
+				padding: 0 30px;
 				text-align: left;
 				font-size: 11px;
 				text-transform: uppercase;
@@ -341,6 +342,7 @@ html {
 				float: none;
 				width: 990px;
 				margin: 0 auto;
+				padding: 0 30px;
 				text-align: left;
 				@include legacy-pie-clearfix;
 			}
@@ -348,7 +350,7 @@ html {
 				float: none;
 				width: 990px;
 				margin: 0 auto;
-				padding: 20px 0 0 0;
+				padding: 20px 30px 0 30px;
 				text-align: left;
 				@include legacy-pie-clearfix;
 				#hero-image {
@@ -393,6 +395,7 @@ html {
 				float: none;
 				width: 990px;
 				margin: 0 auto;
+				padding: 0 30px;
 				text-align: left;
 				@include legacy-pie-clearfix;
 				.sidebar-left {
@@ -436,6 +439,7 @@ html {
 				float: none;
 				width: 990px;
 				margin: 0 auto;
+				padding: 0 30px;
 				text-align: left;
 				@include legacy-pie-clearfix;
 				ul.lined-large {
