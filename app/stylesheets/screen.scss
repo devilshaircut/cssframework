@@ -470,6 +470,7 @@ input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 	border-right: 1px solid #cecece;
 	border-bottom: 1px solid #adadad;
 	border-left: 1px solid #cecece;
+	@include border-radius(2px);
 }
 
 .column-4,
@@ -488,6 +489,7 @@ input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 	border-right: 1px solid #cecece;
 	border-bottom: 1px solid #adadad;
 	border-left: 1px solid #cecece;
+	@include border-radius(2px);
 }
 
 .column-6,
@@ -506,12 +508,26 @@ input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 	border-right: 1px solid #cecece;
 	border-bottom: 1px solid #adadad;
 	border-left: 1px solid #cecece;
+	@include border-radius(2px);
 }
 
 .column-8,
-.column-8-last {
+.column-8-last,
+.column-8-box,
+.column-8-box-last {
 	width: 650px;
 	margin: 0 30px 20px 0;
+}
+
+.column-8-box,
+.column-8-box-last {
+	width: 610px;
+	padding: 19px 19px 29px 19px;
+	border-top: 1px solid #e5e5e5;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #adadad;
+	border-left: 1px solid #cecece;
+	@include border-radius(2px);
 }
 
 .column-2-last,
@@ -521,7 +537,8 @@ input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 .column-4-box-last,
 .column-6-last,
 .column-6-box-last,
-.column-8-last {
+.column-8-last,
+.column-8-box-last {
 	margin-right: 0;
 }
 

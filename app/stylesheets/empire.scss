@@ -179,6 +179,30 @@ html {
 		}
 	}
 	
+	ul.flickr {
+		width: 300px;
+		li {
+			width: 86px;
+			height: 86px;
+			margin: 0 11px 14px 0;
+			a {
+				display: block;
+				float: left;
+				width: 80px;
+				height: 80px;
+				padding: 2px;
+				border-top: 1px solid #e5e5e5;
+				border-right: 1px solid #cecece;
+				border-bottom: 1px solid #adadad;
+				border-left: 1px solid #cecece;
+				img {
+					display: block;
+					float: left;
+				}
+			}
+		}
+	}
+	
 	ol#breadcrumbs {
 		padding: 0 0 15px 0;
 		margin: -5px 0 0 0;

@@ -986,9 +986,15 @@ input[type="submit"].grey:active {
   border-right: 1px solid #cecece;
   border-bottom: 1px solid #adadad;
   border-left: 1px solid #cecece;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
 }
 
-/* line 478, ../../app/stylesheets/screen.scss */
+/* line 479, ../../app/stylesheets/screen.scss */
 .column-4,
 .column-4-last,
 .column-4-box,
@@ -997,7 +1003,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 484, ../../app/stylesheets/screen.scss */
+/* line 485, ../../app/stylesheets/screen.scss */
 .column-4-box,
 .column-4-box-last {
   width: 270px;
@@ -1006,9 +1012,15 @@ input[type="submit"].grey:active {
   border-right: 1px solid #cecece;
   border-bottom: 1px solid #adadad;
   border-left: 1px solid #cecece;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
 }
 
-/* line 496, ../../app/stylesheets/screen.scss */
+/* line 498, ../../app/stylesheets/screen.scss */
 .column-6,
 .column-6-last,
 .column-6-box,
@@ -1017,7 +1029,7 @@ input[type="submit"].grey:active {
   margin: 0 30px 20px 0;
 }
 
-/* line 502, ../../app/stylesheets/screen.scss */
+/* line 504, ../../app/stylesheets/screen.scss */
 .column-6-box,
 .column-6-box-last {
   width: 440px;
@@ -1026,16 +1038,41 @@ input[type="submit"].grey:active {
   border-right: 1px solid #cecece;
   border-bottom: 1px solid #adadad;
   border-left: 1px solid #cecece;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
 }
 
-/* line 512, ../../app/stylesheets/screen.scss */
+/* line 517, ../../app/stylesheets/screen.scss */
 .column-8,
-.column-8-last {
+.column-8-last,
+.column-8-box,
+.column-8-box-last {
   width: 650px;
   margin: 0 30px 20px 0;
 }
 
-/* line 524, ../../app/stylesheets/screen.scss */
+/* line 523, ../../app/stylesheets/screen.scss */
+.column-8-box,
+.column-8-box-last {
+  width: 610px;
+  padding: 19px 19px 29px 19px;
+  border-top: 1px solid #e5e5e5;
+  border-right: 1px solid #cecece;
+  border-bottom: 1px solid #adadad;
+  border-left: 1px solid #cecece;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 541, ../../app/stylesheets/screen.scss */
 .column-2-last,
 .column-3-last,
 .column-3-box-last,
@@ -1043,17 +1080,18 @@ input[type="submit"].grey:active {
 .column-4-box-last,
 .column-6-last,
 .column-6-box-last,
-.column-8-last {
+.column-8-last,
+.column-8-box-last {
   margin-right: 0;
 }
 
-/* line 529, ../../app/stylesheets/screen.scss */
+/* line 546, ../../app/stylesheets/screen.scss */
 .section,
 .lined-section {
   padding: 0 0 20px 0;
 }
 
-/* line 533, ../../app/stylesheets/screen.scss */
+/* line 550, ../../app/stylesheets/screen.scss */
 .lined-section {
   margin: 0 0 20px 0;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x bottom left;
@@ -1062,7 +1100,7 @@ input[type="submit"].grey:active {
 /****************************************************************************************************/
 /* FORMS */
 /****************************************************************************************************/
-/* line 546, ../../app/stylesheets/screen.scss */
+/* line 563, ../../app/stylesheets/screen.scss */
 label {
   width: auto;
   height: 20px;
@@ -1071,7 +1109,7 @@ label {
   padding-right: 0;
 }
 
-/* line 555, ../../app/stylesheets/screen.scss */
+/* line 572, ../../app/stylesheets/screen.scss */
 input[type="radio"],
 input[type="checkbox"] {
   display: block;
@@ -1082,7 +1120,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-/* line 568, ../../app/stylesheets/screen.scss */
+/* line 585, ../../app/stylesheets/screen.scss */
 select,
 input[type="text"],
 input[type="email"],
@@ -1108,7 +1146,7 @@ textarea {
   border-radius: 2px;
 }
 
-/* line 585, ../../app/stylesheets/screen.scss */
+/* line 602, ../../app/stylesheets/screen.scss */
 input[type="radio"],
 input[type="checkbox"] {
   display: block;
@@ -1116,7 +1154,7 @@ input[type="checkbox"] {
   width: auto;
 }
 
-/* line 595, ../../app/stylesheets/screen.scss */
+/* line 612, ../../app/stylesheets/screen.scss */
 select:hover,
 input[type="text"]:hover,
 input[type="email"]:hover,
@@ -1125,7 +1163,7 @@ textarea:hover {
   border-color: #bc2215;
 }
 
-/* line 603, ../../app/stylesheets/screen.scss */
+/* line 620, ../../app/stylesheets/screen.scss */
 select:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -1134,7 +1172,7 @@ textarea:focus {
   border-color: #bc2215;
 }
 
-/* line 607, ../../app/stylesheets/screen.scss */
+/* line 624, ../../app/stylesheets/screen.scss */
 select {
   padding-left: 4px;
   padding-right: 5px;
@@ -1143,7 +1181,7 @@ select {
   cursor: pointer;
 }
 
-/* line 615, ../../app/stylesheets/screen.scss */
+/* line 632, ../../app/stylesheets/screen.scss */
 textarea {
   height: 54px;
   padding-left: 7px;
@@ -1151,13 +1189,13 @@ textarea {
   resize: vertical;
 }
 
-/* line 625, ../../app/stylesheets/screen.scss */
+/* line 642, ../../app/stylesheets/screen.scss */
 div.form .form-row .form-label label {
   font-weight: bold;
   color: #464646;
 }
 
-/* line 636, ../../app/stylesheets/screen.scss */
+/* line 653, ../../app/stylesheets/screen.scss */
 ul.form li label {
   padding-left: 0;
   padding-right: 0;
@@ -1166,31 +1204,31 @@ ul.form li label {
 /****************************************************************************************************/
 /* TABLES */
 /****************************************************************************************************/
-/* line 649, ../../app/stylesheets/screen.scss */
+/* line 666, ../../app/stylesheets/screen.scss */
 table {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 653, ../../app/stylesheets/screen.scss */
+/* line 670, ../../app/stylesheets/screen.scss */
 table colgroup col {
   width: 165px;
   background: transparent url("../images/dotted-line-vertical.png") no-repeat 0 0;
 }
-/* line 657, ../../app/stylesheets/screen.scss */
+/* line 674, ../../app/stylesheets/screen.scss */
 table colgroup col:nth-child(1) {
   background: none;
 }
-/* line 663, ../../app/stylesheets/screen.scss */
+/* line 680, ../../app/stylesheets/screen.scss */
 table thead tr th {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
 }
-/* line 671, ../../app/stylesheets/screen.scss */
+/* line 688, ../../app/stylesheets/screen.scss */
 table tbody tr {
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 673, ../../app/stylesheets/screen.scss */
+/* line 690, ../../app/stylesheets/screen.scss */
 table tbody tr td {
   padding-left: 10px;
   padding-right: 10px;
