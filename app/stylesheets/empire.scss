@@ -200,6 +200,20 @@ html {
 					float: left;
 				}
 			}
+			a:hover {
+				border: 1px solid #BC2215;
+				img { opacity: .75; }
+			}
+		}
+	}
+	
+	ul.adsense-square {
+		width: 310px;
+		li {
+			width: 125px;
+			height: 125px;
+			padding: 5px 0 0 0;
+			margin: 0 30px 25px 0;
 		}
 	}
 	
