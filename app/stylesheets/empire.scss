@@ -146,6 +146,13 @@ html {
 			font-style: normal;
 	    text-transform: uppercase;
 			text-align: right;
+			.timestamp {
+				width: auto;
+			}
+			a.leave-a-response {
+				float: right;
+				width: auto;
+			}
 		}
 	}
 	.webkit ul.replies
@@ -163,6 +170,12 @@ html {
 			padding-top: 10px;
 			font-weight: normal;
 			a { font-weight: bold; }
+		}
+	}
+	.webkit ul.replies {
+		.commenter {
+			padding-top: 9px;
+			padding-bottom: 10px;
 		}
 	}
 	
