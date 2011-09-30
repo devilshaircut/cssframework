@@ -122,7 +122,8 @@ html {
 			}
 		}
 	}
-	
+
+	ul.replies,	
 	ul.comments {
 		position: relative;
 		margin-top: -10px;
@@ -147,6 +148,7 @@ html {
 			text-align: right;
 		}
 	}
+	.webkit ul.replies
 	.webkit ul.comments {
 		blockquote {
 			padding-top: 10px;
@@ -154,6 +156,13 @@ html {
 		}
 		.commenter {
 			padding-bottom: 10px;
+		}
+	}
+	ul.replies {
+		.commenter {
+			padding-top: 10px;
+			font-weight: normal;
+			a { font-weight: bold; }
 		}
 	}
 	
