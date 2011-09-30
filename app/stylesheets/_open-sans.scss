@@ -37,6 +37,15 @@
 	blockquote {
 		font-style: italic;
 	}
+	
+	.column-8 {
+		blockquote.floated-blockquote {
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+	}
 
 	ul,
 	ol {

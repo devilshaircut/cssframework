@@ -266,6 +266,19 @@ p {
 	}
 }
 
+.column-8 {
+	blockquote.floated-blockquote {
+		display: block;
+		float: left;
+		width: 225px;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 30px;
+		color: #757471;
+	}
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: $font-color-header;
 	font-weight: bold;

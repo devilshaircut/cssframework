@@ -462,8 +462,28 @@ html {
 	img.portrait-thumbnail {
 		margin: 6px 15px 9px 0;
 	}
+
+	.column-8 {
+		blockquote.floated-blockquote {
+			padding-top: 2px;
+			padding-bottom: 0;
+			margin-top: 0;
+			margin-bottom: 18px;
+			font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
+		}
+	}
+	.webkit blockquote.floated-blockquote {
+		padding-top: 1px;
+		padding-bottom: 0;
+		margin-top: 0;
+		margin-bottom: 19px;
+	}
 	
 }
+
+
+
+
 
 
 
