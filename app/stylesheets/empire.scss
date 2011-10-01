@@ -536,6 +536,90 @@ html {
 		}
 	}
 	
+	.price-level {
+		padding: 0;
+		line-height: 30px;
+		font-size: 24px;
+		font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
+	}
+	.price-value {
+		padding: 2px 0 0 0;
+		line-height: 50px;
+		font-size: 54px;
+		font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
+	}
+	.price-recurrent {
+		padding: 4px 0 0 0;
+		line-height: 20px;
+		font-size: 12px;
+		font-style: italic;
+	}
+	
+	.pricing-box,
+	.pricing-box-last,
+	.pricing-box-large,
+	.pricing-box-large-last {
+		width: 185px;
+		margin: 20px 30px 20px 0;
+		padding: 28px 19px 31px 19px;
+		border-top: 1px solid #d2d2cf;
+		border-right: 1px solid #a8a8a4;
+		border-bottom: 1px solid #8b8b88;
+		border-left: 1px solid #a8a8a4;
+		font-size: 14px;
+		text-align: center;
+		@include background-image(linear-gradient(#fbfbf3, #e2e0cf));
+		@include text-shadow(0 1px 0 #ffffff);
+		@include box-shadow(0 1px 2px #ffffff inset);
+		@include border-radius(2px);
+		img.pricing-tag {
+			display: block;
+			float: left;
+			position: absolute;
+			margin: -34px 0 0 134px;
+		}
+		.price-recurrent {
+			margin: 0 0 30px 0;
+		}
+		ul.price-specs {
+			padding: 25px 0 20px;
+			text-align: left;
+			background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
+			li {
+				width: 155px;
+				padding: 5px 0 5px 30px;
+				background: transparent url("../images/arrow-bullet.png") no-repeat 7px 9px;
+			}
+		}
+		a.button {
+			float: none;
+			width: 100%;
+			margin: 0 auto 5px;
+			padding-top: 8px;
+			padding-right: 0;
+			padding-bottom: 9px;
+			padding-left: 0;
+		}
+	}
+	
+	.pricing-box-large,
+	.pricing-box-large-last {
+		width: 270px;
+		img.pricing-tag {
+			margin-left: 219px;
+		}
+		ul.price-specs {
+			li {
+				width: 240px;
+			}
+		}
+	}
+
+	.pricing-box-last,
+	.pricing-box-large-last {
+		margin-right: 0;
+	}
+
 	table.pricing {
 		margin: 20px 0 22px 0;
 		padding: 0;
@@ -590,24 +674,6 @@ html {
 					padding-right: 0;
 					font-weight: normal;
 					text-align: center;
-					.price-level {
-						padding: 0;
-						line-height: 30px;
-						font-size: 24px;
-						font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
-					}
-					.price-value {
-						padding: 2px 0 0 0;
-						line-height: 50px;
-						font-size: 54px;
-						font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
-					}
-					.price-recurrent {
-						padding: 4px 0 0 0;
-						line-height: 20px;
-						font-size: 12px;
-						font-style: italic;
-					}
 				}
 				th:nth-child(1) {
 					background: #fbfbf3;
