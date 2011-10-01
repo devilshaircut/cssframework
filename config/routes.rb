@@ -16,5 +16,6 @@ Cssframework::Application.routes.draw do
   match 'pages/empire-about-us' => "pages#empire-about-us"
   match 'pages/empire-gallery' => "pages#empire-gallery"
   match 'pages/empire-shortcodes' => "pages#empire-shortcodes"
+  match 'pages/empire-pricing' => "pages#empire-pricing"
 
 end

@@ -537,6 +537,7 @@ html {
 	}
 	
 	table.pricing {
+		margin: 20px 0 22px 0;
 		padding: 0;
 		border-top: 1px solid #d2d2cf;
 		border-right: 1px solid #a8a8a4;
@@ -548,6 +549,10 @@ html {
 		@include box-shadow(0 1px 2px #ffffff inset);
 		@include border-radius(2px);
 		colgroup {
+			col {
+				background-position: 0 1px;
+				background-repeat: repeat-y;
+			}
 			col:nth-child(4) {
 				@include box-shadow(0 2px 5px #cbc9bb);
 				background: #fbfaf3;
@@ -567,7 +572,7 @@ html {
 						position: relative;
 						top: -13px;
 						left: -1px;
-						background: #fbfaf3;
+						background: #fbfaf3 url("../images/pricing-background.png") repeat-x 0 -2px;
 					}
 					.price-value {
 						position: relative;
@@ -625,16 +630,20 @@ html {
 					padding-left: 14px;
 					text-align: left;
 				}
-				tr.pricing-buttons {
-					td {
-						padding: 12px 0 18px 0;
-					}
-				}
 				td.price-featured {
 					background: none;
 					border-right: 1px solid #c7c6bd;
 					border-left: 1px solid #c7c6bd;
+				}
+				td.pricing-empty {
+					background-color: #fbfbf3;
+				}
+			}
+			tr.pricing-buttons {
+				td {
 					padding: 0;
+				}
+				td.price-featured {
 					div {
 						position: relative;
 						top: 10px;
@@ -644,10 +653,8 @@ html {
 						border-bottom: 1px solid #8a8a84;
 						border-left: 1px solid #c7c6bd;
 						background-color: #FBFAF3;
+						background: #fbfaf3 url("../images/pricing-background.png") repeat-x bottom left;
 					}
-				}
-				td.pricing-empty {
-					background-color: #fbfbf3;
 				}
 			}
 			tr:nth-child(odd) {
