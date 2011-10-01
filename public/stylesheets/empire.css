@@ -844,47 +844,49 @@ html table.pricing thead tr th .price-recurrent {
   padding: 4px 0 0 0;
   line-height: 20px;
   font-size: 12px;
+  font-style: italic;
 }
-/* line 611, ../../app/stylesheets/empire.scss */
+/* line 612, ../../app/stylesheets/empire.scss */
 html table.pricing thead tr th:nth-child(1) {
   background: #fbfbf3;
 }
-/* line 617, ../../app/stylesheets/empire.scss */
+/* line 618, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr {
   background: none;
 }
-/* line 619, ../../app/stylesheets/empire.scss */
+/* line 620, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr td {
   padding: 22px 0 18px 0;
   text-align: center;
   background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
 }
-/* line 623, ../../app/stylesheets/empire.scss */
+/* line 624, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr td a.button {
   float: none;
   width: 60px;
   margin: 0 auto;
 }
-/* line 629, ../../app/stylesheets/empire.scss */
+/* line 630, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr td:nth-child(1) {
   padding-left: 14px;
   text-align: left;
 }
-/* line 633, ../../app/stylesheets/empire.scss */
+/* line 634, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr td.price-featured {
   background: none;
   border-right: 1px solid #c7c6bd;
   border-left: 1px solid #c7c6bd;
+  font-weight: bold;
 }
-/* line 638, ../../app/stylesheets/empire.scss */
+/* line 640, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr td.pricing-empty {
   background-color: #fbfbf3;
 }
-/* line 643, ../../app/stylesheets/empire.scss */
+/* line 645, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr.pricing-buttons td {
   padding: 0;
 }
-/* line 647, ../../app/stylesheets/empire.scss */
+/* line 649, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr.pricing-buttons td.price-featured div {
   position: relative;
   top: 10px;
@@ -896,19 +898,32 @@ html table.pricing tbody tr.pricing-buttons td.price-featured div {
   background-color: #FBFAF3;
   background: #fbfaf3 url("../images/pricing-background.png") repeat-x bottom left;
 }
-/* line 660, ../../app/stylesheets/empire.scss */
+/* line 659, ../../app/stylesheets/empire.scss */
+html table.pricing tbody tr.pricing-buttons td.price-featured div a.button {
+  float: none;
+  width: 60px;
+  margin: 0 auto;
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+/* line 669, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr:nth-child(odd) {
   background: transparent url("../images/opacity-5-black.png") repeat 0 0;
 }
-/* line 664, ../../app/stylesheets/empire.scss */
+/* line 673, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr.pricing-boolean td {
   padding: 14px 0 11px 0;
 }
-/* line 667, ../../app/stylesheets/empire.scss */
+/* line 676, ../../app/stylesheets/empire.scss */
 html table.pricing tbody tr.pricing-boolean td:nth-child(1) {
   padding-left: 14px;
 }
-/* line 676, ../../app/stylesheets/empire.scss */
-html .webkit table.pricing colgroup col:nth-child(4) {
-  background: #fbfaf3;
+/* line 687, ../../app/stylesheets/empire.scss */
+html .mozilla table.pricing tbody tr td a.button {
+  padding-top: 9px;
+  padding-bottom: 8px;
+}
+/* line 695, ../../app/stylesheets/empire.scss */
+html .mozilla table.pricing tbody tr.pricing-buttons td.price-featured div {
+  padding: 11px 0 29px;
 }

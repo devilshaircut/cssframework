@@ -606,6 +606,7 @@ html {
 						padding: 4px 0 0 0;
 						line-height: 20px;
 						font-size: 12px;
+						font-style: italic;
 					}
 				}
 				th:nth-child(1) {
@@ -634,6 +635,7 @@ html {
 					background: none;
 					border-right: 1px solid #c7c6bd;
 					border-left: 1px solid #c7c6bd;
+					font-weight: bold;
 				}
 				td.pricing-empty {
 					background-color: #fbfbf3;
@@ -654,6 +656,13 @@ html {
 						border-left: 1px solid #c7c6bd;
 						background-color: #FBFAF3;
 						background: #fbfaf3 url("../images/pricing-background.png") repeat-x bottom left;
+						a.button {
+							float: none;
+							width: 60px;
+							margin: 0 auto;
+							padding-top: 8px;							
+							padding-bottom: 9px;
+						}
 					}
 				}
 			}
@@ -671,10 +680,22 @@ html {
 		}
 	}
 	
-	.webkit table.pricing {
-		colgroup {
-			col:nth-child(4) {
-				background: #fbfaf3;
+	.mozilla table.pricing {
+		tbody {
+			tr {
+				td {
+					a.button {
+						padding-top: 9px;
+						padding-bottom: 8px;
+					}
+				}
+			}
+			tr.pricing-buttons {
+				td.price-featured {
+					div {
+    				padding: 11px 0 29px;
+					}
+				}
 			}
 		}
 	}
