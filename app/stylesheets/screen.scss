@@ -213,7 +213,7 @@ body {
 	width: 100%;
 	text-align: center;
 	color: $font-color-body;
-	-webkit-font-smoothing: antialiased; /* This turns off subpixel antialiasing in Webkit, making fonts look more consistent across browsers. */
+
 	-webkit-text-size-adjust: none; /* This turns off font size adjusting in iPhone Safari, preventing line-height issues. */
 }
 
@@ -287,9 +287,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
-.webkit code,
-code {
-	font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
+.webkit code.main-column,
+code.main-column {
+	font-family: 'Inconsolata', 'Courier New', 'Courier', Helvetica, Arial, sans-serif;
 	width: 648px;
 	margin: 5px 0 3px 0;
 	background: transparent url("../images/code-background.png") repeat-y 0 0;
@@ -304,6 +304,8 @@ code {
 			display: list-item;
 			margin: 0 0 0 40px;
 			padding: 0 0 0 10px;
+			width: 598px;
+			cursor: text;
 		}
 	}
 }
