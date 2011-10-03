@@ -8,12 +8,19 @@
 /* COLOR THEMES */
 /****************************************************************************************************/
 
-/* Grey Theme */
+/* Default Theme */
 
 $font-color-header: #464646;
 $font-color-subheader: #808080;
 $font-color-body: #696969;
+
 $accent-color: #bc2215;
+
+$border-color-top: #e5e5e5;
+$border-color-right: #cecece;
+$border-color-bottom: #adadad;
+$border-color-left: #cecece;
+
 
 
 /****************************************************************************************************/
@@ -277,7 +284,7 @@ p {
 		padding-right: 0;
 		margin-left: 0;
 		margin-right: 30px;
-		color: #757471;
+		color: $font-color-subheader;
 		font-style: italic;
 	}
 }
@@ -293,10 +300,10 @@ code.main-column {
 	width: 648px;
 	margin: 5px 0 3px 0;
 	background: transparent url("../images/code-background.png") repeat-y 0 0;
-	border-top: 1px solid #e5e5e5;
-	border-right: 1px solid #cecece;
-	border-bottom: 1px solid #adadad;
-	border-left: 1px solid #cecece;
+	border-top: 1px solid $border-color-top;
+	border-right: 1px solid $border-color-right;
+	border-bottom: 1px solid $border-color-bottom;
+	border-left: 1px solid $border-color-left;
 	ol {
 		padding: 0;
 		list-style-type: decimal;
@@ -455,21 +462,6 @@ input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 /* COLUMNS */
 /****************************************************************************************************/
 
-.sidebar-left {
-	width: 280px;
-	padding: 0 30px 0 0;
-	margin: 0 30px 20px 0;
-	background: transparent url("../images/sidebar-left-background.png") repeat-y top right;
-	@include box-shadow(85px 0 85px #ffffff inset, 85px 0 85px #ffffff inset);
-}
-.sidebar-right {
-	width: 280px;
-	padding: 0 0 0 30px;
-	margin: 0 0 20px 0;
-	background: transparent url("../images/sidebar-right-background.png") repeat-y 0 0;
-	@include box-shadow(-85px 0 85px #ffffff inset, -85px 0 85px #ffffff inset);
-}
-
 .column-2,
 .column-2-last,
 .column-2-box,
@@ -490,10 +482,10 @@ input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 .column-3-box-last {
 	width: 185px;
 	padding: 9px 19px 29px 19px;
-	border-top: 1px solid #e5e5e5;
-	border-right: 1px solid #cecece;
-	border-bottom: 1px solid #adadad;
-	border-left: 1px solid #cecece;
+	border-top: 1px solid $border-color-top;
+	border-right: 1px solid $border-color-right;
+	border-bottom: 1px solid $border-color-bottom;
+	border-left: 1px solid $border-color-left;
 	@include border-radius(2px);
 }
 
@@ -509,10 +501,10 @@ input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 .column-4-box-last {
 	width: 270px;
 	padding: 19px 19px 29px 19px;
-	border-top: 1px solid #e5e5e5;
-	border-right: 1px solid #cecece;
-	border-bottom: 1px solid #adadad;
-	border-left: 1px solid #cecece;
+	border-top: 1px solid $border-color-top;
+	border-right: 1px solid $border-color-right;
+	border-bottom: 1px solid $border-color-bottom;
+	border-left: 1px solid $border-color-left;
 	@include border-radius(2px);
 }
 
@@ -528,10 +520,10 @@ input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 .column-6-box-last {
 	width: 440px;
 	padding: 19px 19px 29px 19px;
-	border-top: 1px solid #e5e5e5;
-	border-right: 1px solid #cecece;
-	border-bottom: 1px solid #adadad;
-	border-left: 1px solid #cecece;
+	border-top: 1px solid $border-color-top;
+	border-right: 1px solid $border-color-right;
+	border-bottom: 1px solid $border-color-bottom;
+	border-left: 1px solid $border-color-left;
 	@include border-radius(2px);
 }
 
@@ -547,10 +539,10 @@ input[type="submit"].grey:active {	@include neutral-grey-button-active; }
 .column-8-box-last {
 	width: 610px;
 	padding: 19px 19px 29px 19px;
-	border-top: 1px solid #e5e5e5;
-	border-right: 1px solid #cecece;
-	border-bottom: 1px solid #adadad;
-	border-left: 1px solid #cecece;
+	border-top: 1px solid $border-color-top;
+	border-right: 1px solid $border-color-right;
+	border-bottom: 1px solid $border-color-bottom;
+	border-left: 1px solid $border-color-left;
 	@include border-radius(2px);
 }
 
@@ -613,10 +605,10 @@ textarea {
 	padding-right: 7px;
 	margin-left: 0;
 	margin-right: 10px;
-	border-top: 1px solid #adadad;
-	border-right: 1px solid #cecece;
-	border-bottom: 1px solid #e5e5e5;
-	border-left: 1px solid #cecece;
+	border-top: 1px solid $border-color-bottom;
+	border-right: 1px solid $border-color-right;
+	border-bottom: 1px solid $border-color-top;
+	border-left: 1px solid $border-color-left;
 	color: $font-color-body;
 	background: transparent;
 	@include border-radius(2px);

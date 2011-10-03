@@ -1,6 +1,117 @@
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
 
+/****************************************************************************************************/
+/* COLOR THEMES */
+/****************************************************************************************************/
+
+/* Default Theme */
+
+$body-background-color: #0f0f0e;
+
+$font-color-header: #333333;
+$font-color-subheader: #757471;
+$font-color-body: #262626;
+
+$accent-color: #bc2215;
+
+$border-color-top: #e5e5e5;
+$border-color-right: #cecece;
+$border-color-bottom: #adadad;
+$border-color-left: #cecece;
+
+/* Top Bar: Bar */
+$top-bar-border-bottom: #ccc3bb;
+$top-bar-gradient-top: #43403c;
+$top-bar-gradient-bottom: #353331;
+$top-bar-box-shadow: #4f4f4c;
+$top-bar-text-shadow: #000000;
+$top-bar-font-color: #cccccc;
+$top-bar-font-color-hover: #ffffff;
+
+/* Top Bar: Button */
+$top-bar-button-border-top: #22201d;
+$top-bar-button-border-right: #2d2926;
+$top-bar-button-border-bottom: #464340;
+$top-bar-button-border-left: #2d2926;
+$top-bar-button-font-color: #cccccc;
+$top-bar-button-font-shadow: #060606;
+$top-bar-button-gradient-top: #504b47;
+$top-bar-button-gradient-bottom: #2f2e2d;
+$top-bar-button-accent: #d3da67;
+
+/* Top Bar: Button (Hover) */
+$top-bar-button-hover-border-top: #393633;
+$top-bar-button-hover-border-right: #423e3b;
+$top-bar-button-hover-border-bottom: #595653;
+$top-bar-button-hover-border-left: #423e3b;
+$top-bar-button-hover-font-color: #ffffff;
+$top-bar-button-hover-font-shadow: #1f1f1f;
+$top-bar-button-hover-gradient-top: #625d59;
+$top-bar-button-hover-gradient-bottom: #444341;
+$top-bar-button-hover-accent: #dce371;
+
+/* Banner */
+$banner-border-top: #ffffff;
+$banner-border-bottom: #d2d1d0;
+$banner-font-color: #3f3a35;
+$banner-header-color: #4c4843;
+$banner-gradient-top: #f5f5f1;
+$banner-gradient-bottom: #c7c6c1;
+$banner-font-shadow: #f3f2f1;
+$banner-image-shadow: #a6a5a1;
+$banner-blockquote-color: #64605d;
+$banner-learn-more-font-shadow: #ececea;
+
+/* Content */
+$content-background: #ffffff;
+$content-box-shadow-bottom: #a2a19d;
+$content-box-shadow: #a3a29e;
+$content-box-shadow-inset: #bfbfbf;
+
+/* Footer */
+$footer-font-color: #ffffff;
+$footer-border-top: #141210;
+$footer-gradient-top: #2e2a25;
+$footer-gradient-bottom: #0f0f0e;
+$footer-text-shadow: #060605;
+$footer-link: #cccccc;
+$footer-link-hover: #ffffff;
+$footer-header: #ffffff;
+$footer-subheader: #a8a8a8;
+$footer-input-border-top: #1e1c1b;
+$footer-input-border-right: #282725;
+$footer-input-border-bottom: #3e3c3a;
+$footer-input-border-left: #282725;
+$footer-input-color: #cccccc;
+$footer-input-background: #31302e;
+$footer-input-font-shadow: #000000;
+$footer-button-shadow: #0a0909;
+$footer-button-shadow-inset: #dd6f62; /* FIX THIS LATER. */
+
+/* Pricing Table */
+$pricing-background-gradient-top: #fbfbf3;
+$pricing-background-gradient-bottom: #e2e0cf;
+$pricing-border-top: #d2d2cf;
+$pricing-border-right: #a8a8a4;
+$pricing-border-bottom: #8b8b88;
+$pricing-border-left: #a8a8a4;
+$pricing-text-shadow: #ffffff;
+$pricing-box-shadow-inset: #ffffff;
+$pricing-selected-box-shadow: #cbc9bb;
+$pricing-selected-background: #fbfaf3;
+$pricing-selected-border-top: #ebeae7;
+$pricing-selected-border-right: #c7c6bd;
+$pricing-selected-border-bottom: #8a8a84;
+$pricing-selected-border-left: #c7c6bd;
+$pricing-empty: #fbfbf3;
+
+
+
+/****************************************************************************************************/
+/* EMPIRE.CSS */
+/****************************************************************************************************/
+
 html {
 
 	h1, h2, h3 {
@@ -9,7 +120,7 @@ html {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: normal;
-		color: #333333;
+		color: $font-color-header;
 	}
 
 	h3.article-title {
@@ -38,7 +149,7 @@ html {
 	h5.article-title {
 		padding: 7px 0 3px 0;
 		line-height: 1em;
-		a { color: #333333; text-decoration: none; }
+		a { color: $font-color-header; text-decoration: none; }
 		a:hover { text-decoration: underline; }
 	}
 	.webkit h5.article-title {
@@ -47,7 +158,7 @@ html {
 	h6.article-subtitle {
 		padding: 0 0 7px 0;
 		margin: 0;
-		color: #757471;
+		color: $font-color-subheader;
 		font-size: 8px;
 		line-height: 1em;
 		font-family: 'Open Sans', Helvetica, Arial, sans serif;
@@ -92,7 +203,10 @@ html {
 				width: 34px;
 				padding: 2px;
 				margin: 0 10px 0 0;
-				border: 1px solid #cccccc;
+				border-top: 1px solid $border-color-top;
+				border-right: 1px solid $border-color-right;
+				border-bottom: 1px solid $border-color-bottom;
+				border-left: 1px solid $border-color-left;
 			}
 		}
 	}
@@ -113,12 +227,12 @@ html {
 				width: 260px;
 				padding: 0 0 0 20px;
 				text-decoration: none;
-				color: #262626;
+				color: $font-color-body;
 				background: transparent url("../images/arrow-bullet.png") no-repeat 0 4px;
 			}
 			a:hover {
 				text-decoration: underline;
-				color: #BC2215;
+				color: $accent-color;
 			}
 		}
 	}
@@ -132,11 +246,11 @@ html {
 			padding-bottom: 1px;
 			a {
 				text-decoration: none;
-				color: #262626;
+				color: $font-color-body;
 			}
 			a:hover {
 				text-decoration: underline;
-				color: #BC2215;
+				color: $accent-color;
 			}
 		}
 		.commenter {
@@ -191,17 +305,17 @@ html {
 				width: 80px;
 				height: 80px;
 				padding: 2px;
-				border-top: 1px solid #e5e5e5;
-				border-right: 1px solid #cecece;
-				border-bottom: 1px solid #adadad;
-				border-left: 1px solid #cecece;
+				border-top: 1px solid $border-color-top;
+				border-right: 1px solid $border-color-right;
+				border-bottom: 1px solid $border-color-bottom;
+				border-left: 1px solid $border-color-left;
 				img {
 					display: block;
 					float: left;
 				}
 			}
 			a:hover {
-				border: 1px solid #BC2215;
+				border: 1px solid $accent-color;
 				img { opacity: .75; }
 			}
 		}
@@ -242,10 +356,10 @@ html {
 				float: left;
 				width: 132px;
 				padding: 3px;
-				border-top: 1px solid #e5e5e5;
-				border-right: 1px solid #cecece;
-				border-bottom: 1px solid #adadad;
-				border-left: 1px solid #cecece;
+				border-top: 1px solid $border-color-top;
+				border-right: 1px solid $border-color-right;
+				border-bottom: 1px solid $border-color-bottom;
+				border-left: 1px solid $border-color-left;
 				img {
 					display: block;
 					float: left;
@@ -254,7 +368,7 @@ html {
 				}
 			}
 			a:hover {
-				border-color: #BC2215;
+				border-color: $accent-color;
 				img { opacity: .75; }
 			}
 		}
@@ -262,7 +376,7 @@ html {
 	
 	label {
 		span {
-			color: #757471;
+			color: $font-color-subheader;
 			font-style: italic;
 		}
 	}
@@ -290,16 +404,16 @@ html {
 
 	body {
 		font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
-		background: #0f0f0e;
-		color: #262626;
+		background: $body-background-color;
+		color: $font-color-body;
 		#top-bar-container {
 			float: none;
 			padding: 6px 0 0;
-			border-bottom: 1px solid #ccc3bb;
+			border-bottom: 1px solid $top-bar-border-bottom;
 			position: relative;
 			z-index: 100;
-			@include background-image(linear-gradient(#43403c, #353331));
-			@include box-shadow(0 0 15px #4f4f4c);
+			@include background-image(linear-gradient($top-bar-gradient-top, $top-bar-gradient-bottom));
+			@include box-shadow(0 0 15px $top-bar-box-shadow);
 			#top-bar {
 				float: none;
 				width: 990px;
@@ -310,7 +424,7 @@ html {
 				text-transform: uppercase;
 				font-weight: bold;
 				@include legacy-pie-clearfix;
-				@include text-shadow(0 1px 0 #000000);
+				@include text-shadow(0 1px 0 $top-bar-text-shadow);
 				a#logo {
 					display: block;
 					float: left;
@@ -324,35 +438,6 @@ html {
 				a#logo:hover {
 					background-position: 0 -50px;
 				}
-				a.button {
-					float: right;
-					font-size: 11px;
-					margin-right: 0;
-					margin-left: 10px;
-			    padding-top: 9px;
-			    padding-bottom: 8px;
-					border-top: 1px solid #22201d;
-					border-right: 1px solid #2d2926;
-					border-bottom: 1px solid #464340;
-					border-left: 1px solid #2d2926;
-					color: #cccccc;
-					text-transform: uppercase;
-					font-weight: bold;
-					@include box-shadow(none);
-					@include text-shadow(0 1px 0 #060606);
-					@include background-image(linear-gradient(#504b47, #2f2e2d));
-					span { color: #d3da67; }
-				}
-				a.button:hover {
-					border-top: 1px solid #393633;
-					border-right: 1px solid #423e3b;
-					border-bottom: 1px solid #595653;
-					border-left: 1px solid #423e3b;
-					color: #ffffff;
-					@include text-shadow(0 1px 0 #1f1f1f);
-					@include background-image(linear-gradient(#625d59, #444341));
-					span { color: #dce371; }
-				}
 				#navigation {
 					width: auto;
 					float: right;
@@ -360,22 +445,51 @@ html {
 					li {
 						width: auto;
 						padding: 0 10px;
-						a { color: #cccccc; text-decoration: none; }
+						a { color: $top-bar-font-color; text-decoration: none; }
 						a.current,
-						a:hover { color: #ffffff; text-decoration: underline; }
+						a:hover { color: $top-bar-font-color-hover; text-decoration: underline; }
 					}
+				}
+				a.button {
+					float: right;
+					font-size: 11px;
+					margin-right: 0;
+					margin-left: 10px;
+			    padding-top: 9px;
+			    padding-bottom: 8px;
+					border-top: 1px solid $top-bar-button-border-top;
+					border-right: 1px solid $top-bar-button-border-right;
+					border-bottom: 1px solid $top-bar-button-border-bottom;
+					border-left: 1px solid $top-bar-button-border-left;
+					color: $top-bar-button-font-color;
+					text-transform: uppercase;
+					font-weight: bold;
+					@include box-shadow(none);
+					@include text-shadow(0 1px 0 $top-bar-button-font-shadow);
+					@include background-image(linear-gradient($top-bar-button-gradient-top, $top-bar-button-gradient-bottom));
+					span { color: $top-bar-button-accent; }
+				}
+				a.button:hover {
+					border-top: 1px solid $top-bar-button-hover-border-top;
+					border-right: 1px solid $top-bar-button-hover-border-right;
+					border-bottom: 1px solid $top-bar-button-hover-border-bottom;
+					border-left: 1px solid $top-bar-button-hover-border-left;
+					color: $top-bar-button-hover-font-color;
+					@include text-shadow(0 1px 0 $top-bar-button-hover-font-shadow);
+					@include background-image(linear-gradient($top-bar-button-hover-gradient-top, $top-bar-button-hover-gradient-bottom));
+					span { color: $top-bar-button-hover-accent }
 				}
 			}
 		}
 		#banner-container {
 			padding: 12px 0 9px 0;
-			border-top: 1px solid #ffffff;
-			border-bottom: 1px solid #d2d1d0;
+			border-top: 1px solid $banner-border-top;
+			border-bottom: 1px solid $banner-border-bottom;
 			float: none;
-			color: #3f3a35;
-			h3 { color: #4c4843; }
-			@include background-image(linear-gradient(#f5f5f1, #c7c6c1));
-			@include text-shadow(0 1px 0 #f3f2f1);
+			color: $banner-font-color;
+			h3 { color: $banner-header-color; }
+			@include background-image(linear-gradient($banner-gradient-top, $banner-gradient-bottom));
+			@include text-shadow(0 1px 0 $banner-font-shadow);
 			#header {
 				float: none;
 				width: 990px;
@@ -398,7 +512,7 @@ html {
 					background: transparent url("../images/hero-image-background.png") repeat-x 0 0;
 					@include border-radius(2px);
 					img {
-						@include box-shadow(0 2px 7px #a6a5a1);
+						@include box-shadow(0 2px 7px $banner-image-shadow);
 					}
 				}
 				blockquote {
@@ -408,7 +522,7 @@ html {
 					line-height: 50px;
 					font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
 					text-align: center;
-					color: #64605d;
+					color: $banner-blockquote-color;
 					span {
 						font-size: 18px;
 						line-height: 30px;
@@ -418,17 +532,17 @@ html {
 				.learn-more {
 					font-weight: bold;
 					text-transform: uppercase;
-					@include text-shadow(0 1px 0 #ececea);
+					@include text-shadow(0 1px 0 $banner-learn-more-font-shadow);
 				}
 			}
 		}
 		#content-container {
 			float: none;
-			background: #ffffff;
-			border-top: 1px solid #ffffff;
-			border-bottom: 1px solid #ffffff;
+			background: $content-background;
+			border-top: 1px solid $content-background;
+			border-bottom: 1px solid $content-background;
 			padding: 39px 0 29px 0;
-			@include box-shadow(0 -1px 0 #a2a19d, 0 0 15px #a3a29e, 0 0 7px #bfbfbf inset);
+			@include box-shadow(0 -1px 0 $content-box-shadow-bottom, 0 0 15px $content-box-shadow, 0 0 7px $content-box-shadow-inset inset);
 			#content {
 				float: none;
 				width: 990px;
@@ -437,41 +551,49 @@ html {
 				text-align: left;
 				@include legacy-pie-clearfix;
 				.sidebar-left {
-					background-color: #ffffff;
+					width: 280px;
+					padding: 0 30px 0 0;
+					margin: 0 30px 20px 0;
+					background: $content-background url("../images/sidebar-left-background.png") repeat-y top right;
+					@include box-shadow(85px 0 85px $content-background inset, 85px 0 85px $content-background inset);
 				}
 				.sidebar-right {
-					background-color: #ffffff;
+					width: 280px;
+					padding: 0 0 0 30px;
+					margin: 0 0 20px 0;
+					background: $content-background url("../images/sidebar-right-background.png") repeat-y 0 0;
+					@include box-shadow(-85px 0 85px $content-background inset, -85px 0 85px $content-background inset);
 				}
 			}
 		}
 		#footer-container {
 			float: none;
-			color: #ffffff;
+			color: $footer-font-color;
 			padding: 19px 0 20px 0;
-			border-top: 1px solid #141210;
-			@include background-image(linear-gradient(#2e2a25, #0f0f0e));
-			@include text-shadow(0 1px 0 #060605);
-			a { color: #cccccc; text-decoration: none; }
-			a:hover { color: #ffffff; text-decoration: underline; }
-			h1, h2, h3, h4, h5 { color: #ffffff; }
-			h6.article-subtitle { color: #a8a8a8; }
-			h5 a { color: #ffffff; }
+			border-top: 1px solid $footer-border-top;
+			@include background-image(linear-gradient($footer-gradient-top, $footer-gradient-bottom));
+			@include text-shadow(0 1px 0 $footer-text-shadow);
+			a { color: $footer-link; text-decoration: none; }
+			a:hover { color: $footer-link-hover; text-decoration: underline; }
+			h1, h2, h3, h4, h5 { color: $footer-header; }
+			h6.article-subtitle { color: $footer-subheader; }
+			h5 a { color: $footer-header; }
 			input[type="email"],
 			textarea {
-				border-top: 1px solid #1e1c1b;
-				border-right: 1px solid #282725;
-				border-bottom: 1px solid #3e3c3a;
-				border-left: 1px solid #282725;
-				color: #cccccc;
-				background: #31302e;
-				@include text-shadow(0 1px 0 #000000);
+				border-top: 1px solid $footer-input-border-top;
+				border-right: 1px solid $footer-input-border-right;
+				border-bottom: 1px solid $footer-input-border-bottom;
+				border-left: 1px solid $footer-input-border-left;
+				color: $footer-input-color;
+				background: $footer-input-background;
+				@include text-shadow(0 1px 0 $footer-input-font-shadow);
 			}
 			input[type="email"]:focus,
 			textarea:focus {
-				border-color: #BC2215;
+				border-color: $accent-color;
 			}
 			input[type="submit"] {
-				@include box-shadow(0 1px 1px #dd6f62 inset, 0 2px 4px #0a0909);
+				@include box-shadow(0 1px 1px #dd6f62 inset, 0 2px 4px $footer-button-shadow); /* FIX INSET SHADOW LATER. */
 			}
 			#footer {
 				float: none;
@@ -497,7 +619,7 @@ html {
 						float: left;
 						width: auto;
 						font-weight: bold;
-						a { color: #ffffff; }
+						a { color: $footer-font-color; }
 						a:hover { text-decoration: underline; }
 					}
 					ul#footer-nav {
@@ -533,6 +655,7 @@ html {
 			font-family: 'Vollkorn', Georgia, 'Times New Roman', serif;
 			font-size: 20px;
 			line-height: 30px;
+			color: $font-color-subheader;
 		}
 	}
 	
@@ -562,15 +685,15 @@ html {
 		width: 185px;
 		margin: 20px 30px 20px 0;
 		padding: 28px 19px 31px 19px;
-		border-top: 1px solid #d2d2cf;
-		border-right: 1px solid #a8a8a4;
-		border-bottom: 1px solid #8b8b88;
-		border-left: 1px solid #a8a8a4;
+		border-top: 1px solid $pricing-border-top;
+		border-right: 1px solid $pricing-border-right;
+		border-bottom: 1px solid $pricing-border-bottom;
+		border-left: 1px solid $pricing-border-left;
 		font-size: 14px;
 		text-align: center;
-		@include background-image(linear-gradient(#fbfbf3, #e2e0cf));
-		@include text-shadow(0 1px 0 #ffffff);
-		@include box-shadow(0 1px 2px #ffffff inset);
+		@include background-image(linear-gradient($pricing-background-gradient-top, $pricing-background-gradient-bottom));
+		@include text-shadow(0 1px 0 $pricing-text-shadow);
+		@include box-shadow(0 1px 2px $pricing-box-shadow-inset inset);
 		@include border-radius(2px);
 		img.pricing-tag {
 			display: block;
@@ -623,14 +746,14 @@ html {
 	table.pricing {
 		margin: 20px 0 22px 0;
 		padding: 0;
-		border-top: 1px solid #d2d2cf;
-		border-right: 1px solid #a8a8a4;
-		border-bottom: 1px solid #8b8b88;
-		border-left: 1px solid #a8a8a4;
+		border-top: 1px solid $pricing-border-top;
+		border-right: 1px solid $pricing-border-right;
+		border-bottom: 1px solid $pricing-border-bottom;
+		border-left: 1px solid $pricing-border-left;
 		font-size: 14px;
-		@include background-image(linear-gradient(#fbfbf3, #e2e0cf));
-		@include text-shadow(0 1px 0 #ffffff);
-		@include box-shadow(0 1px 2px #ffffff inset);
+		@include background-image(linear-gradient($pricing-background-gradient-top, $pricing-background-gradient-bottom));
+		@include text-shadow(0 1px 0 $pricing-text-shadow);
+		@include box-shadow(0 1px 2px $pricing-box-shadow-inset inset);
 		@include border-radius(2px);
 		colgroup {
 			col {
@@ -638,7 +761,7 @@ html {
 				background-repeat: repeat-y;
 			}
 			col:nth-child(4) {
-				@include box-shadow(0 2px 5px #cbc9bb);
+				@include box-shadow(0 2px 5px $pricing-selected-box-shadow);
 				background: #fbfaf3;
 			}
 			col:nth-child(5) { background-image: none; }
@@ -646,17 +769,17 @@ html {
 		thead {
 			tr {
 				th.price-featured {
-					border-right: 1px solid #c7c6bd;
-					border-left: 1px solid #c7c6bd;
+					border-left: 1px solid $pricing-selected-border-left;
+					border-right: 1px solid $pricing-selected-border-right;
 					.price-level {
 						padding: 25px 0 0 0;
-						border-top: 1px solid #ebeae7;
-						border-right: 1px solid #c7c6bd;
-						border-left: 1px solid #c7c6bd;
+						border-top: 1px solid $pricing-selected-border-top;
+						border-left: 1px solid $pricing-selected-border-left;
+						border-right: 1px solid $pricing-selected-border-right;
 						position: relative;
 						top: -13px;
 						left: -1px;
-						background: #fbfaf3 url("../images/pricing-background.png") repeat-x 0 -2px;
+						background: $pricing-selected-background url("../images/pricing-background.png") repeat-x 0 -2px;
 					}
 					.price-value {
 						position: relative;
@@ -676,7 +799,7 @@ html {
 					text-align: center;
 				}
 				th:nth-child(1) {
-					background: #fbfbf3;
+					background: $pricing-empty;
 				}
 			}
 		}
@@ -686,7 +809,7 @@ html {
 				td {
 					padding: 22px 0 18px 0;
 					text-align: center;
-					background: transparent url("../images/dotted-line-horizontal.png") repeat-x 0 0;
+					background: transparent url("../images/dotted-line-horizontal.png") repeat-x 1px 0;
 					a.button {
 						float: none;
 						width: 60px;
@@ -699,12 +822,12 @@ html {
 				}
 				td.price-featured {
 					background: none;
-					border-right: 1px solid #c7c6bd;
-					border-left: 1px solid #c7c6bd;
+					border-left: 1px solid $pricing-selected-border-left;
+					border-right: 1px solid $pricing-selected-border-right;
 					font-weight: bold;
 				}
 				td.pricing-empty {
-					background-color: #fbfbf3;
+					background-color: $pricing-empty;
 				}
 			}
 			tr.pricing-buttons {
@@ -717,11 +840,10 @@ html {
 						top: 10px;
 						left: -1px;
     				padding: 10px 0 30px;
-						border-right: 1px solid #c7c6bd;
-						border-bottom: 1px solid #8a8a84;
-						border-left: 1px solid #c7c6bd;
-						background-color: #FBFAF3;
-						background: #fbfaf3 url("../images/pricing-background.png") repeat-x bottom left;
+						border-right: 1px solid $pricing-selected-border-right;
+						border-bottom: 1px solid $pricing-selected-border-bottom;
+						border-left: 1px solid $pricing-selected-border-left;
+						background: $pricing-selected-background url("../images/pricing-background.png") repeat-x bottom left;
 						a.button {
 							float: none;
 							width: 60px;
