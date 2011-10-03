@@ -20,7 +20,7 @@ $border-color-right: #cecece;
 $border-color-bottom: #adadad;
 $border-color-left: #cecece;
 
-/* Top Bar: Bar */
+/* Top Bar */
 $top-bar-border-bottom: #ccc3bb;
 $top-bar-gradient-top: #43403c;
 $top-bar-gradient-bottom: #353331;
@@ -79,6 +79,8 @@ $footer-link: #cccccc;
 $footer-link-hover: #ffffff;
 $footer-header: #ffffff;
 $footer-subheader: #a8a8a8;
+
+/* Footer: Form */
 $footer-input-border-top: #1e1c1b;
 $footer-input-border-right: #282725;
 $footer-input-border-bottom: #3e3c3a;
@@ -89,7 +91,7 @@ $footer-input-font-shadow: #000000;
 $footer-button-shadow: #0a0909;
 $footer-button-shadow-inset: #dd6f62; /* FIX THIS LATER. */
 
-/* Pricing Table */
+/* Pricing Table and Boxes */
 $pricing-background-gradient-top: #fbfbf3;
 $pricing-background-gradient-bottom: #e2e0cf;
 $pricing-border-top: #d2d2cf;
@@ -593,7 +595,7 @@ html {
 				border-color: $accent-color;
 			}
 			input[type="submit"] {
-				@include box-shadow(0 1px 1px #dd6f62 inset, 0 2px 4px $footer-button-shadow); /* FIX INSET SHADOW LATER. */
+				@include box-shadow(0 1px 1px $footer-button-shadow-inset inset, 0 2px 4px $footer-button-shadow); /* FIX INSET SHADOW LATER. */
 			}
 			#footer {
 				float: none;
@@ -825,6 +827,7 @@ html {
 					border-left: 1px solid $pricing-selected-border-left;
 					border-right: 1px solid $pricing-selected-border-right;
 					font-weight: bold;
+					width: 20%;
 				}
 				td.pricing-empty {
 					background-color: $pricing-empty;
