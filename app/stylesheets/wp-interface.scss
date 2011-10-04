@@ -14,6 +14,11 @@
 /* EMPIRE.CSS */
 /****************************************************************************************************/
 
+html {
+	@include font-theme-header-terminal-dosis;
+	@include font-theme-body-puritan;
+}
+
 #ns-interface {
 
 	@include font-theme-header-terminal-dosis;
@@ -55,7 +60,11 @@
 	a.cancel-button,
 	button { font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif; }
 	
-	label { padding: 6px 0 4px 0; }
+	label {
+		padding: 6px 0 4px 0;
+		font-size: 13px;
+		line-height: 1.538em;
+	}
 	
 	#ns-header {
 		width: 748px;
@@ -70,7 +79,7 @@
 		font-size: 14px;
 		ul {
 			width: 138px;
-			padding: 5px 0 4px 0;
+			padding: 15px 0 4px 0;
 			border-top: 1px solid #ffffff;
 			li {
 				background: transparent url("../images/wp-interface/arrow-bullet.png") no-repeat 10px 14px;
@@ -91,8 +100,9 @@
 			li.ns-nav-selected {
 				width: 138px;
 				height: 40px;
-				padding: 10px 0;
-				border: none;
+				padding: 7px 0 11px;
+				border-top: 1px solid #ffffff;
+				border-bottom: 1px solid #cecece;
 				background: none;
 				span {
 					display: block;
@@ -200,9 +210,42 @@
 	
 }
 
+.webkit #ns-interface {
 
-
-
+	#ns-nav {
+		ul {
+			li {
+				a {
+					padding: 9px 0 9px 25px;
+				}
+			}
+			li.ns-nav-selected {
+				span {
+					padding: 10px 0 0 31px;
+				}
+			}
+		}
+	}
+	
+	#ns-content {
+		.ns-module {
+			h5 {
+				padding: 8px 0 10px 34px;
+			}
+			ul.ns-color-form {
+				li.ns-color-form-row {
+					.ns-color-form-input {
+						input[type="text"] {
+						  padding-top: 8px;
+						  padding-bottom: 8px;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}
 
 
 

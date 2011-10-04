@@ -10,7 +10,269 @@
 /****************************************************************************************************/
 /* EMPIRE.CSS */
 /****************************************************************************************************/
-/* line 17, ../../app/stylesheets/wp-interface.scss */
+/* line 7, ../../app/stylesheets/_terminal-dosis.scss */
+html body {
+  font-size: 13px;
+  line-height: 1.538em;
+}
+/* line 12, ../../app/stylesheets/_terminal-dosis.scss */
+html h1 {
+  font-size: 48px;
+  line-height: 60px;
+  padding: 1px 0 9px 0;
+  font-family: 'Terminal Dosis', Helvetica, Arial, sans-serif;
+}
+/* line 13, ../../app/stylesheets/_terminal-dosis.scss */
+html h2 {
+  font-size: 36px;
+  line-height: 50px;
+  padding: 1px 0 9px 0;
+  font-family: 'Terminal Dosis', Helvetica, Arial, sans-serif;
+}
+/* line 14, ../../app/stylesheets/_terminal-dosis.scss */
+html h3 {
+  font-size: 25px;
+  line-height: 40px;
+  padding: 0px 0 10px 0;
+  font-family: 'Terminal Dosis', Helvetica, Arial, sans-serif;
+}
+/* line 15, ../../app/stylesheets/_terminal-dosis.scss */
+html h4 {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 7px 0 3px 0;
+  font-family: 'Terminal Dosis', Helvetica, Arial, sans-serif;
+}
+/* line 16, ../../app/stylesheets/_terminal-dosis.scss */
+html h5 {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 4px 0 6px 0;
+  font-family: 'Terminal Dosis', Helvetica, Arial, sans-serif;
+}
+/* line 17, ../../app/stylesheets/_terminal-dosis.scss */
+html h6 {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px 0 5px 0;
+  font-family: 'Terminal Dosis', Helvetica, Arial, sans-serif;
+}
+/* line 18, ../../app/stylesheets/_terminal-dosis.scss */
+html .webkit h2 {
+  padding: 1px 0 9px 0;
+}
+/* line 19, ../../app/stylesheets/_terminal-dosis.scss */
+html .webkit h5 {
+  padding: 5px 0 5px 0;
+}
+/* line 20, ../../app/stylesheets/_terminal-dosis.scss */
+html .webkit h6 {
+  padding: 6px 0 4px 0;
+}
+/* line 26, ../../app/stylesheets/_puritan.scss */
+html body {
+  font-size: 13px;
+  line-height: 1.538em;
+  font-family: Puritan, Helvetica, Arial, sans-serif;
+}
+/* line 33, ../../app/stylesheets/_puritan.scss */
+html blockquote,
+html p {
+  padding: 6px 0 4px 0;
+}
+/* line 35, ../../app/stylesheets/_puritan.scss */
+html blockquote {
+  font-style: italic;
+}
+/* line 40, ../../app/stylesheets/_puritan.scss */
+html .column-8 span.floated-blockquote {
+  padding-top: 2px;
+  padding-bottom: 8px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* line 51, ../../app/stylesheets/_puritan.scss */
+html ul,
+html ol {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+/* line 59, ../../app/stylesheets/_puritan.scss */
+html ul.lined,
+html ol.lined,
+html ul.lined-large,
+html ol.lined-large {
+  padding-top: 1px;
+  padding-bottom: 9px;
+}
+/* line 62, ../../app/stylesheets/_puritan.scss */
+html ul.lined li,
+html ol.lined li,
+html ul.lined-large li,
+html ol.lined-large li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 70, ../../app/stylesheets/_puritan.scss */
+html ul.lined-large li,
+html ol.lined-large li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 77, ../../app/stylesheets/_puritan.scss */
+html .webkit ul.lined-large li,
+html .webkit ol.lined-large li {
+  padding-top: 11px;
+  padding-bottom: 9px;
+}
+/* line 87, ../../app/stylesheets/_puritan.scss */
+html a.icon-button,
+html a.cancel-button,
+html a.button,
+html button,
+html input[type="submit"] {
+  padding-top: 9px;
+  padding-bottom: 8px;
+  margin-top: 0;
+  margin-bottom: 7px;
+  line-height: 1em;
+  font-size: 12px;
+  font-family: Puritan, Helvetica, Arial, sans-serif;
+}
+/* line 97, ../../app/stylesheets/_puritan.scss */
+html a.cancel-button {
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+/* line 102, ../../app/stylesheets/_puritan.scss */
+html button {
+  padding-top: 8px;
+  padding-bottom: 23px;
+}
+/* line 106, ../../app/stylesheets/_puritan.scss */
+html .webkit button {
+  padding-top: 9px;
+  padding-bottom: 22px;
+}
+/* line 111, ../../app/stylesheets/_puritan.scss */
+html input[type="submit"] {
+  padding-top: 7px;
+  padding-bottom: 24px;
+}
+/* line 115, ../../app/stylesheets/_puritan.scss */
+html .webkit input[type="submit"] {
+  padding-top: 9px;
+  padding-bottom: 22px;
+}
+/* line 120, ../../app/stylesheets/_puritan.scss */
+html label {
+  font-size: 12px;
+  line-height: 1.667em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 125, ../../app/stylesheets/_puritan.scss */
+html label span {
+  font-size: 10px;
+  font-weight: normal;
+}
+/* line 130, ../../app/stylesheets/_puritan.scss */
+html .webkit label {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+/* line 135, ../../app/stylesheets/_puritan.scss */
+html input[type="checkbox"] {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+/* line 139, ../../app/stylesheets/_puritan.scss */
+html .webkit input[type="checkbox"] {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+/* line 144, ../../app/stylesheets/_puritan.scss */
+html input[type="radio"] {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+/* line 153, ../../app/stylesheets/_puritan.scss */
+html select,
+html input[type="text"],
+html input[type="email"],
+html input[type="password"],
+html textarea {
+  padding-top: 7px;
+  padding-bottom: 9px;
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-size: 12px;
+  line-height: 1.667em;
+  font-family: Puritan, Helvetica, Arial, sans-serif;
+}
+/* line 166, ../../app/stylesheets/_puritan.scss */
+html .webkit select,
+html .webkit input[type="text"],
+html .webkit input[type="email"],
+html .webkit input[type="password"],
+html .webkit textarea {
+  padding-top: 9px;
+  padding-bottom: 7px;
+}
+/* line 171, ../../app/stylesheets/_puritan.scss */
+html select {
+  padding-top: 7px;
+  padding-bottom: 3px;
+}
+/* line 176, ../../app/stylesheets/_puritan.scss */
+html textarea {
+  padding-top: 5px;
+  padding-bottom: 12px;
+}
+/* line 180, ../../app/stylesheets/_puritan.scss */
+html .webkit textarea {
+  padding-top: 6px;
+  padding-bottom: 11px;
+}
+/* line 185, ../../app/stylesheets/_puritan.scss */
+html ul.form {
+  padding-top: 16px;
+  padding-bottom: 14px;
+}
+/* line 189, ../../app/stylesheets/_puritan.scss */
+html ul.form li label {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 195, ../../app/stylesheets/_puritan.scss */
+html .webkit ul.form {
+  padding-top: 17px;
+  padding-bottom: 13px;
+}
+/* line 199, ../../app/stylesheets/_puritan.scss */
+html .webkit ul.form li label {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 206, ../../app/stylesheets/_puritan.scss */
+html table {
+  padding-top: 1px;
+  padding-bottom: 9px;
+}
+/* line 211, ../../app/stylesheets/_puritan.scss */
+html table thead tr th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 219, ../../app/stylesheets/_puritan.scss */
+html table tbody tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 22, ../../app/stylesheets/wp-interface.scss */
 #ns-interface {
   width: 848px;
   margin: 20px auto;
@@ -97,8 +359,7 @@
   font-family: Puritan, Helvetica, Arial, sans-serif;
 }
 /* line 33, ../../app/stylesheets/_puritan.scss */
-#ns-interface blockquote,
-#ns-interface p {
+#ns-interface blockquote, #ns-interface p {
   padding: 6px 0 4px 0;
 }
 /* line 35, ../../app/stylesheets/_puritan.scss */
@@ -115,45 +376,32 @@
   line-height: 30px;
 }
 /* line 51, ../../app/stylesheets/_puritan.scss */
-#ns-interface ul,
-#ns-interface ol {
+#ns-interface ul, #ns-interface ol {
   padding-top: 6px;
   padding-bottom: 4px;
 }
 /* line 59, ../../app/stylesheets/_puritan.scss */
-#ns-interface ul.lined,
-#ns-interface ol.lined,
-#ns-interface ul.lined-large,
-#ns-interface ol.lined-large {
+#ns-interface ul.lined, #ns-interface ol.lined, #ns-interface ul.lined-large, #ns-interface ol.lined-large {
   padding-top: 1px;
   padding-bottom: 9px;
 }
 /* line 62, ../../app/stylesheets/_puritan.scss */
-#ns-interface ul.lined li,
-#ns-interface ol.lined li,
-#ns-interface ul.lined-large li,
-#ns-interface ol.lined-large li {
+#ns-interface ul.lined li, #ns-interface ol.lined li, #ns-interface ul.lined-large li, #ns-interface ol.lined-large li {
   padding-top: 5px;
   padding-bottom: 5px;
 }
 /* line 70, ../../app/stylesheets/_puritan.scss */
-#ns-interface ul.lined-large li,
-#ns-interface ol.lined-large li {
+#ns-interface ul.lined-large li, #ns-interface ol.lined-large li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 /* line 77, ../../app/stylesheets/_puritan.scss */
-#ns-interface .webkit ul.lined-large li,
-#ns-interface .webkit ol.lined-large li {
+#ns-interface .webkit ul.lined-large li, #ns-interface .webkit ol.lined-large li {
   padding-top: 11px;
   padding-bottom: 9px;
 }
 /* line 87, ../../app/stylesheets/_puritan.scss */
-#ns-interface a.icon-button,
-#ns-interface a.cancel-button,
-#ns-interface a.button,
-#ns-interface button,
-#ns-interface input[type="submit"] {
+#ns-interface a.icon-button, #ns-interface a.cancel-button, #ns-interface a.button, #ns-interface button, #ns-interface input[type="submit"] {
   padding-top: 9px;
   padding-bottom: 8px;
   margin-top: 0;
@@ -220,11 +468,7 @@
   margin-bottom: 0;
 }
 /* line 153, ../../app/stylesheets/_puritan.scss */
-#ns-interface select,
-#ns-interface input[type="text"],
-#ns-interface input[type="email"],
-#ns-interface input[type="password"],
-#ns-interface textarea {
+#ns-interface select, #ns-interface input[type="text"], #ns-interface input[type="email"], #ns-interface input[type="password"], #ns-interface textarea {
   padding-top: 7px;
   padding-bottom: 9px;
   margin-top: 0;
@@ -234,11 +478,7 @@
   font-family: Puritan, Helvetica, Arial, sans-serif;
 }
 /* line 166, ../../app/stylesheets/_puritan.scss */
-#ns-interface .webkit select,
-#ns-interface .webkit input[type="text"],
-#ns-interface .webkit input[type="email"],
-#ns-interface .webkit input[type="password"],
-#ns-interface .webkit textarea {
+#ns-interface .webkit select, #ns-interface .webkit input[type="text"], #ns-interface .webkit input[type="email"], #ns-interface .webkit input[type="password"], #ns-interface .webkit textarea {
   padding-top: 9px;
   padding-bottom: 7px;
 }
@@ -301,22 +541,22 @@
   overflow: hidden;
   visibility: hidden;
 }
-/* line 37, ../../app/stylesheets/wp-interface.scss */
+/* line 42, ../../app/stylesheets/wp-interface.scss */
 #ns-interface h1, #ns-interface h2, #ns-interface h3 {
   font-family: 'Terminal Dosis', Helvetica, Arial, sans serif;
 }
-/* line 41, ../../app/stylesheets/wp-interface.scss */
+/* line 46, ../../app/stylesheets/wp-interface.scss */
 #ns-interface h1, #ns-interface h2, #ns-interface h3, #ns-interface h4, #ns-interface h5, #ns-interface h6 {
   font-weight: normal;
   color: #333333;
 }
-/* line 46, ../../app/stylesheets/wp-interface.scss */
+/* line 51, ../../app/stylesheets/wp-interface.scss */
 #ns-interface h1 {
   font-size: 30px;
   line-height: 40px;
   padding: 0px 0 10px 0;
 }
-/* line 56, ../../app/stylesheets/wp-interface.scss */
+/* line 61, ../../app/stylesheets/wp-interface.scss */
 #ns-interface input[type="text"],
 #ns-interface input[type="email"],
 #ns-interface input[type="password"],
@@ -328,11 +568,13 @@
 #ns-interface button {
   font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
 }
-/* line 58, ../../app/stylesheets/wp-interface.scss */
+/* line 63, ../../app/stylesheets/wp-interface.scss */
 #ns-interface label {
   padding: 6px 0 4px 0;
+  font-size: 13px;
+  line-height: 1.538em;
 }
-/* line 60, ../../app/stylesheets/wp-interface.scss */
+/* line 69, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-header {
   width: 748px;
   padding: 27px 0 21px 100px;
@@ -356,22 +598,22 @@
   -khtml-border-top-right-radius: 2px;
   border-top-right-radius: 2px;
 }
-/* line 68, ../../app/stylesheets/wp-interface.scss */
+/* line 77, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav {
   width: 139px;
   font-size: 14px;
 }
-/* line 71, ../../app/stylesheets/wp-interface.scss */
+/* line 80, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul {
   width: 138px;
-  padding: 5px 0 4px 0;
+  padding: 15px 0 4px 0;
   border-top: 1px solid #ffffff;
 }
-/* line 75, ../../app/stylesheets/wp-interface.scss */
+/* line 84, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li {
   background: transparent url("../images/wp-interface/arrow-bullet.png") no-repeat 10px 14px;
 }
-/* line 77, ../../app/stylesheets/wp-interface.scss */
+/* line 86, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li a {
   display: block;
   float: left;
@@ -382,19 +624,20 @@
   color: #616161;
   text-decoration: none;
 }
-/* line 87, ../../app/stylesheets/wp-interface.scss */
+/* line 96, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li a:hover {
   background: transparent url("../images/wp-interface/opacity-5-black.png") repeat 0 0;
 }
-/* line 91, ../../app/stylesheets/wp-interface.scss */
+/* line 100, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li.ns-nav-selected {
   width: 138px;
   height: 40px;
-  padding: 10px 0;
-  border: none;
+  padding: 7px 0 11px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #cecece;
   background: none;
 }
-/* line 97, ../../app/stylesheets/wp-interface.scss */
+/* line 107, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li.ns-nav-selected span {
   display: block;
   float: left;
@@ -409,29 +652,29 @@
   font-weight: bold;
   text-shadow: 0 1px 0 #0d0d0d;
 }
-/* line 115, ../../app/stylesheets/wp-interface.scss */
+/* line 125, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content {
   width: 650px;
   padding: 10px 29px 0 30px;
 }
-/* line 120, ../../app/stylesheets/wp-interface.scss */
+/* line 130, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content h4 {
   margin: 0 0 10px 0;
 }
-/* line 121, ../../app/stylesheets/wp-interface.scss */
+/* line 131, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content p.introduction {
   margin: 0 0 20px 0;
 }
-/* line 125, ../../app/stylesheets/wp-interface.scss */
+/* line 135, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-left-column {
   width: 310px;
   margin: 0 30px 0 0;
 }
-/* line 129, ../../app/stylesheets/wp-interface.scss */
+/* line 139, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-right-column {
   width: 310px;
 }
-/* line 133, ../../app/stylesheets/wp-interface.scss */
+/* line 143, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module {
   width: 308px;
   padding: 0 0 9px 0;
@@ -448,7 +691,7 @@
   -khtml-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 145, ../../app/stylesheets/wp-interface.scss */
+/* line 155, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module h5 {
   width: 274px;
   padding: 7px 0 11px 34px;
@@ -474,34 +717,34 @@
   -khtml-border-top-right-radius: 2px;
   border-top-right-radius: 2px;
 }
-/* line 155, ../../app/stylesheets/wp-interface.scss */
+/* line 165, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form {
   width: 270px;
   padding: 20px 19px 0;
 }
-/* line 158, ../../app/stylesheets/wp-interface.scss */
+/* line 168, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row {
   margin: 0 0 27px 0;
 }
-/* line 160, ../../app/stylesheets/wp-interface.scss */
+/* line 170, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-label {
   width: 120px;
 }
-/* line 163, ../../app/stylesheets/wp-interface.scss */
+/* line 173, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-input {
   width: 107px;
   margin: 0 10px 0 0;
 }
-/* line 166, ../../app/stylesheets/wp-interface.scss */
+/* line 176, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-input input[type="text"] {
   width: 91px;
   margin: 0;
 }
-/* line 171, ../../app/stylesheets/wp-interface.scss */
+/* line 181, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-swatch {
   width: 33px;
 }
-/* line 173, ../../app/stylesheets/wp-interface.scss */
+/* line 183, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-swatch a {
   display: block;
   float: left;
@@ -514,7 +757,7 @@
   border-left: 1px solid #CECECE;
   text-decoration: none;
 }
-/* line 184, ../../app/stylesheets/wp-interface.scss */
+/* line 194, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-swatch a span {
   display: block;
   float: left;
@@ -522,4 +765,22 @@
   height: 23px;
   border: 1px solid #ccd1d6;
   background: #d9dfe4;
+}
+
+/* line 218, ../../app/stylesheets/wp-interface.scss */
+.webkit #ns-interface #ns-nav ul li a {
+  padding: 9px 0 9px 25px;
+}
+/* line 223, ../../app/stylesheets/wp-interface.scss */
+.webkit #ns-interface #ns-nav ul li.ns-nav-selected span {
+  padding: 10px 0 0 31px;
+}
+/* line 232, ../../app/stylesheets/wp-interface.scss */
+.webkit #ns-interface #ns-content .ns-module h5 {
+  padding: 8px 0 10px 34px;
+}
+/* line 238, ../../app/stylesheets/wp-interface.scss */
+.webkit #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-input input[type="text"] {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
