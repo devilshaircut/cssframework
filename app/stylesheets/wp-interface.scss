@@ -28,6 +28,7 @@
 	text-align: left;
 	float: none;
 	background: transparent url("../images/wp-interface/left-column-background.gif") repeat-y 0 0;
+	@include border-radius(2px);
 	@include legacy-pie-clearfix;
 
 	font-family: Puritan, 'Myriad Pro', Helvetica, Arial, sans serif;
@@ -61,6 +62,7 @@
 		padding: 27px 0 21px 100px;
 		border-bottom: 1px solid #cecece;		
 		@include background(image-url("../images/wp-interface/logo.png") no-repeat 20px 12px, linear-gradient(#f8f8f8, #e6e6e6));
+		@include border-top-radius(2px);
 	}
 	
 	#ns-nav {
@@ -68,7 +70,7 @@
 		font-size: 14px;
 		ul {
 			width: 138px;
-			padding: 15px 0 4px 0;
+			padding: 5px 0 4px 0;
 			border-top: 1px solid #ffffff;
 			li {
 				background: transparent url("../images/wp-interface/arrow-bullet.png") no-repeat 10px 14px;
@@ -138,6 +140,7 @@
 			border-bottom: 1px solid #9a9a9a;
 			border-left: 1px solid #c1c1c1;
 			background: #f8f8f8;
+			@include border-radius(2px);
 			
 			h5 {
 				width: 274px;
@@ -146,7 +149,7 @@
 				font-size: 16px;
 				line-height: 30px;
 				@include background(image-url("../images/wp-interface/arrow-bullet.png") no-repeat 20px 17px, linear-gradient(#f9f9f9, #ececec));
-				
+				@include border-top-radius(2px);
 			}
 			
 			ul.ns-color-form {

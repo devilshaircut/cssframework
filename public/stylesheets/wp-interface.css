@@ -21,6 +21,12 @@
   text-align: left;
   float: none;
   background: transparent url("../images/wp-interface/left-column-background.gif") repeat-y 0 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
   *zoom: 1;
   font-family: Puritan, 'Myriad Pro', Helvetica, Arial, sans serif;
   color: #404040;
@@ -295,22 +301,22 @@
   overflow: hidden;
   visibility: hidden;
 }
-/* line 36, ../../app/stylesheets/wp-interface.scss */
+/* line 37, ../../app/stylesheets/wp-interface.scss */
 #ns-interface h1, #ns-interface h2, #ns-interface h3 {
   font-family: 'Terminal Dosis', Helvetica, Arial, sans serif;
 }
-/* line 40, ../../app/stylesheets/wp-interface.scss */
+/* line 41, ../../app/stylesheets/wp-interface.scss */
 #ns-interface h1, #ns-interface h2, #ns-interface h3, #ns-interface h4, #ns-interface h5, #ns-interface h6 {
   font-weight: normal;
   color: #333333;
 }
-/* line 45, ../../app/stylesheets/wp-interface.scss */
+/* line 46, ../../app/stylesheets/wp-interface.scss */
 #ns-interface h1 {
   font-size: 30px;
   line-height: 40px;
   padding: 0px 0 10px 0;
 }
-/* line 55, ../../app/stylesheets/wp-interface.scss */
+/* line 56, ../../app/stylesheets/wp-interface.scss */
 #ns-interface input[type="text"],
 #ns-interface input[type="email"],
 #ns-interface input[type="password"],
@@ -322,11 +328,11 @@
 #ns-interface button {
   font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
 }
-/* line 57, ../../app/stylesheets/wp-interface.scss */
+/* line 58, ../../app/stylesheets/wp-interface.scss */
 #ns-interface label {
   padding: 6px 0 4px 0;
 }
-/* line 59, ../../app/stylesheets/wp-interface.scss */
+/* line 60, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-header {
   width: 748px;
   padding: 27px 0 21px 100px;
@@ -337,23 +343,35 @@
   background: url('/images/../images/wp-interface/logo.png?1317698106') no-repeat 20px 12px, -o-linear-gradient(#f8f8f8, #e6e6e6);
   background: url('/images/../images/wp-interface/logo.png?1317698106') no-repeat 20px 12px, -ms-linear-gradient(#f8f8f8, #e6e6e6);
   background: url('/images/../images/wp-interface/logo.png?1317698106') no-repeat 20px 12px, linear-gradient(#f8f8f8, #e6e6e6);
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -o-border-top-left-radius: 2px;
+  -ms-border-top-left-radius: 2px;
+  -khtml-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -o-border-top-right-radius: 2px;
+  -ms-border-top-right-radius: 2px;
+  -khtml-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
 }
-/* line 66, ../../app/stylesheets/wp-interface.scss */
+/* line 68, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav {
   width: 139px;
   font-size: 14px;
 }
-/* line 69, ../../app/stylesheets/wp-interface.scss */
+/* line 71, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul {
   width: 138px;
-  padding: 15px 0 4px 0;
+  padding: 5px 0 4px 0;
   border-top: 1px solid #ffffff;
 }
-/* line 73, ../../app/stylesheets/wp-interface.scss */
+/* line 75, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li {
   background: transparent url("../images/wp-interface/arrow-bullet.png") no-repeat 10px 14px;
 }
-/* line 75, ../../app/stylesheets/wp-interface.scss */
+/* line 77, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li a {
   display: block;
   float: left;
@@ -364,11 +382,11 @@
   color: #616161;
   text-decoration: none;
 }
-/* line 85, ../../app/stylesheets/wp-interface.scss */
+/* line 87, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li a:hover {
   background: transparent url("../images/wp-interface/opacity-5-black.png") repeat 0 0;
 }
-/* line 89, ../../app/stylesheets/wp-interface.scss */
+/* line 91, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li.ns-nav-selected {
   width: 138px;
   height: 40px;
@@ -376,7 +394,7 @@
   border: none;
   background: none;
 }
-/* line 95, ../../app/stylesheets/wp-interface.scss */
+/* line 97, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-nav ul li.ns-nav-selected span {
   display: block;
   float: left;
@@ -391,29 +409,29 @@
   font-weight: bold;
   text-shadow: 0 1px 0 #0d0d0d;
 }
-/* line 113, ../../app/stylesheets/wp-interface.scss */
+/* line 115, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content {
   width: 650px;
   padding: 10px 29px 0 30px;
 }
-/* line 118, ../../app/stylesheets/wp-interface.scss */
+/* line 120, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content h4 {
   margin: 0 0 10px 0;
 }
-/* line 119, ../../app/stylesheets/wp-interface.scss */
+/* line 121, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content p.introduction {
   margin: 0 0 20px 0;
 }
-/* line 123, ../../app/stylesheets/wp-interface.scss */
+/* line 125, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-left-column {
   width: 310px;
   margin: 0 30px 0 0;
 }
-/* line 127, ../../app/stylesheets/wp-interface.scss */
+/* line 129, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-right-column {
   width: 310px;
 }
-/* line 131, ../../app/stylesheets/wp-interface.scss */
+/* line 133, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module {
   width: 308px;
   padding: 0 0 9px 0;
@@ -423,8 +441,14 @@
   border-bottom: 1px solid #9a9a9a;
   border-left: 1px solid #c1c1c1;
   background: #f8f8f8;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
 }
-/* line 142, ../../app/stylesheets/wp-interface.scss */
+/* line 145, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module h5 {
   width: 274px;
   padding: 7px 0 11px 34px;
@@ -437,35 +461,47 @@
   background: url('/images/../images/wp-interface/arrow-bullet.png?1317333270') no-repeat 20px 17px, -o-linear-gradient(#f9f9f9, #ececec);
   background: url('/images/../images/wp-interface/arrow-bullet.png?1317333270') no-repeat 20px 17px, -ms-linear-gradient(#f9f9f9, #ececec);
   background: url('/images/../images/wp-interface/arrow-bullet.png?1317333270') no-repeat 20px 17px, linear-gradient(#f9f9f9, #ececec);
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -o-border-top-left-radius: 2px;
+  -ms-border-top-left-radius: 2px;
+  -khtml-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -o-border-top-right-radius: 2px;
+  -ms-border-top-right-radius: 2px;
+  -khtml-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
 }
-/* line 152, ../../app/stylesheets/wp-interface.scss */
+/* line 155, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form {
   width: 270px;
   padding: 20px 19px 0;
 }
-/* line 155, ../../app/stylesheets/wp-interface.scss */
+/* line 158, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row {
   margin: 0 0 27px 0;
 }
-/* line 157, ../../app/stylesheets/wp-interface.scss */
+/* line 160, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-label {
   width: 120px;
 }
-/* line 160, ../../app/stylesheets/wp-interface.scss */
+/* line 163, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-input {
   width: 107px;
   margin: 0 10px 0 0;
 }
-/* line 163, ../../app/stylesheets/wp-interface.scss */
+/* line 166, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-input input[type="text"] {
   width: 91px;
   margin: 0;
 }
-/* line 168, ../../app/stylesheets/wp-interface.scss */
+/* line 171, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-swatch {
   width: 33px;
 }
-/* line 170, ../../app/stylesheets/wp-interface.scss */
+/* line 173, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-swatch a {
   display: block;
   float: left;
@@ -478,7 +514,7 @@
   border-left: 1px solid #CECECE;
   text-decoration: none;
 }
-/* line 181, ../../app/stylesheets/wp-interface.scss */
+/* line 184, ../../app/stylesheets/wp-interface.scss */
 #ns-interface #ns-content .ns-module ul.ns-color-form li.ns-color-form-row .ns-color-form-swatch a span {
   display: block;
   float: left;
