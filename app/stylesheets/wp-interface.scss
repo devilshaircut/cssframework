@@ -72,6 +72,7 @@ html {
 		border-bottom: 1px solid #cecece;		
 		@include background(image-url("../images/wp-interface/logo.png") no-repeat 20px 12px, linear-gradient(#f8f8f8, #e6e6e6));
 		@include border-top-radius(2px);
+		h1 { @include text-shadow(0 1px 0 #ffffff); }
 	}
 	
 	#ns-nav {
@@ -92,6 +93,7 @@ html {
 					border-bottom: 1px solid #cecece;
 					color: #616161;
 					text-decoration: none;
+					@include text-shadow(0 1px 0 #ffffff);
 				}
 				a:hover {
 					background: transparent url("../images/wp-interface/opacity-5-black.png") repeat 0 0;
@@ -160,6 +162,7 @@ html {
 				line-height: 30px;
 				@include background(image-url("../images/wp-interface/arrow-bullet.png") no-repeat 20px 17px, linear-gradient(#f9f9f9, #ececec));
 				@include border-top-radius(2px);
+				@include text-shadow(0 1px 0 #ffffff);
 			}
 			
 			ul.ns-color-form {
@@ -169,6 +172,7 @@ html {
 					margin: 0 0 27px 0;
 					.ns-color-form-label {
 						width: 120px;
+						label { @include text-shadow(0 1px 0 #ffffff); }
 					}
 					.ns-color-form-input {
 						width: 107px;
@@ -176,6 +180,7 @@ html {
 						input[type="text"] {
 							width: 91px;
 							margin: 0;
+							background: #ffffff;
 						}
 					}
 					.ns-color-form-swatch {
