@@ -1,0 +1,205 @@
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+
+/****************************************************************************************************/
+/* FONT THEMES */
+/****************************************************************************************************/
+
+@import "puritan";
+@import "terminal-dosis";
+
+
+
+/****************************************************************************************************/
+/* EMPIRE.CSS */
+/****************************************************************************************************/
+
+#ns-interface {
+
+	@include font-theme-header-terminal-dosis;
+	@include font-theme-body-puritan;
+	
+	width: 848px;
+	margin: 20px auto;
+	border-top: 1px solid #e9e9e9;
+	border-right: 1px solid #c1c1c1;
+	border-bottom: 1px solid #9a9a9a;
+	border-left: 1px solid #c1c1c1;
+	text-align: left;
+	float: none;
+	background: transparent url("../images/wp-interface/left-column-background.gif") repeat-y 0 0;
+	@include legacy-pie-clearfix;
+
+	font-family: Puritan, 'Myriad Pro', Helvetica, Arial, sans serif;
+	color: #404040;
+
+	h1, h2, h3 {
+		font-family: 'Terminal Dosis', Helvetica, Arial, sans serif;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	h1 { font-size: 30px; line-height: 40px; padding: 0px 0 10px 0; }
+
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	input[type="submit"],
+	select,
+	textarea,
+	a.button,
+	a.cancel-button,
+	button { font-family: 'Open Sans', 'Myriad Pro', Helvetica, Arial, sans serif; }
+	
+	label { padding: 6px 0 4px 0; }
+	
+	#ns-header {
+		width: 748px;
+		padding: 27px 0 21px 100px;
+		border-bottom: 1px solid #cecece;		
+		@include background(image-url("../images/wp-interface/logo.png") no-repeat 20px 12px, linear-gradient(#f8f8f8, #e6e6e6));
+	}
+	
+	#ns-nav {
+		width: 139px;
+		font-size: 14px;
+		ul {
+			width: 138px;
+			padding: 15px 0 4px 0;
+			border-top: 1px solid #ffffff;
+			li {
+				background: transparent url("../images/wp-interface/arrow-bullet.png") no-repeat 10px 14px;
+				a {
+					display: block;
+					float: left;
+					width: 113px;
+					padding: 8px 0 10px 25px;
+					border-top: 1px solid #ffffff;
+					border-bottom: 1px solid #cecece;
+					color: #616161;
+					text-decoration: none;
+				}
+				a:hover {
+					background: transparent url("../images/wp-interface/opacity-5-black.png") repeat 0 0;
+				}
+			}
+			li.ns-nav-selected {
+				width: 138px;
+				height: 40px;
+				padding: 10px 0;
+				border: none;
+				background: none;
+				span {
+					display: block;
+					float: left;
+					width: 135px;
+					height: 38px;
+					padding: 9px 0 1px 31px;
+					border: none;
+					background: transparent url("../images/wp-interface/active-tab-background.png") no-repeat 0 0;
+					position: absolute;
+					margin: 0 0 0 -6px;
+					color: #ffffff;
+					font-weight: bold;
+					@include text-shadow(0 1px 0 #0d0d0d);
+				}
+			}
+		}
+	}
+	
+	#ns-content {
+	
+		width: 650px;
+		padding: 10px 29px 0 30px;
+		
+		h4 { margin: 0 0 10px 0; }
+		p.introduction {
+			margin: 0 0 20px 0;
+		}
+		
+		.ns-left-column {
+			width: 310px;
+			margin: 0 30px 0 0;
+		}
+		.ns-right-column {
+			width: 310px;
+		}
+
+		.ns-module {
+		
+			width: 308px;
+			padding: 0 0 9px 0;
+			margin: 0 0 39px 0;
+			border-top: 1px solid #e9e9e9;
+			border-right: 1px solid #c1c1c1;
+			border-bottom: 1px solid #9a9a9a;
+			border-left: 1px solid #c1c1c1;
+			background: #f8f8f8;
+			
+			h5 {
+				width: 274px;
+				padding: 7px 0 11px 34px;
+				border-bottom: 1px solid #dfdfdf;
+				font-size: 16px;
+				line-height: 30px;
+				@include background(image-url("../images/wp-interface/arrow-bullet.png") no-repeat 20px 17px, linear-gradient(#f9f9f9, #ececec));
+				
+			}
+			
+			ul.ns-color-form {
+				width: 270px;
+				padding: 20px 19px 0;
+				li.ns-color-form-row {
+					margin: 0 0 27px 0;
+					.ns-color-form-label {
+						width: 120px;
+					}
+					.ns-color-form-input {
+						width: 107px;
+						margin: 0 10px 0 0;
+						input[type="text"] {
+							width: 91px;
+							margin: 0;
+						}
+					}
+					.ns-color-form-swatch {
+						width: 33px;
+						a {
+							display: block;
+							float: left;
+							width: 25px;
+							height: 25px;
+							padding: 3px;
+							border-top: 1px solid #ADADAD;
+							border-right: 1px solid #CECECE;
+							border-bottom: 1px solid #E5E5E5;
+							border-left: 1px solid #CECECE;
+							text-decoration: none;
+							span {
+								display: block;
+								float: left;
+								width: 23px;
+								height: 23px;
+								border: 1px solid #ccd1d6;
+								background: #d9dfe4;
+							}
+						}
+					}
+				}
+			}
+			
+		}
+		
+	}
+	
+}
+
+
+
+
+
+
+

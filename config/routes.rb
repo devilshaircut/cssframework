@@ -1,7 +1,9 @@
 Cssframework::Application.routes.draw do
 
   root :to => "home#index"
+  
   match 'pages/shortcodes' => "pages#shortcodes"
+  
   match 'pages/empire' => "pages#empire"
   match 'pages/empire-right-sidebar' => "pages#empire-right-sidebar"
   match 'pages/empire-left-sidebar' => "pages#empire-left-sidebar"
@@ -17,5 +19,7 @@ Cssframework::Application.routes.draw do
   match 'pages/empire-gallery' => "pages#empire-gallery"
   match 'pages/empire-shortcodes' => "pages#empire-shortcodes"
   match 'pages/empire-pricing' => "pages#empire-pricing"
+  
+  match 'pages/wp-interface' => "pages#wp-interface"
 
 end
