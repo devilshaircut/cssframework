@@ -4,6 +4,7 @@
 
 html {
 	height: 100%;
+	background: #e5e5e5;
 }
 
 body {
@@ -13,6 +14,8 @@ body {
 	line-height: 20px;
 	text-align: center;
 	color: #404040;
+	-webkit-font-smoothing: antialiased; /* This turns off subpixel antialiasing in Webkit, making fonts look more consistent across browsers. */
+	-webkit-text-size-adjust: none; /* This turns off font size adjusting in iPhone Safari, preventing line-height issues. */
 	@include background-image(linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5));
 }
 
@@ -22,6 +25,7 @@ a:hover { text-decoration: underline; color: #e53d00; }
 #cover-page,
 #interior {
 
+	min-width: 990px;
 	background: transparent url("../images/personal/portfolio-background.png") no-repeat center 188px;
 	@include text-shadow(0 1px 0 #ffffff);
 	@include legacy-pie-clearfix;
@@ -172,6 +176,11 @@ a:hover { text-decoration: underline; color: #e53d00; }
 			width: auto;
 			background: none;
 		}
+	}
+	
+	ul {
+		width: 990px;
+		background: transparent url("../images/personal/navigation-background-interior.png") no-repeat center top;
 	}
 
 }

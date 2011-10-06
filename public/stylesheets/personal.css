@@ -66,9 +66,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 5, ../../app/stylesheets/personal.scss */
 html {
   height: 100%;
+  background: #e5e5e5;
 }
 
-/* line 9, ../../app/stylesheets/personal.scss */
+/* line 10, ../../app/stylesheets/personal.scss */
 body {
   font-family: 'Open Sans', 'Myriad Pro', Myriad, 'Lucida Grande', 'Lucida Sans', Lucida, Verdana, Helvetica, Arial, sans serif;
   font-size: 12px;
@@ -76,6 +77,10 @@ body {
   line-height: 20px;
   text-align: center;
   color: #404040;
+  -webkit-font-smoothing: antialiased;
+  /* This turns off subpixel antialiasing in Webkit, making fonts look more consistent across browsers. */
+  -webkit-text-size-adjust: none;
+  /* This turns off font size adjusting in iPhone Safari, preventing line-height issues. */
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfcfc), color-stop(50%, #e5e5e5), color-stop(100%, #e5e5e5));
   background-image: -webkit-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
   background-image: -moz-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
@@ -84,21 +89,22 @@ body {
   background-image: linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
 }
 
-/* line 19, ../../app/stylesheets/personal.scss */
+/* line 22, ../../app/stylesheets/personal.scss */
 a {
   text-decoration: none;
   color: #404040;
 }
 
-/* line 20, ../../app/stylesheets/personal.scss */
+/* line 23, ../../app/stylesheets/personal.scss */
 a:hover {
   text-decoration: underline;
   color: #e53d00;
 }
 
-/* line 23, ../../app/stylesheets/personal.scss */
+/* line 26, ../../app/stylesheets/personal.scss */
 #cover-page,
 #interior {
+  min-width: 990px;
   background: transparent url("../images/personal/portfolio-background.png") no-repeat center 188px;
   text-shadow: 0 1px 0 white;
   *zoom: 1;
@@ -113,7 +119,7 @@ a:hover {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 29, ../../app/stylesheets/personal.scss */
+/* line 33, ../../app/stylesheets/personal.scss */
 #cover-page h1,
 #interior h1 {
   padding: 80px 0 10px 0;
@@ -121,7 +127,7 @@ a:hover {
   font-weight: 800;
   line-height: 60px;
 }
-/* line 30, ../../app/stylesheets/personal.scss */
+/* line 34, ../../app/stylesheets/personal.scss */
 #cover-page h2,
 #interior h2 {
   padding: 10px 0 10px 0;
@@ -129,7 +135,7 @@ a:hover {
   font-weight: 800;
   line-height: 60px;
 }
-/* line 31, ../../app/stylesheets/personal.scss */
+/* line 35, ../../app/stylesheets/personal.scss */
 #cover-page h3,
 #interior h3 {
   padding: 62px 0 18px 0;
@@ -137,7 +143,7 @@ a:hover {
   font-weight: 300;
   line-height: 20px;
 }
-/* line 33, ../../app/stylesheets/personal.scss */
+/* line 37, ../../app/stylesheets/personal.scss */
 #cover-page a#partner-link,
 #interior a#partner-link {
   display: block;
@@ -153,7 +159,7 @@ a:hover {
   background: transparent url("../images/personal/partner-link-background.png") no-repeat 5px bottom;
   text-shadow: none;
 }
-/* line 47, ../../app/stylesheets/personal.scss */
+/* line 51, ../../app/stylesheets/personal.scss */
 #cover-page a#partner-link:hover,
 #interior a#partner-link:hover {
   width: 129px;
@@ -162,7 +168,7 @@ a:hover {
   color: #e5e5e5;
   background-position: 0 bottom;
 }
-/* line 55, ../../app/stylesheets/personal.scss */
+/* line 59, ../../app/stylesheets/personal.scss */
 #cover-page ol,
 #interior ol {
   width: 744px;
@@ -181,50 +187,50 @@ a:hover {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 61, ../../app/stylesheets/personal.scss */
+/* line 65, ../../app/stylesheets/personal.scss */
 #cover-page ol li,
 #interior ol li {
   display: block;
   float: left;
   position: relative;
 }
-/* line 65, ../../app/stylesheets/personal.scss */
+/* line 69, ../../app/stylesheets/personal.scss */
 #cover-page ol li a:hover,
 #interior ol li a:hover {
   text-decoration: none;
   background-position: 0 0;
 }
-/* line 67, ../../app/stylesheets/personal.scss */
+/* line 71, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(2),
 #interior ol li:nth-child(2) {
   left: -100px;
 }
-/* line 69, ../../app/stylesheets/personal.scss */
+/* line 73, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(2) a,
 #interior ol li:nth-child(2) a {
   background: transparent url("../images/personal/thumbnail-priceboard.png") no-repeat 0 20px;
 }
-/* line 70, ../../app/stylesheets/personal.scss */
+/* line 74, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(2) a:hover,
 #interior ol li:nth-child(2) a:hover {
   background-position: 0 0;
 }
-/* line 72, ../../app/stylesheets/personal.scss */
+/* line 76, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(3),
 #interior ol li:nth-child(3) {
   left: -200px;
 }
-/* line 74, ../../app/stylesheets/personal.scss */
+/* line 78, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(3) a,
 #interior ol li:nth-child(3) a {
   background: transparent url("../images/personal/thumbnail-srm.png") no-repeat 0 20px;
 }
-/* line 75, ../../app/stylesheets/personal.scss */
+/* line 79, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(3) a:hover,
 #interior ol li:nth-child(3) a:hover {
   background-position: 0 0;
 }
-/* line 77, ../../app/stylesheets/personal.scss */
+/* line 81, ../../app/stylesheets/personal.scss */
 #cover-page ol a,
 #interior ol a {
   display: block;
@@ -233,7 +239,7 @@ a:hover {
   width: 248px;
   background: transparent url("../images/personal/thumbnail-quizforge.png") no-repeat 0 20px;
 }
-/* line 86, ../../app/stylesheets/personal.scss */
+/* line 90, ../../app/stylesheets/personal.scss */
 #cover-page ul,
 #interior ul {
   width: 894px;
@@ -243,29 +249,29 @@ a:hover {
   position: relative;
   background: transparent url("../images/personal/navigation-background.png") no-repeat 0 0;
 }
-/* line 93, ../../app/stylesheets/personal.scss */
+/* line 97, ../../app/stylesheets/personal.scss */
 #cover-page ul li,
 #interior ul li {
   display: inline;
   margin: 0 0 0 20px;
 }
-/* line 98, ../../app/stylesheets/personal.scss */
+/* line 102, ../../app/stylesheets/personal.scss */
 #cover-page ul li:nth-child(1),
 #interior ul li:nth-child(1) {
   margin: 0;
 }
 
-/* line 103, ../../app/stylesheets/personal.scss */
+/* line 107, ../../app/stylesheets/personal.scss */
 #interior {
   background-position: center 268px;
 }
-/* line 107, ../../app/stylesheets/personal.scss */
+/* line 111, ../../app/stylesheets/personal.scss */
 #interior h1 {
   line-height: 80px;
   padding: 70px 0 10px 0;
   margin: 0 0 47px 0;
 }
-/* line 109, ../../app/stylesheets/personal.scss */
+/* line 113, ../../app/stylesheets/personal.scss */
 #interior p {
   width: 480px;
   height: 263px;
@@ -277,7 +283,7 @@ a:hover {
   text-align: left;
   background: transparent url("../images/personal/card-background.png") no-repeat 0 0;
 }
-/* line 123, ../../app/stylesheets/personal.scss */
+/* line 127, ../../app/stylesheets/personal.scss */
 #interior ol {
   width: 480px;
   height: 243px;
@@ -298,7 +304,7 @@ a:hover {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 135, ../../app/stylesheets/personal.scss */
+/* line 139, ../../app/stylesheets/personal.scss */
 #interior ol li {
   display: block;
   float: left;
@@ -308,60 +314,65 @@ a:hover {
   position: static;
   background: transparent url("../images/personal/social-icons.png") no-repeat 75px 0;
 }
-/* line 143, ../../app/stylesheets/personal.scss */
+/* line 147, ../../app/stylesheets/personal.scss */
 #interior ol li a {
   width: 353px;
   height: 33px;
   padding: 5px 0 0 127px;
   color: #666666;
 }
-/* line 149, ../../app/stylesheets/personal.scss */
+/* line 153, ../../app/stylesheets/personal.scss */
 #interior ol li a:hover {
   color: #e53d00;
 }
-/* line 151, ../../app/stylesheets/personal.scss */
+/* line 155, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(2) {
   left: 0;
   background: transparent url("../images/personal/social-icons.png") no-repeat 75px -33px;
 }
-/* line 154, ../../app/stylesheets/personal.scss */
+/* line 158, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(2) a {
   background: none;
 }
-/* line 156, ../../app/stylesheets/personal.scss */
+/* line 160, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(3) {
   left: 0;
   background: transparent url("../images/personal/social-icons.png") no-repeat 75px -66px;
 }
-/* line 159, ../../app/stylesheets/personal.scss */
+/* line 163, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(3) a {
   background: none;
 }
-/* line 161, ../../app/stylesheets/personal.scss */
+/* line 165, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) {
   background: transparent url("../images/personal/social-icons.png") no-repeat 75px -99px;
 }
-/* line 163, ../../app/stylesheets/personal.scss */
+/* line 167, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) a#spam-safe-email-jason {
   background: transparent url("../images/personal/jason-email-background.png") no-repeat 127px 0;
 }
-/* line 164, ../../app/stylesheets/personal.scss */
+/* line 168, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) a#spam-safe-email-jason:hover {
   background: transparent url("../images/personal/jason-email-background.png") no-repeat 127px -33px;
 }
-/* line 165, ../../app/stylesheets/personal.scss */
+/* line 169, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) a#spam-safe-email-mitchell {
   background: transparent url("../images/personal/mitchell-email-background.png") no-repeat 127px 0;
 }
-/* line 166, ../../app/stylesheets/personal.scss */
+/* line 170, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) a#spam-safe-email-mitchell:hover {
   background: transparent url("../images/personal/mitchell-email-background.png") no-repeat 127px -33px;
 }
-/* line 168, ../../app/stylesheets/personal.scss */
+/* line 172, ../../app/stylesheets/personal.scss */
 #interior ol a {
   display: block;
   float: left;
   height: auto;
   width: auto;
   background: none;
+}
+/* line 181, ../../app/stylesheets/personal.scss */
+#interior ul {
+  width: 990px;
+  background: transparent url("../images/personal/navigation-background-interior.png") no-repeat center top;
 }
