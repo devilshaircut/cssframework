@@ -376,3 +376,101 @@ a:hover {
   width: 990px;
   background: transparent url("../images/personal/navigation-background-interior.png") no-repeat center top;
 }
+
+/* Lightbox CSS */
+/* SLIMBOX */
+/* line 198, ../../app/stylesheets/personal.scss */
+#lbOverlay {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  cursor: pointer;
+}
+
+/* line 209, ../../app/stylesheets/personal.scss */
+#lbCenter, #lbBottomContainer {
+  position: absolute;
+  z-index: 9999;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/* line 216, ../../app/stylesheets/personal.scss */
+.lbLoading {
+  background: white url("../images/personal/lightbox/loading.gif") no-repeat center;
+}
+
+/* line 220, ../../app/stylesheets/personal.scss */
+#lbImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 10px solid #fff;
+  background-repeat: no-repeat;
+}
+
+/* line 228, ../../app/stylesheets/personal.scss */
+#lbPrevLink, #lbNextLink {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  outline: none;
+}
+
+/* line 236, ../../app/stylesheets/personal.scss */
+#lbPrevLink {
+  left: 0;
+}
+
+/* line 240, ../../app/stylesheets/personal.scss */
+#lbPrevLink:hover {
+  background: transparent url("../images/personal/lightbox/prevlabel.gif") no-repeat 0 15%;
+}
+
+/* line 244, ../../app/stylesheets/personal.scss */
+#lbNextLink {
+  right: 0;
+}
+
+/* line 248, ../../app/stylesheets/personal.scss */
+#lbNextLink:hover {
+  background: transparent url("../images/personal/lightbox/nextlabel.gif") no-repeat 100% 15%;
+}
+
+/* line 252, ../../app/stylesheets/personal.scss */
+#lbBottom {
+  font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #666;
+  line-height: 1.4em;
+  text-align: left;
+  border: 10px solid #fff;
+  border-top-style: none;
+}
+
+/* line 262, ../../app/stylesheets/personal.scss */
+#lbCloseLink {
+  display: block;
+  float: right;
+  width: 66px;
+  height: 22px;
+  background: transparent url("../images/personal/lightbox/closelabel.gif") no-repeat center;
+  margin: 5px 0;
+  outline: none;
+}
+
+/* line 272, ../../app/stylesheets/personal.scss */
+#lbCaption, #lbNumber {
+  margin-right: 71px;
+  margin-right: 81px;
+}
+
+/* line 277, ../../app/stylesheets/personal.scss */
+#lbCaption {
+  font-weight: bold;
+}
