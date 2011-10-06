@@ -461,16 +461,23 @@ a:hover {
   height: 22px;
   background: transparent url("../images/personal/lightbox/closelabel.gif") no-repeat center;
   margin: 5px 0;
+  margin: 0;
   outline: none;
 }
 
-/* line 272, ../../app/stylesheets/personal.scss */
+/* line 273, ../../app/stylesheets/personal.scss */
 #lbCaption, #lbNumber {
   margin-right: 71px;
   margin-right: 81px;
 }
 
-/* line 277, ../../app/stylesheets/personal.scss */
+/* line 278, ../../app/stylesheets/personal.scss */
 #lbCaption {
   font-weight: bold;
+  padding: 5px 0 10px 0;
+}
+
+/* line 283, ../../app/stylesheets/personal.scss */
+#lbNumber {
+  font-style: italic;
 }
