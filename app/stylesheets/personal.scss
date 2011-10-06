@@ -19,9 +19,10 @@ body {
 a { text-decoration: none; color: #404040; }
 a:hover { text-decoration: underline; color: #e53d00; }
 
-body#cover-page {
+#cover-page,
+#interior {
 
-	@include background(image-url("../images/personal/portfolio-background.png") no-repeat center 188px, linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5));
+	background: transparent url("../images/personal/portfolio-background.png") no-repeat center 188px;
 	@include text-shadow(0 1px 0 #ffffff);
 	@include legacy-pie-clearfix;
 
@@ -61,14 +62,17 @@ body#cover-page {
 			display: block;
 			float: left;
 			position: relative;
+			a:hover { text-decoration: none; background-position: 0 0; }
 		}
 		li:nth-child(2) {
 			left: -100px;
 			a { background: transparent url("../images/personal/thumbnail-priceboard.png") no-repeat 0 20px; }
+			a:hover { background-position: 0 0; }
 		}
 		li:nth-child(3) {
 			left: -200px;
 			a { background: transparent url("../images/personal/thumbnail-srm.png") no-repeat 0 20px; }
+			a:hover { background-position: 0 0; }
 		}
 		a {
 			display: block;
@@ -77,7 +81,6 @@ body#cover-page {
 			width: 248px;
 			background: transparent url("../images/personal/thumbnail-quizforge.png") no-repeat 0 20px;
 		}
-		a:hover { text-decoration: none; background-position: 0 0 !important; }
 	}
 	
 	ul {
@@ -97,6 +100,81 @@ body#cover-page {
 
 }
 
+#interior {
+
+	background-position: center 268px;
+
+	h1 { line-height: 80px; padding: 70px 0 10px 0; margin: 0 0 47px 0; }
+
+	p {
+	
+		width: 480px;
+		height: 263px;
+		padding: 40px 34px 0;
+		margin: 0 auto;
+		font-size: 20px;
+		line-height: 30px;
+		color: #666666;
+		text-align: left;
+		background: transparent url("../images/personal/card-background.png") no-repeat 0 0;
+		
+	}
+	
+	ol {
+	
+		width: 480px;
+		height: 243px;
+		padding: 60px 34px 0;
+		margin: 0 auto;
+		font-size: 20px;
+		line-height: 20px;
+		text-align: left;
+		background: transparent url("../images/personal/card-background.png") no-repeat 0 0;
+		@include legacy-pie-clearfix;
+		
+		li {
+			display: block;
+			float: left;
+			width: 100%;
+			height: 33px;
+			margin: 0 0 17px 0;
+			position: static;
+			background: transparent url("../images/personal/social-icons.png") no-repeat 75px 0;
+			a {
+				width: 353px;
+				height: 33px;
+				padding: 5px 0 0 127px;
+				color: #666666;
+			}
+			a:hover { color: #e53d00; }
+		}
+		li:nth-child(2) {
+			left: 0;
+			background: transparent url("../images/personal/social-icons.png") no-repeat 75px -33px;
+			a { background: none }
+		}
+		li:nth-child(3) {
+			left: 0;
+			background: transparent url("../images/personal/social-icons.png") no-repeat 75px -66px;
+			a { background: none; }
+		}
+		li:nth-child(4) {
+			background: transparent url("../images/personal/social-icons.png") no-repeat 75px -99px;
+			a#spam-safe-email-jason { background: transparent url("../images/personal/jason-email-background.png") no-repeat 127px 0; }
+			a#spam-safe-email-jason:hover { background: transparent url("../images/personal/jason-email-background.png") no-repeat 127px -33px; }
+			a#spam-safe-email-mitchell { background: transparent url("../images/personal/mitchell-email-background.png") no-repeat 127px 0; }
+			a#spam-safe-email-mitchell:hover { background: transparent url("../images/personal/mitchell-email-background.png") no-repeat 127px -33px; }
+		}
+		a {
+			display: block;
+			float: left;
+			height: auto;
+			width: auto;
+			background: none;
+		}
+	}
+
+}
 
 
 

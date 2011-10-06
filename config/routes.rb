@@ -23,6 +23,10 @@ Cssframework::Application.routes.draw do
   match 'pages/wp-interface' => "pages#wp-interface"
   
   match 'personal/mitchell' => "personal#mitchell"
+  match 'personal/mitchell-about' => "personal#mitchell-about"
+  match 'personal/mitchell-contact' => "personal#mitchell-contact"
   match 'personal/jason' => "personal#jason"
+  match 'personal/jason-about' => "personal#jason-about"
+  match 'personal/jason-contact' => "personal#jason-contact"
 
 end
