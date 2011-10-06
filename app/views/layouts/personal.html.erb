@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>A CSS Framework | By: Jason Bishop</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800,800italic,300italic,300,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
+
+  <%= stylesheet_link_tag "ie", "print", "personal" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= csrf_meta_tag %>
+
+	<title>Mitchell Lane | Web Developer</title>
+
+</head>
+
+<body id="cover-page">
+	
+<!--<div style="width: 1000px; height: 10000px; background: transparent url('/images/line-height.png') repeat 0 0; position: absolute; z-index: 999;"></div>-->
+
+<%= yield %>
+
+</body>
+
+</html>

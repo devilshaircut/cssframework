@@ -121,6 +121,10 @@ html {
 					@include text-shadow(0 1px 0 #0d0d0d);
 				}
 			}
+			li:nth-child(1).ns-nav-selected {
+				padding: 8px 0 11px;
+				border-top: none;
+			}
 		}
 	}
 	

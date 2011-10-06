@@ -21,5 +21,8 @@ Cssframework::Application.routes.draw do
   match 'pages/empire-pricing' => "pages#empire-pricing"
   
   match 'pages/wp-interface' => "pages#wp-interface"
+  
+  match 'personal/mitchell' => "personal#mitchell"
+  match 'personal/jason' => "personal#jason"
 
 end

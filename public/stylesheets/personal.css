@@ -1,0 +1,232 @@
+/* line 17, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../../app/stylesheets/personal.scss */
+html {
+  height: 100%;
+}
+
+/* line 9, ../../app/stylesheets/personal.scss */
+body {
+  font-family: 'Open Sans', 'Myriad Pro', Myriad, 'Lucida Grande', 'Lucida Sans', Lucida, Verdana, Helvetica, Arial, sans serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #404040;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfcfc), color-stop(50%, #e5e5e5), color-stop(100%, #e5e5e5));
+  background-image: -webkit-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+  background-image: -moz-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+  background-image: -o-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+  background-image: -ms-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+  background-image: linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+}
+
+/* line 19, ../../app/stylesheets/personal.scss */
+a {
+  text-decoration: none;
+  color: #404040;
+}
+
+/* line 20, ../../app/stylesheets/personal.scss */
+a:hover {
+  text-decoration: underline;
+  color: #e53d00;
+}
+
+/* line 22, ../../app/stylesheets/personal.scss */
+body#cover-page {
+  background: url('/images/../images/personal/portfolio-background.png?1317861256') no-repeat center 188px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfcfc), color-stop(50%, #e5e5e5), color-stop(100%, #e5e5e5));
+  background: url('/images/../images/personal/portfolio-background.png?1317861256') no-repeat center 188px, -webkit-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+  background: url('/images/../images/personal/portfolio-background.png?1317861256') no-repeat center 188px, -moz-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+  background: url('/images/../images/personal/portfolio-background.png?1317861256') no-repeat center 188px, -o-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+  background: url('/images/../images/personal/portfolio-background.png?1317861256') no-repeat center 188px, -ms-linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+  background: url('/images/../images/personal/portfolio-background.png?1317861256') no-repeat center 188px, linear-gradient(#fcfcfc, #e5e5e5, #e5e5e5);
+  text-shadow: 0 1px 0 white;
+  *zoom: 1;
+}
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+body#cover-page:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* line 28, ../../app/stylesheets/personal.scss */
+body#cover-page h1 {
+  padding: 80px 0 10px 0;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+}
+/* line 29, ../../app/stylesheets/personal.scss */
+body#cover-page h2 {
+  padding: 10px 0 10px 0;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+}
+/* line 30, ../../app/stylesheets/personal.scss */
+body#cover-page h3 {
+  padding: 62px 0 18px 0;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+}
+/* line 32, ../../app/stylesheets/personal.scss */
+body#cover-page a#partner-link {
+  display: block;
+  float: right;
+  width: 124px;
+  height: 63px;
+  padding: 14px 0 0 50px;
+  position: relative;
+  top: -140px;
+  font-size: 15px;
+  color: #bfbfbf;
+  text-align: left;
+  background: transparent url("../images/personal/partner-link-background.png") no-repeat 5px bottom;
+  text-shadow: none;
+}
+/* line 46, ../../app/stylesheets/personal.scss */
+body#cover-page a#partner-link:hover {
+  width: 129px;
+  padding: 14px 0 0 45px;
+  text-decoration: none;
+  color: #e5e5e5;
+  background-position: 0 bottom;
+}
+/* line 54, ../../app/stylesheets/personal.scss */
+body#cover-page ol {
+  width: 744px;
+  margin: 0 auto;
+  padding: 67px 0 0 197px;
+  background: transparent url("../images/personal/portfolio-background.png") no-repeat 0 0;
+  *zoom: 1;
+}
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+body#cover-page ol:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* line 60, ../../app/stylesheets/personal.scss */
+body#cover-page ol li {
+  display: block;
+  float: left;
+  position: relative;
+}
+/* line 65, ../../app/stylesheets/personal.scss */
+body#cover-page ol li:nth-child(2) {
+  left: -100px;
+}
+/* line 67, ../../app/stylesheets/personal.scss */
+body#cover-page ol li:nth-child(2) a {
+  background: transparent url("../images/personal/thumbnail-priceboard.png") no-repeat 0 20px;
+}
+/* line 69, ../../app/stylesheets/personal.scss */
+body#cover-page ol li:nth-child(3) {
+  left: -200px;
+}
+/* line 71, ../../app/stylesheets/personal.scss */
+body#cover-page ol li:nth-child(3) a {
+  background: transparent url("../images/personal/thumbnail-srm.png") no-repeat 0 20px;
+}
+/* line 73, ../../app/stylesheets/personal.scss */
+body#cover-page ol a {
+  display: block;
+  float: left;
+  height: 113px;
+  width: 248px;
+  background: transparent url("../images/personal/thumbnail-quizforge.png") no-repeat 0 20px;
+}
+/* line 80, ../../app/stylesheets/personal.scss */
+body#cover-page ol a:hover {
+  text-decoration: none;
+  background-position: 0 0 !important;
+}
+/* line 83, ../../app/stylesheets/personal.scss */
+body#cover-page ul {
+  width: 894px;
+  height: 100px;
+  margin: -9px auto 0;
+  padding: 114px 0 5px 0;
+  position: relative;
+  background: transparent url("../images/personal/navigation-background.png") no-repeat 0 0;
+}
+/* line 90, ../../app/stylesheets/personal.scss */
+body#cover-page ul li {
+  display: inline;
+  margin: 0 0 0 20px;
+}
+/* line 95, ../../app/stylesheets/personal.scss */
+body#cover-page ul li:nth-child(1) {
+  margin: 0;
+}
