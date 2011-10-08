@@ -151,6 +151,7 @@ a:hover {
   width: 124px;
   height: 63px;
   padding: 14px 0 0 50px;
+  margin: 80px 0 0 0;
   position: relative;
   top: -140px;
   font-size: 15px;
@@ -159,7 +160,7 @@ a:hover {
   background: transparent url("../images/personal/partner-link-background.png") no-repeat 5px bottom;
   text-shadow: none;
 }
-/* line 51, ../../app/stylesheets/personal.scss */
+/* line 52, ../../app/stylesheets/personal.scss */
 #cover-page a#partner-link:hover,
 #interior a#partner-link:hover {
   width: 129px;
@@ -168,7 +169,7 @@ a:hover {
   color: #e5e5e5;
   background-position: 0 bottom;
 }
-/* line 59, ../../app/stylesheets/personal.scss */
+/* line 60, ../../app/stylesheets/personal.scss */
 #cover-page ol,
 #interior ol {
   width: 744px;
@@ -187,50 +188,50 @@ a:hover {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 65, ../../app/stylesheets/personal.scss */
+/* line 66, ../../app/stylesheets/personal.scss */
 #cover-page ol li,
 #interior ol li {
   display: block;
   float: left;
   position: relative;
 }
-/* line 69, ../../app/stylesheets/personal.scss */
+/* line 70, ../../app/stylesheets/personal.scss */
 #cover-page ol li a:hover,
 #interior ol li a:hover {
   text-decoration: none;
   background-position: 0 0;
 }
-/* line 71, ../../app/stylesheets/personal.scss */
+/* line 72, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(2),
 #interior ol li:nth-child(2) {
   left: -100px;
 }
-/* line 73, ../../app/stylesheets/personal.scss */
+/* line 74, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(2) a,
 #interior ol li:nth-child(2) a {
   background: transparent url("../images/personal/thumbnail-priceboard.png") no-repeat 0 20px;
 }
-/* line 74, ../../app/stylesheets/personal.scss */
+/* line 75, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(2) a:hover,
 #interior ol li:nth-child(2) a:hover {
   background-position: 0 0;
 }
-/* line 76, ../../app/stylesheets/personal.scss */
+/* line 77, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(3),
 #interior ol li:nth-child(3) {
   left: -200px;
 }
-/* line 78, ../../app/stylesheets/personal.scss */
+/* line 79, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(3) a,
 #interior ol li:nth-child(3) a {
   background: transparent url("../images/personal/thumbnail-srm.png") no-repeat 0 20px;
 }
-/* line 79, ../../app/stylesheets/personal.scss */
+/* line 80, ../../app/stylesheets/personal.scss */
 #cover-page ol li:nth-child(3) a:hover,
 #interior ol li:nth-child(3) a:hover {
   background-position: 0 0;
 }
-/* line 81, ../../app/stylesheets/personal.scss */
+/* line 82, ../../app/stylesheets/personal.scss */
 #cover-page ol a,
 #interior ol a {
   display: block;
@@ -239,39 +240,39 @@ a:hover {
   width: 248px;
   background: transparent url("../images/personal/thumbnail-quizforge.png") no-repeat 0 20px;
 }
-/* line 90, ../../app/stylesheets/personal.scss */
+/* line 91, ../../app/stylesheets/personal.scss */
 #cover-page ul,
 #interior ul {
   width: 894px;
-  height: 100px;
+  height: 20px;
   margin: -9px auto 0;
   padding: 114px 0 5px 0;
   position: relative;
   background: transparent url("../images/personal/navigation-background.png") no-repeat 0 0;
 }
-/* line 97, ../../app/stylesheets/personal.scss */
+/* line 98, ../../app/stylesheets/personal.scss */
 #cover-page ul li,
 #interior ul li {
   display: inline;
   margin: 0 0 0 20px;
 }
-/* line 102, ../../app/stylesheets/personal.scss */
+/* line 103, ../../app/stylesheets/personal.scss */
 #cover-page ul li:nth-child(1),
 #interior ul li:nth-child(1) {
   margin: 0;
 }
 
-/* line 107, ../../app/stylesheets/personal.scss */
+/* line 108, ../../app/stylesheets/personal.scss */
 #interior {
   background-position: center 268px;
 }
-/* line 111, ../../app/stylesheets/personal.scss */
+/* line 112, ../../app/stylesheets/personal.scss */
 #interior h1 {
   line-height: 80px;
   padding: 70px 0 10px 0;
   margin: 0 0 47px 0;
 }
-/* line 113, ../../app/stylesheets/personal.scss */
+/* line 114, ../../app/stylesheets/personal.scss */
 #interior p {
   width: 480px;
   height: 263px;
@@ -283,7 +284,7 @@ a:hover {
   text-align: left;
   background: transparent url("../images/personal/card-background.png") no-repeat 0 0;
 }
-/* line 127, ../../app/stylesheets/personal.scss */
+/* line 128, ../../app/stylesheets/personal.scss */
 #interior ol {
   width: 480px;
   height: 243px;
@@ -304,7 +305,7 @@ a:hover {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 139, ../../app/stylesheets/personal.scss */
+/* line 140, ../../app/stylesheets/personal.scss */
 #interior ol li {
   display: block;
   float: left;
@@ -314,56 +315,56 @@ a:hover {
   position: static;
   background: transparent url("../images/personal/social-icons.png") no-repeat 75px 0;
 }
-/* line 147, ../../app/stylesheets/personal.scss */
+/* line 148, ../../app/stylesheets/personal.scss */
 #interior ol li a {
   width: 353px;
   height: 33px;
   padding: 5px 0 0 127px;
   color: #666666;
 }
-/* line 153, ../../app/stylesheets/personal.scss */
+/* line 154, ../../app/stylesheets/personal.scss */
 #interior ol li a:hover {
   color: #e53d00;
 }
-/* line 155, ../../app/stylesheets/personal.scss */
+/* line 156, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(2) {
   left: 0;
   background: transparent url("../images/personal/social-icons.png") no-repeat 75px -33px;
 }
-/* line 158, ../../app/stylesheets/personal.scss */
+/* line 159, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(2) a {
   background: none;
 }
-/* line 160, ../../app/stylesheets/personal.scss */
+/* line 161, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(3) {
   left: 0;
   background: transparent url("../images/personal/social-icons.png") no-repeat 75px -66px;
 }
-/* line 163, ../../app/stylesheets/personal.scss */
+/* line 164, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(3) a {
   background: none;
 }
-/* line 165, ../../app/stylesheets/personal.scss */
+/* line 166, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) {
   background: transparent url("../images/personal/social-icons.png") no-repeat 75px -99px;
 }
-/* line 167, ../../app/stylesheets/personal.scss */
+/* line 168, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) a#spam-safe-email-jason {
   background: transparent url("../images/personal/jason-email-background.png") no-repeat 127px 0;
 }
-/* line 168, ../../app/stylesheets/personal.scss */
+/* line 169, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) a#spam-safe-email-jason:hover {
   background: transparent url("../images/personal/jason-email-background.png") no-repeat 127px -33px;
 }
-/* line 169, ../../app/stylesheets/personal.scss */
+/* line 170, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) a#spam-safe-email-mitchell {
   background: transparent url("../images/personal/mitchell-email-background.png") no-repeat 127px 0;
 }
-/* line 170, ../../app/stylesheets/personal.scss */
+/* line 171, ../../app/stylesheets/personal.scss */
 #interior ol li:nth-child(4) a#spam-safe-email-mitchell:hover {
   background: transparent url("../images/personal/mitchell-email-background.png") no-repeat 127px -33px;
 }
-/* line 172, ../../app/stylesheets/personal.scss */
+/* line 173, ../../app/stylesheets/personal.scss */
 #interior ol a {
   display: block;
   float: left;
@@ -371,7 +372,7 @@ a:hover {
   width: auto;
   background: none;
 }
-/* line 181, ../../app/stylesheets/personal.scss */
+/* line 182, ../../app/stylesheets/personal.scss */
 #interior ul {
   width: 990px;
   background: transparent url("../images/personal/navigation-background-interior.png") no-repeat center top;
@@ -379,7 +380,7 @@ a:hover {
 
 /* Lightbox CSS */
 /* SLIMBOX */
-/* line 198, ../../app/stylesheets/personal.scss */
+/* line 199, ../../app/stylesheets/personal.scss */
 #lbOverlay {
   position: fixed;
   z-index: 9999;
@@ -391,7 +392,7 @@ a:hover {
   cursor: pointer;
 }
 
-/* line 209, ../../app/stylesheets/personal.scss */
+/* line 210, ../../app/stylesheets/personal.scss */
 #lbCenter, #lbBottomContainer {
   position: absolute;
   z-index: 9999;
@@ -399,12 +400,12 @@ a:hover {
   background-color: #fff;
 }
 
-/* line 216, ../../app/stylesheets/personal.scss */
+/* line 217, ../../app/stylesheets/personal.scss */
 .lbLoading {
   background: white url("../images/personal/lightbox/loading.gif") no-repeat center;
 }
 
-/* line 220, ../../app/stylesheets/personal.scss */
+/* line 221, ../../app/stylesheets/personal.scss */
 #lbImage {
   position: absolute;
   left: 0;
@@ -413,7 +414,7 @@ a:hover {
   background-repeat: no-repeat;
 }
 
-/* line 228, ../../app/stylesheets/personal.scss */
+/* line 229, ../../app/stylesheets/personal.scss */
 #lbPrevLink, #lbNextLink {
   display: block;
   position: absolute;
@@ -422,29 +423,30 @@ a:hover {
   outline: none;
 }
 
-/* line 236, ../../app/stylesheets/personal.scss */
+/* line 237, ../../app/stylesheets/personal.scss */
 #lbPrevLink {
   left: 0;
 }
 
-/* line 240, ../../app/stylesheets/personal.scss */
+/* line 241, ../../app/stylesheets/personal.scss */
 #lbPrevLink:hover {
   background: transparent url("../images/personal/lightbox/prevlabel.gif") no-repeat 0 15%;
 }
 
-/* line 244, ../../app/stylesheets/personal.scss */
+/* line 245, ../../app/stylesheets/personal.scss */
 #lbNextLink {
   right: 0;
 }
 
-/* line 248, ../../app/stylesheets/personal.scss */
+/* line 249, ../../app/stylesheets/personal.scss */
 #lbNextLink:hover {
   background: transparent url("../images/personal/lightbox/nextlabel.gif") no-repeat 100% 15%;
 }
 
-/* line 252, ../../app/stylesheets/personal.scss */
+/* line 253, ../../app/stylesheets/personal.scss */
 #lbBottom {
   font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+  font-family: 'Open Sans', 'Myriad Pro', Myriad, 'Lucida Grande', 'Lucida Sans', Lucida, Verdana, Helvetica, Arial, sans serif;
   font-size: 10px;
   color: #666;
   line-height: 1.4em;
@@ -453,7 +455,7 @@ a:hover {
   border-top-style: none;
 }
 
-/* line 262, ../../app/stylesheets/personal.scss */
+/* line 264, ../../app/stylesheets/personal.scss */
 #lbCloseLink {
   display: block;
   float: right;
@@ -465,19 +467,19 @@ a:hover {
   outline: none;
 }
 
-/* line 273, ../../app/stylesheets/personal.scss */
+/* line 275, ../../app/stylesheets/personal.scss */
 #lbCaption, #lbNumber {
   margin-right: 71px;
   margin-right: 81px;
 }
 
-/* line 278, ../../app/stylesheets/personal.scss */
+/* line 280, ../../app/stylesheets/personal.scss */
 #lbCaption {
   font-weight: bold;
   padding: 5px 0 10px 0;
 }
 
-/* line 283, ../../app/stylesheets/personal.scss */
+/* line 285, ../../app/stylesheets/personal.scss */
 #lbNumber {
   font-style: italic;
 }
