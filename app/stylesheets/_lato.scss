@@ -5,8 +5,8 @@
 @mixin font-theme-header-lato {
 
 	body {
-		font-size: 12px;
-		line-height: 1.667em;
+		font-size: 13px;
+		line-height: 1.538em;
 	}
 	
 	h1 { font-size: 48px; line-height: 60px; padding: 1px 0 9px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
@@ -14,25 +14,23 @@
 	h3 { font-size: 25px; line-height: 40px; padding: 0px 0 0px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
 	h4 { font-size: 20px; line-height: 30px; padding: 7px 0 3px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
 	h5 { font-size: 14px; line-height: 20px; padding: 4px 0 6px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
-	h6 { font-size: 12px; line-height: 20px; padding: 5px 0 5px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
+	h6 { font-size: 13px; line-height: 20px; padding: 5px 0 5px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
 	.webkit h1 { padding: 2px 0 8px 0; }
 	.webkit h5 { padding: 5px 0 5px 0; }
-	.webkit h6 { padding: 6px 0 4px 0; }
+	.webkit h6 { padding: 5px 0 5px 0; }
 	
 }
 
 @mixin font-theme-body-lato {
 
 	body {
-		font-size: 12px;
-		line-height: 1.667em;
+		font-size: 13px;
+		line-height: 1.538em;
 		font-family: Lato, Helvetica, Arial, sans-serif;
 	}
 
 	blockquote,
 	p { padding: 5px 0 5px 0; }
-	.webkit blockquote,
-	.webkit p { padding: 6px 0 4px 0; }
 	
 	blockquote {
 		font-style: italic;
@@ -54,11 +52,6 @@
 		padding-top: 5px;
 		padding-bottom: 5px;
 	}
-	.webkit ul,
-	.webkit ol {
-		padding-top: 6px;
-		padding-bottom: 4px;
-	}
 	
 	ul.lined,
 	ol.lined,
@@ -69,13 +62,6 @@
 		li {
 			padding-top: 5px;
 			padding-bottom: 5px;
-		}
-	}
-	.webkit ul.lined,
-	.webkit ol.lined {
-		li {
-			padding-top: 6px;
-			padding-bottom: 4px;
 		}
 	}
 
@@ -99,40 +85,40 @@
 	a.button,
 	button,
 	input[type="submit"] {
-		padding-top: 8px;
-		padding-bottom: 9px;
+		padding-top: 7px;
+		padding-bottom: 10px;
 		margin-top: 0;
 		margin-bottom: 7px;
 		line-height: 1em;
-		font-size: 12px;
+		font-size: 13px;
 		font-family: Lato, Helvetica, Arial, sans-serif;
 	}
 
 	a.cancel-button {
-		padding-top: 9px;
-		padding-bottom: 10px;
+		padding-top: 8px;
+		padding-bottom: 11px;
 	}
 
 	button {
-		padding-top: 7px;
-		padding-bottom: 24px;
-	}
-	.webkit button {
-		padding-top: 8px;
-		padding-bottom: 23px;
-	}
-
-	input[type="submit"] {
 		padding-top: 6px;
 		padding-bottom: 25px;
 	}
+	.webkit button {
+		padding-top: 7px;
+		padding-bottom: 24px;
+	}
+
+	input[type="submit"] {
+		padding-top: 5px;
+		padding-bottom: 26px;
+	}
 	.webkit input[type="submit"] {
-		padding-top: 8px;
-		padding-bottom: 23px;
+		padding-top: 7px;
+		padding-bottom: 24px;
 	}
 
 	label {
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 1.667em;
 		padding-top: 5px;
 		padding-bottom: 5px;
@@ -140,10 +126,6 @@
 			font-size: 10px;
 			font-weight: normal;
 		}
-	}
-	.webkit label {
-		padding-top: 6px;
-		padding-bottom: 4px;
 	}
 	
 	input[type="checkbox"] {
@@ -165,11 +147,11 @@
 	input[type="email"],
 	input[type="password"],
 	textarea {
-		padding-top: 7px;
-		padding-bottom: 9px;
+		padding-top: 6px;
+		padding-bottom: 10px;
 		margin-top: 0;
 		margin-bottom: 7px;
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 1.667em;
 		font-family: Lato, Helvetica, Arial, sans-serif;
 	}
@@ -178,8 +160,8 @@
 	.webkit input[type="email"],
 	.webkit input[type="password"],
 	.webkit textarea {
-		padding-top: 8px;
-		padding-bottom: 8px;
+		padding-top: 7px;
+		padding-bottom: 9px;
 	}
 
 	select {
@@ -188,17 +170,17 @@
 	}
 
 	textarea {
+		padding-top: 3px;
+		padding-bottom: 14px;
+	}
+	.webkit textarea {
 		padding-top: 4px;
 		padding-bottom: 13px;
 	}
-	.webkit textarea {
-		padding-top: 5px;
-		padding-bottom: 12px;
-	}
 
 	ul.form {
-		padding-top: 15px;
-		padding-bottom: 15px;
+		padding-top: 14px;
+		padding-bottom: 16px;
 		li {
 			label {
 				padding-top: 0;
@@ -207,8 +189,8 @@
 		}
 	}
 	.webkit ul.form {
-		padding-top: 16px;
-		padding-bottom: 14px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 		li {
 			label {
 				padding-top: 0;
@@ -233,27 +215,6 @@
 				td {
 					padding-top: 5px;
 					padding-bottom: 5px;
-				}
-			}
-		}
-	}
-	
-	.webkit table {
-		padding-top: 0;
-		padding-bottom: 10px;
-		thead {
-			tr {
-				th {
-					padding-top: 6px;
-					padding-bottom: 4px;
-				}
-			}
-		}
-		tbody {
-			tr {
-				td {
-					padding-top: 6px;
-					padding-bottom: 4px;
 				}
 			}
 		}
