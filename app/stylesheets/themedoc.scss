@@ -11,9 +11,9 @@
 
 $body-background-color: #ffffff;
 
-$font-color-header: #333333;
+$font-color-header: #17181a;
 $font-color-subheader: #757471;
-$font-color-body: #262626;
+$font-color-body: #2e3033;
 
 $accent-color: #bc2215;
 
@@ -76,7 +76,7 @@ html {
 
 	body {
 		font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
-		background: $body-background-color;
+		background: transparent url("../images/ns-documentation/body-background.gif") repeat 0 0;
 		color: $font-color-body;
 		#banner-container {
 			float: none;
@@ -160,6 +160,8 @@ html {
 				text-align: left;
 				background: #f7f4ee;
 				@include legacy-pie-clearfix;
+				@include box-shadow(0 2px 7px #4e2f1a);
+				@include border-radius(2px);
 				h3 {
 					font-size: 30px;
 					line-height: 40px;

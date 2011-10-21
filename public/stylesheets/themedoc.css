@@ -332,7 +332,7 @@ html h1, html h2, html h3 {
 }
 /* line 50, ../../app/stylesheets/themedoc.scss */
 html h1, html h2, html h3, html h4, html h5, html h6 {
-  color: #333333;
+  color: #17181a;
   font-weight: 100;
 }
 /* line 55, ../../app/stylesheets/themedoc.scss */
@@ -400,8 +400,8 @@ html button {
 /* line 77, ../../app/stylesheets/themedoc.scss */
 html body {
   font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
-  background: white;
-  color: #262626;
+  background: transparent url("../images/ns-documentation/body-background.gif") repeat 0 0;
+  color: #2e3033;
 }
 /* line 81, ../../app/stylesheets/themedoc.scss */
 html body #banner-container {
@@ -520,6 +520,16 @@ html body #content-container #content {
   text-align: left;
   background: #f7f4ee;
   *zoom: 1;
+  -moz-box-shadow: 0 2px 7px #4e2f1a;
+  -webkit-box-shadow: 0 2px 7px #4e2f1a;
+  -o-box-shadow: 0 2px 7px #4e2f1a;
+  box-shadow: 0 2px 7px #4e2f1a;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
 }
 /* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 html body #content-container #content:after {
@@ -530,14 +540,14 @@ html body #content-container #content:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 163, ../../app/stylesheets/themedoc.scss */
+/* line 165, ../../app/stylesheets/themedoc.scss */
 html body #content-container #content h3 {
   font-size: 30px;
   line-height: 40px;
   padding: 4px 0 6px 0;
   margin: 0 0 10px 0;
 }
-/* line 168, ../../app/stylesheets/themedoc.scss */
+/* line 170, ../../app/stylesheets/themedoc.scss */
 html body #content-container #content h3 span {
   display: block;
   float: left;
@@ -546,11 +556,11 @@ html body #content-container #content h3 span {
   line-height: 20px;
   padding: 2px 0 8px 0;
 }
-/* line 177, ../../app/stylesheets/themedoc.scss */
+/* line 179, ../../app/stylesheets/themedoc.scss */
 html body #footer-container {
   float: none;
 }
-/* line 179, ../../app/stylesheets/themedoc.scss */
+/* line 181, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer {
   float: none;
   width: 990px;
@@ -568,7 +578,7 @@ html body #footer-container #footer:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 194, ../../app/stylesheets/themedoc.scss */
+/* line 196, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-container #content h3 span {
   font-size: 16px;
   line-height: 20px;
