@@ -80,11 +80,13 @@ html {
 		color: $font-color-body;
 		#banner-container {
 			float: none;
+			height: 270px;
 			background: transparent url("../images/ns-documentation/header-background.gif") repeat-x 0 0;
 			#top-bar {
 				float: none;
 				width: 990px;
 				height: 120px;
+				padding: 10px 0 0 0;
 				margin: 0 auto;
 				text-align: left;
 				@include legacy-pie-clearfix;
@@ -104,9 +106,11 @@ html {
 				#navigation {
 					width: auto;
 					float: right;
+					position: relative;
+					z-index: 50;
 					li {
 						width: auto;
-						padding: 0 10px;
+						padding: 10px 10px 0;
 						a {
 							text-decoration: none;
 							color: #b9c4a8;
@@ -118,9 +122,8 @@ html {
 			}
 			#header {
 				float: none;
-				width: 990px;
+				width: 1050px;
 				margin: 0 auto;
-				padding: 0 30px;
 				text-align: left;
 				h1 {
 					font-size: 60px;
@@ -128,7 +131,7 @@ html {
 					padding: 5px 0 5px 0;
 					font-family: Raleway, Helvetica, Arial, sans-serif;
 					color: #e0d586;
-					@include text-shadow(0 2px 0 #010f17);
+					@include text-shadow(0 2px 0 #021e30);
 				}
 				h4 {
 					color: #b9c4a8;
@@ -136,16 +139,39 @@ html {
 				}
 				@include legacy-pie-clearfix;
 			}
+			img#house-graphic {
+				position: relative;
+				z-index: 1;
+				margin: -240px 0 0 575px;
+			}
 		}
 		#content-container {
 			float: none;
+			background: transparent url("../images/ns-documentation/content-background.png") repeat-x 0 1px;
+			position: relative;
+			z-index: 2;
+			margin: -20px 0 0 0;
+			padding: 70px 0 0 0;
 			#content {
 				float: none;
 				width: 990px;
 				margin: 0 auto;
-				padding: 0 30px;
+				padding: 40px 30px;
 				text-align: left;
+				background: #f7f4ee;
 				@include legacy-pie-clearfix;
+				h3 {
+					font-size: 30px;
+					line-height: 40px;
+					padding: 4px 0 6px 0;
+					margin: 0 0 10px 0;
+					span {
+						display: block;
+						float: left;
+						width: 100%;
+						font-size: 16px; line-height: 20px; padding: 2px 0 8px 0;
+					}
+				}
 			}
 		}
 		#footer-container {
