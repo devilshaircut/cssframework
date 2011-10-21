@@ -75,16 +75,15 @@ html body {
   line-height: 1.538em;
   font-family: Puritan, Helvetica, Arial, sans-serif;
 }
-/* line 33, ../../app/stylesheets/_puritan.scss */
-html blockquote,
+/* line 32, ../../app/stylesheets/_puritan.scss */
 html p {
   padding: 6px 0 4px 0;
 }
-/* line 35, ../../app/stylesheets/_puritan.scss */
+/* line 34, ../../app/stylesheets/_puritan.scss */
 html blockquote {
   font-style: italic;
 }
-/* line 40, ../../app/stylesheets/_puritan.scss */
+/* line 39, ../../app/stylesheets/_puritan.scss */
 html .column-8 span.floated-blockquote {
   padding-top: 2px;
   padding-bottom: 8px;
@@ -93,13 +92,13 @@ html .column-8 span.floated-blockquote {
   font-size: 20px;
   line-height: 30px;
 }
-/* line 51, ../../app/stylesheets/_puritan.scss */
+/* line 50, ../../app/stylesheets/_puritan.scss */
 html ul,
 html ol {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 59, ../../app/stylesheets/_puritan.scss */
+/* line 58, ../../app/stylesheets/_puritan.scss */
 html ul.lined,
 html ol.lined,
 html ul.lined-large,
@@ -107,7 +106,7 @@ html ol.lined-large {
   padding-top: 1px;
   padding-bottom: 9px;
 }
-/* line 62, ../../app/stylesheets/_puritan.scss */
+/* line 61, ../../app/stylesheets/_puritan.scss */
 html ul.lined li,
 html ol.lined li,
 html ul.lined-large li,
@@ -115,19 +114,19 @@ html ol.lined-large li {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 70, ../../app/stylesheets/_puritan.scss */
+/* line 69, ../../app/stylesheets/_puritan.scss */
 html ul.lined-large li,
 html ol.lined-large li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 77, ../../app/stylesheets/_puritan.scss */
+/* line 76, ../../app/stylesheets/_puritan.scss */
 html .webkit ul.lined-large li,
 html .webkit ol.lined-large li {
   padding-top: 11px;
   padding-bottom: 9px;
 }
-/* line 87, ../../app/stylesheets/_puritan.scss */
+/* line 86, ../../app/stylesheets/_puritan.scss */
 html a.icon-button,
 html a.cancel-button,
 html a.button,
@@ -141,64 +140,64 @@ html input[type="submit"] {
   font-size: 12px;
   font-family: Puritan, Helvetica, Arial, sans-serif;
 }
-/* line 97, ../../app/stylesheets/_puritan.scss */
+/* line 96, ../../app/stylesheets/_puritan.scss */
 html a.cancel-button {
   padding-top: 10px;
   padding-bottom: 9px;
 }
-/* line 102, ../../app/stylesheets/_puritan.scss */
+/* line 101, ../../app/stylesheets/_puritan.scss */
 html button {
   padding-top: 8px;
   padding-bottom: 23px;
 }
-/* line 106, ../../app/stylesheets/_puritan.scss */
+/* line 105, ../../app/stylesheets/_puritan.scss */
 html .webkit button {
   padding-top: 9px;
   padding-bottom: 22px;
 }
-/* line 111, ../../app/stylesheets/_puritan.scss */
+/* line 110, ../../app/stylesheets/_puritan.scss */
 html input[type="submit"] {
   padding-top: 7px;
   padding-bottom: 24px;
 }
-/* line 115, ../../app/stylesheets/_puritan.scss */
+/* line 114, ../../app/stylesheets/_puritan.scss */
 html .webkit input[type="submit"] {
   padding-top: 9px;
   padding-bottom: 22px;
 }
-/* line 120, ../../app/stylesheets/_puritan.scss */
+/* line 119, ../../app/stylesheets/_puritan.scss */
 html label {
   font-size: 12px;
   line-height: 1.667em;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 125, ../../app/stylesheets/_puritan.scss */
+/* line 124, ../../app/stylesheets/_puritan.scss */
 html label span {
   font-size: 10px;
   font-weight: normal;
 }
-/* line 130, ../../app/stylesheets/_puritan.scss */
+/* line 129, ../../app/stylesheets/_puritan.scss */
 html .webkit label {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 135, ../../app/stylesheets/_puritan.scss */
+/* line 134, ../../app/stylesheets/_puritan.scss */
 html input[type="checkbox"] {
   margin-top: 4px;
   margin-bottom: 0;
 }
-/* line 139, ../../app/stylesheets/_puritan.scss */
+/* line 138, ../../app/stylesheets/_puritan.scss */
 html .webkit input[type="checkbox"] {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 144, ../../app/stylesheets/_puritan.scss */
+/* line 143, ../../app/stylesheets/_puritan.scss */
 html input[type="radio"] {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 153, ../../app/stylesheets/_puritan.scss */
+/* line 152, ../../app/stylesheets/_puritan.scss */
 html select,
 html input[type="text"],
 html input[type="email"],
@@ -212,7 +211,7 @@ html textarea {
   line-height: 1.667em;
   font-family: Puritan, Helvetica, Arial, sans-serif;
 }
-/* line 166, ../../app/stylesheets/_puritan.scss */
+/* line 165, ../../app/stylesheets/_puritan.scss */
 html .webkit select,
 html .webkit input[type="text"],
 html .webkit input[type="email"],
@@ -221,52 +220,52 @@ html .webkit textarea {
   padding-top: 9px;
   padding-bottom: 7px;
 }
-/* line 171, ../../app/stylesheets/_puritan.scss */
+/* line 170, ../../app/stylesheets/_puritan.scss */
 html select {
   padding-top: 7px;
   padding-bottom: 3px;
 }
-/* line 176, ../../app/stylesheets/_puritan.scss */
+/* line 175, ../../app/stylesheets/_puritan.scss */
 html textarea {
   padding-top: 5px;
   padding-bottom: 12px;
 }
-/* line 180, ../../app/stylesheets/_puritan.scss */
+/* line 179, ../../app/stylesheets/_puritan.scss */
 html .webkit textarea {
   padding-top: 6px;
   padding-bottom: 11px;
 }
-/* line 185, ../../app/stylesheets/_puritan.scss */
+/* line 184, ../../app/stylesheets/_puritan.scss */
 html ul.form {
   padding-top: 16px;
   padding-bottom: 14px;
 }
-/* line 189, ../../app/stylesheets/_puritan.scss */
+/* line 188, ../../app/stylesheets/_puritan.scss */
 html ul.form li label {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 195, ../../app/stylesheets/_puritan.scss */
+/* line 194, ../../app/stylesheets/_puritan.scss */
 html .webkit ul.form {
   padding-top: 17px;
   padding-bottom: 13px;
 }
-/* line 199, ../../app/stylesheets/_puritan.scss */
+/* line 198, ../../app/stylesheets/_puritan.scss */
 html .webkit ul.form li label {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 206, ../../app/stylesheets/_puritan.scss */
+/* line 205, ../../app/stylesheets/_puritan.scss */
 html table {
   padding-top: 1px;
   padding-bottom: 9px;
 }
-/* line 211, ../../app/stylesheets/_puritan.scss */
+/* line 210, ../../app/stylesheets/_puritan.scss */
 html table thead tr th {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 219, ../../app/stylesheets/_puritan.scss */
+/* line 218, ../../app/stylesheets/_puritan.scss */
 html table tbody tr td {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -358,15 +357,15 @@ html table tbody tr td {
   line-height: 1.538em;
   font-family: Puritan, Helvetica, Arial, sans-serif;
 }
-/* line 33, ../../app/stylesheets/_puritan.scss */
-#ns-interface blockquote, #ns-interface p {
+/* line 32, ../../app/stylesheets/_puritan.scss */
+#ns-interface p {
   padding: 6px 0 4px 0;
 }
-/* line 35, ../../app/stylesheets/_puritan.scss */
+/* line 34, ../../app/stylesheets/_puritan.scss */
 #ns-interface blockquote {
   font-style: italic;
 }
-/* line 40, ../../app/stylesheets/_puritan.scss */
+/* line 39, ../../app/stylesheets/_puritan.scss */
 #ns-interface .column-8 span.floated-blockquote {
   padding-top: 2px;
   padding-bottom: 8px;
@@ -375,32 +374,32 @@ html table tbody tr td {
   font-size: 20px;
   line-height: 30px;
 }
-/* line 51, ../../app/stylesheets/_puritan.scss */
+/* line 50, ../../app/stylesheets/_puritan.scss */
 #ns-interface ul, #ns-interface ol {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 59, ../../app/stylesheets/_puritan.scss */
+/* line 58, ../../app/stylesheets/_puritan.scss */
 #ns-interface ul.lined, #ns-interface ol.lined, #ns-interface ul.lined-large, #ns-interface ol.lined-large {
   padding-top: 1px;
   padding-bottom: 9px;
 }
-/* line 62, ../../app/stylesheets/_puritan.scss */
+/* line 61, ../../app/stylesheets/_puritan.scss */
 #ns-interface ul.lined li, #ns-interface ol.lined li, #ns-interface ul.lined-large li, #ns-interface ol.lined-large li {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 70, ../../app/stylesheets/_puritan.scss */
+/* line 69, ../../app/stylesheets/_puritan.scss */
 #ns-interface ul.lined-large li, #ns-interface ol.lined-large li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 77, ../../app/stylesheets/_puritan.scss */
+/* line 76, ../../app/stylesheets/_puritan.scss */
 #ns-interface .webkit ul.lined-large li, #ns-interface .webkit ol.lined-large li {
   padding-top: 11px;
   padding-bottom: 9px;
 }
-/* line 87, ../../app/stylesheets/_puritan.scss */
+/* line 86, ../../app/stylesheets/_puritan.scss */
 #ns-interface a.icon-button, #ns-interface a.cancel-button, #ns-interface a.button, #ns-interface button, #ns-interface input[type="submit"] {
   padding-top: 9px;
   padding-bottom: 8px;
@@ -410,64 +409,64 @@ html table tbody tr td {
   font-size: 12px;
   font-family: Puritan, Helvetica, Arial, sans-serif;
 }
-/* line 97, ../../app/stylesheets/_puritan.scss */
+/* line 96, ../../app/stylesheets/_puritan.scss */
 #ns-interface a.cancel-button {
   padding-top: 10px;
   padding-bottom: 9px;
 }
-/* line 102, ../../app/stylesheets/_puritan.scss */
+/* line 101, ../../app/stylesheets/_puritan.scss */
 #ns-interface button {
   padding-top: 8px;
   padding-bottom: 23px;
 }
-/* line 106, ../../app/stylesheets/_puritan.scss */
+/* line 105, ../../app/stylesheets/_puritan.scss */
 #ns-interface .webkit button {
   padding-top: 9px;
   padding-bottom: 22px;
 }
-/* line 111, ../../app/stylesheets/_puritan.scss */
+/* line 110, ../../app/stylesheets/_puritan.scss */
 #ns-interface input[type="submit"] {
   padding-top: 7px;
   padding-bottom: 24px;
 }
-/* line 115, ../../app/stylesheets/_puritan.scss */
+/* line 114, ../../app/stylesheets/_puritan.scss */
 #ns-interface .webkit input[type="submit"] {
   padding-top: 9px;
   padding-bottom: 22px;
 }
-/* line 120, ../../app/stylesheets/_puritan.scss */
+/* line 119, ../../app/stylesheets/_puritan.scss */
 #ns-interface label {
   font-size: 12px;
   line-height: 1.667em;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 125, ../../app/stylesheets/_puritan.scss */
+/* line 124, ../../app/stylesheets/_puritan.scss */
 #ns-interface label span {
   font-size: 10px;
   font-weight: normal;
 }
-/* line 130, ../../app/stylesheets/_puritan.scss */
+/* line 129, ../../app/stylesheets/_puritan.scss */
 #ns-interface .webkit label {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 135, ../../app/stylesheets/_puritan.scss */
+/* line 134, ../../app/stylesheets/_puritan.scss */
 #ns-interface input[type="checkbox"] {
   margin-top: 4px;
   margin-bottom: 0;
 }
-/* line 139, ../../app/stylesheets/_puritan.scss */
+/* line 138, ../../app/stylesheets/_puritan.scss */
 #ns-interface .webkit input[type="checkbox"] {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 144, ../../app/stylesheets/_puritan.scss */
+/* line 143, ../../app/stylesheets/_puritan.scss */
 #ns-interface input[type="radio"] {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 153, ../../app/stylesheets/_puritan.scss */
+/* line 152, ../../app/stylesheets/_puritan.scss */
 #ns-interface select, #ns-interface input[type="text"], #ns-interface input[type="email"], #ns-interface input[type="password"], #ns-interface textarea {
   padding-top: 7px;
   padding-bottom: 9px;
@@ -477,57 +476,57 @@ html table tbody tr td {
   line-height: 1.667em;
   font-family: Puritan, Helvetica, Arial, sans-serif;
 }
-/* line 166, ../../app/stylesheets/_puritan.scss */
+/* line 165, ../../app/stylesheets/_puritan.scss */
 #ns-interface .webkit select, #ns-interface .webkit input[type="text"], #ns-interface .webkit input[type="email"], #ns-interface .webkit input[type="password"], #ns-interface .webkit textarea {
   padding-top: 9px;
   padding-bottom: 7px;
 }
-/* line 171, ../../app/stylesheets/_puritan.scss */
+/* line 170, ../../app/stylesheets/_puritan.scss */
 #ns-interface select {
   padding-top: 7px;
   padding-bottom: 3px;
 }
-/* line 176, ../../app/stylesheets/_puritan.scss */
+/* line 175, ../../app/stylesheets/_puritan.scss */
 #ns-interface textarea {
   padding-top: 5px;
   padding-bottom: 12px;
 }
-/* line 180, ../../app/stylesheets/_puritan.scss */
+/* line 179, ../../app/stylesheets/_puritan.scss */
 #ns-interface .webkit textarea {
   padding-top: 6px;
   padding-bottom: 11px;
 }
-/* line 185, ../../app/stylesheets/_puritan.scss */
+/* line 184, ../../app/stylesheets/_puritan.scss */
 #ns-interface ul.form {
   padding-top: 16px;
   padding-bottom: 14px;
 }
-/* line 189, ../../app/stylesheets/_puritan.scss */
+/* line 188, ../../app/stylesheets/_puritan.scss */
 #ns-interface ul.form li label {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 195, ../../app/stylesheets/_puritan.scss */
+/* line 194, ../../app/stylesheets/_puritan.scss */
 #ns-interface .webkit ul.form {
   padding-top: 17px;
   padding-bottom: 13px;
 }
-/* line 199, ../../app/stylesheets/_puritan.scss */
+/* line 198, ../../app/stylesheets/_puritan.scss */
 #ns-interface .webkit ul.form li label {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 206, ../../app/stylesheets/_puritan.scss */
+/* line 205, ../../app/stylesheets/_puritan.scss */
 #ns-interface table {
   padding-top: 1px;
   padding-bottom: 9px;
 }
-/* line 211, ../../app/stylesheets/_puritan.scss */
+/* line 210, ../../app/stylesheets/_puritan.scss */
 #ns-interface table thead tr th {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 219, ../../app/stylesheets/_puritan.scss */
+/* line 218, ../../app/stylesheets/_puritan.scss */
 #ns-interface table tbody tr td {
   padding-top: 5px;
   padding-bottom: 5px;

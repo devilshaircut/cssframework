@@ -29,5 +29,9 @@ Cssframework::Application.routes.draw do
   match 'personal/jason' => "personal#jason"
   match 'personal/jason-about' => "personal#jason-about"
   match 'personal/jason-contact' => "personal#jason-contact"
+  
+  match 'nightsprout/home' => "nightsprout#home"
+  
+  match 'themedoc/home' => "themedoc#home"
 
 end

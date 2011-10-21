@@ -1,0 +1,164 @@
+/****************************************************************************************************/
+/* COLOR THEMES */
+/****************************************************************************************************/
+/* Default Theme */
+/****************************************************************************************************/
+/* THEMEDOC.CSS */
+/****************************************************************************************************/
+/* line 32, ../../app/stylesheets/themedoc.scss */
+html h1, html h2, html h3 {
+  font-family: 'Kreon', Georgia, 'Times New Roman', serif;
+}
+/* line 36, ../../app/stylesheets/themedoc.scss */
+html h1, html h2, html h3, html h4, html h5, html h6 {
+  color: #333333;
+  font-weight: normal;
+}
+/* line 49, ../../app/stylesheets/themedoc.scss */
+html input[type="text"],
+html input[type="email"],
+html input[type="password"],
+html input[type="submit"],
+html select,
+html textarea,
+html a.button,
+html a.cancel-button,
+html button {
+  font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+}
+/* line 53, ../../app/stylesheets/themedoc.scss */
+html body {
+  font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+  background: #0f0f0e;
+  color: #262626;
+}
+/* line 57, ../../app/stylesheets/themedoc.scss */
+html body #top-bar-container {
+  float: none;
+}
+/* line 59, ../../app/stylesheets/themedoc.scss */
+html body #top-bar-container #top-bar {
+  float: none;
+  width: 990px;
+  margin: 0 auto;
+  text-align: left;
+  *zoom: 1;
+}
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+html body #top-bar-container #top-bar:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* line 65, ../../app/stylesheets/themedoc.scss */
+html body #top-bar-container #top-bar a#logo {
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+/* line 72, ../../app/stylesheets/themedoc.scss */
+html body #top-bar-container #top-bar #navigation {
+  width: auto;
+  float: right;
+}
+/* line 75, ../../app/stylesheets/themedoc.scss */
+html body #top-bar-container #top-bar #navigation li {
+  width: auto;
+  padding: 0 10px;
+}
+/* line 78, ../../app/stylesheets/themedoc.scss */
+html body #top-bar-container #top-bar #navigation li a {
+  text-decoration: none;
+}
+/* line 80, ../../app/stylesheets/themedoc.scss */
+html body #top-bar-container #top-bar #navigation li a.current,
+html body #top-bar-container #top-bar #navigation li a:hover {
+  text-decoration: underline;
+}
+/* line 85, ../../app/stylesheets/themedoc.scss */
+html body #banner-container {
+  float: none;
+}
+/* line 87, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #header {
+  float: none;
+  width: 990px;
+  margin: 0 auto;
+  padding: 0 30px;
+  text-align: left;
+  *zoom: 1;
+}
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+html body #banner-container #header:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* line 95, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #banner {
+  float: none;
+  width: 990px;
+  margin: 0 auto;
+  padding: 0 30px;
+  text-align: left;
+  *zoom: 1;
+}
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+html body #banner-container #banner:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* line 104, ../../app/stylesheets/themedoc.scss */
+html body #content-container {
+  float: none;
+}
+/* line 106, ../../app/stylesheets/themedoc.scss */
+html body #content-container #content {
+  float: none;
+  width: 990px;
+  margin: 0 auto;
+  padding: 0 30px;
+  text-align: left;
+  *zoom: 1;
+}
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+html body #content-container #content:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* line 115, ../../app/stylesheets/themedoc.scss */
+html body #footer-container {
+  float: none;
+}
+/* line 117, ../../app/stylesheets/themedoc.scss */
+html body #footer-container #footer {
+  float: none;
+  width: 990px;
+  margin: 0 auto;
+  padding: 0 30px;
+  text-align: left;
+  *zoom: 1;
+}
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+html body #footer-container #footer:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}

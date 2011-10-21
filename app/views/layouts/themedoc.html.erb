@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Empire Theme Documentation | A Premium WordPress theme by Nightsprout</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Inconsolata|Vollkorn:400,400italic|Open+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+
+  <%= stylesheet_link_tag "ie", "print", "screen" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= csrf_meta_tag %>
+
+	<script>
+		$(document).ready(function(){
+			$.each($.browser, function(k, v){ if(v == true || v == "true") $("body").addClass(k); });
+		});
+	</script>
+
+</head>
+
+<body>
+	
+<div style="width: 1000px; height: 10000px; background: transparent url('/images/line-height.png') repeat 0 0; position: absolute; z-index: 999;"></div>
+
+<%= yield %>
+
+</body>
+
+</html>

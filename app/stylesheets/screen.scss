@@ -188,6 +188,9 @@ $border-color-left: #cecece;
 @import "terminal-dosis";
 @import "lato";
 @import "ubuntu";
+@import "kreon";
+@import "raleway";
+@import "pt-sans";
 
 
 
@@ -216,8 +219,10 @@ textarea {
 /****************************************************************************************************/
 
 html {
-	@include font-theme-header-vollkorn;
-	@include font-theme-body-open-sans;
+	/*@include font-theme-header-vollkorn;
+	@include font-theme-body-open-sans;*/
+	@include font-theme-header-kreon;
+	@include font-theme-body-kreon;
 }
 
 body {

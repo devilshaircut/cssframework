@@ -1,0 +1,249 @@
+/****************************************************************************************************/
+/* FONT THEME: Kreon                                                                                */
+/****************************************************************************************************/
+
+@mixin font-theme-header-kreon {
+
+	body {
+		font-size: 12px;
+		line-height: 1.667em;
+	}
+	
+	h1 { font-size: 48px; line-height: 60px; padding: 9px 0 1px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+	h2 { font-size: 36px; line-height: 50px; padding: 6px 0 4px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+	h3 { font-size: 25px; line-height: 40px; padding: 4px 0 6px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+	h4 { font-size: 20px; line-height: 30px; padding: 0 0 10px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+	h5 { font-size: 14px; line-height: 20px; padding: 6px 0 4px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+	h6 { font-size: 12px; line-height: 20px; padding: 7px 0 3px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+	.webkit h2 { padding: 7px 0 3px 0; }
+	.webkit h3 { padding: 5px 0 5px 0; }
+	.webkit h5 { padding: 7px 0 3px 0; }
+}
+
+@mixin font-theme-body-kreon {
+
+	body {
+		font-size: 12px;
+		line-height: 1.667em;
+		font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; 
+	}
+
+	p { padding: 7px 0 3px 0; }
+	.webkit p { padding: 8px 0 2px 0; }
+	
+	blockquote {
+		font-style: italic;
+	}
+	
+	.column-8 {
+		span.floated-blockquote {
+			padding-top: 4px;
+			padding-bottom: 6px;
+			margin-top: 0;
+			margin-bottom: 10px;
+			font-family: 'kreon', Georgia, 'Times New Roman', serif;
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+
+	ul,
+	ol {
+		padding-top: 7px;
+		padding-bottom: 3px;
+	}
+	.webkit ul,
+	.webkit ol {
+		padding-top: 8px;
+		padding-bottom: 2px;
+	}
+
+	ul.lined,
+	ol.lined,
+	ul.lined-large,
+	ol.lined-large {
+		padding-top: 1px;
+		padding-bottom: 9px;
+		li {
+			padding-top: 6px;
+			padding-bottom: 4px;
+		}
+	}
+	.webkit ul.lined,
+	.webkit ol.lined,
+	.webkit ul.lined-large,
+	.webkit ol.lined-large {
+		li {
+			padding-top: 7px;
+			padding-bottom: 3px;
+		}
+	}
+
+	ul.lined-large,
+	ol.lined-large {
+		li {
+			padding-top: 11px;
+			padding-bottom: 9px;
+		}
+	}
+	
+	a.icon-button,
+	a.cancel-button,
+	a.button,
+	button,
+	input[type="submit"] {
+		padding-top: 10px;
+		padding-bottom: 7px;
+		margin-top: 0;
+		margin-bottom: 7px;
+		line-height: 1em;
+		font-size: 12px;
+		font-family: 'Kreon', 'Georgia', 'Times New Roman', serif;
+	}
+
+	a.cancel-button {
+		padding-top: 11px;
+		padding-bottom: 8px;
+	}
+
+	button {
+		padding-top: 9px;
+		padding-bottom: 22px;
+	}
+	.webkit button {
+		padding-top: 10px;
+		padding-bottom: 21px;
+	}
+
+	input[type="submit"] {
+		padding-top: 9px;
+		padding-bottom: 22px;
+	}
+	.webkit input[type="submit"] {
+		padding-top: 10px;
+		padding-bottom: 21px;
+	}
+
+	label {
+		font-size: 12px;
+		line-height: 1.667em;
+		padding-top: 7px;
+		padding-bottom: 3px;
+		span { font-size: 10px; }
+	}
+	
+	input[type="checkbox"] {
+		margin-top: 2px;
+		margin-bottom: 0;
+	}
+	.webkit input[type="checkbox"] {
+		margin-top: 4px;
+	}
+	
+	input[type="radio"] {
+		margin-top: 4px;
+		margin-bottom: 0;
+	}
+	.webkit input[type="radio"] {
+		margin-top: 3px;
+	}
+
+	select,
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	textarea {
+		padding-top: 9px;
+		padding-bottom: 7px;
+		margin-top: 0;
+		margin-bottom: 7px;
+		font-size: 12px;
+		line-height: 1.667em;
+		font-family: 'Kreon', 'Georgia', 'Times New Roman', serif;
+	}
+	.webkit select,
+	.webkit input[type="text"],
+	.webkit input[type="email"],
+	.webkit input[type="password"],
+	.webkit textarea {
+		padding-top: 10px;
+		padding-bottom: 6px;
+	}
+
+	select {
+		padding-top: 8px;
+		padding-bottom: 4px;
+	}
+
+	textarea {
+		padding-top: 6px;
+		padding-bottom: 11px;
+	}
+	.webkit textarea {
+		padding-top: 7px;
+		padding-bottom: 10px;
+	}
+
+	ul.form {
+		padding-top: 17px;
+		padding-bottom: 13px;
+		li {
+			label {
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
+	}
+	.webkit ul.form {
+		padding-top: 18px;
+		padding-bottom: 12px;
+		li {
+			input[type="checkbox"] {
+				margin-top: 3px;
+			}
+		}
+	}
+	
+	table {
+		padding-top: 1px;
+		padding-bottom: 9px;
+		thead {
+			tr {
+				th {
+					padding-top: 6px;
+					padding-bottom: 4px;
+				}
+			}
+		}
+		tbody {
+			tr {
+				td {
+					padding-top: 6px;
+					padding-bottom: 4px;
+				}
+			}
+		}
+	}
+	
+	.webkit table {
+		padding-top: 2px;
+		padding-bottom: 8px;
+		thead {
+			tr {
+				th {
+					padding-top: 5px;
+					padding-bottom: 5px;
+				}
+			}
+		}
+		tbody {
+			tr {
+				td {
+					padding-top: 6px;
+					padding-bottom: 4px;
+				}
+			}
+		}
+	}
+
+}

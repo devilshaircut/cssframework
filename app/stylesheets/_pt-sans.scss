@@ -1,35 +1,38 @@
 /****************************************************************************************************/
-/* FONT THEME: Lato                                                                                 */
+/* FONT THEME: PT Sans                                                                              */
 /****************************************************************************************************/
 
-@mixin font-theme-header-lato {
+@mixin font-theme-header-pt-sans {
 
 	body {
 		font-size: 13px;
 		line-height: 1.538em;
 	}
 	
-	h1 { font-size: 48px; line-height: 60px; padding: 1px 0 9px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
-	h2 { font-size: 36px; line-height: 50px; padding: 1px 0 9px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
-	h3 { font-size: 25px; line-height: 40px; padding: 0px 0 0px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
-	h4 { font-size: 20px; line-height: 30px; padding: 7px 0 3px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
-	h5 { font-size: 14px; line-height: 20px; padding: 4px 0 6px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
-	h6 { font-size: 13px; line-height: 20px; padding: 5px 0 5px 0; font-family: Lato, Helvetica, Arial, sans-serif; }
-	.webkit h1 { padding: 2px 0 8px 0; }
+	h1 { font-size: 48px; line-height: 60px; padding: 2px 0 8px 0; font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+	h2 { font-size: 36px; line-height: 50px; padding: 1px 0 9px 0; font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+	h3 { font-size: 25px; line-height: 40px; padding: 0px 0 0px 0; font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+	h4 { font-size: 20px; line-height: 30px; padding: 7px 0 3px 0; font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+	h5 { font-size: 14px; line-height: 20px; padding: 4px 0 6px 0; font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+	h6 { font-size: 13px; line-height: 20px; padding: 5px 0 5px 0; font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+	.webkit h2 { padding: 2px 0 8px 0; }
+	.webkit h3 { padding: 1px 0 9px 0; }
+	.webkit h4 { padding: 8px 0 2px 0; }
 	.webkit h5 { padding: 5px 0 5px 0; }
-	.webkit h6 { padding: 5px 0 5px 0; }
+	.webkit h6 { padding: 6px 0 4px 0; }
 	
 }
 
-@mixin font-theme-body-lato {
+@mixin font-theme-body-pt-sans {
 
 	body {
 		font-size: 13px;
 		line-height: 1.538em;
-		font-family: Lato, Helvetica, Arial, sans-serif;
+		font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 	}
 
 	p { padding: 5px 0 5px 0; }
+	.webkit p { padding: 6px 0 4px 0; }
 	
 	blockquote {
 		font-style: italic;
@@ -52,6 +55,12 @@
 		padding-bottom: 5px;
 	}
 	
+	.webkit ul,
+	.webkit ol {
+		padding-top: 6px;
+		padding-bottom: 4px;
+	}
+	
 	ul.lined,
 	ol.lined,
 	ul.lined-large,
@@ -61,6 +70,15 @@
 		li {
 			padding-top: 5px;
 			padding-bottom: 5px;
+		}
+	}
+	.webkit ul.lined,
+	.webkit ol.lined,
+	.webkit ul.lined-large,
+	.webkit ol.lined-large {
+		li {
+			padding-top: 6px;
+			padding-bottom: 4px;
 		}
 	}
 
@@ -90,12 +108,22 @@
 		margin-bottom: 7px;
 		line-height: 1em;
 		font-size: 13px;
-		font-family: Lato, Helvetica, Arial, sans-serif;
+		font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	}
+	
+	.webkit a.button {
+		padding-top: 8px;
+		padding-bottom: 9px;
 	}
 
 	a.cancel-button {
 		padding-top: 8px;
 		padding-bottom: 11px;
+	}
+	
+	.webkit a.cancel-button {
+		padding-top: 9px;
+		padding-bottom: 10px;
 	}
 
 	button {
@@ -103,17 +131,17 @@
 		padding-bottom: 25px;
 	}
 	.webkit button {
-		padding-top: 7px;
-		padding-bottom: 24px;
+		padding-top: 8px;
+		padding-bottom: 23px;
 	}
 
 	input[type="submit"] {
-		padding-top: 5px;
-		padding-bottom: 26px;
+		padding-top: 4px;
+		padding-bottom: 27px;
 	}
 	.webkit input[type="submit"] {
-		padding-top: 7px;
-		padding-bottom: 24px;
+		padding-top: 8px;
+		padding-bottom: 23px;
 	}
 
 	label {
@@ -152,7 +180,7 @@
 		margin-bottom: 7px;
 		font-size: 13px;
 		line-height: 1.667em;
-		font-family: Lato, Helvetica, Arial, sans-serif;
+		font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 	}
 	.webkit select,
 	.webkit input[type="text"],
@@ -214,6 +242,25 @@
 				td {
 					padding-top: 5px;
 					padding-bottom: 5px;
+				}
+			}
+		}
+	}
+	
+	.webkit table {
+		thead {
+			tr {
+				th {
+					padding-top: 6px;
+					padding-bottom: 4px;
+				}
+			}
+		}
+		tbody {
+			tr {
+				td {
+					padding-top: 6px;
+					padding-bottom: 4px;
 				}
 			}
 		}

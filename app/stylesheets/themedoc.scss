@@ -1,0 +1,141 @@
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+
+
+
+/****************************************************************************************************/
+/* COLOR THEMES */
+/****************************************************************************************************/
+
+/* Default Theme */
+
+$body-background-color: #0f0f0e;
+
+$font-color-header: #333333;
+$font-color-subheader: #757471;
+$font-color-body: #262626;
+
+$accent-color: #bc2215;
+
+$border-color-top: #e5e5e5;
+$border-color-right: #cecece;
+$border-color-bottom: #adadad;
+$border-color-left: #cecece;
+
+
+/****************************************************************************************************/
+/* THEMEDOC.CSS */
+/****************************************************************************************************/
+
+html {
+
+	h1, h2, h3 {
+		font-family: 'Kreon', Georgia, 'Times New Roman', serif;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $font-color-header;
+		font-weight: normal;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	input[type="submit"],
+	select,
+	textarea,
+	a.button,
+	a.cancel-button,
+	button {
+		font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+	}
+
+	body {
+		font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
+		background: $body-background-color;
+		color: $font-color-body;
+		#top-bar-container {
+			float: none;
+			#top-bar {
+				float: none;
+				width: 990px;
+				margin: 0 auto;
+				text-align: left;
+				@include legacy-pie-clearfix;
+				a#logo {
+					display: block;
+					float: left;
+					text-decoration: none;
+				}
+				a#logo:hover {
+				}
+				#navigation {
+					width: auto;
+					float: right;
+					li {
+						width: auto;
+						padding: 0 10px;
+						a { text-decoration: none; }
+						a.current,
+						a:hover { text-decoration: underline; }
+					}
+				}
+			}
+		}
+		#banner-container {
+			float: none;
+			#header {
+				float: none;
+				width: 990px;
+				margin: 0 auto;
+				padding: 0 30px;
+				text-align: left;
+				@include legacy-pie-clearfix;
+			}
+			#banner {
+				float: none;
+				width: 990px;
+				margin: 0 auto;
+				padding: 0 30px;
+				text-align: left;
+				@include legacy-pie-clearfix;
+			}
+		}
+		#content-container {
+			float: none;
+			#content {
+				float: none;
+				width: 990px;
+				margin: 0 auto;
+				padding: 0 30px;
+				text-align: left;
+				@include legacy-pie-clearfix;
+			}
+		}
+		#footer-container {
+			float: none;
+			#footer {
+				float: none;
+				width: 990px;
+				margin: 0 auto;
+				padding: 0 30px;
+				text-align: left;
+				@include legacy-pie-clearfix;
+			}
+		}
+	}
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
