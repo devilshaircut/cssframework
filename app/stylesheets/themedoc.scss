@@ -15,7 +15,7 @@ $font-color-header: #17181a;
 $font-color-subheader: #757471;
 $font-color-body: #2e3033;
 
-$accent-color: #bc2215;
+$accent-color: #c11a06;
 
 $border-color-top: #e5e5e5;
 $border-color-right: #cecece;
@@ -73,118 +73,162 @@ html {
 	button {
 		font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
 	}
+	
+	a { color: $accent-color; }
+	
+	.lined-section {
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+	}
 
 	body {
 		font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
 		background: transparent url("../images/ns-documentation/body-background.gif") repeat 0 0;
 		color: $font-color-body;
 		#banner-container {
-			float: none;
-			height: 270px;
 			background: transparent url("../images/ns-documentation/header-background.gif") repeat-x 0 0;
-			#top-bar {
-				float: none;
-				width: 1050px;
-				height: 120px;
-				padding: 10px 0 0 0;
-				margin: 0 auto;
-				text-align: left;
-				@include legacy-pie-clearfix;
-				a#logo {
-					display: block;
-					float: left;
-					text-decoration: none;
-					height: 51px;
-					width: 117px;
-					position: relative;
-					margin: 0 0 0 -16px;
-					background: transparent url("../images/ns-documentation/logo.png") repeat-x 0 0;
-				}
-				a#logo:hover {
-					background-position: 0 -51px;
-				}
-				#navigation {
-					width: auto;
-					float: right;
-					position: relative;
-					z-index: 50;
-					li {
-						width: auto;
-						padding: 10px 0 0 20px;
-						a {
-							text-decoration: none;
-							color: #b9c4a8;
-						}
-						a.current,
-						a:hover { text-decoration: underline; }
-					}
-				}
-			}
-			#header {
-				float: none;
-				width: 1050px;
-				margin: 0 auto;
-				text-align: left;
-				h1 {
-					font-size: 60px;
-					line-height: 60px;
-					padding: 5px 0 5px 0;
-					font-family: Raleway, Helvetica, Arial, sans-serif;
-					color: #e0d586;
-					@include text-shadow(0 2px 0 #021e30);
-				}
-				h4 {
-					color: #b9c4a8;
-					@include text-shadow(0 1px 0 #021e30);
-				}
-				@include legacy-pie-clearfix;
-			}
-			img#house-graphic {
-				position: relative;
-				z-index: 1;
-				margin: -240px 0 0 575px;
-			}
-		}
-		#content-container {
-			float: none;
-			background: transparent url("../images/ns-documentation/content-background.png") repeat-x 0 1px;
-			position: relative;
-			z-index: 2;
-			margin: -20px 0 0 0;
-			padding: 70px 0 0 0;
-			#content {
-				float: none;
-				width: 990px;
-				margin: 0 auto;
-				padding: 40px 30px;
-				text-align: left;
-				background: #f7f4ee;
-				@include legacy-pie-clearfix;
-				@include box-shadow(0 2px 7px #4e2f1a);
-				@include border-radius(2px);
-				h3 {
-					font-size: 30px;
-					line-height: 40px;
-					padding: 4px 0 6px 0;
-					margin: 0 0 10px 0;
-					span {
+			#house-graphic {
+				height: 270px;
+				background: transparent url("../images/ns-documentation/house.png") no-repeat center top;
+				#top-bar {
+					float: none;
+					width: 1050px;
+					height: 120px;
+					padding: 10px 0 0 0;
+					margin: 0 auto;
+					text-align: left;
+					@include legacy-pie-clearfix;
+					a#logo {
 						display: block;
 						float: left;
-						width: 100%;
-						font-size: 16px; line-height: 20px; padding: 2px 0 8px 0;
+						text-decoration: none;
+						height: 51px;
+						width: 117px;
+						position: relative;
+						margin: 0 0 0 -16px;
+						background: transparent url("../images/ns-documentation/logo.png") repeat-x 0 0;
 					}
+					a#logo:hover {
+						background-position: 0 -51px;
+					}
+					#navigation {
+						width: auto;
+						float: right;
+						position: relative;
+						z-index: 50;
+						li {
+							width: auto;
+							padding: 10px 0 0 20px;
+							a {
+								text-decoration: none;
+								color: #b9c4a8;
+							}
+							a.current,
+							a:hover { text-decoration: underline; }
+						}
+					}
+				}
+				#header {
+					float: none;
+					width: 1050px;
+					margin: 0 auto;
+					text-align: left;
+					@include legacy-pie-clearfix;
+					h1 {
+						font-size: 60px;
+						line-height: 60px;
+						padding: 5px 0 5px 0;
+						font-family: Raleway, Helvetica, Arial, sans-serif;
+						color: #e0d586;
+						@include text-shadow(0 2px 0 #021e30);
+					}
+					h4 {
+						color: #b9c4a8;
+						@include text-shadow(0 1px 0 #021e30);
+					}
+				}
+			}
+		}
+		#content-background {
+			padding: 0 0 40px 0;
+			background: transparent url("../images/ns-documentation/content-container-background.gif") repeat 0 0;
+			#content-container {
+				background: transparent url("../images/ns-documentation/content-background.png") repeat-x 0 1px;
+				position: relative;
+				z-index: 2;
+				margin: -20px 0 0 0;
+				padding: 70px 0 0 0;
+				#content {
+					float: none;
+					width: 990px;
+					margin: 0 auto;
+					padding: 60px 30px;
+					text-align: left;
+					background: #f7f4ee;
+					@include legacy-pie-clearfix;
+					@include box-shadow(0 2px 7px #4e2f1a);
+					@include border-radius(2px);
+					h3 {
+						font-size: 30px;
+						line-height: 40px;
+						padding: 4px 0 6px 0;
+						margin: 0 0 20px 0;
+						img { display: block; margin: 0 auto 20px; }
+						span {
+							display: block;
+							float: left;
+							width: 100%;
+							font-size: 16px; line-height: 20px; padding: 2px 0 8px 0;
+							text-align: center;
+						}
+						div { text-align: center; }
+					}
+					p.section-nav { margin: 20px 0 0 0; }
 				}
 			}
 		}
 		#footer-container {
-			float: none;
+			padding: 50px 0;
+			background: transparent url("../images/ns-documentation/footer-background.gif") repeat-x 0 0;
 			#footer {
 				float: none;
 				width: 990px;
 				margin: 0 auto;
-				padding: 0 30px;
+				padding: 30px 30px 10px 30px;
 				text-align: left;
+				background: transparent url("../images/ns-documentation/footer-tile.png") repeat 0 0;
 				@include legacy-pie-clearfix;
+				@include border-radius(2px);
+				@include box-shadow(0 2px 5px #4d1405);
+				ul.lined {
+					li {
+						a { @include box-sizing(border-box); }
+						a.email-icon {
+							padding: 0 0 0 26px;
+							background: transparent url("../images/ns-documentation/email-icon.png") no-repeat 0 2px;
+						}
+						a.facebook-icon {
+							padding: 0 0 0 26px;
+							background: transparent url("../images/ns-documentation/facebook-icon.png") no-repeat 0 2px;
+						}
+						a.twitter-icon {
+							padding: 0 0 0 26px;
+							background: transparent url("../images/ns-documentation/twitter-icon.png") no-repeat 0 2px;
+						}
+						a.envato-icon {
+							padding: 0 0 0 26px;
+							background: transparent url("../images/ns-documentation/envato-icon.png") no-repeat 0 2px;
+						}
+						a.ns-icon {
+							padding: 0 0 0 26px;
+							background: transparent url("../images/ns-documentation/ns-icon.png") no-repeat 0 2px;
+						}
+						a.rss-icon {
+							padding: 0 0 0 26px;
+							background: transparent url("../images/ns-documentation/rss-icon.png") no-repeat 0 2px;
+						}
+					}
+				}
 			}
 		}
 	}
