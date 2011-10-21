@@ -3,18 +3,389 @@
 /****************************************************************************************************/
 /* Default Theme */
 /****************************************************************************************************/
+/* FONT THEMES */
+/****************************************************************************************************/
+/****************************************************************************************************/
+/* FONT THEME: Kreon                                                                                */
+/****************************************************************************************************/
+/****************************************************************************************************/
+/* FONT THEME: Raleway                                                                              */
+/****************************************************************************************************/
+/****************************************************************************************************/
+/* FONT THEME: PT Sans                                                                              */
+/****************************************************************************************************/
+/****************************************************************************************************/
 /* THEMEDOC.CSS */
 /****************************************************************************************************/
-/* line 32, ../../app/stylesheets/themedoc.scss */
+/* line 41, ../../app/stylesheets/themedoc.scss */
+html {
+  /* This is for non-bold Kreon.
+  
+  h1 { font-weight: normal; font-size: 48px; line-height: 60px; padding: 10px 0 0px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+  h2 { font-weight: normal; font-size: 36px; line-height: 50px; padding: 8px 0 2px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+  h3 { font-weight: normal; font-size: 25px; line-height: 40px; padding: 5px 0 5px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+  h4 { font-weight: normal; font-size: 20px; line-height: 30px; padding: 1px 0 9px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+  h5 { font-weight: normal; font-size: 14px; line-height: 20px; padding: 7px 0 3px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+  h6 { font-weight: normal; font-size: 12px; line-height: 20px; padding: 7px 0 3px 0; font-family: 'Kreon', 'Georgia', 'Times New Roman', serif; }
+  .webkit h1 { padding: 9px 0 0 0; position: relative; margin-top: 1px; }
+  .webkit h2 { padding: 8px 0 2px 0; }
+  .webkit h6 { padding: 8px 0 2px 0; }
+  
+  */
+}
+/* line 7, ../../app/stylesheets/_kreon.scss */
+html body {
+  font-size: 12px;
+  line-height: 1.667em;
+}
+/* line 12, ../../app/stylesheets/_kreon.scss */
+html h1 {
+  font-size: 48px;
+  line-height: 60px;
+  padding: 9px 0 1px 0;
+  font-family: 'Kreon', 'Georgia', 'Times New Roman', serif;
+}
+/* line 13, ../../app/stylesheets/_kreon.scss */
+html h2 {
+  font-size: 36px;
+  line-height: 50px;
+  padding: 6px 0 4px 0;
+  font-family: 'Kreon', 'Georgia', 'Times New Roman', serif;
+}
+/* line 14, ../../app/stylesheets/_kreon.scss */
+html h3 {
+  font-size: 25px;
+  line-height: 40px;
+  padding: 4px 0 6px 0;
+  font-family: 'Kreon', 'Georgia', 'Times New Roman', serif;
+}
+/* line 15, ../../app/stylesheets/_kreon.scss */
+html h4 {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0 0 10px 0;
+  font-family: 'Kreon', 'Georgia', 'Times New Roman', serif;
+}
+/* line 16, ../../app/stylesheets/_kreon.scss */
+html h5 {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 0 4px 0;
+  font-family: 'Kreon', 'Georgia', 'Times New Roman', serif;
+}
+/* line 17, ../../app/stylesheets/_kreon.scss */
+html h6 {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 7px 0 3px 0;
+  font-family: 'Kreon', 'Georgia', 'Times New Roman', serif;
+}
+/* line 18, ../../app/stylesheets/_kreon.scss */
+html .webkit h2 {
+  padding: 7px 0 3px 0;
+}
+/* line 19, ../../app/stylesheets/_kreon.scss */
+html .webkit h3 {
+  padding: 5px 0 5px 0;
+}
+/* line 20, ../../app/stylesheets/_kreon.scss */
+html .webkit h5 {
+  padding: 7px 0 3px 0;
+}
+/* line 28, ../../app/stylesheets/_pt-sans.scss */
+html body {
+  font-size: 13px;
+  line-height: 1.538em;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+/* line 34, ../../app/stylesheets/_pt-sans.scss */
+html p {
+  padding: 5px 0 5px 0;
+}
+/* line 35, ../../app/stylesheets/_pt-sans.scss */
+html .webkit p {
+  padding: 6px 0 4px 0;
+}
+/* line 37, ../../app/stylesheets/_pt-sans.scss */
+html blockquote {
+  font-style: italic;
+}
+/* line 42, ../../app/stylesheets/_pt-sans.scss */
+html .column-8 span.floated-blockquote {
+  padding-top: 2px;
+  padding-bottom: 8px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* line 53, ../../app/stylesheets/_pt-sans.scss */
+html ul,
+html ol {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 59, ../../app/stylesheets/_pt-sans.scss */
+html .webkit ul,
+html .webkit ol {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+/* line 67, ../../app/stylesheets/_pt-sans.scss */
+html ul.lined,
+html ol.lined,
+html ul.lined-large,
+html ol.lined-large {
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+/* line 70, ../../app/stylesheets/_pt-sans.scss */
+html ul.lined li,
+html ol.lined li,
+html ul.lined-large li,
+html ol.lined-large li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 79, ../../app/stylesheets/_pt-sans.scss */
+html .webkit ul.lined li,
+html .webkit ol.lined li,
+html .webkit ul.lined-large li,
+html .webkit ol.lined-large li {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+/* line 87, ../../app/stylesheets/_pt-sans.scss */
+html ul.lined-large li,
+html ol.lined-large li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 94, ../../app/stylesheets/_pt-sans.scss */
+html .webkit ul.lined-large li,
+html .webkit ol.lined-large li {
+  padding-top: 11px;
+  padding-bottom: 9px;
+}
+/* line 104, ../../app/stylesheets/_pt-sans.scss */
+html a.icon-button,
+html a.cancel-button,
+html a.button,
+html button,
+html input[type="submit"] {
+  padding-top: 7px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 7px;
+  line-height: 1em;
+  font-size: 13px;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+/* line 114, ../../app/stylesheets/_pt-sans.scss */
+html .webkit a.button {
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+/* line 119, ../../app/stylesheets/_pt-sans.scss */
+html a.cancel-button {
+  padding-top: 8px;
+  padding-bottom: 11px;
+}
+/* line 124, ../../app/stylesheets/_pt-sans.scss */
+html .webkit a.cancel-button {
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+/* line 129, ../../app/stylesheets/_pt-sans.scss */
+html button {
+  padding-top: 6px;
+  padding-bottom: 25px;
+}
+/* line 133, ../../app/stylesheets/_pt-sans.scss */
+html .webkit button {
+  padding-top: 8px;
+  padding-bottom: 23px;
+}
+/* line 138, ../../app/stylesheets/_pt-sans.scss */
+html input[type="submit"] {
+  padding-top: 4px;
+  padding-bottom: 27px;
+}
+/* line 142, ../../app/stylesheets/_pt-sans.scss */
+html .webkit input[type="submit"] {
+  padding-top: 8px;
+  padding-bottom: 23px;
+}
+/* line 147, ../../app/stylesheets/_pt-sans.scss */
+html label {
+  font-size: 13px;
+  line-height: 1.667em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 152, ../../app/stylesheets/_pt-sans.scss */
+html label span {
+  font-size: 10px;
+  font-weight: normal;
+}
+/* line 158, ../../app/stylesheets/_pt-sans.scss */
+html input[type="checkbox"] {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+/* line 162, ../../app/stylesheets/_pt-sans.scss */
+html .webkit input[type="checkbox"] {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+/* line 167, ../../app/stylesheets/_pt-sans.scss */
+html input[type="radio"] {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+/* line 176, ../../app/stylesheets/_pt-sans.scss */
+html select,
+html input[type="text"],
+html input[type="email"],
+html input[type="password"],
+html textarea {
+  padding-top: 6px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-size: 13px;
+  line-height: 1.667em;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+/* line 189, ../../app/stylesheets/_pt-sans.scss */
+html .webkit select,
+html .webkit input[type="text"],
+html .webkit input[type="email"],
+html .webkit input[type="password"],
+html .webkit textarea {
+  padding-top: 7px;
+  padding-bottom: 9px;
+}
+/* line 194, ../../app/stylesheets/_pt-sans.scss */
+html select {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 199, ../../app/stylesheets/_pt-sans.scss */
+html textarea {
+  padding-top: 3px;
+  padding-bottom: 14px;
+}
+/* line 203, ../../app/stylesheets/_pt-sans.scss */
+html .webkit textarea {
+  padding-top: 4px;
+  padding-bottom: 13px;
+}
+/* line 208, ../../app/stylesheets/_pt-sans.scss */
+html ul.form {
+  padding-top: 14px;
+  padding-bottom: 16px;
+}
+/* line 212, ../../app/stylesheets/_pt-sans.scss */
+html ul.form li label {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 218, ../../app/stylesheets/_pt-sans.scss */
+html .webkit ul.form {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 222, ../../app/stylesheets/_pt-sans.scss */
+html .webkit ul.form li label {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 229, ../../app/stylesheets/_pt-sans.scss */
+html table {
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+/* line 234, ../../app/stylesheets/_pt-sans.scss */
+html table thead tr th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 242, ../../app/stylesheets/_pt-sans.scss */
+html table tbody tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 253, ../../app/stylesheets/_pt-sans.scss */
+html .webkit table thead tr th {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+/* line 261, ../../app/stylesheets/_pt-sans.scss */
+html .webkit table tbody tr td {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+/* line 46, ../../app/stylesheets/themedoc.scss */
 html h1, html h2, html h3 {
   font-family: 'Kreon', Georgia, 'Times New Roman', serif;
 }
-/* line 36, ../../app/stylesheets/themedoc.scss */
+/* line 50, ../../app/stylesheets/themedoc.scss */
 html h1, html h2, html h3, html h4, html h5, html h6 {
   color: #333333;
-  font-weight: normal;
+  font-weight: 100;
 }
-/* line 49, ../../app/stylesheets/themedoc.scss */
+/* line 55, ../../app/stylesheets/themedoc.scss */
+html h1 {
+  font-size: 48px;
+  line-height: 60px;
+  padding: 10px 0 0px 0;
+}
+/* line 56, ../../app/stylesheets/themedoc.scss */
+html h2 {
+  font-size: 36px;
+  line-height: 50px;
+  padding: 8px 0 2px 0;
+}
+/* line 57, ../../app/stylesheets/themedoc.scss */
+html h3 {
+  font-size: 25px;
+  line-height: 40px;
+  padding: 5px 0 5px 0;
+}
+/* line 58, ../../app/stylesheets/themedoc.scss */
+html h4 {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 1px 0 9px 0;
+}
+/* line 59, ../../app/stylesheets/themedoc.scss */
+html h5 {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 7px 0 3px 0;
+}
+/* line 60, ../../app/stylesheets/themedoc.scss */
+html h6 {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 7px 0 3px 0;
+}
+/* line 61, ../../app/stylesheets/themedoc.scss */
+html .webkit h1 {
+  padding: 9px 0 0 0;
+  position: relative;
+  margin-top: 1px;
+}
+/* line 62, ../../app/stylesheets/themedoc.scss */
+html .webkit h2 {
+  padding: 8px 0 2px 0;
+}
+/* line 63, ../../app/stylesheets/themedoc.scss */
+html .webkit h6 {
+  padding: 8px 0 2px 0;
+}
+/* line 73, ../../app/stylesheets/themedoc.scss */
 html input[type="text"],
 html input[type="email"],
 html input[type="password"],
@@ -26,26 +397,28 @@ html a.cancel-button,
 html button {
   font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
 }
-/* line 53, ../../app/stylesheets/themedoc.scss */
+/* line 77, ../../app/stylesheets/themedoc.scss */
 html body {
   font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
-  background: #0f0f0e;
+  background: white;
   color: #262626;
 }
-/* line 57, ../../app/stylesheets/themedoc.scss */
-html body #top-bar-container {
+/* line 81, ../../app/stylesheets/themedoc.scss */
+html body #banner-container {
   float: none;
+  background: transparent url("../images/ns-documentation/header-background.gif") repeat-x 0 0;
 }
-/* line 59, ../../app/stylesheets/themedoc.scss */
-html body #top-bar-container #top-bar {
+/* line 84, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #top-bar {
   float: none;
   width: 990px;
+  height: 120px;
   margin: 0 auto;
   text-align: left;
   *zoom: 1;
 }
 /* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-html body #top-bar-container #top-bar:after {
+html body #banner-container #top-bar:after {
   content: "\0020";
   display: block;
   height: 0;
@@ -53,36 +426,42 @@ html body #top-bar-container #top-bar:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 65, ../../app/stylesheets/themedoc.scss */
-html body #top-bar-container #top-bar a#logo {
+/* line 91, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #top-bar a#logo {
   display: block;
   float: left;
   text-decoration: none;
+  height: 51px;
+  width: 117px;
+  position: relative;
+  margin: 0 0 0 -16px;
+  background: transparent url("../images/ns-documentation/logo.png") repeat-x 0 0;
 }
-/* line 72, ../../app/stylesheets/themedoc.scss */
-html body #top-bar-container #top-bar #navigation {
+/* line 101, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #top-bar a#logo:hover {
+  background-position: 0 -51px;
+}
+/* line 104, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #top-bar #navigation {
   width: auto;
   float: right;
 }
-/* line 75, ../../app/stylesheets/themedoc.scss */
-html body #top-bar-container #top-bar #navigation li {
+/* line 107, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #top-bar #navigation li {
   width: auto;
   padding: 0 10px;
 }
-/* line 78, ../../app/stylesheets/themedoc.scss */
-html body #top-bar-container #top-bar #navigation li a {
+/* line 110, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #top-bar #navigation li a {
   text-decoration: none;
+  color: #b9c4a8;
 }
-/* line 80, ../../app/stylesheets/themedoc.scss */
-html body #top-bar-container #top-bar #navigation li a.current,
-html body #top-bar-container #top-bar #navigation li a:hover {
+/* line 115, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #top-bar #navigation li a.current,
+html body #banner-container #top-bar #navigation li a:hover {
   text-decoration: underline;
 }
-/* line 85, ../../app/stylesheets/themedoc.scss */
-html body #banner-container {
-  float: none;
-}
-/* line 87, ../../app/stylesheets/themedoc.scss */
+/* line 119, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #header {
   float: none;
   width: 990px;
@@ -90,6 +469,20 @@ html body #banner-container #header {
   padding: 0 30px;
   text-align: left;
   *zoom: 1;
+}
+/* line 125, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #header h1 {
+  font-size: 60px;
+  line-height: 60px;
+  padding: 5px 0 5px 0;
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  color: #e0d586;
+  text-shadow: 0 2px 0 #010f17;
+}
+/* line 133, ../../app/stylesheets/themedoc.scss */
+html body #banner-container #header h4 {
+  color: #b9c4a8;
+  text-shadow: 0 1px 0 #021e30;
 }
 /* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 html body #banner-container #header:after {
@@ -100,29 +493,11 @@ html body #banner-container #header:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 95, ../../app/stylesheets/themedoc.scss */
-html body #banner-container #banner {
-  float: none;
-  width: 990px;
-  margin: 0 auto;
-  padding: 0 30px;
-  text-align: left;
-  *zoom: 1;
-}
-/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-html body #banner-container #banner:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  clear: both;
-  overflow: hidden;
-  visibility: hidden;
-}
-/* line 104, ../../app/stylesheets/themedoc.scss */
+/* line 140, ../../app/stylesheets/themedoc.scss */
 html body #content-container {
   float: none;
 }
-/* line 106, ../../app/stylesheets/themedoc.scss */
+/* line 142, ../../app/stylesheets/themedoc.scss */
 html body #content-container #content {
   float: none;
   width: 990px;
@@ -140,11 +515,11 @@ html body #content-container #content:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 115, ../../app/stylesheets/themedoc.scss */
+/* line 151, ../../app/stylesheets/themedoc.scss */
 html body #footer-container {
   float: none;
 }
-/* line 117, ../../app/stylesheets/themedoc.scss */
+/* line 153, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer {
   float: none;
   width: 990px;
