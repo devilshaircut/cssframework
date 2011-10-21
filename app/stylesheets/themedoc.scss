@@ -84,7 +84,7 @@ html {
 			background: transparent url("../images/ns-documentation/header-background.gif") repeat-x 0 0;
 			#top-bar {
 				float: none;
-				width: 990px;
+				width: 1050px;
 				height: 120px;
 				padding: 10px 0 0 0;
 				margin: 0 auto;
@@ -110,7 +110,7 @@ html {
 					z-index: 50;
 					li {
 						width: auto;
-						padding: 10px 10px 0;
+						padding: 10px 0 0 20px;
 						a {
 							text-decoration: none;
 							color: #b9c4a8;
@@ -183,6 +183,18 @@ html {
 				padding: 0 30px;
 				text-align: left;
 				@include legacy-pie-clearfix;
+			}
+		}
+	}
+	
+	body.webkit {
+		#content-container {
+			#content {
+				h3 {
+					span {
+						font-size: 16px; line-height: 20px; padding: 3px 0 7px 0;
+					}
+				}
 			}
 		}
 	}

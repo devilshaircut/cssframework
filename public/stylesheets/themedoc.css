@@ -412,7 +412,7 @@ html body #banner-container {
 /* line 85, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #top-bar {
   float: none;
-  width: 990px;
+  width: 1050px;
   height: 120px;
   padding: 10px 0 0 0;
   margin: 0 auto;
@@ -453,7 +453,7 @@ html body #banner-container #top-bar #navigation {
 /* line 111, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #top-bar #navigation li {
   width: auto;
-  padding: 10px 10px 0;
+  padding: 10px 0 0 20px;
 }
 /* line 114, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #top-bar #navigation li a {
@@ -567,4 +567,10 @@ html body #footer-container #footer:after {
   clear: both;
   overflow: hidden;
   visibility: hidden;
+}
+/* line 194, ../../app/stylesheets/themedoc.scss */
+html body.webkit #content-container #content h3 span {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 3px 0 7px 0;
 }
