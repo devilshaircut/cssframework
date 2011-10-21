@@ -219,10 +219,8 @@ textarea {
 /****************************************************************************************************/
 
 html {
-	/*@include font-theme-header-vollkorn;
-	@include font-theme-body-open-sans;*/
-	@include font-theme-header-kreon;
-	@include font-theme-body-kreon;
+	@include font-theme-header-vollkorn;
+	@include font-theme-body-open-sans;
 }
 
 body {
