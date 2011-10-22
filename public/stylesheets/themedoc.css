@@ -657,7 +657,16 @@ html body #footer-container #footer ul.lined li a.rss-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/rss-icon.png") no-repeat 0 2px;
 }
-/* line 241, ../../app/stylesheets/themedoc.scss */
+/* line 242, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content p {
   padding: 10px 0;
+}
+/* line 256, ../../app/stylesheets/themedoc.scss */
+html body.webkit #footer-container #footer ul.lined li a.email-icon,
+html body.webkit #footer-container #footer ul.lined li a.facebook-icon,
+html body.webkit #footer-container #footer ul.lined li a.twitter-icon,
+html body.webkit #footer-container #footer ul.lined li a.envato-icon,
+html body.webkit #footer-container #footer ul.lined li a.ns-icon,
+html body.webkit #footer-container #footer ul.lined li a.rss-icon {
+  background-position: 0 1px;
 }

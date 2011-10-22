@@ -235,6 +235,7 @@ html {
 	}
 
 	body.webkit {
+	
 		#content-background {
 			#content-container {
 				#content {
@@ -242,6 +243,22 @@ html {
 				}
 			}
 		}
+
+		#footer-container {
+			#footer {
+				ul.lined {
+					li {
+						a.email-icon,
+						a.facebook-icon,
+						a.twitter-icon,
+						a.envato-icon,
+						a.ns-icon ,
+						a.rss-icon { background-position: 0 1px; }
+					}
+				}
+			}
+		}
+
 	}
 		
 }
