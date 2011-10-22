@@ -168,13 +168,13 @@ html {
 					@include legacy-pie-clearfix;
 					@include box-shadow(0 2px 7px #4e2f1a);
 					@include border-radius(2px);
-					p { padding: 9px 0 11px; font-size: 16px; line-height: 1.875em; }
+					p { padding: 9px 0 11px; font-size: 15px; line-height: 2em; }
 					h3 {
 						font-size: 36px;
 						line-height: 60px;
-						padding: 3px 0 7px 0;
+						padding: 0 0 7px 0;
 						margin: 0 0 20px 0;
-						img { display: block; margin: 0 auto 40px; }
+						img { display: block; margin: 0 auto 43px; }
 						span {
 							display: block;
 							float: left;
@@ -233,14 +233,12 @@ html {
 			}
 		}
 	}
-	
+
 	body.webkit {
-		#content-container {
-			#content {
-				h3 {
-					span {
-						font-size: 16px; line-height: 20px; padding: 3px 0 7px 0;
-					}
+		#content-background {
+			#content-container {
+				#content {
+					p { padding: 10px 0; }
 				}
 			}
 		}

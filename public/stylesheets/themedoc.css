@@ -553,20 +553,20 @@ html body #content-background #content-container #content:after {
 /* line 171, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content p {
   padding: 9px 0 11px;
-  font-size: 16px;
-  line-height: 1.875em;
+  font-size: 15px;
+  line-height: 2em;
 }
 /* line 172, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 {
   font-size: 36px;
   line-height: 60px;
-  padding: 3px 0 7px 0;
+  padding: 0 0 7px 0;
   margin: 0 0 20px 0;
 }
 /* line 177, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 img {
   display: block;
-  margin: 0 auto 40px;
+  margin: 0 auto 43px;
 }
 /* line 178, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 span {
@@ -658,8 +658,6 @@ html body #footer-container #footer ul.lined li a.rss-icon {
   background: transparent url("../images/ns-documentation/rss-icon.png") no-repeat 0 2px;
 }
 /* line 241, ../../app/stylesheets/themedoc.scss */
-html body.webkit #content-container #content h3 span {
-  font-size: 16px;
-  line-height: 20px;
-  padding: 3px 0 7px 0;
+html body.webkit #content-background #content-container #content p {
+  padding: 10px 0;
 }
