@@ -403,8 +403,8 @@ html a {
 }
 /* line 79, ../../app/stylesheets/themedoc.scss */
 html .lined-section {
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 70px;
+  padding-bottom: 60px;
 }
 /* line 84, ../../app/stylesheets/themedoc.scss */
 html body {
@@ -526,9 +526,9 @@ html body #content-background #content-container #content {
   float: none;
   width: 990px;
   margin: 0 auto;
-  padding: 60px 30px;
+  padding: 70px 30px;
   text-align: left;
-  background: #f7f4ee;
+  background: transparent url("../images/ns-documentation/footer-tile.png") repeat 0 0;
   *zoom: 1;
   -moz-box-shadow: 0 2px 7px #4e2f1a;
   -webkit-box-shadow: 0 2px 7px #4e2f1a;
@@ -551,41 +551,47 @@ html body #content-background #content-container #content:after {
   visibility: hidden;
 }
 /* line 171, ../../app/stylesheets/themedoc.scss */
+html body #content-background #content-container #content p {
+  padding: 9px 0 11px;
+  font-size: 16px;
+  line-height: 1.875em;
+}
+/* line 172, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 {
-  font-size: 30px;
-  line-height: 40px;
-  padding: 4px 0 6px 0;
+  font-size: 36px;
+  line-height: 60px;
+  padding: 3px 0 7px 0;
   margin: 0 0 20px 0;
 }
-/* line 176, ../../app/stylesheets/themedoc.scss */
+/* line 177, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 img {
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto 40px;
 }
-/* line 177, ../../app/stylesheets/themedoc.scss */
+/* line 178, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 span {
   display: block;
   float: left;
   width: 100%;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 20px;
   padding: 2px 0 8px 0;
   text-align: center;
 }
-/* line 184, ../../app/stylesheets/themedoc.scss */
+/* line 185, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 div {
   text-align: center;
 }
-/* line 186, ../../app/stylesheets/themedoc.scss */
+/* line 187, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content p.section-nav {
   margin: 20px 0 0 0;
 }
-/* line 190, ../../app/stylesheets/themedoc.scss */
+/* line 191, ../../app/stylesheets/themedoc.scss */
 html body #footer-container {
   padding: 50px 0;
   background: transparent url("../images/ns-documentation/footer-background.gif") repeat-x 0 0;
 }
-/* line 193, ../../app/stylesheets/themedoc.scss */
+/* line 194, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer {
   float: none;
   width: 990px;
@@ -614,44 +620,44 @@ html body #footer-container #footer:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 205, ../../app/stylesheets/themedoc.scss */
+/* line 206, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 206, ../../app/stylesheets/themedoc.scss */
+/* line 207, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.email-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/email-icon.png") no-repeat 0 2px;
 }
-/* line 210, ../../app/stylesheets/themedoc.scss */
+/* line 211, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.facebook-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/facebook-icon.png") no-repeat 0 2px;
 }
-/* line 214, ../../app/stylesheets/themedoc.scss */
+/* line 215, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.twitter-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/twitter-icon.png") no-repeat 0 2px;
 }
-/* line 218, ../../app/stylesheets/themedoc.scss */
+/* line 219, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.envato-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/envato-icon.png") no-repeat 0 2px;
 }
-/* line 222, ../../app/stylesheets/themedoc.scss */
+/* line 223, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.ns-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/ns-icon.png") no-repeat 0 2px;
 }
-/* line 226, ../../app/stylesheets/themedoc.scss */
+/* line 227, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.rss-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/rss-icon.png") no-repeat 0 2px;
 }
-/* line 240, ../../app/stylesheets/themedoc.scss */
+/* line 241, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-container #content h3 span {
   font-size: 16px;
   line-height: 20px;
