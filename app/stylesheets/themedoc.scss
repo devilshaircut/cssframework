@@ -80,6 +80,9 @@ html {
 		margin-bottom: 70px;
 		padding-bottom: 60px;
 	}
+	.section {
+		margin-bottom: 20px;
+	}
 
 	body {
 		font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
@@ -212,6 +215,14 @@ html {
 							}
 						}
 					}
+					.column-3-box,
+					.column-4-box,
+					.column-6-box,
+					.column-8-box,
+					.column-3-box-last,
+					.column-4-box-last,
+					.column-6-box-last,
+					.column-8-box-last { margin-top: 20px; }
 					p.section-nav { margin: 20px 0 0 0; font-style: italic; }
 				}
 			}

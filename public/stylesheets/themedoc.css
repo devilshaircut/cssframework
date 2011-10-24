@@ -406,22 +406,26 @@ html .lined-section {
   margin-bottom: 70px;
   padding-bottom: 60px;
 }
-/* line 84, ../../app/stylesheets/themedoc.scss */
+/* line 83, ../../app/stylesheets/themedoc.scss */
+html .section {
+  margin-bottom: 20px;
+}
+/* line 87, ../../app/stylesheets/themedoc.scss */
 html body {
   font-family: 'PT Sans', 'Myriad Pro', Helvetica, Arial, sans serif;
   background: transparent url("../images/ns-documentation/body-background.gif") repeat 0 0;
   color: #2e3033;
 }
-/* line 88, ../../app/stylesheets/themedoc.scss */
+/* line 91, ../../app/stylesheets/themedoc.scss */
 html body #banner-container {
   background: transparent url("../images/ns-documentation/header-background.gif") repeat-x 0 0;
 }
-/* line 90, ../../app/stylesheets/themedoc.scss */
+/* line 93, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic {
   height: 270px;
   background: transparent url("../images/ns-documentation/house.png") no-repeat center top;
 }
-/* line 93, ../../app/stylesheets/themedoc.scss */
+/* line 96, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #top-bar {
   float: none;
   width: 1050px;
@@ -440,7 +444,7 @@ html body #banner-container #house-graphic #top-bar:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 101, ../../app/stylesheets/themedoc.scss */
+/* line 104, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #top-bar a#logo {
   display: block;
   float: left;
@@ -451,33 +455,33 @@ html body #banner-container #house-graphic #top-bar a#logo {
   margin: 0 0 0 -16px;
   background: transparent url("../images/ns-documentation/logo.png") repeat-x 0 0;
 }
-/* line 111, ../../app/stylesheets/themedoc.scss */
+/* line 114, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #top-bar a#logo:hover {
   background-position: 0 -51px;
 }
-/* line 114, ../../app/stylesheets/themedoc.scss */
+/* line 117, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #top-bar #navigation {
   width: auto;
   float: right;
   position: relative;
   z-index: 50;
 }
-/* line 119, ../../app/stylesheets/themedoc.scss */
+/* line 122, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #top-bar #navigation li {
   width: auto;
   padding: 10px 0 0 20px;
 }
-/* line 122, ../../app/stylesheets/themedoc.scss */
+/* line 125, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #top-bar #navigation li a {
   text-decoration: none;
   color: #b9c4a8;
 }
-/* line 127, ../../app/stylesheets/themedoc.scss */
+/* line 130, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #top-bar #navigation li a.current,
 html body #banner-container #house-graphic #top-bar #navigation li a:hover {
   text-decoration: underline;
 }
-/* line 131, ../../app/stylesheets/themedoc.scss */
+/* line 134, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #header {
   float: none;
   width: 1050px;
@@ -494,7 +498,7 @@ html body #banner-container #house-graphic #header:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 137, ../../app/stylesheets/themedoc.scss */
+/* line 140, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #header h1 {
   font-size: 60px;
   line-height: 60px;
@@ -503,17 +507,17 @@ html body #banner-container #house-graphic #header h1 {
   color: #e0d586;
   text-shadow: 0 2px 0 #021e30;
 }
-/* line 145, ../../app/stylesheets/themedoc.scss */
+/* line 148, ../../app/stylesheets/themedoc.scss */
 html body #banner-container #house-graphic #header h4 {
   color: #b9c4a8;
   text-shadow: 0 1px 0 #021e30;
 }
-/* line 152, ../../app/stylesheets/themedoc.scss */
+/* line 155, ../../app/stylesheets/themedoc.scss */
 html body #content-background {
   padding: 0 0 40px 0;
   background: transparent url("../images/ns-documentation/content-container-background.gif") repeat 0 0;
 }
-/* line 155, ../../app/stylesheets/themedoc.scss */
+/* line 158, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container {
   background: transparent url("../images/ns-documentation/content-background.png") repeat-x 0 1px;
   position: relative;
@@ -521,7 +525,7 @@ html body #content-background #content-container {
   margin: -20px 0 0 0;
   padding: 70px 0 0 0;
 }
-/* line 161, ../../app/stylesheets/themedoc.scss */
+/* line 164, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content {
   float: none;
   width: 990px;
@@ -550,13 +554,13 @@ html body #content-background #content-container #content:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 171, ../../app/stylesheets/themedoc.scss */
+/* line 174, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content p {
   padding: 9px 0 11px;
   font-size: 15px;
   line-height: 2em;
 }
-/* line 173, ../../app/stylesheets/themedoc.scss */
+/* line 176, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content ul,
 html body #content-background #content-container #content ol {
   padding: 9px 0 11px 30px;
@@ -565,7 +569,7 @@ html body #content-background #content-container #content ol {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 176, ../../app/stylesheets/themedoc.scss */
+/* line 179, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content ul li,
 html body #content-background #content-container #content ol li {
   display: list-item;
@@ -573,30 +577,30 @@ html body #content-background #content-container #content ol li {
   font-size: 15px;
   line-height: 2em;
 }
-/* line 182, ../../app/stylesheets/themedoc.scss */
+/* line 185, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content ul li ul,
 html body #content-background #content-container #content ul li ol,
 html body #content-background #content-container #content ol li ul,
 html body #content-background #content-container #content ol li ol {
   padding: 0 0 0 30px;
 }
-/* line 188, ../../app/stylesheets/themedoc.scss */
+/* line 191, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content ol li {
   list-style-type: decimal;
 }
-/* line 190, ../../app/stylesheets/themedoc.scss */
+/* line 193, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 {
   font-size: 36px;
   line-height: 60px;
   padding: 0 0 7px 0;
   margin: 0 0 20px 0;
 }
-/* line 195, ../../app/stylesheets/themedoc.scss */
+/* line 198, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 img {
   display: block;
   margin: 0 auto 43px;
 }
-/* line 196, ../../app/stylesheets/themedoc.scss */
+/* line 199, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 span {
   display: block;
   float: left;
@@ -606,34 +610,45 @@ html body #content-background #content-container #content h3 span {
   padding: 2px 0 8px 0;
   text-align: center;
 }
-/* line 203, ../../app/stylesheets/themedoc.scss */
+/* line 206, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 div {
   text-align: center;
 }
-/* line 205, ../../app/stylesheets/themedoc.scss */
+/* line 208, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content code {
   margin: 15px 0 13px;
 }
-/* line 207, ../../app/stylesheets/themedoc.scss */
+/* line 210, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content code ol {
   padding: 0;
 }
-/* line 209, ../../app/stylesheets/themedoc.scss */
+/* line 212, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content code ol li {
   font-size: 12px;
   line-height: 1.667em;
 }
-/* line 215, ../../app/stylesheets/themedoc.scss */
+/* line 225, ../../app/stylesheets/themedoc.scss */
+html body #content-background #content-container #content .column-3-box,
+html body #content-background #content-container #content .column-4-box,
+html body #content-background #content-container #content .column-6-box,
+html body #content-background #content-container #content .column-8-box,
+html body #content-background #content-container #content .column-3-box-last,
+html body #content-background #content-container #content .column-4-box-last,
+html body #content-background #content-container #content .column-6-box-last,
+html body #content-background #content-container #content .column-8-box-last {
+  margin-top: 20px;
+}
+/* line 226, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content p.section-nav {
   margin: 20px 0 0 0;
   font-style: italic;
 }
-/* line 219, ../../app/stylesheets/themedoc.scss */
+/* line 230, ../../app/stylesheets/themedoc.scss */
 html body #footer-container {
   padding: 50px 0;
   background: transparent url("../images/ns-documentation/footer-background.gif") repeat-x 0 0;
 }
-/* line 222, ../../app/stylesheets/themedoc.scss */
+/* line 233, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer {
   float: none;
   width: 990px;
@@ -662,58 +677,58 @@ html body #footer-container #footer:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 234, ../../app/stylesheets/themedoc.scss */
+/* line 245, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 235, ../../app/stylesheets/themedoc.scss */
+/* line 246, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.email-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/email-icon.png") no-repeat 0 2px;
 }
-/* line 239, ../../app/stylesheets/themedoc.scss */
+/* line 250, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.facebook-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/facebook-icon.png") no-repeat 0 2px;
 }
-/* line 243, ../../app/stylesheets/themedoc.scss */
+/* line 254, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.twitter-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/twitter-icon.png") no-repeat 0 2px;
 }
-/* line 247, ../../app/stylesheets/themedoc.scss */
+/* line 258, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.envato-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/envato-icon.png") no-repeat 0 2px;
 }
-/* line 251, ../../app/stylesheets/themedoc.scss */
+/* line 262, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.ns-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/ns-icon.png") no-repeat 0 2px;
 }
-/* line 255, ../../app/stylesheets/themedoc.scss */
+/* line 266, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.rss-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/rss-icon.png") no-repeat 0 2px;
 }
-/* line 270, ../../app/stylesheets/themedoc.scss */
+/* line 281, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content p {
   padding: 10px 0;
 }
-/* line 272, ../../app/stylesheets/themedoc.scss */
+/* line 283, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content ul,
 html body.webkit #content-background #content-container #content ol {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 277, ../../app/stylesheets/themedoc.scss */
+/* line 288, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content code ol {
   padding: 0;
 }
-/* line 294, ../../app/stylesheets/themedoc.scss */
+/* line 305, ../../app/stylesheets/themedoc.scss */
 html body.webkit #footer-container #footer ul.lined li a.email-icon,
 html body.webkit #footer-container #footer ul.lined li a.facebook-icon,
 html body.webkit #footer-container #footer ul.lined li a.twitter-icon,
