@@ -611,15 +611,29 @@ html body #content-background #content-container #content h3 div {
   text-align: center;
 }
 /* line 205, ../../app/stylesheets/themedoc.scss */
-html body #content-background #content-container #content p.section-nav {
-  margin: 20px 0 0 0;
+html body #content-background #content-container #content code {
+  margin: 15px 0 13px;
+}
+/* line 207, ../../app/stylesheets/themedoc.scss */
+html body #content-background #content-container #content code ol {
+  padding: 0;
 }
 /* line 209, ../../app/stylesheets/themedoc.scss */
+html body #content-background #content-container #content code ol li {
+  font-size: 12px;
+  line-height: 1.667em;
+}
+/* line 215, ../../app/stylesheets/themedoc.scss */
+html body #content-background #content-container #content p.section-nav {
+  margin: 20px 0 0 0;
+  font-style: italic;
+}
+/* line 219, ../../app/stylesheets/themedoc.scss */
 html body #footer-container {
   padding: 50px 0;
   background: transparent url("../images/ns-documentation/footer-background.gif") repeat-x 0 0;
 }
-/* line 212, ../../app/stylesheets/themedoc.scss */
+/* line 222, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer {
   float: none;
   width: 990px;
@@ -648,54 +662,58 @@ html body #footer-container #footer:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 224, ../../app/stylesheets/themedoc.scss */
+/* line 234, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 225, ../../app/stylesheets/themedoc.scss */
+/* line 235, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.email-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/email-icon.png") no-repeat 0 2px;
 }
-/* line 229, ../../app/stylesheets/themedoc.scss */
+/* line 239, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.facebook-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/facebook-icon.png") no-repeat 0 2px;
 }
-/* line 233, ../../app/stylesheets/themedoc.scss */
+/* line 243, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.twitter-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/twitter-icon.png") no-repeat 0 2px;
 }
-/* line 237, ../../app/stylesheets/themedoc.scss */
+/* line 247, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.envato-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/envato-icon.png") no-repeat 0 2px;
 }
-/* line 241, ../../app/stylesheets/themedoc.scss */
+/* line 251, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.ns-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/ns-icon.png") no-repeat 0 2px;
 }
-/* line 245, ../../app/stylesheets/themedoc.scss */
+/* line 255, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.rss-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/rss-icon.png") no-repeat 0 2px;
 }
-/* line 260, ../../app/stylesheets/themedoc.scss */
+/* line 270, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content p {
   padding: 10px 0;
 }
-/* line 262, ../../app/stylesheets/themedoc.scss */
+/* line 272, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content ul,
 html body.webkit #content-background #content-container #content ol {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 279, ../../app/stylesheets/themedoc.scss */
+/* line 277, ../../app/stylesheets/themedoc.scss */
+html body.webkit #content-background #content-container #content code ol {
+  padding: 0;
+}
+/* line 294, ../../app/stylesheets/themedoc.scss */
 html body.webkit #footer-container #footer ul.lined li a.email-icon,
 html body.webkit #footer-container #footer ul.lined li a.facebook-icon,
 html body.webkit #footer-container #footer ul.lined li a.twitter-icon,

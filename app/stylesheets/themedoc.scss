@@ -202,7 +202,17 @@ html {
 						}
 						div { text-align: center; }
 					}
-					p.section-nav { margin: 20px 0 0 0; }
+					code {
+						margin: 15px 0 13px;
+						ol {
+							padding: 0;
+							li {
+								font-size: 12px;
+								line-height: 1.667em;
+							}
+						}
+					}
+					p.section-nav { margin: 20px 0 0 0; font-style: italic; }
 				}
 			}
 		}
@@ -262,6 +272,11 @@ html {
 					ol {
 						padding-top: 10px;
 						padding-bottom: 10px;
+					}
+					code {
+						ol {
+							padding: 0;
+						}
 					}
 				}
 			}
