@@ -36,12 +36,73 @@
 		<div class="lined-section">
 			<h3>
 				<img src="/images/ns-documentation/insignia.png" alt="Sprout insignia for Nightsprout." />
+				<span>Chapter 0: Installing WordPress and Your Nightsprout Theme</span>
+				<div>“Getting Set Up”</div>
+			</h3>
+			<p>Before you install a Nightsprout theme, you have to have a working WordPress install.  Anything that we write here will probably pale in comparison to the existing WordPress Documentation.  <a href="http://codex.wordpress.org/Getting_Started_with_WordPress">Click here to give it a read.</a></p>
+			<p>Once you have that set up, getting Empire on your system is relatively easy.  You have a few options, but we suggest this way for most users:</p>
+			<ul>
+			  <li>Via the WordPress Admin Panel
+			    <ol>
+			      <li>Log in to WordPress as the admin user.</li>
+			      <li>Click on the "Appearance" menu item, and then the "Themes" sub-menu item inside of it.</li>
+			      <li>Click on the "Install Themes", and then the "Upload" sub-tab below it.</li>
+			      <li>Click on the "Choose File" button and browse to the location of the theme's zip file.</li>
+			      <li>Select the file, and click "Install Now".</li>
+			    </ol>
+			  </li>
+			</ul>
+			<p>If this doesn't work for you, there are several other common methods to install a theme that are <a href="http://codex.wordpress.org/Using_Themes">well documented here on the WordPress Documentation site.</a></p>
+			<p>If you have any problems installing your theme, feel free to contact our customer support.</p>
+			<p class="section-nav"><a href="http://cssframework.heroku.com/themedoc/home#">Go back to the top</a>? Or skip to a section: <a href="http://cssframework.heroku.com/themedoc/home#">Installation</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Shortcodes &amp; Widgets</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Our CSS Files</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Best Practices</a>, or <a href="http://cssframework.heroku.com/themedoc/home#">Nightsprout Admin</a>.</p>
+		</div>
+
+		<div class="lined-section">
+			<h3>
+				<img src="/images/ns-documentation/insignia.png" alt="Sprout insignia for Nightsprout." />
+				<span>Chapter 1: Configuring Your Front Page</span>
+				<div>“Rock Your New Theme”</div>
+			</h3>
+			<p>To get started, lets configure your front page.  If you don't want to use your Nightsprout Front Page, skip to Chapter 2, which details what to do to deactivate it or otherwise make it not the main page of your site.</p>
+			<p>Inside of the WordPress Admin interface, click on the "Empire Config" option in the main menu.  It should be one of the first options.  This will take you to Nightsprout's custom theme administration panel.  The first page you see is the Front Page Settings area, where you can customize the look of the Nightsprout Front Page.</p>
+			<p>The first set of options is the <em>Banner Gallery</em>.  Here, you can specify which images you want to use for the rotating front page image gallery.  Inside of each text box, you need to input the full URL address for the images you want to post (or the relative ones if you're an advanced user and have the correct relative path).  To the right of each of the URL text inputs, we've placed buttons that will open the default WordPress Media Uploader.  Here you can upload your own images, or browse the images that you've already uploaded yourself.</p>
+			<p><strong>NOTE:</strong> you can NOT use the "Insert into post" option, or anything similar in this instance.  You must use the Link URL, which can be found by clicking "Show" next to an image thumbnail, and it must be the "File URL" version of the URL, which can be obtained by clicking the "File URL" button below the "Link URL"</p>
+			<p class="section-nav"><a href="http://cssframework.heroku.com/themedoc/home#">Go back to the top</a>? Or skip to a section: <a href="http://cssframework.heroku.com/themedoc/home#">Installation</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Shortcodes &amp; Widgets</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Our CSS Files</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Best Practices</a>, or <a href="http://cssframework.heroku.com/themedoc/home#">Nightsprout Admin</a>.</p>
+		</div>
+		<!-- .lined-section -->
+		
+		<div class="lined-section">
+			<h3>
+				<img src="/images/ns-documentation/insignia.png" alt="Sprout insignia for Nightsprout." />
+				<span>Chapter 2: Deactivating Your Front Page</span>
+				<div>“We Don't Need This Thing”</div>
+			</h3>
+			<p>The front page isn't for everyone.  If you don't think you want to use it, or you don't want the Front Page to be the default main page of your blog, this is the section for you.  If you want to keep your Front Page, skip this section. </p>
+			<p>For ease of use, we've overwritten a default setting for WordPress.  Usually, WordPress expects the default page to be the list of blog posts.  We have changed this to be our custom Front Page interface.  If you wish to undo this, it is simple, but it requires following these steps that act somewhat against the standard WordPress settings:</p>
+			<ol>
+			  <li>Click on the "Pages" menu item, and then the "Add New" sub-menu item inside of it.</li>
+			  <li>Enter the Title as "Blog", or whatever you want your Blog section to be called.</li>
+			  <li>In the "Page Attributes" section of this page, under the "Template" heading, click on the drop-down selector and then click on the "Blog" option.</li>
+        <li>Save this page.  It will be your new front page.</li>
+        <li>If you still wish to use the Nightsprout Front Page, just not as the default first page of your site, repeat steps 1-4, except name it appropriately and click on "Nightsprout Front Page" under the "Template" dropdown.</li>
+			  <li>Click on the "Settings" menu item, and then the "Reading" sub-menu item inside of it.</li>
+			  <li>Next to the "Front Page Displays" option on this page, click on the radio button next to "A static page"</li>
+			  <li>Click on the drop-down next to "Front Page" and select the page you set up for your Blog.</li>
+			  <li>If you set up a secondary page for your Nightsprout Front Page, select it in the drop down menu next to "Posts Page".</li>
+		  </ol>
+			<p class="section-nav"><a href="http://cssframework.heroku.com/themedoc/home#">Go back to the top</a>? Or skip to a section: <a href="http://cssframework.heroku.com/themedoc/home#">Installation</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Shortcodes &amp; Widgets</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Our CSS Files</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Best Practices</a>, or <a href="http://cssframework.heroku.com/themedoc/home#">Nightsprout Admin</a>.</p>
+		</div>
+		<!-- .lined-section -->
+
+		<div class="lined-section">
+			<h3>
+				<img src="/images/ns-documentation/insignia.png" alt="Sprout insignia for Nightsprout." />
 				<span>Chapter 1: Installation</span>
 				<div>“Rock Your New Theme”</div>
 			</h3>
 			<p>Bresaola tongue ribeye, turkey short ribs shank cow pancetta jowl pastrami drumstick biltong rump kielbasa pig. Flank chicken short loin kielbasa, ball tip frankfurter pork belly drumstick bacon strip steak spare ribs ribeye. Chicken spare ribs boudin, meatball capicola turducken beef biltong. Beef corned beef andouille shank swine. Tenderloin turkey bresaola, shankle swine shank sirloin ball tip filet mignon ham hock beef. Chuck tri-tip pastrami tenderloin, pork chop hamburger pork belly meatloaf salami jowl venison meatball rump beef ribs turkey.</p>
 			<p>Turkey bacon sausage jowl, tail andouille pig. Salami fatback tenderloin meatloaf. Pig beef ribs salami strip steak. Rump beef tongue, beef ribs hamburger leberkäse capicola ham hock turkey chicken. Spare ribs andouille pork belly capicola, t-bone boudin shoulder prosciutto flank jerky meatloaf pancetta. Jowl pork ribeye, venison short ribs filet mignon shankle bacon drumstick tail turkey hamburger boudin. Short loin chuck drumstick, meatloaf bresaola sirloin boudin swine. Pastrami chicken pork chop cow bresaola, flank beef ribs.</p>
-			<p class="section-nav"><a href="#">Go back to the top</a>? Or skip to a section: <a href="#">Installation</a>, <a href="#">Shortcodes &amp; Widgets</a>, <a href="#">Our CSS Files</a>, <a href="#">Best Practices</a>, or <a href="#">Nightsprout Admin</a>.</p>
+			<p class="section-nav"><a href="http://cssframework.heroku.com/themedoc/home#">Go back to the top</a>? Or skip to a section: <a href="http://cssframework.heroku.com/themedoc/home#">Installation</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Shortcodes &amp; Widgets</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Our CSS Files</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Best Practices</a>, or <a href="http://cssframework.heroku.com/themedoc/home#">Nightsprout Admin</a>.</p>
 		</div>
 		<!-- .lined-section -->
 		
@@ -53,7 +114,7 @@
 			</h3>
 			<p>Bresaola tongue ribeye, turkey short ribs shank cow pancetta jowl pastrami drumstick biltong rump kielbasa pig. Flank chicken short loin kielbasa, ball tip frankfurter pork belly drumstick bacon strip steak spare ribs ribeye. Chicken spare ribs boudin, meatball capicola turducken beef biltong. Beef corned beef andouille shank swine. Tenderloin turkey bresaola, shankle swine shank sirloin ball tip filet mignon ham hock beef. Chuck tri-tip pastrami tenderloin, pork chop hamburger pork belly meatloaf salami jowl venison meatball rump beef ribs turkey.</p>
 			<p>Turkey bacon sausage jowl, tail andouille pig. Salami fatback tenderloin meatloaf. Pig beef ribs salami strip steak. Rump beef tongue, beef ribs hamburger leberkäse capicola ham hock turkey chicken. Spare ribs andouille pork belly capicola, t-bone boudin shoulder prosciutto flank jerky meatloaf pancetta. Jowl pork ribeye, venison short ribs filet mignon shankle bacon drumstick tail turkey hamburger boudin. Short loin chuck drumstick, meatloaf bresaola sirloin boudin swine. Pastrami chicken pork chop cow bresaola, flank beef ribs.</p>
-			<p class="section-nav"><a href="#">Go back to the top</a>? Or skip to a section: <a href="#">Installation</a>, <a href="#">Shortcodes &amp; Widgets</a>, <a href="#">Our CSS Files</a>, <a href="#">Best Practices</a>, or <a href="#">Nightsprout Admin</a>.</p>
+			<p class="section-nav"><a href="http://cssframework.heroku.com/themedoc/home#">Go back to the top</a>? Or skip to a section: <a href="http://cssframework.heroku.com/themedoc/home#">Installation</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Shortcodes &amp; Widgets</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Our CSS Files</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Best Practices</a>, or <a href="http://cssframework.heroku.com/themedoc/home#">Nightsprout Admin</a>.</p>
 		</div>
 		<!-- .lined-section -->
 		
@@ -65,7 +126,7 @@
 			</h3>
 			<p>Bresaola tongue ribeye, turkey short ribs shank cow pancetta jowl pastrami drumstick biltong rump kielbasa pig. Flank chicken short loin kielbasa, ball tip frankfurter pork belly drumstick bacon strip steak spare ribs ribeye. Chicken spare ribs boudin, meatball capicola turducken beef biltong. Beef corned beef andouille shank swine. Tenderloin turkey bresaola, shankle swine shank sirloin ball tip filet mignon ham hock beef. Chuck tri-tip pastrami tenderloin, pork chop hamburger pork belly meatloaf salami jowl venison meatball rump beef ribs turkey.</p>
 			<p>Turkey bacon sausage jowl, tail andouille pig. Salami fatback tenderloin meatloaf. Pig beef ribs salami strip steak. Rump beef tongue, beef ribs hamburger leberkäse capicola ham hock turkey chicken. Spare ribs andouille pork belly capicola, t-bone boudin shoulder prosciutto flank jerky meatloaf pancetta. Jowl pork ribeye, venison short ribs filet mignon shankle bacon drumstick tail turkey hamburger boudin. Short loin chuck drumstick, meatloaf bresaola sirloin boudin swine. Pastrami chicken pork chop cow bresaola, flank beef ribs.</p>
-			<p class="section-nav"><a href="#">Go back to the top</a>? Or skip to a section: <a href="#">Installation</a>, <a href="#">Shortcodes &amp; Widgets</a>, <a href="#">Our CSS Files</a>, <a href="#">Best Practices</a>, or <a href="#">Nightsprout Admin</a>.</p>
+			<p class="section-nav"><a href="http://cssframework.heroku.com/themedoc/home#">Go back to the top</a>? Or skip to a section: <a href="http://cssframework.heroku.com/themedoc/home#">Installation</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Shortcodes &amp; Widgets</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Our CSS Files</a>, <a href="http://cssframework.heroku.com/themedoc/home#">Best Practices</a>, or <a href="http://cssframework.heroku.com/themedoc/home#">Nightsprout Admin</a>.</p>
 		</div>
 		<!-- .section -->
 		

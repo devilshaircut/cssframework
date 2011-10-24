@@ -169,6 +169,24 @@ html {
 					@include box-shadow(0 2px 7px #4e2f1a);
 					@include border-radius(2px);
 					p { padding: 9px 0 11px; font-size: 15px; line-height: 2em; }
+					ul,
+					ol {
+						padding: 9px 0 11px 30px;
+						@include box-sizing(border-box);
+						li {
+							display: list-item;
+							list-style-type: disc;
+							font-size: 15px;
+							line-height: 2em;
+							ul,
+							ol {
+								padding: 0 0 0 30px;
+							}
+						}
+					}
+					ol {
+						li { list-style-type: decimal; }
+					}
 					h3 {
 						font-size: 36px;
 						line-height: 60px;
@@ -240,6 +258,11 @@ html {
 			#content-container {
 				#content {
 					p { padding: 10px 0; }
+					ul,
+					ol {
+						padding-top: 10px;
+						padding-bottom: 10px;
+					}
 				}
 			}
 		}
