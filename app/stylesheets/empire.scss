@@ -822,6 +822,7 @@ html {
 						width: 60px;
 						margin: 0 auto;
 					}
+					img { vertical-align: baseline; }
 				}
 				td:nth-child(1) {
 					padding-left: 14px;
@@ -876,7 +877,7 @@ html {
 		}
 	}
 	
-	.mozilla table.pricing {
+	.webkit table.pricing {
 		tbody {
 			tr {
 				td {
