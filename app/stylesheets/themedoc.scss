@@ -189,6 +189,9 @@ html {
 					}
 					ol {
 						li { list-style-type: decimal; }
+						ul {
+							li { list-style-type: disc; }
+						}
 					}
 					h3 {
 						font-size: 36px;

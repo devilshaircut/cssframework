@@ -324,12 +324,12 @@ html .webkit label {
 }
 /* line 147, ../../app/stylesheets/_open-sans.scss */
 html input[type="checkbox"] {
-  margin-top: 4px;
+  margin-top: 3px;
   margin-bottom: 0;
 }
 /* line 151, ../../app/stylesheets/_open-sans.scss */
 html .webkit input[type="checkbox"] {
-  margin-top: 5px;
+  margin-top: 4px;
   margin-bottom: 0;
 }
 /* line 156, ../../app/stylesheets/_open-sans.scss */
@@ -337,7 +337,12 @@ html input[type="radio"] {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* line 165, ../../app/stylesheets/_open-sans.scss */
+/* line 161, ../../app/stylesheets/_open-sans.scss */
+html .webkit input[type="radio"] {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+/* line 170, ../../app/stylesheets/_open-sans.scss */
 html select,
 html input[type="text"],
 html input[type="email"],
@@ -351,7 +356,7 @@ html textarea {
   line-height: 1.667em;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
-/* line 178, ../../app/stylesheets/_open-sans.scss */
+/* line 183, ../../app/stylesheets/_open-sans.scss */
 html .webkit select,
 html .webkit input[type="text"],
 html .webkit input[type="email"],
@@ -360,67 +365,67 @@ html .webkit textarea {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-/* line 183, ../../app/stylesheets/_open-sans.scss */
+/* line 188, ../../app/stylesheets/_open-sans.scss */
 html select {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 188, ../../app/stylesheets/_open-sans.scss */
+/* line 193, ../../app/stylesheets/_open-sans.scss */
 html textarea {
   padding-top: 4px;
   padding-bottom: 13px;
 }
-/* line 192, ../../app/stylesheets/_open-sans.scss */
+/* line 197, ../../app/stylesheets/_open-sans.scss */
 html .webkit textarea {
   padding-top: 5px;
   padding-bottom: 12px;
 }
-/* line 197, ../../app/stylesheets/_open-sans.scss */
+/* line 202, ../../app/stylesheets/_open-sans.scss */
 html ul.form {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-/* line 201, ../../app/stylesheets/_open-sans.scss */
+/* line 206, ../../app/stylesheets/_open-sans.scss */
 html ul.form li label {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 207, ../../app/stylesheets/_open-sans.scss */
+/* line 212, ../../app/stylesheets/_open-sans.scss */
 html .webkit ul.form {
   padding-top: 16px;
   padding-bottom: 14px;
 }
-/* line 211, ../../app/stylesheets/_open-sans.scss */
+/* line 216, ../../app/stylesheets/_open-sans.scss */
 html .webkit ul.form li label {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 218, ../../app/stylesheets/_open-sans.scss */
+/* line 223, ../../app/stylesheets/_open-sans.scss */
 html table {
   padding-top: 0;
   padding-bottom: 10px;
 }
-/* line 223, ../../app/stylesheets/_open-sans.scss */
+/* line 228, ../../app/stylesheets/_open-sans.scss */
 html table thead tr th {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 231, ../../app/stylesheets/_open-sans.scss */
+/* line 236, ../../app/stylesheets/_open-sans.scss */
 html table tbody tr td {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 239, ../../app/stylesheets/_open-sans.scss */
+/* line 244, ../../app/stylesheets/_open-sans.scss */
 html .webkit table {
   padding-top: 0;
   padding-bottom: 10px;
 }
-/* line 244, ../../app/stylesheets/_open-sans.scss */
+/* line 249, ../../app/stylesheets/_open-sans.scss */
 html .webkit table thead tr th {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 252, ../../app/stylesheets/_open-sans.scss */
+/* line 257, ../../app/stylesheets/_open-sans.scss */
 html .webkit table tbody tr td {
   padding-top: 6px;
   padding-bottom: 4px;

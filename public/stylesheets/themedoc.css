@@ -589,18 +589,22 @@ html body #content-background #content-container #content ol li {
   list-style-type: decimal;
 }
 /* line 193, ../../app/stylesheets/themedoc.scss */
+html body #content-background #content-container #content ol ul li {
+  list-style-type: disc;
+}
+/* line 196, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 {
   font-size: 36px;
   line-height: 60px;
   padding: 0 0 7px 0;
   margin: 0 0 20px 0;
 }
-/* line 198, ../../app/stylesheets/themedoc.scss */
+/* line 201, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 img {
   display: block;
   margin: 0 auto 43px;
 }
-/* line 199, ../../app/stylesheets/themedoc.scss */
+/* line 202, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 span {
   display: block;
   float: left;
@@ -610,24 +614,24 @@ html body #content-background #content-container #content h3 span {
   padding: 2px 0 8px 0;
   text-align: center;
 }
-/* line 206, ../../app/stylesheets/themedoc.scss */
+/* line 209, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content h3 div {
   text-align: center;
 }
-/* line 208, ../../app/stylesheets/themedoc.scss */
+/* line 211, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content code {
   margin: 15px 0 13px;
 }
-/* line 210, ../../app/stylesheets/themedoc.scss */
+/* line 213, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content code ol {
   padding: 0;
 }
-/* line 212, ../../app/stylesheets/themedoc.scss */
+/* line 215, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content code ol li {
   font-size: 12px;
   line-height: 1.667em;
 }
-/* line 225, ../../app/stylesheets/themedoc.scss */
+/* line 228, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content .column-3-box,
 html body #content-background #content-container #content .column-4-box,
 html body #content-background #content-container #content .column-6-box,
@@ -638,17 +642,17 @@ html body #content-background #content-container #content .column-6-box-last,
 html body #content-background #content-container #content .column-8-box-last {
   margin-top: 20px;
 }
-/* line 226, ../../app/stylesheets/themedoc.scss */
+/* line 229, ../../app/stylesheets/themedoc.scss */
 html body #content-background #content-container #content p.section-nav {
   margin: 20px 0 0 0;
   font-style: italic;
 }
-/* line 230, ../../app/stylesheets/themedoc.scss */
+/* line 233, ../../app/stylesheets/themedoc.scss */
 html body #footer-container {
   padding: 50px 0;
   background: transparent url("../images/ns-documentation/footer-background.gif") repeat-x 0 0;
 }
-/* line 233, ../../app/stylesheets/themedoc.scss */
+/* line 236, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer {
   float: none;
   width: 990px;
@@ -677,58 +681,58 @@ html body #footer-container #footer:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 245, ../../app/stylesheets/themedoc.scss */
+/* line 248, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 246, ../../app/stylesheets/themedoc.scss */
+/* line 249, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.email-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/email-icon.png") no-repeat 0 2px;
 }
-/* line 250, ../../app/stylesheets/themedoc.scss */
+/* line 253, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.facebook-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/facebook-icon.png") no-repeat 0 2px;
 }
-/* line 254, ../../app/stylesheets/themedoc.scss */
+/* line 257, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.twitter-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/twitter-icon.png") no-repeat 0 2px;
 }
-/* line 258, ../../app/stylesheets/themedoc.scss */
+/* line 261, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.envato-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/envato-icon.png") no-repeat 0 2px;
 }
-/* line 262, ../../app/stylesheets/themedoc.scss */
+/* line 265, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.ns-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/ns-icon.png") no-repeat 0 2px;
 }
-/* line 266, ../../app/stylesheets/themedoc.scss */
+/* line 269, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.rss-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/rss-icon.png") no-repeat 0 2px;
 }
-/* line 281, ../../app/stylesheets/themedoc.scss */
+/* line 284, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content p {
   padding: 10px 0;
 }
-/* line 283, ../../app/stylesheets/themedoc.scss */
+/* line 286, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content ul,
 html body.webkit #content-background #content-container #content ol {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 288, ../../app/stylesheets/themedoc.scss */
+/* line 291, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content code ol {
   padding: 0;
 }
-/* line 305, ../../app/stylesheets/themedoc.scss */
+/* line 308, ../../app/stylesheets/themedoc.scss */
 html body.webkit #footer-container #footer ul.lined li a.email-icon,
 html body.webkit #footer-container #footer ul.lined li a.facebook-icon,
 html body.webkit #footer-container #footer ul.lined li a.twitter-icon,

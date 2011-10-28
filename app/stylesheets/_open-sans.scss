@@ -145,16 +145,21 @@
 	}
 	
 	input[type="checkbox"] {
-		margin-top: 4px;
+		margin-top: 3px;
 		margin-bottom: 0;
 	}
 	.webkit input[type="checkbox"] {
-		margin-top: 5px;
+		margin-top: 4px;
 		margin-bottom: 0;
 	}
 	
 	input[type="radio"] {
 		margin-top: 5px;
+		margin-bottom: 0;
+	}
+	
+	.webkit input[type="radio"] {
+		margin-top: 4px;
 		margin-bottom: 0;
 	}
 
