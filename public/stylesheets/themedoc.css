@@ -709,30 +709,35 @@ html body #footer-container #footer ul.lined li a.envato-icon {
   background: transparent url("../images/ns-documentation/envato-icon.png") no-repeat 0 2px;
 }
 /* line 265, ../../app/stylesheets/themedoc.scss */
+html body #footer-container #footer ul.lined li a.mojo-icon {
+  padding: 0 0 0 26px;
+  background: transparent url("../images/ns-documentation/mojo-icon.png") no-repeat 0 2px;
+}
+/* line 269, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.ns-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/ns-icon.png") no-repeat 0 2px;
 }
-/* line 269, ../../app/stylesheets/themedoc.scss */
+/* line 273, ../../app/stylesheets/themedoc.scss */
 html body #footer-container #footer ul.lined li a.rss-icon {
   padding: 0 0 0 26px;
   background: transparent url("../images/ns-documentation/rss-icon.png") no-repeat 0 2px;
 }
-/* line 284, ../../app/stylesheets/themedoc.scss */
+/* line 288, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content p {
   padding: 10px 0;
 }
-/* line 286, ../../app/stylesheets/themedoc.scss */
+/* line 290, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content ul,
 html body.webkit #content-background #content-container #content ol {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 291, ../../app/stylesheets/themedoc.scss */
+/* line 295, ../../app/stylesheets/themedoc.scss */
 html body.webkit #content-background #content-container #content code ol {
   padding: 0;
 }
-/* line 308, ../../app/stylesheets/themedoc.scss */
+/* line 312, ../../app/stylesheets/themedoc.scss */
 html body.webkit #footer-container #footer ul.lined li a.email-icon,
 html body.webkit #footer-container #footer ul.lined li a.facebook-icon,
 html body.webkit #footer-container #footer ul.lined li a.twitter-icon,
