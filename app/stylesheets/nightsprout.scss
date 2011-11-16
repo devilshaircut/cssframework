@@ -153,6 +153,34 @@ html {
 						width: 164px;
 						background: transparent url("../images/nightsprout/plane.png") no-repeat 0 0;
 					}
+					.gallery {
+						width: 405px;
+						li {
+							width: 105px;
+							margin: 0 30px 0 0;
+							a {
+								display: block;
+								float: left;
+								width: 99px;
+								height: 99px;
+								margin: 0 0 11px 0;
+								padding: 2px;
+								border: 1px solid #cccccc;
+								text-decoration: none;
+								overflow: hidden;
+							}
+							a#empire { background: transparent url("../images/nightsprout/portfolio/empire-thumb.png") no-repeat center center; }
+							a#quizforge { background: transparent url("../images/nightsprout/portfolio/mathquizmaker-thumb.png") no-repeat center center; }
+							a#priceboard { background: transparent url("../images/nightsprout/portfolio/priceboard-thumb.png") no-repeat center center; }
+							p {
+								width: 100%;
+								margin: 0;
+								font-size: 14px;
+								line-height: 20px;
+								font-family: 'PT Sans Narrow', 'Myriad Pro', Helvetica, Arial, sans serif;
+							}
+						}
+					}
 				}
 				a#call-to-action {
 					display: block;

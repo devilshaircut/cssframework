@@ -505,7 +505,48 @@ html body #page-container #content #column-2 #plane {
   width: 164px;
   background: transparent url("../images/nightsprout/plane.png") no-repeat 0 0;
 }
-/* line 157, ../../app/stylesheets/nightsprout.scss */
+/* line 156, ../../app/stylesheets/nightsprout.scss */
+html body #page-container #content #column-2 .gallery {
+  width: 405px;
+}
+/* line 158, ../../app/stylesheets/nightsprout.scss */
+html body #page-container #content #column-2 .gallery li {
+  width: 105px;
+  margin: 0 30px 0 0;
+}
+/* line 161, ../../app/stylesheets/nightsprout.scss */
+html body #page-container #content #column-2 .gallery li a {
+  display: block;
+  float: left;
+  width: 99px;
+  height: 99px;
+  margin: 0 0 11px 0;
+  padding: 2px;
+  border: 1px solid #cccccc;
+  text-decoration: none;
+  overflow: hidden;
+}
+/* line 172, ../../app/stylesheets/nightsprout.scss */
+html body #page-container #content #column-2 .gallery li a#empire {
+  background: transparent url("../images/nightsprout/portfolio/empire-thumb.png") no-repeat center center;
+}
+/* line 173, ../../app/stylesheets/nightsprout.scss */
+html body #page-container #content #column-2 .gallery li a#quizforge {
+  background: transparent url("../images/nightsprout/portfolio/mathquizmaker-thumb.png") no-repeat center center;
+}
+/* line 174, ../../app/stylesheets/nightsprout.scss */
+html body #page-container #content #column-2 .gallery li a#priceboard {
+  background: transparent url("../images/nightsprout/portfolio/priceboard-thumb.png") no-repeat center center;
+}
+/* line 175, ../../app/stylesheets/nightsprout.scss */
+html body #page-container #content #column-2 .gallery li p {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'PT Sans Narrow', 'Myriad Pro', Helvetica, Arial, sans serif;
+}
+/* line 185, ../../app/stylesheets/nightsprout.scss */
 html body #page-container #content a#call-to-action {
   display: block;
   float: right;
@@ -519,7 +560,7 @@ html body #page-container #content a#call-to-action {
   background: transparent url("../images/nightsprout/cta-background.png") no-repeat right -50px;
   text-shadow: 0 -1px 0 #b72f2f;
 }
-/* line 169, ../../app/stylesheets/nightsprout.scss */
+/* line 197, ../../app/stylesheets/nightsprout.scss */
 html body #page-container #content a#call-to-action span {
   display: block;
   float: left;
@@ -527,15 +568,15 @@ html body #page-container #content a#call-to-action span {
   padding: 10px 10px 0 20px;
   background: transparent url("../images/nightsprout/cta-background.png") no-repeat 0 0;
 }
-/* line 177, ../../app/stylesheets/nightsprout.scss */
+/* line 205, ../../app/stylesheets/nightsprout.scss */
 html body #page-container #content a#call-to-action:hover {
   background-position: right -150px;
 }
-/* line 179, ../../app/stylesheets/nightsprout.scss */
+/* line 207, ../../app/stylesheets/nightsprout.scss */
 html body #page-container #content a#call-to-action:hover span {
   background-position: 0 -100px;
 }
-/* line 181, ../../app/stylesheets/nightsprout.scss */
+/* line 209, ../../app/stylesheets/nightsprout.scss */
 html body #page-container #content h3 {
   font-size: 30px;
   line-height: 28px;
@@ -544,7 +585,7 @@ html body #page-container #content h3 {
   text-align: center;
   color: #414953;
 }
-/* line 188, ../../app/stylesheets/nightsprout.scss */
+/* line 216, ../../app/stylesheets/nightsprout.scss */
 html body #page-container #content h3 span {
   display: block;
   float: left;
@@ -552,27 +593,27 @@ html body #page-container #content h3 span {
   font-size: 16px;
   color: #414953;
 }
-/* line 196, ../../app/stylesheets/nightsprout.scss */
+/* line 224, ../../app/stylesheets/nightsprout.scss */
 html body #page-container #content p {
   padding: 1px 0 9px 0;
   margin: 0 0 20px 0;
   width: 375px;
 }
-/* line 201, ../../app/stylesheets/nightsprout.scss */
+/* line 229, ../../app/stylesheets/nightsprout.scss */
 html body #page-container #content ul.bulleted-list {
   padding: 1px 0 9px 0;
 }
-/* line 203, ../../app/stylesheets/nightsprout.scss */
+/* line 231, ../../app/stylesheets/nightsprout.scss */
 html body #page-container #content ul.bulleted-list li {
   padding: 0 0 0 20px;
   width: 355px;
   background: transparent url("../images/nightsprout/bullet-background.png") no-repeat -3px 2px;
 }
-/* line 212, ../../app/stylesheets/nightsprout.scss */
+/* line 240, ../../app/stylesheets/nightsprout.scss */
 html body #page-container.home #header {
   text-align: center;
 }
-/* line 214, ../../app/stylesheets/nightsprout.scss */
+/* line 242, ../../app/stylesheets/nightsprout.scss */
 html body #page-container.home #header h1 {
   width: 100%;
   height: 105px;
@@ -583,7 +624,7 @@ html body #page-container.home #header h1 {
   background: transparent url("../images/nightsprout/logo.png") no-repeat center 0;
   text-shadow: 0 2px 0 #24484b;
 }
-/* line 223, ../../app/stylesheets/nightsprout.scss */
+/* line 251, ../../app/stylesheets/nightsprout.scss */
 html body #page-container.home #header h1 span {
   display: block;
   float: left;
@@ -595,28 +636,28 @@ html body #page-container.home #header h1 span {
   font-family: 'Kreon', Georgia, 'Times New Roman', serif;
   text-shadow: 0 1px 0 #2e4b46;
 }
-/* line 236, ../../app/stylesheets/nightsprout.scss */
+/* line 264, ../../app/stylesheets/nightsprout.scss */
 html body #page-container.home #content {
   height: 360px;
   background: none;
   color: #1f3032;
   text-shadow: 0 1px 0 #95b298;
 }
-/* line 241, ../../app/stylesheets/nightsprout.scss */
+/* line 269, ../../app/stylesheets/nightsprout.scss */
 html body #page-container.home #content #column-1 {
   width: 435px;
   height: 350px;
   margin: 0 30px 0 0;
   padding: 80px 0;
 }
-/* line 247, ../../app/stylesheets/nightsprout.scss */
+/* line 275, ../../app/stylesheets/nightsprout.scss */
 html body #page-container.home #content #column-2 {
   width: 435px;
   height: 350px;
   margin: 0;
   padding: 80px 0;
 }
-/* line 252, ../../app/stylesheets/nightsprout.scss */
+/* line 280, ../../app/stylesheets/nightsprout.scss */
 html body #page-container.home #content #column-2 #farm-house {
   position: relative;
   margin: -40px 0 0 220px;
@@ -624,23 +665,23 @@ html body #page-container.home #content #column-2 #farm-house {
   width: 217px;
   background: transparent url("../images/nightsprout/house.png") no-repeat 0 bottom;
 }
-/* line 260, ../../app/stylesheets/nightsprout.scss */
+/* line 288, ../../app/stylesheets/nightsprout.scss */
 html body #page-container.home #content p {
   width: 100%;
 }
-/* line 261, ../../app/stylesheets/nightsprout.scss */
+/* line 289, ../../app/stylesheets/nightsprout.scss */
 html body #page-container.home #content a#call-to-action {
   float: left;
   margin: 10px 0 0 0;
 }
-/* line 267, ../../app/stylesheets/nightsprout.scss */
+/* line 295, ../../app/stylesheets/nightsprout.scss */
 html body #farm-fence {
   position: absolute;
   margin: -31px 0 0 0;
   height: 21px;
   background: transparent url("../images/nightsprout/fence.png") repeat-x 0 bottom;
 }
-/* line 274, ../../app/stylesheets/nightsprout.scss */
+/* line 302, ../../app/stylesheets/nightsprout.scss */
 html body #footer-container #footer {
   float: none;
   width: 900px;
@@ -659,45 +700,45 @@ html body #footer-container #footer:after {
   overflow: hidden;
   visibility: hidden;
 }
-/* line 282, ../../app/stylesheets/nightsprout.scss */
+/* line 310, ../../app/stylesheets/nightsprout.scss */
 html body #footer-container #footer ul {
   float: none;
   width: 900px;
   margin: 0 auto;
   padding: 49px 0 51px 0;
 }
-/* line 287, ../../app/stylesheets/nightsprout.scss */
+/* line 315, ../../app/stylesheets/nightsprout.scss */
 html body #footer-container #footer ul li {
   display: inline-block;
   float: none;
   width: auto;
   margin: 0 0 0 30px;
 }
-/* line 292, ../../app/stylesheets/nightsprout.scss */
+/* line 320, ../../app/stylesheets/nightsprout.scss */
 html body #footer-container #footer ul li a {
   color: #c8bb95;
   text-decoration: none;
   text-shadow: 0 1px 0 #331908;
 }
-/* line 298, ../../app/stylesheets/nightsprout.scss */
+/* line 326, ../../app/stylesheets/nightsprout.scss */
 html body #footer-container #footer ul li a.selected,
 html body #footer-container #footer ul li a:hover {
   text-decoration: underline;
 }
-/* line 300, ../../app/stylesheets/nightsprout.scss */
+/* line 328, ../../app/stylesheets/nightsprout.scss */
 html body #footer-container #footer ul li:first-child {
   margin: 0;
 }
-/* line 304, ../../app/stylesheets/nightsprout.scss */
+/* line 332, ../../app/stylesheets/nightsprout.scss */
 html body #footer-container.home {
   position: relative;
   margin: -91px 0 0 0;
 }
-/* line 308, ../../app/stylesheets/nightsprout.scss */
+/* line 336, ../../app/stylesheets/nightsprout.scss */
 html body #footer-container.home #footer ul {
   padding: 0;
 }
-/* line 319, ../../app/stylesheets/nightsprout.scss */
+/* line 347, ../../app/stylesheets/nightsprout.scss */
 html body.webkit #page-container #content #column-1 #farm-house {
   margin-top: -11px;
 }
