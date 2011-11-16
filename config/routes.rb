@@ -31,6 +31,10 @@ Cssframework::Application.routes.draw do
   match 'personal/jason-contact' => "personal#jason-contact"
   
   match 'nightsprout/index' => "nightsprout#index"
+  match 'nightsprout/about' => "nightsprout#about"
+  match 'nightsprout/services' => "nightsprout#services"
+  match 'nightsprout/portfolio' => "nightsprout#portfolio"
+  match 'nightsprout/contact' => "nightsprout#contact"
   
   match 'themedoc/home' => "themedoc#home"
 

@@ -75,9 +75,11 @@ html {
 	}
 	
 	a { color: $accent-color; }
+	strong { font-weight: 700; }
 
 	body {
 		font-family: 'Kreon', Georgia, 'Times New Roman', serif;
+		font-weight: 300;
 		color: $font-color-body;
 		background: transparent url("../images/nightsprout/footer-background.png") repeat 0 0;
 		#page-container {
@@ -222,7 +224,7 @@ html {
 					float: none;
 					width: 900px;
 					margin: 0 auto;
-					padding: 49px 0 1px 0;
+					padding: 49px 0 51px 0;
 					li {
 						display: inline-block;
 						float: none;
