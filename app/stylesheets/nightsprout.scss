@@ -169,6 +169,7 @@ html {
 								text-decoration: none;
 								overflow: hidden;
 							}
+							a:hover { opacity: .66; }
 							a#empire { background: transparent url("../images/nightsprout/portfolio/empire-thumb.png") no-repeat center center; }
 							a#quizforge { background: transparent url("../images/nightsprout/portfolio/mathquizmaker-thumb.png") no-repeat center center; }
 							a#priceboard { background: transparent url("../images/nightsprout/portfolio/priceboard-thumb.png") no-repeat center center; }
@@ -322,7 +323,7 @@ html {
 							text-decoration: none;
 							@include text-shadow(0 1px 0 #331908);
 						}
-						a.selected,
+						a.current,
 						a:hover { text-decoration: underline; }
 					}
 					li:first-child { margin: 0; }
