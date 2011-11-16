@@ -11,8 +11,8 @@
 
 $body-background-color: #ffffff;
 
-$font-color-header: #17181a;
-$font-color-subheader: #757471;
+$font-color-header: #414953;
+$font-color-subheader: #414953;
 $font-color-body: #414953;
 
 $accent-color: #c11a06;
@@ -79,11 +79,11 @@ html {
 	body {
 		font-family: 'Kreon', Georgia, 'Times New Roman', serif;
 		color: $font-color-body;
-		background: transparent url("../images/nightsprout/brown-background.gif") repeat 0 0;
+		background: transparent url("../images/nightsprout/footer-background.png") repeat 0 0;
 		#page-container {
 			width: 100%;
 			height: 840px;
-			background: transparent url("../images/nightsprout/background.gif") repeat-x 0 0;
+			background: transparent url("../images/nightsprout/body-background.png") repeat-x 0 0;
 			#header {
 				float: none;
 				width: 900px;
@@ -98,7 +98,7 @@ html {
 					color: #ecdd89;
 					font-size: 60px;	
 					font-family: 'Raleway', 'PT Sans Narrow', 'Myriad Pro', Helvetica, Arial, sans serif;
-					background: transparent url("../images/nightsprout/logo.gif") no-repeat 0 0;
+					background: transparent url("../images/nightsprout/logo.png") no-repeat 0 0;
 					@include text-shadow(0 2px 0 #083844);
 					span {
 						display: block;
@@ -129,11 +129,49 @@ html {
 					height: 350px;
 					margin: 0 30px 0 0;
 					padding: 50px 30px;
+					#farm-house {
+						position: relative;
+						margin: 20px 0 0 -70px;
+						height: 170px;
+						width: 217px;
+						background: transparent url("../images/nightsprout/house.png") no-repeat 0 bottom;
+					}
 				}
 				#column-2 {
 					width: 375px;
 					height: 350px;
 					padding: 50px 30px;
+					#plane {
+						position: absolute;
+						margin: -117px 0 0 220px;
+						height: 79px;
+						width: 164px;
+						background: transparent url("../images/nightsprout/plane.png") no-repeat 0 0;
+					}
+				}
+				a#call-to-action {
+					display: block;
+					float: right;
+					width: auto;
+					height: 50px;
+					padding: 0 20px 0 0;
+					margin: 30px -60px 0 0;
+					font-size: 24px;
+					color: #f7beb1;
+					text-decoration: none;
+					background: transparent url("../images/nightsprout/cta-background.png") no-repeat right -50px;
+					@include text-shadow(0 -1px 0 #b72f2f);
+					span {
+						display: block;
+						float: left;
+						height: 40px;
+						padding: 10px 10px 0 20px;
+						background: transparent url("../images/nightsprout/cta-background.png") no-repeat 0 0;
+					}
+				}
+				a#call-to-action:hover {
+					background-position: right -150px;
+					span { background-position: 0 -100px; }
 				}
 				h3 {
 					font-size: 30px;
@@ -141,22 +179,35 @@ html {
 					padding: 2px 0 2px 0;
 					margin: 0 0 30px 0;
 					text-align: center;
+					color: $font-color-header;
 					span {
 						display: block;
 						float: left;
 						width: 100%;
 						font-size: 16px;
+						color: $font-color-subheader;
 					}
 				}
 				p {
 					padding: 1px 0 9px 0;
 					margin: 0 0 20px 0;
+					width: 375px;
 				}
-				ul {
+				ul.bulleted-list {
 					padding: 1px 0 9px 0;
-					li {}
+					li {
+						padding: 0 0 0 20px;
+						width: 355px;
+						background: transparent url("../images/nightsprout/bullet-background.png") no-repeat -3px 2px;
+					}
 				}
 			}
+		}
+		#farm-fence {
+			position: absolute;
+			margin: -31px 0 0 0;
+			height: 21px;
+			background: transparent url("../images/nightsprout/fence.png") repeat-x 0 bottom;
 		}
 		#footer-container {
 			#footer {
@@ -171,6 +222,7 @@ html {
 					float: none;
 					width: 900px;
 					margin: 0 auto;
+					padding: 49px 0 1px 0;
 					li {
 						display: inline-block;
 						float: none;
@@ -179,7 +231,9 @@ html {
 						a {
 							color: #c8bb95;
 							text-decoration: none;
+							@include text-shadow(0 1px 0 #331908);
 						}
+						a.selected,
 						a:hover { text-decoration: underline; }
 					}
 					li:first-child { margin: 0; }
@@ -189,7 +243,15 @@ html {
 	}
 
 	body.webkit {
-		#content {}
+		#page-container {
+			#content {
+				#column-1 {
+					#farm-house {
+						margin-top: -11px;
+					}
+				}
+			}
+		}
 		#footer-container {
 			#footer {}
 		}
