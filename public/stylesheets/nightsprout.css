@@ -751,3 +751,8 @@ html body.webkit #page-container #content #column-1 #farm-house {
 html body.webkit #page-container #content #column-2 #farm-house {
   margin-top: -41px;
 }
+/* line 363, ../../app/stylesheets/nightsprout.scss */
+html body.webkit #footer-container.home {
+  position: relative;
+  margin: -92px 0 0 0;
+}
