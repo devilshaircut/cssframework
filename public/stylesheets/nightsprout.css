@@ -569,7 +569,7 @@ html body #page-container #content a#call-to-action span {
   display: block;
   float: left;
   height: 40px;
-  padding: 10px 10px 0 20px;
+  padding: 10px 15px 0 20px;
   background: transparent url("../images/nightsprout/cta-background.png") no-repeat 0 0;
 }
 /* line 206, ../../app/stylesheets/nightsprout.scss */
