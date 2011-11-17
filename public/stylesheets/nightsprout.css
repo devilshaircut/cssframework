@@ -745,5 +745,9 @@ html body #footer-container.home #footer ul {
 }
 /* line 349, ../../app/stylesheets/nightsprout.scss */
 html body.webkit #page-container #content #column-1 #farm-house {
-  margin-top: -11px;
+  margin-top: 19px;
+}
+/* line 354, ../../app/stylesheets/nightsprout.scss */
+html body.webkit #page-container #content #column-2 #farm-house {
+  margin-top: -41px;
 }
