@@ -360,6 +360,10 @@ html {
 		#footer-container {
 			#footer {}
 		}
+		#footer-container.home {
+			position: relative;
+			margin: -92px 0 0 0;
+		}
 	}
 		
 }
